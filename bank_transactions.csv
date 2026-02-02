@@ -1,13 +1,20 @@
 year_month,Transaction_Date,Category,Withdrawals
 2026-01,2026-01-10,Abad Fisheries Private Li,3258.0
+2026-01,2026-01-25,Abad Fisheries Private Li,425.0
 2026-01,2026-01-18,Abdul Haseeb Pp,22815.0
+2026-01,2026-01-27,Arjun Kt,18000.0
 2026-01,2026-01-04,Bistro Frozen,5481.0
 2026-01,2026-01-07,Bistro Frozen,12908.0
+2026-01,2026-01-26,Bistro Frozen,13713.0
 2026-01,2026-01-10,Charges For Neft To Abad Fisheries Private Limited,1.47
+2026-01,2026-01-25,Charges For Neft To Abad Fisheries Private Limited,1.47
 2026-01,2026-01-18,Charges For Neft To Abdul Haseeb Pp,2.96
+2026-01,2026-01-27,Charges For Neft To Arjun Kt,2.96
 2026-01,2026-01-04,Charges For Neft To Bistro Frozen,1.47
 2026-01,2026-01-07,Charges For Neft To Bistro Frozen,2.96
+2026-01,2026-01-26,Charges For Neft To Bistro Frozen,2.96
 2026-01,2026-01-04,Charges For Neft To Essar Associates,1.47
+2026-01,2026-01-26,Charges For Neft To Essar Associates,1.47
 2026-01,2026-01-04,Charges For Neft To Koonathil Stores,2.96
 2026-01,2026-01-10,Charges For Neft To Koonathil Stores,1.47
 2026-01,2026-01-18,Charges For Neft To Koonathil Stores,1.47
@@ -16,13 +23,18 @@ year_month,Transaction_Date,Category,Withdrawals
 2026-01,2026-01-10,Charges For Neft To M Radhakrishnan,2.96
 2026-01,2026-01-16,Charges For Neft To M Radhakrishnan,2.96
 2026-01,2026-01-16,Charges For Neft To M Radhakrishnan,1.47
+2026-01,2026-01-24,Charges For Neft To M Radhakrishnan,2.96
+2026-01,2026-01-27,Charges For Neft To Manojkumar,2.96
 2026-01,2026-01-07,Charges For Neft To Mohammed Sijas V T,1.47
 2026-01,2026-01-07,Charges For Neft To Ms Abdul Haseeb Amp Associates,1.47
 2026-01,2026-01-18,Charges For Neft To Ms Abdul Haseeb Amp Associates,1.47
 2026-01,2026-01-05,Charges For Neft To Naseena,2.96
+2026-01,2026-01-27,Charges For Neft To Sukumaran,2.96
 2026-01,2026-01-04,Essar Associates,2682.0
+2026-01,2026-01-26,Essar Associates,2495.0
 2026-01,2026-01-17,Facebook,335.82
 2026-01,2026-01-17,Facebook,500.0
+2026-01,2026-01-26,Facebook,1000.0
 2026-01,2026-01-04,Koonathil Stores,11700.0
 2026-01,2026-01-10,Koonathil Stores,2884.0
 2026-01,2026-01-18,Koonathil Stores,3198.0
@@ -33,11 +45,13 @@ year_month,Transaction_Date,Category,Withdrawals
 2026-01,2026-01-16,M Radhakrishnan,16005.0
 2026-01,2026-01-16,M Radhakrishnan,8101.0
 2026-01,2026-01-24,M Radhakrishnan,10734.0
+2026-01,2026-01-27,Manojkumar,18000.0
 2026-01,2026-01-07,Mohammed Sijas V T,4100.0
 2026-01,2026-01-07,Ms Abdul Haseeb Amp Assoc,6000.0
 2026-01,2026-01-18,Ms Abdul Haseeb Amp Assoc,1000.0
 2026-01,2026-01-05,Naseena,35000.0
 2026-01,2026-01-04,Relianceretaill,448.0
+2026-01,2026-01-27,Sukumaran,18000.0
 2026-01,2026-01-12,Transfer To Radhakrishnan,100000.0
 2025-12,2025-12-18,Abdul Haseeb Pp,20990.0
 2025-12,2025-12-01,Ansil A,15990.0
