@@ -27,28 +27,28 @@
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
         }
 
-        .tab-pane { transition: opacity 0.5s ease-in-out; }
         .hidden { display: none !important; }
 
         .nav-tabs { overflow-x: auto; flex-wrap: nowrap; }
         .nav-tabs .nav-item { white-space: nowrap; }
 
-        .fade-in { animation: fadeIn 0.5s ease-in; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-
-        .download-btn {
-            margin-bottom: 10px;
-            float: right;
+        table.dataTable {
+            width: 100% !important;
         }
     </style>
 </head>
 <body>
 
-<h1 class="text-center mb-4 fade-in">📊 Pizza Pie Land Dashboard</h1>
+<h1 class="text-center mb-4">📊 Pizza Pie Land Dashboard</h1>
 
 <div class="row text-center mb-5" id="tile-container"></div>
-<ul class="nav nav-tabs fade-in" id="dataTabs" role="tablist"></ul>
-<div class="tab-content mt-3 fade-in" id="tab-content"></div>
+<ul class="nav nav-tabs" id="dataTabs" role="tablist"></ul>
+<div class="tab-content mt-3" id="tab-content"></div>
+
+<hr class="mt-5">
+<p class="text-end text-muted">
+    Last refreshed: <strong id="lastRefreshed">Loading…</strong>
+</p>
 
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -57,169 +57,158 @@
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
 
 <script>
-    const tableMap = {};
+const tableMap = {};
 
-    const config = [
-        {
-            label: "Bank Statements",
-            subtabs: [
-                { label: "Withdrawals", csv: "bank_withdrawals.csv" },
-                { label: "Deposits", csv: "bank_deposits.csv" },
-                { label: "Withdrawals Summary", csv: "bank_withdrawals_summary.csv" },
-                { label: "Deposits Summary", csv: "bank_deposits_summary.csv" },
-                { label: "Payments", csv: "bank_transactions.csv" },
-                { label: "Vendor Bills", csv: "bills_vendor.csv" }
-            ]
-        },
-        {
-            label: "UPI and POS Reconciliation",
-            subtabs: [
-                { label: "UPI vs Card", csv: "upi_card_comparison.csv" },
-                { label: "UPI Mismatches", csv: "upi_card_mismatches.csv" },
-                { label: "UPI vs Bank", csv: "upi_compare.csv" },
-                { label: "UPI Mismatch With Bank", csv: "upi_mismatch.csv" },
-                { label: "POS vs Bank", csv: "pos_compare.csv" },
-                { label: "POS Mismatch With Bank", csv: "pos_mismatch.csv" }
-            ]
-        },
-        {
-            label: "Inventory Overview",
-            subtabs: [
-                { label: "Monthly Summary", csv: "monthly_summary.csv" },
-                { label: "Product Pricing", csv: "product_price.csv" },
-                { label: "Stock Report", csv: "stock_report.csv" }
-            ]
-        },
-        {
-            label: "Cashbook Summary",
-            subtabs: [
-                { label: "Sales", csv: "sales_summary.csv" },
-                { label: "Expenses", csv: "expense_summary.csv" }
-            ]
-        },
-        {
-            label: "Cheese Usage",
-            subtabs: [
-                { label: "Consumption Summary", csv: "cns_summary.csv" },
-                { label: "Detailed Consumption", csv: "cns_detail.csv" }
-            ]
-        },
-        {
-            label: "Swiggy Performance",
-            subtabs: [
-                { label: "Monthly Sales", csv: "swiggy_monthly.csv" },
-                { label: "Payouts", csv: "swiggy_payout.csv" },
-                { label: "Payout Comparison", csv: "swiggy_payout_comparison.csv" },
-                { label: "Order Details", csv: "swiggy_order_level.csv" }
-            ]
-        },
-        {
-            label: "Outlet KPIs",
-            subtabs: [
-                { label: "Final Summary", csv: "final_summary.csv" }
-            ]
-        }
-    ];
+const config = [
+    {
+        label: "Outlet KPIs",
+        subtabs: [{ label: "Final Summary", csv: "final_summary.csv" }]
+    },
+    {
+        label: "Cashbook Summary",
+        subtabs: [
+            { label: "Sales", csv: "sales_summary.csv" },
+            { label: "Expenses", csv: "expense_summary.csv" }
+        ]
+    },
+    {
+        label: "Bank Statements",
+        subtabs: [
+            { label: "Withdrawals", csv: "bank_withdrawals.csv" },
+            { label: "Deposits", csv: "bank_deposits.csv" },
+            { label: "Withdrawals Summary", csv: "bank_withdrawals_summary.csv" },
+            { label: "Deposits Summary", csv: "bank_deposits_summary.csv" },
+            { label: "Payments", csv: "bank_transactions.csv" },
+            { label: "Vendor Bills", csv: "bills_vendor.csv" }
+        ]
+    },
+    {
+        label: "UPI and POS Reconciliation",
+        subtabs: [
+            { label: "UPI vs Card", csv: "upi_card_comparison.csv" },
+            { label: "UPI Mismatches", csv: "upi_card_mismatches.csv" },
+            { label: "UPI vs Bank", csv: "upi_compare.csv" },
+            { label: "UPI Mismatch With Bank", csv: "upi_mismatch.csv" },
+            { label: "POS vs Bank", csv: "pos_compare.csv" },
+            { label: "POS Mismatch With Bank", csv: "pos_mismatch.csv" }
+        ]
+    },
+    {
+        label: "Inventory Overview",
+        subtabs: [
+            { label: "Monthly Summary", csv: "monthly_summary.csv" },
+            { label: "Product Pricing", csv: "product_price.csv" },
+            { label: "Stock Report", csv: "stock_report.csv" }
+        ]
+    },
+    {
+        label: "Cheese Usage",
+        subtabs: [
+            { label: "Consumption Summary", csv: "cns_summary.csv" },
+            { label: "Detailed Consumption", csv: "cns_detail.csv" }
+        ]
+    },
+    {
+        label: "Swiggy Performance",
+        subtabs: [
+            { label: "Monthly Sales", csv: "swiggy_monthly.csv" },
+            { label: "Payouts", csv: "swiggy_payout.csv" },
+            { label: "Payout Comparison", csv: "swiggy_payout_comparison.csv" },
+            { label: "Order Details", csv: "swiggy_order_level.csv" }
+        ]
+    }
+];
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const tileContainer = document.getElementById("tile-container");
-        const dataTabs = document.getElementById("dataTabs");
-        const tabContent = document.getElementById("tab-content");
+document.addEventListener("DOMContentLoaded", () => {
+    const tileContainer = document.getElementById("tile-container");
+    const dataTabs = document.getElementById("dataTabs");
+    const tabContent = document.getElementById("tab-content");
 
-        config.forEach((group, groupIndex) => {
-            const col = document.createElement("div");
-            col.className = "col-12 col-sm-6 col-md-4 mb-3 fade-in";
-            col.innerHTML = `<div class="tile" onclick="filterTabs(${groupIndex})">
-                                <h4>${group.label}</h4>
-                             </div>`;
-            tileContainer.appendChild(col);
+    config.forEach((group, gIdx) => {
+        const col = document.createElement("div");
+        col.className = "col-12 col-md-4 mb-3";
+        col.innerHTML = `<div class="tile" onclick="filterTabs(${gIdx})"><h4>${group.label}</h4></div>`;
+        tileContainer.appendChild(col);
 
-            group.subtabs.forEach((subtab, subIndex) => {
-                const tabId = `group${groupIndex}_sub${subIndex}`;
+        group.subtabs.forEach((sub, sIdx) => {
+            const tabId = `g${gIdx}_s${sIdx}`;
 
-                const li = document.createElement("li");
-                li.className = "nav-item hidden";
-                li.setAttribute("data-group", groupIndex);
-                li.innerHTML = `<button class="nav-link" id="${tabId}-tab" data-bs-toggle="tab" data-bs-target="#${tabId}" type="button" role="tab">${subtab.label}</button>`;
-                dataTabs.appendChild(li);
+            const li = document.createElement("li");
+            li.className = "nav-item hidden";
+            li.dataset.group = gIdx;
+            li.innerHTML = `<button class="nav-link" data-bs-toggle="tab" data-bs-target="#${tabId}">${sub.label}</button>`;
+            dataTabs.appendChild(li);
 
-                const pane = document.createElement("div");
-                pane.className = "tab-pane fade";
-                pane.id = tabId;
-                pane.setAttribute("role", "tabpanel");
-                pane.innerHTML = `<div class="table-responsive mb-3">
-                                      <table id="${tabId}Table" class="display table table-striped table-bordered" style="width:100%"></table>
-                                  </div>
-                                  <div class="text-end mb-5">
-                                      <button class="btn btn-success" onclick="downloadTable('${tabId}')">⬇️ Download</button>
-                                  </div>`;
-                tabContent.appendChild(pane);
+            const pane = document.createElement("div");
+            pane.className = "tab-pane fade";
+            pane.id = tabId;
+            pane.innerHTML = `
+                <div class="table-responsive">
+                    <table id="${tabId}Table" class="display table table-striped table-bordered"></table>
+                </div>`;
+            tabContent.appendChild(pane);
 
-                Papa.parse(subtab.csv, {
-                    download: true,
-                    header: true,
-                    skipEmptyLines: true,
-                    complete: function (results) {
-                        const data = results.data;
-                        const fields = results.meta.fields;
-                        const columns = fields.map(f => ({ title: f, data: f }));
-
-                        tableMap[tabId] = $('#' + tabId + 'Table').DataTable({
-                            data: data,
-                            columns: columns,
-                            pageLength: 50,
-                            lengthMenu: [[50, 100, 500, 1000], [50, 100, 500, 1000]],
-                            order: [[0, 'desc']],
-                            destroy: true
-                        });
-                    }
-                });
+            Papa.parse(sub.csv, {
+                download: true,
+                header: true,
+                skipEmptyLines: true,
+                complete: res => {
+                    const columns = res.meta.fields.map(f => ({ title: f, data: f }));
+                    tableMap[tabId] = $('#' + tabId + 'Table').DataTable({
+                        data: res.data,
+                        columns,
+                        pageLength: 50,
+                        order: [[0, 'desc']],
+                        autoWidth: false
+                    });
+                }
             });
         });
     });
 
-    function filterTabs(groupIndex) {
-        document.querySelectorAll('#dataTabs li').forEach(li => li.classList.add('hidden'));
-        let shown = false;
-        document.querySelectorAll('#dataTabs li').forEach(li => {
-            if (li.getAttribute('data-group') == groupIndex) {
-                li.classList.remove('hidden');
-                if (!shown) shown = li.querySelector('button');
-            }
-        });
-        document.querySelectorAll('.nav-link').forEach(btn => btn.classList.remove('active'));
-        document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('show', 'active'));
-        if (shown) {
-            shown.classList.add('active');
-            const tabPane = document.querySelector(shown.getAttribute('data-bs-target'));
-            if (tabPane) tabPane.classList.add('show', 'active');
-        }
+    updateLastRefreshedFromAllCSVs();
+});
+
+function filterTabs(groupIndex) {
+    document.querySelectorAll('#dataTabs li').forEach(li => li.classList.add('hidden'));
+    let firstBtn = null;
+
+    document.querySelectorAll(`#dataTabs li[data-group="${groupIndex}"]`).forEach(li => {
+        li.classList.remove('hidden');
+        if (!firstBtn) firstBtn = li.querySelector('button');
+    });
+
+    document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('show', 'active'));
+
+    if (firstBtn) {
+        firstBtn.classList.add('active');
+        document.querySelector(firstBtn.dataset.bsTarget).classList.add('show', 'active');
+    }
+}
+
+document.addEventListener("shown.bs.tab", () => {
+    Object.values(tableMap).forEach(t => t && t.columns.adjust());
+});
+
+async function updateLastRefreshedFromAllCSVs() {
+    const csvs = [...new Set(config.flatMap(g => g.subtabs.map(s => s.csv)))];
+    let latest = null;
+
+    for (const file of csvs) {
+        try {
+            const r = await fetch(file, { method: "HEAD" });
+            const lm = r.headers.get("Last-Modified");
+            if (!lm) continue;
+            const d = new Date(lm);
+            if (!latest || d > latest) latest = d;
+        } catch {}
     }
 
-    function downloadTable(tableId) {
-        const table = tableMap[tableId];
-        const data = table.rows({ search: 'applied' }).data().toArray();
-        if (data.length === 0) {
-            alert("No data to download.");
-            return;
-        }
-        const columns = table.columns().header().toArray().map(el => el.innerText);
-        const csv = [
-            columns.join(','),
-            ...data.map(row => columns.map(col => `"${row[col]}"`).join(','))
-        ].join('\n');
-
-        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = tableId + "_filtered.csv";
-        link.click();
-    }
+    document.getElementById("lastRefreshed").textContent =
+        latest ? latest.toLocaleString() : "Unavailable";
+}
 </script>
 
-<hr class="mt-5">
-<p class="text-end text-muted">
-    Last refreshed: <strong><!-- Auto-fill if desired --></strong>
-</p>
 </body>
 </html>
