@@ -2,249 +2,336 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dynamic Dashboard</title>
+    <title>Looco's Dashboard Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        body { padding: 20px; animation: fadeInBody 1s ease-in; }
-        @keyframes fadeInBody { from { opacity: 0; } to { opacity: 1; } }
+        :root {
+            --bg-ink: #0f0f14;
+            --bg-graphite: #1a1c22;
+            --bg-ember: #f7c89d;
+            --bg-moss: #93c8b0;
+            --card: rgba(255, 255, 255, 0.08);
+            --card-border: rgba(255, 255, 255, 0.18);
+            --text: #f7f5f2;
+            --muted: #c7c2ba;
+            --accent: #f59b6c;
+            --accent-2: #9fe3c2;
+            --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+        }
 
-        .tile {
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Space Grotesk", sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(1200px 800px at 80% -10%, rgba(245, 155, 108, 0.25), transparent 60%),
+                radial-gradient(900px 700px at -10% 20%, rgba(159, 227, 194, 0.28), transparent 60%),
+                linear-gradient(140deg, var(--bg-ink), var(--bg-graphite));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px;
+            overflow-x: hidden;
+            animation: pageFade 0.8s ease-out;
+        }
+
+        @keyframes pageFade {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .shell {
+            width: min(1100px, 100%);
+            display: grid;
+            grid-template-columns: 1.05fr 0.95fr;
+            gap: 28px;
+            align-items: stretch;
+        }
+
+        .panel {
+            background: var(--card);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            backdrop-filter: blur(18px);
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .panel::after {
+            content: "";
+            position: absolute;
+            inset: -120px -60px auto auto;
+            width: 280px;
+            height: 280px;
+            background: radial-gradient(circle, rgba(245, 155, 108, 0.4), transparent 70%);
+            opacity: 0.7;
+            pointer-events: none;
+        }
+
+        .brand {
+            padding: 40px 44px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            height: 100%;
+        }
+
+        .brand h1 {
+            font-family: "Fraunces", serif;
+            font-size: clamp(2.1rem, 3.5vw, 3.2rem);
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        .brand p {
+            color: var(--muted);
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin: 0;
+            max-width: 40ch;
+        }
+
+        .brand .stats {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+            margin-top: auto;
+        }
+
+        .stat {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 18px;
+            padding: 16px;
+        }
+
+        .stat h3 {
+            margin: 0 0 6px;
+            font-size: 0.95rem;
+            color: var(--muted);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .stat span {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .login {
+            padding: 40px 44px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .login h2 {
+            margin: 0;
+            font-size: 1.6rem;
+        }
+
+        .login p {
+            margin: 0;
+            color: var(--muted);
+        }
+
+        .field {
+            display: grid;
+            gap: 8px;
+        }
+
+        label {
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+
+        input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            border-radius: 14px;
+            padding: 14px 16px;
+            color: var(--text);
+            font-size: 1rem;
+            outline: none;
+            transition: border 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(245, 155, 108, 0.15);
+        }
+
+        .actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .remember {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .remember input {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--accent);
+        }
+
+        button {
+            border: none;
+            background: linear-gradient(135deg, var(--accent), #f7b28a);
+            color: #241712;
+            padding: 14px 20px;
+            border-radius: 14px;
+            font-size: 1rem;
+            font-weight: 600;
             cursor: pointer;
-            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
-            border-radius: 15px;
-            padding: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: all 0.3s ease;
-        }
-        .tile:hover {
-            transform: scale(1.05);
-            background: linear-gradient(to bottom, #d1e7dd, #bcd0c7);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            min-width: 160px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
-        .hidden { display: none !important; }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 24px rgba(245, 155, 108, 0.25);
+        }
 
-        .nav-tabs { overflow-x: auto; flex-wrap: nowrap; }
-        .nav-tabs .nav-item { white-space: nowrap; }
+        .login-footer {
+            margin-top: auto;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
 
-        table.dataTable {
-            width: 100% !important;
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(159, 227, 194, 0.18);
+            color: var(--accent-2);
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 0.03em;
+        }
+
+        @media (max-width: 920px) {
+            .shell {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 20px; }
+            .brand, .login { padding: 28px; }
+            .brand .stats { grid-template-columns: 1fr; }
+            button { width: 100%; }
         }
     </style>
 </head>
 <body>
-
-<h1 class="text-center mb-4">📊 Pizza Pie Land Dashboard</h1>
-
-<div class="row text-center mb-5" id="tile-container"></div>
-<ul class="nav nav-tabs" id="dataTabs" role="tablist"></ul>
-<div class="tab-content mt-3" id="tab-content"></div>
-
-<hr class="mt-5">
-<p class="text-end text-muted">
-    Last refreshed: <strong id="lastRefreshed">Loading…</strong>
-</p>
-
-<!-- Scripts -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
-
-<script>
-const tableMap = {};
-
-const config = [
-    {
-        label: "Outlet KPIs",
-        subtabs: [{ label: "Final Summary", csv: "final_summary.csv" }]
-    },
-    {
-        label: "Cashbook Summary",
-        subtabs: [
-            { label: "Sales", csv: "sales_summary.csv" },
-            { label: "Expenses", csv: "expense_summary.csv" }
-        ]
-    },
-    {
-        label: "Bank Statements",
-        subtabs: [
-            { label: "Withdrawals", csv: "bank_withdrawals.csv" },
-            { label: "Deposits", csv: "bank_deposits.csv" },
-            { label: "Withdrawals Summary", csv: "bank_withdrawals_summary.csv" },
-            { label: "Deposits Summary", csv: "bank_deposits_summary.csv" },
-            { label: "Payments", csv: "bank_transactions.csv" },
-            { label: "Vendor Bills", csv: "bills_vendor.csv" }
-        ]
-    },
-    {
-        label: "Amounts Reconciliation",
-        subtabs: [
-            { label: "UPI & Card vs Statements", csv: "upi_card_comparison.csv" },
-            { label: "Mismatches", csv: "upi_card_mismatches.csv" },
-            { label: "UPI vs Bank", csv: "upi_compare.csv" },
-            { label: "UPI Mismatch With Bank", csv: "upi_mismatch.csv" },
-            { label: "Card vs Bank", csv: "pos_compare.csv" },
-            { label: "Card Mismatch With Bank", csv: "pos_mismatch.csv" }
-        ]
-    },
-    {
-        label: "Inventory Overview",
-        subtabs: [
-            { label: "Monthly Summary", csv: "monthly_summary.csv" },
-            { label: "Product Pricing", csv: "product_price.csv" },
-            { label: "Stock Report", csv: "stock_report.csv" }
-        ]
-    },
-    {
-        label: "Cheese Usage",
-        subtabs: [
-            { label: "Consumption Summary", csv: "cns_summary.csv" },
-            { label: "Detailed Consumption", csv: "cns_detail.csv" }
-        ]
-    },
-    {
-        label: "Swiggy Performance",
-        subtabs: [
-            { label: "Monthly Sales", csv: "swiggy_monthly.csv" },
-            { label: "Payouts", csv: "swiggy_payout.csv" },
-            { label: "Payout Comparison", csv: "swiggy_payout_comparison.csv" },
-            { label: "Order Details", csv: "swiggy_order_level.csv" }
-        ]
-    }
-];
-
-document.addEventListener("DOMContentLoaded", () => {
-    const tileContainer = document.getElementById("tile-container");
-    const dataTabs = document.getElementById("dataTabs");
-    const tabContent = document.getElementById("tab-content");
-
-    config.forEach((group, gIdx) => {
-        const col = document.createElement("div");
-        col.className = "col-12 col-md-4 mb-3";
-        col.innerHTML = `<div class="tile" onclick="filterTabs(${gIdx})"><h4>${group.label}</h4></div>`;
-        tileContainer.appendChild(col);
-
-        group.subtabs.forEach((sub, sIdx) => {
-            const tabId = `g${gIdx}_s${sIdx}`;
-
-            const li = document.createElement("li");
-            li.className = "nav-item hidden";
-            li.dataset.group = gIdx;
-            li.innerHTML = `<button class="nav-link" data-bs-toggle="tab" data-bs-target="#${tabId}">${sub.label}</button>`;
-            dataTabs.appendChild(li);
-
-            const pane = document.createElement("div");
-            pane.className = "tab-pane fade";
-            pane.id = tabId;
-            pane.innerHTML = `
-                <div class="d-flex justify-content-end mb-2">
-                    <button class="btn btn-outline-primary btn-sm download-btn" data-tab-id="${tabId}">
-                        Download
-                    </button>
+    <main class="shell">
+        <section class="panel brand" aria-label="Brand overview">
+            <span class="badge">Looco's Monitor</span>
+            <h1>Welcome back to the dashboard.</h1>
+            <p>
+                Track daily operations, payouts, and inventory with a single glance.
+                Sign in to continue where you left off.
+            </p>
+            <div class="stats">
+                <div class="stat">
+                    <h3>Refresh</h3>
+                    <span>Live CSV</span>
                 </div>
-                <div class="table-responsive">
-                    <table id="${tabId}Table" class="display table table-striped table-bordered"></table>
-                </div>`;
-            tabContent.appendChild(pane);
+                <div class="stat">
+                    <h3>Coverage</h3>
+                    <span>Sales + Ops</span>
+                </div>
+                <div class="stat">
+                    <h3>View</h3>
+                    <span>All outlets</span>
+                </div>
+                <div class="stat">
+                    <h3>Status</h3>
+                    <span>Synced</span>
+                </div>
+            </div>
+        </section>
 
-            Papa.parse(sub.csv, {
-                download: true,
-                header: true,
-                skipEmptyLines: true,
-                complete: res => {
-                    const columns = res.meta.fields.map(f => ({ title: f, data: f }));
-                    tableMap[tabId] = $('#' + tabId + 'Table').DataTable({
-                        data: res.data,
-                        columns,
-                        pageLength: 50,
-                        order: [[0, 'desc']],
-                        autoWidth: false
-                    });
-                }
-            });
+        <section class="panel login" aria-label="Login form">
+            <div>
+                <h2>Sign in</h2>
+                <p>Use your dashboard credentials to unlock the live reports.</p>
+            </div>
+            <form id="loginForm" autocomplete="on">
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="name@loocos.com" autocomplete="username" required>
+                </div>
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" placeholder="••••••••" autocomplete="current-password" required>
+                </div>
+                <div class="login-footer" id="loginMessage" role="alert" aria-live="polite"></div>
+                <div class="actions">
+                    <label class="remember">
+                        <input type="checkbox" checked>
+                        Remember me
+                    </label>
+                    <button type="submit">Enter Dashboard</button>
+                </div>
+            </form>
+            <div class="login-footer">
+                Need access? Contact your admin to enable a new login.
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Base64-encoded credentials (for light obfuscation only, not real security)
+        const ENCODED_USER = "YWRtaW5AbG9vY29zLmNvbQ==";
+        const ENCODED_PASS = "bG9vY29zQDIwMjY=";
+
+        const loginForm = document.getElementById("loginForm");
+        const loginMessage = document.getElementById("loginMessage");
+
+        loginForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value;
+
+            const userOk = btoa(email) === ENCODED_USER;
+            const passOk = btoa(password) === ENCODED_PASS;
+
+            if (userOk && passOk) {
+                loginMessage.textContent = "Login सफल. Redirecting...";
+                loginMessage.style.color = "var(--accent-2)";
+                // TODO: replace with your dashboard file path
+                setTimeout(() => {
+                    window.location.href = "Dashboard.html";
+                }, 700);
+            } else {
+                loginMessage.textContent = "Invalid username or password.";
+                loginMessage.style.color = "#f48a8a";
+            }
         });
-    });
-
-    updateLastRefreshedFromAllCSVs();
-});
-
-function filterTabs(groupIndex) {
-    document.querySelectorAll('#dataTabs li').forEach(li => li.classList.add('hidden'));
-    let firstBtn = null;
-
-    document.querySelectorAll(`#dataTabs li[data-group="${groupIndex}"]`).forEach(li => {
-        li.classList.remove('hidden');
-        if (!firstBtn) firstBtn = li.querySelector('button');
-    });
-
-    document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('show', 'active'));
-
-    if (firstBtn) {
-        firstBtn.classList.add('active');
-        document.querySelector(firstBtn.dataset.bsTarget).classList.add('show', 'active');
-    }
-}
-
-document.addEventListener("shown.bs.tab", () => {
-    Object.values(tableMap).forEach(t => t && t.columns.adjust());
-});
-
-document.addEventListener("click", (e) => {
-    const btn = e.target.closest(".download-btn");
-    if (!btn) return;
-    const tabId = btn.dataset.tabId;
-    const table = tableMap[tabId];
-    if (!table) return;
-
-    const headers = table.columns().header().toArray().map(h => h.textContent.trim());
-    const rows = table.rows({ search: "applied" }).data().toArray();
-
-    const data = rows.map(row => {
-        const obj = {};
-        headers.forEach(h => {
-            obj[h] = row[h] ?? "";
-        });
-        return obj;
-    });
-
-    const csv = Papa.unparse(data);
-    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `${tabId}_filtered.csv`;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    URL.revokeObjectURL(url);
-});
-
-async function updateLastRefreshedFromAllCSVs() {
-    const csvs = [...new Set(config.flatMap(g => g.subtabs.map(s => s.csv)))];
-    let latest = null;
-
-    for (const file of csvs) {
-        try {
-            const r = await fetch(file, { method: "HEAD" });
-            const lm = r.headers.get("Last-Modified");
-            if (!lm) continue;
-            const d = new Date(lm);
-            if (!latest || d > latest) latest = d;
-        } catch {}
-    }
-
-    document.getElementById("lastRefreshed").textContent =
-        latest ? latest.toLocaleString() : "Unavailable";
-}
-</script>
-
+    </script>
 </body>
 </html>
-
