@@ -698,679 +698,6 @@ Transaction_Date,Particulars,Deposits
 2025-01-30,Google Pay,6985.0
 2025-01-31,POS Machine,846.31
 2025-01-31,Google Pay,5415.0
-2023-01-01,Google Pay,10048.0
-2023-01-02,POS Machine,3231.09
-2023-01-02,Google Pay,8551.0
-2023-01-03,POS Machine,4207.95
-2023-01-03,Google Pay,6206.0
-2023-01-04,POS Machine,1418.6
-2023-01-05,Google Pay,7243.0
-2023-01-05,POS Machine,449.91
-2023-01-06,Google Pay,6767.0
-2023-01-06,Google Pay,3382.0
-2023-01-07,POS Machine,1678.98
-2023-01-07,Google Pay,8983.0
-2023-01-08,Google Pay,8972.0
-2023-01-09,POS Machine,3646.39
-2023-01-09,Google Pay,2114.0
-2023-01-10,POS Machine,332.82
-2023-01-10,Google Pay,3760.0
-2023-01-11,POS Machine,303.22
-2023-01-12,Google Pay,4149.0
-2023-01-12,POS Machine,277.0
-2023-01-12,Google Pay,6567.0
-2023-01-13,POS Machine,180.14
-2023-01-13,Google Pay,7191.0
-2023-01-14,Google Pay,4624.0
-2023-01-15,Google Pay,9903.0
-2023-01-16,POS Machine,4765.47
-2023-01-17,Google Pay,7617.0
-2023-01-17,NEFT:PHONEPE PRIVATE LIMITED,247.0
-2023-01-18,Google Pay,3726.0
-2023-01-18,POS Machine,203.15
-2023-01-18,Google Pay,4335.0
-2023-01-19,Google Pay,4293.0
-2023-01-20,POS Machine,2005.22
-2023-01-20,Google Pay,10020.0
-2023-01-21,POS Machine,1818.7
-2023-01-21,Google Pay,6128.0
-2023-01-23,Google Pay,5991.0
-2023-01-23,POS Machine,3000.65
-2023-01-24,Google Pay,6564.0
-2023-01-24,Google Pay,3529.0
-2023-01-25,POS Machine,450.34
-2023-01-26,Google Pay,1820.0
-2023-01-27,Google Pay,8414.0
-2023-01-27,POS Machine,2661.58
-2023-01-27,Google Pay,10683.0
-2023-01-28,POS Machine,476.67
-2023-01-28,Google Pay,8229.0
-2023-01-29,Google Pay,8736.0
-2023-01-30,POS Machine,3573.1
-2023-01-30,Google Pay,3707.0
-2023-01-31,Google Pay,5669.0
-2023-02-02,Google Pay,3543.0
-2023-02-02,POS Machine,223.97
-2023-02-03,Google Pay,4027.0
-2023-02-03,POS Machine,603.06
-2023-02-03,Google Pay,7915.0
-2023-02-04,POS Machine,551.41
-2023-02-05,Google Pay,7150.0
-2023-02-06,Google Pay,11077.0
-2023-02-06,POS Machine,1762.66
-2023-02-06,Google Pay,5712.0
-2023-02-07,POS Machine,2307.43
-2023-02-07,Google Pay,1215.0
-2023-02-08,POS Machine,1535.53
-2023-02-08,Google Pay,5970.0
-2023-02-09,Google Pay,8628.0
-2023-02-10,Google Pay,7999.0
-2023-02-11,POS Machine,860.19
-2023-02-11,Google Pay,7835.0
-2023-02-13,Google Pay,5933.0
-2023-02-13,POS Machine,1016.0
-2023-02-13,Google Pay,5304.0
-2023-02-14,POS Machine,4989.28
-2023-02-14,Google Pay,6387.0
-2023-02-15,POS Machine,1329.4
-2023-02-15,Google Pay,5898.0
-2023-02-16,Google Pay,4216.0
-2023-02-17,POS Machine,1461.3
-2023-02-17,Google Pay,10730.0
-2023-02-18,POS Machine,415.23
-2023-02-18,Google Pay,3887.0
-2023-02-19,Google Pay,3974.0
-2023-02-20,POS Machine,1390.81
-2023-02-21,Google Pay,3924.0
-2023-02-21,POS Machine,1713.86
-2023-02-21,Google Pay,7749.0
-2023-02-22,POS Machine,502.23
-2023-02-23,Google Pay,7503.0
-2023-02-23,POS Machine,464.78
-2023-02-23,Google Pay,5635.0
-2023-02-24,POS Machine,1776.24
-2023-02-24,BY CASH BR:CHERPULASSERY,17500.0
-2023-02-24,Google Pay,8906.0
-2023-02-25,Google Pay,6859.0
-2023-02-27,Google Pay,5728.0
-2023-02-27,POS Machine,444.0
-2023-02-28,Google Pay,5758.0
-2023-02-28,Google Pay,7903.0
-2023-03-01,POS Machine,2009.22
-2023-03-01,Google Pay,3111.0
-2023-03-03,Google Pay,2284.0
-2023-03-03,POS Machine,5103.74
-2023-03-03,Google Pay,6574.0
-2023-03-04,Google Pay,11329.0
-2023-03-06,Google Pay,6800.0
-2023-03-06,POS Machine,3575.58
-2023-03-07,Google Pay,5065.0
-2023-03-07,POS Machine,445.06
-2023-03-07,Google Pay,3130.0
-2023-03-08,Google Pay,8892.0
-2023-03-09,POS Machine,1660.16
-2023-03-10,Google Pay,2722.0
-2023-03-10,Google Pay,10344.0
-2023-03-11,POS Machine,1906.5
-2023-03-11,Google Pay,14015.0
-2023-03-13,Google Pay,13532.0
-2023-03-13,POS Machine,3125.67
-2023-03-13,Google Pay,4813.0
-2023-03-14,Google Pay,6824.0
-2023-03-15,Google Pay,6733.0
-2023-03-16,POS Machine,1142.13
-2023-03-16,Google Pay,6506.0
-2023-03-18,Google Pay,9116.0
-2023-03-18,POS Machine,1304.15
-2023-03-19,Google Pay,5956.0
-2023-03-19,Google Pay,7181.0
-2023-03-20,POS Machine,2751.87
-2023-03-21,Google Pay,6414.0
-2023-03-21,Google Pay,9524.0
-2023-03-22,POS Machine,311.17
-2023-03-22,Google Pay,6184.0
-2023-03-23,Google Pay,6186.0
-2023-03-24,POS Machine,616.4
-2023-03-24,Google Pay,1795.0
-2023-03-25,POS Machine,623.34
-2023-03-25,Google Pay,11253.0
-2023-03-26,Google Pay,2683.0
-2023-03-27,POS Machine,566.71
-2023-03-28,Google Pay,5918.0
-2023-03-28,POS Machine,1140.94
-2023-03-28,Google Pay,3627.0
-2023-03-30,Google Pay,3917.0
-2023-03-31,Google Pay,2861.0
-2023-03-31,POS Machine,1989.98
-2023-03-31,Google Pay,8606.0
-2023-04-01,POS Machine,715.5
-2023-04-02,Google Pay,7234.0
-2023-04-02,Google Pay,6696.0
-2023-04-03,POS Machine,2976.57
-2023-04-04,Google Pay,7323.0
-2023-04-04,POS Machine,605.02
-2023-04-04,Google Pay,4870.0
-2023-04-05,Google Pay,6790.0
-2023-04-06,POS Machine,129.82
-2023-04-06,Google Pay,8721.0
-2023-04-08,Google Pay,10253.0
-2023-04-08,Google Pay,11321.0
-2023-04-10,Google Pay,7751.0
-2023-04-10,Google Pay,4604.0
-2023-04-12,Google Pay,4437.0
-2023-04-12,Google Pay,5294.0
-2023-04-13,Google Pay,7832.0
-2023-04-14,Google Pay,9467.0
-2023-04-16,Google Pay,8701.0
-2023-04-16,Google Pay,8386.0
-2023-04-17,Google Pay,4027.0
-2023-04-18,POS Machine,2627.77
-2023-04-18,Google Pay,7875.0
-2023-04-19,POS Machine,1051.26
-2023-04-19,Google Pay,2796.0
-2023-04-21,Google Pay,8095.0
-2023-04-21,POS Machine,383.52
-2023-04-21,Google Pay,7723.0
-2023-04-22,POS Machine,539.1
-2023-04-23,Google Pay,12089.0
-2023-04-23,Google Pay,11423.0
-2023-04-24,POS Machine,5369.27
-2023-04-24,Google Pay,6565.0
-2023-04-25,POS Machine,321.1
-2023-04-25,Google Pay,9880.0
-2023-04-26,POS Machine,156.0
-2023-04-26,Google Pay,5756.0
-2023-04-27,POS Machine,499.71
-2023-04-28,Google Pay,6899.0
-2023-04-28,POS Machine,495.37
-2023-04-28,Google Pay,7722.0
-2023-04-29,POS Machine,1803.33
-2023-04-29,Google Pay,13086.0
-2023-04-30,Google Pay,10332.0
-2023-05-01,POS Machine,2790.65
-2023-05-01,Google Pay,10942.0
-2023-05-02,POS Machine,1238.54
-2023-05-03,Google Pay,9077.0
-2023-05-03,POS Machine,2739.19
-2023-05-04,Google Pay,8141.0
-2023-05-04,POS Machine,1213.98
-2023-05-04,Google Pay,2450.0
-2023-05-04,Google Pay,5419.0
-2023-05-05,POS Machine,2722.88
-2023-05-05,Google Pay,5633.0
-2023-05-06,POS Machine,1244.49
-2023-05-07,Google Pay,9620.0
-2023-05-08,Google Pay,9369.0
-2023-05-08,POS Machine,5173.02
-2023-05-08,Google Pay,5407.0
-2023-05-09,POS Machine,662.98
-2023-05-09,Google Pay,8979.0
-2023-05-11,Google Pay,8051.0
-2023-05-11,POS Machine,775.36
-2023-05-11,Google Pay,7695.0
-2023-05-12,POS Machine,2883.12
-2023-05-12,Google Pay,15166.0
-2023-05-13,NEFT:PHONEPE PRIVATE LIMITED-PAYMENT AGG,387.0
-2023-05-13,POS Machine,785.68
-2023-05-13,Google Pay,11622.0
-2023-05-15,Google Pay,7753.0
-2023-05-15,POS Machine,4148.96
-2023-05-16,Google Pay,6090.0
-2023-05-16,POS Machine,242.79
-2023-05-17,POS Machine,410.2
-2023-05-18,Google Pay,13158.0
-2023-05-18,POS Machine,1915.61
-2023-05-18,Google Pay,12020.0
-2023-05-19,POS Machine,3466.06
-2023-05-19,Google Pay,8487.0
-2023-05-20,POS Machine,3012.88
-2023-05-20,Google Pay,14948.0
-2023-05-22,Google Pay,12161.0
-2023-05-22,POS Machine,3207.66
-2023-05-22,Google Pay,11314.0
-2023-05-23,POS Machine,2211.68
-2023-05-23,Google Pay,7085.0
-2023-05-24,Swiggy,337.18
-2023-05-24,Swiggy,1210.01
-2023-05-24,Google Pay,6637.0
-2023-05-25,Google Pay,10124.0
-2023-05-26,POS Machine,1994.69
-2023-05-26,Google Pay,7599.0
-2023-05-28,Google Pay,5252.0
-2023-05-28,Google Pay,11964.0
-2023-05-29,NEFT:PHONEPE PRIVATE LIMITED-PAYMENT AGG,65.0
-2023-05-29,POS Machine,3408.69
-2023-05-29,Google Pay,3969.0
-2023-05-30,POS Machine,2716.96
-2023-05-30,Google Pay,13977.0
-2023-05-30,Google Pay,7729.0
-2023-05-31,POS Machine,942.78
-2023-05-31,Swiggy,337.49
-2023-05-31,Swiggy,5526.56
-2023-05-31,Google Pay,7074.0
-2023-06-01,POS Machine,417.5
-2023-06-01,Google Pay,5901.0
-2023-06-02,POS Machine,1200.75
-2023-06-02,Google Pay,7601.0
-2023-06-03,POS Machine,751.96
-2023-06-03,Google Pay,6279.0
-2023-06-05,Google Pay,9522.0
-2023-06-05,POS Machine,910.89
-2023-06-05,Swiggy,1183.43
-2023-06-05,Google Pay,6069.0
-2023-06-06,POS Machine,848.42
-2023-06-07,Google Pay,3552.0
-2023-06-07,POS Machine,1033.74
-2023-06-07,Swiggy,3387.76
-2023-06-07,Swiggy,134.23
-2023-06-07,Google Pay,7561.0
-2023-06-08,POS Machine,377.71
-2023-06-08,Google Pay,4246.0
-2023-06-09,POS Machine,1834.46
-2023-06-09,Google Pay,9209.0
-2023-06-10,POS Machine,468.38
-2023-06-10,Google Pay,13247.0
-2023-06-11,Google Pay,4803.0
-2023-06-12,POS Machine,701.38
-2023-06-12,Google Pay,8315.0
-2023-06-13,POS Machine,662.98
-2023-06-13,Google Pay,4724.0
-2023-06-14,POS Machine,404.33
-2023-06-14,Swiggy,210.91
-2023-06-14,Swiggy,2637.61
-2023-06-14,Google Pay,905.0
-2023-06-15,POS Machine,1267.82
-2023-06-16,Google Pay,8089.0
-2023-06-16,Google Pay,6380.0
-2023-06-17,POS Machine,666.7
-2023-06-17,Google Pay,9615.0
-2023-06-18,Google Pay,10888.0
-2023-06-19,POS Machine,4109.82
-2023-06-19,Google Pay,10821.0
-2023-06-20,POS Machine,947.0
-2023-06-20,Google Pay,4565.0
-2023-06-21,POS Machine,895.7
-2023-06-21,Swiggy,134.23
-2023-06-21,Swiggy,2233.44
-2023-06-22,Google Pay,6789.0
-2023-06-22,POS Machine,3004.14
-2023-06-22,Google Pay,3207.0
-2023-06-23,Google Pay,7000.0
-2023-06-24,POS Machine,500.69
-2023-06-24,Google Pay,12758.0
-2023-06-25,Google Pay,7909.0
-2023-06-26,POS Machine,1125.3
-2023-06-27,Google Pay,4301.0
-2023-06-27,POS Machine,403.34
-2023-06-27,Google Pay,8485.0
-2023-06-28,POS Machine,498.47
-2023-06-28,Swiggy,1093.0
-2023-06-28,Swiggy,3488.96
-2023-06-28,Google Pay,4371.0
-2023-06-29,POS Machine,1492.1
-2023-06-29,Google Pay,16100.0
-2023-06-30,POS Machine,6105.32
-2023-06-30,Google Pay,5336.0
-2023-07-01,POS Machine,2076.14
-2023-07-01,Google Pay,9877.0
-2023-07-02,Google Pay,8170.0
-2023-07-03,POS Machine,2400.89
-2023-07-03,Google Pay,7427.0
-2023-07-04,POS Machine,791.48
-2023-07-04,Google Pay,7949.0
-2023-07-05,POS Machine,1823.44
-2023-07-05,Swiggy,517.73
-2023-07-05,Swiggy,3145.39
-2023-07-06,Google Pay,5174.0
-2023-07-06,POS Machine,154.6
-2023-07-06,Google Pay,9213.0
-2023-07-07,Google Pay,9058.0
-2023-07-08,POS Machine,4026.61
-2023-07-08,Google Pay,15788.0
-2023-07-10,Google Pay,11705.0
-2023-07-10,POS Machine,1579.03
-2023-07-10,Google Pay,4223.0
-2023-07-11,POS Machine,751.29
-2023-07-11,Google Pay,4313.0
-2023-07-12,Swiggy,985.57
-2023-07-12,Swiggy,6311.52
-2023-07-12,Google Pay,8050.0
-2023-07-13,POS Machine,1433.73
-2023-07-13,Google Pay,4165.0
-2023-07-14,Google Pay,11004.0
-2023-07-15,POS Machine,1192.49
-2023-07-15,Google Pay,5390.0
-2023-07-16,Google Pay,8497.0
-2023-07-17,POS Machine,418.7
-2023-07-17,Google Pay,6294.0
-2023-07-18,POS Machine,1144.55
-2023-07-18,Google Pay,7961.0
-2023-07-19,POS Machine,1250.66
-2023-07-19,Swiggy,786.14
-2023-07-19,Swiggy,2695.35
-2023-07-19,Google Pay,4151.0
-2023-07-20,Google Pay,6632.0
-2023-07-21,POS Machine,830.0
-2023-07-21,Google Pay,7757.0
-2023-07-21,Google Pay,2346.0
-2023-07-22,POS Machine,1851.29
-2023-07-22,Google Pay,14658.0
-2023-07-23,Google Pay,6979.0
-2023-07-24,POS Machine,3581.49
-2023-07-25,Google Pay,5621.0
-2023-07-25,POS Machine,1757.03
-2023-07-25,Google Pay,9643.0
-2023-07-26,POS Machine,415.23
-2023-07-26,Swiggy,594.41
-2023-07-26,Swiggy,4897.98
-2023-07-26,Google Pay,6655.0
-2023-07-27,POS Machine,4571.91
-2023-07-27,Google Pay,6449.0
-2023-07-28,Google Pay,6051.0
-2023-07-29,POS Machine,1242.65
-2023-07-29,Google Pay,8737.0
-2023-07-30,Google Pay,8257.0
-2023-07-31,POS Machine,4221.26
-2023-07-31,Google Pay,8991.0
-2023-08-01,Google Pay,10474.0
-2023-08-02,Google Pay,6477.0
-2023-08-03,Swiggy,1843.84
-2023-08-03,Swiggy,10712.39
-2023-08-04,Google Pay,5603.0
-2023-08-04,Google Pay,9561.0
-2023-08-05,Google Pay,8799.0
-2023-08-06,SHAJAHAN POOKODAN,1802.0
-2023-08-06,Google Pay,6978.0
-2023-08-07,POS Machine,4056.29
-2023-08-07,ABDUL RASHEED,1410.0
-2023-08-07,ABDUL RASHEED,440.0
-2023-08-07,Google Pay,3567.0
-2023-08-08,Swiggy,245.4
-2023-08-08,Swiggy,3238.95
-2023-08-08,Google Pay,4956.0
-2023-08-09,POS Machine,254.74
-2023-08-09,Google Pay,4467.0
-2023-08-10,POS Machine,758.11
-2023-08-10,Google Pay,4903.0
-2023-08-11,Google Pay,4742.0
-2023-08-12,POS Machine,413.82
-2023-08-12,Google Pay,6236.0
-2023-08-14,Google Pay,13580.0
-2023-08-14,POS Machine,1860.72
-2023-08-14,Google Pay,10907.0
-2023-08-15,Google Pay,5994.0
-2023-08-16,Swiggy,210.91
-2023-08-16,Swiggy,3686.85
-2023-08-16,POS Machine,2619.06
-2023-08-16,Google Pay,5483.0
-2023-08-18,Google Pay,5082.0
-2023-08-18,POS Machine,848.3
-2023-08-18,Google Pay,3982.0
-2023-08-19,Google Pay,4716.0
-2023-08-20,Google Pay,7385.0
-2023-08-21,POS Machine,4007.14
-2023-08-21,BY CASH BR:CHERPULASSERY,7000.0
-2023-08-21,Google Pay,9242.0
-2023-08-22,Google Pay,3436.0
-2023-08-23,POS Machine,881.0
-2023-08-23,Swiggy,685.74
-2023-08-23,Swiggy,5732.43
-2023-08-23,Google Pay,8201.0
-2023-08-24,Google Pay,7174.0
-2023-08-25,POS Machine,1687.67
-2023-08-25,Google Pay,8224.0
-2023-08-26,POS Machine,441.99
-2023-08-26,Google Pay,8090.0
-2023-08-27,Google Pay,9907.0
-2023-08-28,POS Machine,1831.31
-2023-08-28,Google Pay,8531.0
-2023-08-29,POS Machine,724.37
-2023-08-29,Google Pay,11059.0
-2023-08-30,POS Machine,1510.78
-2023-08-30,Swiggy,1112.11
-2023-08-30,Swiggy,2791.73
-2023-08-30,Google Pay,10247.0
-2023-09-01,Google Pay,9459.0
-2023-09-01,POS Machine,1348.17
-2023-09-01,Hamzathul Siyad K,22000.0
-2023-09-01,Google Pay,11576.0
-2023-09-02,POS Machine,147.83
-2023-09-02,Google Pay,21920.0
-2023-09-04,Google Pay,11129.0
-2023-09-04,POS Machine,3591.53
-2023-09-04,Swiggy,774.67
-2023-09-05,Google Pay,10779.0
-2023-09-05,Google Pay,4896.0
-2023-09-06,POS Machine,543.07
-2023-09-06,Swiggy,4740.62
-2023-09-06,Google Pay,9884.0
-2023-09-07,POS Machine,1497.18
-2023-09-07,Google Pay,5540.0
-2023-09-08,Google Pay,5676.0
-2023-09-09,POS Machine,1439.23
-2023-09-09,Google Pay,17125.0
-2023-09-10,Google Pay,6546.0
-2023-09-11,POS Machine,1183.71
-2023-09-11,Google Pay,7279.0
-2023-09-12,POS Machine,220.58
-2023-09-12,Google Pay,6180.0
-2023-09-13,Swiggy,828.37
-2023-09-13,Swiggy,7089.85
-2023-09-14,Google Pay,5042.0
-2023-09-14,POS Machine,689.74
-2023-09-14,Google Pay,7229.0
-2023-09-15,POS Machine,1301.18
-2023-09-15,Google Pay,8658.0
-2023-09-16,POS Machine,1248.31
-2023-09-16,Google Pay,10504.0
-2023-09-17,Google Pay,12522.0
-2023-09-18,POS Machine,2852.2
-2023-09-18,Google Pay,7140.0
-2023-09-19,POS Machine,429.44
-2023-09-19,Google Pay,6339.0
-2023-09-20,POS Machine,416.22
-2023-09-20,Google Pay,4160.0
-2023-09-21,POS Machine,1014.24
-2023-09-21,Swiggy,1345.97
-2023-09-21,Swiggy,3680.68
-2023-09-21,Google Pay,10150.0
-2023-09-23,Google Pay,7581.0
-2023-09-23,POS Machine,858.58
-2023-09-23,Google Pay,11892.0
-2023-09-24,Google Pay,189.0
-2023-09-24,Google Pay,8363.0
-2023-09-25,POS Machine,1382.58
-2023-09-25,BY CASH BR:CHERPULASSERY,23000.0
-2023-09-25,Google Pay,6051.0
-2023-09-26,POS Machine,2294.16
-2023-09-26,Google Pay,3285.0
-2023-09-27,POS Machine,142.0
-2023-09-27,Swiggy,1856.02
-2023-09-27,Swiggy,7461.14
-2023-09-27,Google Pay,9674.0
-2023-09-28,Google Pay,6023.0
-2023-09-29,POS Machine,1797.67
-2023-09-29,Google Pay,7099.0
-2023-09-30,Google Pay,8695.0
-2023-10-02,Google Pay,9873.0
-2023-10-02,POS Machine,2115.75
-2023-10-02,Google Pay,4791.0
-2023-10-03,POS Machine,1057.01
-2023-10-03,Google Pay,4696.0
-2023-10-04,POS Machine,285.97
-2023-10-04,Swiggy,4412.29
-2023-10-04,Swiggy,923.9
-2023-10-04,Google Pay,4965.0
-2023-10-05,POS Machine,873.07
-2023-10-05,Google Pay,5420.0
-2023-10-06,Google Pay,7111.0
-2023-10-07,POS Machine,629.53
-2023-10-07,Google Pay,9206.0
-2023-10-09,Google Pay,10175.0
-2023-10-09,POS Machine,1246.35
-2023-10-09,Google Pay,4664.0
-2023-10-10,POS Machine,2023.47
-2023-10-10,Google Pay,4715.0
-2023-10-11,Swiggy,1165.78
-2023-10-11,Swiggy,5548.28
-2023-10-11,Google Pay,5270.0
-2023-10-12,POS Machine,966.22
-2023-10-12,Google Pay,6029.0
-2023-10-13,POS Machine,1035.17
-2023-10-13,Google Pay,6071.0
-2023-10-14,POS Machine,899.87
-2023-10-14,Google Pay,8565.0
-2023-10-15,Google Pay,7446.0
-2023-10-16,POS Machine,4767.64
-2023-10-16,Google Pay,3306.0
-2023-10-17,Google Pay,7225.0
-2023-10-18,POS Machine,2312.74
-2023-10-18,Swiggy,644.24
-2023-10-18,Swiggy,6436.94
-2023-10-18,Google Pay,8448.0
-2023-10-19,Google Pay,7413.0
-2023-10-20,POS Machine,506.54
-2023-10-20,Google Pay,7508.0
-2023-10-21,POS Machine,1194.62
-2023-10-21,Google Pay,19583.0
-2023-10-22,Google Pay,9670.0
-2023-10-22,Google Pay,2420.0
-2023-10-23,POS Machine,6478.9
-2023-10-23,Google Pay,13538.0
-2023-10-24,POS Machine,1563.6
-2023-10-24,Google Pay,14333.0
-2023-10-25,POS Machine,2508.29
-2023-10-25,Swiggy,999.38
-2023-10-25,Swiggy,7221.06
-2023-10-25,Google Pay,5852.0
-2023-10-26,POS Machine,883.85
-2023-10-26,Google Pay,5137.0
-2023-10-27,Google Pay,4717.0
-2023-10-27,Google Pay,1653.0
-2023-10-28,POS Machine,1075.92
-2023-10-28,Google Pay,16550.0
-2023-10-29,Google Pay,6844.0
-2023-10-30,POS Machine,878.45
-2023-10-30,Google Pay,2558.0
-2023-10-30,Google Pay,1270.0
-2023-10-31,POS Machine,1263.52
-2023-10-31,Google Pay,5672.0
-2023-11-01,POS Machine,307.41
-2023-11-01,Swiggy,1215.65
-2023-11-01,Swiggy,10194.39
-2023-11-01,Google Pay,9810.0
-2023-11-02,POS Machine,917.72
-2023-11-02,Google Pay,8384.0
-2023-11-03,POS Machine,742.83
-2023-11-03,Swiggy,3179.12
-2023-11-03,Swiggy,498.54
-2023-11-03,Google Pay,10074.0
-2023-11-04,POS Machine,703.12
-2023-11-04,Google Pay,8760.0
-2023-11-05,Google Pay,11166.0
-2023-11-06,POS Machine,5754.33
-2023-11-06,Google Pay,5416.0
-2023-11-07,Google Pay,6525.0
-2023-11-08,POS Machine,695.89
-2023-11-08,Swiggy,2269.49
-2023-11-08,Swiggy,421.85
-2023-11-08,Google Pay,7323.0
-2023-11-09,POS Machine,569.82
-2023-11-09,Google Pay,4670.0
-2023-11-10,POS Machine,836.29
-2023-11-10,Google Pay,5771.0
-2023-11-11,POS Machine,999.42
-2023-11-11,Google Pay,24114.0
-2023-11-12,Google Pay,13535.0
-2023-11-13,POS Machine,6393.0
-2023-11-13,Google Pay,4010.0
-2023-11-14,POS Machine,847.81
-2023-11-14,Google Pay,1759.0
-2023-11-15,Google Pay,3995.0
-2023-11-16,Swiggy,1392.06
-2023-11-16,Swiggy,3465.02
-2023-11-16,Google Pay,5030.0
-2023-11-17,Google Pay,7433.0
-2023-11-18,SHAJAHAN POOKODAN,435.0
-2023-11-18,Google Pay,12436.0
-2023-11-19,Google Pay,5626.0
-2023-11-20,POS Machine,2399.93
-2023-11-20,Google Pay,4378.0
-2023-11-22,Google Pay,5136.0
-2023-11-22,Swiggy,931.87
-2023-11-22,Swiggy,5993.65
-2023-11-22,Google Pay,3763.0
-2023-11-23,POS Machine,1085.21
-2023-11-23,Google Pay,6187.0
-2023-11-24,POS Machine,2098.93
-2023-11-24,Google Pay,7015.0
-2023-11-25,Google Pay,7885.0
-2023-11-26,Google Pay,12291.0
-2023-11-27,POS Machine,2713.23
-2023-11-28,Google Pay,5207.0
-2023-11-28,Google Pay,4669.0
-2023-11-29,POS Machine,479.9
-2023-11-29,Swiggy,613.57
-2023-11-29,Swiggy,5288.29
-2023-11-29,Google Pay,1125.0
-2023-11-29,Google Pay,6770.0
-2023-11-30,Google Pay,4221.0
-2023-12-01,Google Pay,8404.0
-2023-12-02,POS Machine,1073.25
-2023-12-02,Google Pay,6580.0
-2023-12-03,Google Pay,6796.0
-2023-12-04,POS Machine,2078.5
-2023-12-04,Google Pay,5627.0
-2023-12-05,Swiggy,1246.74
-2023-12-05,Swiggy,3572.54
-2023-12-05,POS Machine,1053.1
-2023-12-05,Google Pay,6005.0
-2023-12-06,Google Pay,7600.0
-2023-12-07,POS Machine,1119.26
-2023-12-07,Google Pay,9580.0
-2023-12-08,POS Machine,1007.85
-2023-12-08,Google Pay,5603.0
-2023-12-09,POS Machine,446.0
-2023-12-09,Google Pay,10689.0
-2023-12-10,Google Pay,10433.0
-2023-12-11,POS Machine,1485.56
-2023-12-11,Google Pay,9035.0
-2023-12-12,Google Pay,7294.0
-2023-12-13,POS Machine,924.23
-2023-12-13,Swiggy,930.54
-2023-12-13,Swiggy,6658.99
-2023-12-13,Google Pay,9546.0
-2023-12-14,Google Pay,7303.0
-2023-12-15,Google Pay,8568.0
-2023-12-16,POS Machine,1650.42
-2023-12-16,Google Pay,14967.0
-2023-12-17,Google Pay,16465.0
-2023-12-18,POS Machine,1085.0
-2023-12-18,Google Pay,4296.0
-2023-12-19,Google Pay,3558.0
-2023-12-20,Swiggy,981.71
-2023-12-20,Swiggy,6320.65
-2023-12-20,Google Pay,5158.0
-2023-12-21,POS Machine,1683.9
-2023-12-21,Google Pay,2385.0
-2023-12-22,Google Pay,7796.0
-2023-12-23,POS Machine,6148.8
-2023-12-23,Google Pay,11403.0
-2023-12-24,Google Pay,7925.0
-2023-12-25,POS Machine,2273.53
-2023-12-25,Google Pay,17397.0
-2023-12-26,POS Machine,4074.97
-2023-12-27,Google Pay,12681.0
-2023-12-27,POS Machine,972.15
-2023-12-27,Swiggy,1300.01
-2023-12-27,Swiggy,5733.19
-2023-12-27,Google Pay,7777.0
-2023-12-28,Google Pay,3750.0
-2023-12-29,POS Machine,598.29
-2023-12-29,Google Pay,10971.0
-2023-12-30,POS Machine,410.27
-2023-12-30,Google Pay,12556.0
-2023-12-31,Google Pay,18794.0
 2025-02-01,Pos Settlement,976.13
 2025-02-01,Google Pay,10446.0
 2025-02-02,Google Pay,6600.0
@@ -1414,6 +741,682 @@ Transaction_Date,Particulars,Deposits
 2025-02-26,Swiggy,7234.72
 2025-02-26,Google Pay,3653.0
 2025-02-27,Google Pay,10019.0
+2023-01-01,Google Pay,10048.0
+2023-01-02,Pos Settlement,3231.09
+2023-01-02,Google Pay,8551.0
+2023-01-03,Pos Settlement,4207.95
+2023-01-03,Google Pay,6206.0
+2023-01-04,Pos Settlement,1418.6
+2023-01-05,Google Pay,7243.0
+2023-01-05,Pos Settlement,449.91
+2023-01-06,Google Pay,6767.0
+2023-01-06,Google Pay,3382.0
+2023-01-07,Pos Settlement,1678.98
+2023-01-07,Google Pay,8983.0
+2023-01-08,Google Pay,8972.0
+2023-01-09,Pos Settlement,3646.39
+2023-01-09,Google Pay,2114.0
+2023-01-10,Pos Settlement,332.82
+2023-01-10,Google Pay,3760.0
+2023-01-11,Pos Settlement,303.22
+2023-01-12,Google Pay,4149.0
+2023-01-12,Pos Settlement,277.0
+2023-01-12,Google Pay,6567.0
+2023-01-13,Pos Settlement,180.14
+2023-01-13,Google Pay,7191.0
+2023-01-14,Google Pay,4624.0
+2023-01-15,Google Pay,9903.0
+2023-01-16,Pos Settlement,4765.47
+2023-01-17,Google Pay,7617.0
+2023-01-17,Phonepe Private Limited,247.0
+2023-01-18,Google Pay,3726.0
+2023-01-18,Pos Settlement,203.15
+2023-01-18,Google Pay,4335.0
+2023-01-19,Google Pay,4293.0
+2023-01-20,Pos Settlement,2005.22
+2023-01-20,Google Pay,10020.0
+2023-01-21,Pos Settlement,1818.7
+2023-01-21,Google Pay,6128.0
+2023-01-23,Google Pay,5991.0
+2023-01-23,Pos Settlement,3000.65
+2023-01-24,Google Pay,6564.0
+2023-01-24,Google Pay,3529.0
+2023-01-25,Pos Settlement,450.34
+2023-01-26,Google Pay,1820.0
+2023-01-27,Google Pay,8414.0
+2023-01-27,Pos Settlement,2661.58
+2023-01-27,Google Pay,10683.0
+2023-01-28,Pos Settlement,476.67
+2023-01-28,Google Pay,8229.0
+2023-01-29,Google Pay,8736.0
+2023-01-30,Pos Settlement,3573.1
+2023-01-30,Google Pay,3707.0
+2023-01-31,Google Pay,5669.0
+2023-02-02,Google Pay,3543.0
+2023-02-02,Pos Settlement,223.97
+2023-02-03,Google Pay,4027.0
+2023-02-03,Pos Settlement,603.06
+2023-02-03,Google Pay,7915.0
+2023-02-04,Pos Settlement,551.41
+2023-02-05,Google Pay,7150.0
+2023-02-06,Google Pay,11077.0
+2023-02-06,Pos Settlement,1762.66
+2023-02-06,Google Pay,5712.0
+2023-02-07,Pos Settlement,2307.43
+2023-02-07,Google Pay,1215.0
+2023-02-08,Pos Settlement,1535.53
+2023-02-08,Google Pay,5970.0
+2023-02-09,Google Pay,8628.0
+2023-02-10,Google Pay,7999.0
+2023-02-11,Pos Settlement,860.19
+2023-02-11,Google Pay,7835.0
+2023-02-13,Google Pay,5933.0
+2023-02-13,Pos Settlement,1016.0
+2023-02-13,Google Pay,5304.0
+2023-02-14,Pos Settlement,4989.28
+2023-02-14,Google Pay,6387.0
+2023-02-15,Pos Settlement,1329.4
+2023-02-15,Google Pay,5898.0
+2023-02-16,Google Pay,4216.0
+2023-02-17,Pos Settlement,1461.3
+2023-02-17,Google Pay,10730.0
+2023-02-18,Pos Settlement,415.23
+2023-02-18,Google Pay,3887.0
+2023-02-19,Google Pay,3974.0
+2023-02-20,Pos Settlement,1390.81
+2023-02-21,Google Pay,3924.0
+2023-02-21,Pos Settlement,1713.86
+2023-02-21,Google Pay,7749.0
+2023-02-22,Pos Settlement,502.23
+2023-02-23,Google Pay,7503.0
+2023-02-23,Pos Settlement,464.78
+2023-02-23,Google Pay,5635.0
+2023-02-24,Pos Settlement,1776.24
+2023-02-24,By Cash Br:Cherpulassery/Abafp9102H,17500.0
+2023-02-24,Google Pay,8906.0
+2023-02-25,Google Pay,6859.0
+2023-02-27,Google Pay,5728.0
+2023-02-27,Pos Settlement,444.0
+2023-02-28,Google Pay,5758.0
+2023-02-28,Google Pay,7903.0
+2023-03-01,Pos Settlement,2009.22
+2023-03-01,Google Pay,3111.0
+2023-03-03,Google Pay,2284.0
+2023-03-03,Pos Settlement,5103.74
+2023-03-03,Google Pay,6574.0
+2023-03-04,Google Pay,11329.0
+2023-03-06,Google Pay,6800.0
+2023-03-06,Pos Settlement,3575.58
+2023-03-07,Google Pay,5065.0
+2023-03-07,Pos Settlement,445.06
+2023-03-07,Google Pay,3130.0
+2023-03-08,Google Pay,8892.0
+2023-03-09,Pos Settlement,1660.16
+2023-03-10,Google Pay,2722.0
+2023-03-10,Google Pay,10344.0
+2023-03-11,Pos Settlement,1906.5
+2023-03-11,Google Pay,14015.0
+2023-03-13,Google Pay,13532.0
+2023-03-13,Pos Settlement,3125.67
+2023-03-13,Google Pay,4813.0
+2023-03-14,Google Pay,6824.0
+2023-03-15,Google Pay,6733.0
+2023-03-16,Pos Settlement,1142.13
+2023-03-16,Google Pay,6506.0
+2023-03-18,Google Pay,9116.0
+2023-03-18,Pos Settlement,1304.15
+2023-03-19,Google Pay,5956.0
+2023-03-19,Google Pay,7181.0
+2023-03-20,Pos Settlement,2751.87
+2023-03-21,Google Pay,6414.0
+2023-03-21,Google Pay,9524.0
+2023-03-22,Pos Settlement,311.17
+2023-03-22,Google Pay,6184.0
+2023-03-23,Google Pay,6186.0
+2023-03-24,Pos Settlement,616.4
+2023-03-24,Google Pay,1795.0
+2023-03-25,Pos Settlement,623.34
+2023-03-25,Google Pay,11253.0
+2023-03-26,Google Pay,2683.0
+2023-03-27,Pos Settlement,566.71
+2023-03-28,Google Pay,5918.0
+2023-03-28,Pos Settlement,1140.94
+2023-03-28,Google Pay,3627.0
+2023-03-30,Google Pay,3917.0
+2023-03-31,Google Pay,2861.0
+2023-03-31,Pos Settlement,1989.98
+2023-03-31,Google Pay,8606.0
+2023-04-01,Pos Settlement,715.5
+2023-04-02,Google Pay,7234.0
+2023-04-02,Google Pay,6696.0
+2023-04-03,Pos Settlement,2976.57
+2023-04-04,Google Pay,7323.0
+2023-04-04,Pos Settlement,605.02
+2023-04-04,Google Pay,4870.0
+2023-04-05,Google Pay,6790.0
+2023-04-06,Pos Settlement,129.82
+2023-04-06,Google Pay,8721.0
+2023-04-08,Google Pay,10253.0
+2023-04-08,Google Pay,11321.0
+2023-04-10,Google Pay,7751.0
+2023-04-10,Google Pay,4604.0
+2023-04-12,Google Pay,4437.0
+2023-04-12,Google Pay,5294.0
+2023-04-13,Google Pay,7832.0
+2023-04-14,Google Pay,9467.0
+2023-04-16,Google Pay,8701.0
+2023-04-16,Google Pay,8386.0
+2023-04-17,Google Pay,4027.0
+2023-04-18,Pos Settlement,2627.77
+2023-04-18,Google Pay,7875.0
+2023-04-19,Pos Settlement,1051.26
+2023-04-19,Google Pay,2796.0
+2023-04-21,Google Pay,8095.0
+2023-04-21,Pos Settlement,383.52
+2023-04-21,Google Pay,7723.0
+2023-04-22,Pos Settlement,539.1
+2023-04-23,Google Pay,12089.0
+2023-04-23,Google Pay,11423.0
+2023-04-24,Pos Settlement,5369.27
+2023-04-24,Google Pay,6565.0
+2023-04-25,Pos Settlement,321.1
+2023-04-25,Google Pay,9880.0
+2023-04-26,Pos Settlement,156.0
+2023-04-26,Google Pay,5756.0
+2023-04-27,Pos Settlement,499.71
+2023-04-28,Google Pay,6899.0
+2023-04-28,Pos Settlement,495.37
+2023-04-28,Google Pay,7722.0
+2023-04-29,Pos Settlement,1803.33
+2023-04-29,Google Pay,13086.0
+2023-04-30,Google Pay,10332.0
+2023-05-01,Pos Settlement,2790.65
+2023-05-01,Google Pay,10942.0
+2023-05-02,Pos Settlement,1238.54
+2023-05-03,Google Pay,9077.0
+2023-05-03,Pos Settlement,2739.19
+2023-05-04,Google Pay,8141.0
+2023-05-04,Pos Settlement,1213.98
+2023-05-04,Google Pay,2450.0
+2023-05-04,Google Pay,5419.0
+2023-05-05,Pos Settlement,2722.88
+2023-05-05,Google Pay,5633.0
+2023-05-06,Pos Settlement,1244.49
+2023-05-07,Google Pay,9620.0
+2023-05-08,Google Pay,9369.0
+2023-05-08,Pos Settlement,5173.02
+2023-05-08,Google Pay,5407.0
+2023-05-09,Pos Settlement,662.98
+2023-05-09,Google Pay,8979.0
+2023-05-11,Google Pay,8051.0
+2023-05-11,Pos Settlement,775.36
+2023-05-11,Google Pay,7695.0
+2023-05-12,Pos Settlement,2883.12
+2023-05-12,Google Pay,15166.0
+2023-05-13,Phonepe Private Limited-Payment Agg,387.0
+2023-05-13,Pos Settlement,785.68
+2023-05-13,Google Pay,11622.0
+2023-05-15,Google Pay,7753.0
+2023-05-15,Pos Settlement,4148.96
+2023-05-16,Google Pay,6090.0
+2023-05-16,Pos Settlement,242.79
+2023-05-17,Pos Settlement,410.2
+2023-05-18,Google Pay,13158.0
+2023-05-18,Pos Settlement,1915.61
+2023-05-18,Google Pay,12020.0
+2023-05-19,Pos Settlement,3466.06
+2023-05-19,Google Pay,8487.0
+2023-05-20,Pos Settlement,3012.88
+2023-05-20,Google Pay,14948.0
+2023-05-22,Google Pay,12161.0
+2023-05-22,Pos Settlement,3207.66
+2023-05-22,Google Pay,11314.0
+2023-05-23,Pos Settlement,2211.68
+2023-05-23,Google Pay,7085.0
+2023-05-24,Bundl Technologies Pvt Ltd,337.18
+2023-05-24,Bundl Technologies Pvt Ltd Nodal Ac,1210.01
+2023-05-24,Google Pay,6637.0
+2023-05-25,Google Pay,10124.0
+2023-05-26,Pos Settlement,1994.69
+2023-05-26,Google Pay,7599.0
+2023-05-28,Google Pay,5252.0
+2023-05-28,Google Pay,11964.0
+2023-05-29,Phonepe Private Limited-Payment Agg,65.0
+2023-05-29,Pos Settlement,3408.69
+2023-05-29,Google Pay,3969.0
+2023-05-30,Pos Settlement,2716.96
+2023-05-30,Google Pay,13977.0
+2023-05-30,Google Pay,7729.0
+2023-05-31,Pos Settlement,942.78
+2023-05-31,Bundl Technologies Pvt Ltd,337.49
+2023-05-31,Bundl Technologies Pvt Ltd Nodal Ac,5526.56
+2023-05-31,Google Pay,7074.0
+2023-06-01,Pos Settlement,417.5
+2023-06-01,Google Pay,5901.0
+2023-06-02,Pos Settlement,1200.75
+2023-06-02,Google Pay,7601.0
+2023-06-03,Pos Settlement,751.96
+2023-06-03,Google Pay,6279.0
+2023-06-05,Google Pay,9522.0
+2023-06-05,Pos Settlement,910.89
+2023-06-05,Bundl Technologies Pvt Ltd Nodal Ac,1183.43
+2023-06-05,Google Pay,6069.0
+2023-06-06,Pos Settlement,848.42
+2023-06-07,Google Pay,3552.0
+2023-06-07,Pos Settlement,1033.74
+2023-06-07,Bundl Technologies Pvt Ltd Nodal Ac,3387.76
+2023-06-07,Bundl Technologies Pvt Ltd,134.23
+2023-06-07,Google Pay,7561.0
+2023-06-08,Pos Settlement,377.71
+2023-06-08,Google Pay,4246.0
+2023-06-09,Pos Settlement,1834.46
+2023-06-09,Google Pay,9209.0
+2023-06-10,Pos Settlement,468.38
+2023-06-10,Google Pay,13247.0
+2023-06-11,Google Pay,4803.0
+2023-06-12,Pos Settlement,701.38
+2023-06-12,Google Pay,8315.0
+2023-06-13,Pos Settlement,662.98
+2023-06-13,Google Pay,4724.0
+2023-06-14,Pos Settlement,404.33
+2023-06-14,Bundl Technologies Pvt Ltd,210.91
+2023-06-14,Bundl Technologies Pvt Ltd Nodal Ac,2637.61
+2023-06-14,Google Pay,905.0
+2023-06-15,Pos Settlement,1267.82
+2023-06-16,Google Pay,8089.0
+2023-06-16,Google Pay,6380.0
+2023-06-17,Pos Settlement,666.7
+2023-06-17,Google Pay,9615.0
+2023-06-18,Google Pay,10888.0
+2023-06-19,Pos Settlement,4109.82
+2023-06-19,Google Pay,10821.0
+2023-06-20,Pos Settlement,947.0
+2023-06-20,Google Pay,4565.0
+2023-06-21,Pos Settlement,895.7
+2023-06-21,Bundl Technologies Pvt Ltd,134.23
+2023-06-21,Bundl Technologies Pvt Ltd Nodal Ac,2233.44
+2023-06-22,Google Pay,6789.0
+2023-06-22,Pos Settlement,3004.14
+2023-06-22,Google Pay,3207.0
+2023-06-23,Google Pay,7000.0
+2023-06-24,Pos Settlement,500.69
+2023-06-24,Google Pay,12758.0
+2023-06-25,Google Pay,7909.0
+2023-06-26,Pos Settlement,1125.3
+2023-06-27,Google Pay,4301.0
+2023-06-27,Pos Settlement,403.34
+2023-06-27,Google Pay,8485.0
+2023-06-28,Pos Settlement,498.47
+2023-06-28,Bundl Technologies Pvt Ltd,1093.0
+2023-06-28,Bundl Technologies Pvt Ltd Nodal Ac,3488.96
+2023-06-28,Google Pay,4371.0
+2023-06-29,Pos Settlement,1492.1
+2023-06-29,Google Pay,16100.0
+2023-06-30,Pos Settlement,6105.32
+2023-06-30,Google Pay,5336.0
+2023-07-01,Pos Settlement,2076.14
+2023-07-01,Google Pay,9877.0
+2023-07-02,Google Pay,8170.0
+2023-07-03,Pos Settlement,2400.89
+2023-07-03,Google Pay,7427.0
+2023-07-04,Pos Settlement,791.48
+2023-07-04,Google Pay,7949.0
+2023-07-05,Pos Settlement,1823.44
+2023-07-05,Bundl Technologies Pvt Ltd,517.73
+2023-07-05,Bundl Technologies Pvt Ltd Nodal Ac,3145.39
+2023-07-06,Google Pay,5174.0
+2023-07-06,Pos Settlement,154.6
+2023-07-06,Google Pay,9213.0
+2023-07-07,Google Pay,9058.0
+2023-07-08,Pos Settlement,4026.61
+2023-07-08,Google Pay,15788.0
+2023-07-10,Google Pay,11705.0
+2023-07-10,Pos Settlement,1579.03
+2023-07-10,Google Pay,4223.0
+2023-07-11,Pos Settlement,751.29
+2023-07-11,Google Pay,4313.0
+2023-07-12,Bundl Technologies Pvt Ltd,985.57
+2023-07-12,Bundl Technologies Pvt Ltd Nodal Ac,6311.52
+2023-07-12,Google Pay,8050.0
+2023-07-13,Pos Settlement,1433.73
+2023-07-13,Google Pay,4165.0
+2023-07-14,Google Pay,11004.0
+2023-07-15,Pos Settlement,1192.49
+2023-07-15,Google Pay,5390.0
+2023-07-16,Google Pay,8497.0
+2023-07-17,Pos Settlement,418.7
+2023-07-17,Google Pay,6294.0
+2023-07-18,Pos Settlement,1144.55
+2023-07-18,Google Pay,7961.0
+2023-07-19,Pos Settlement,1250.66
+2023-07-19,Bundl Technologies Pvt Ltd,786.14
+2023-07-19,Bundl Technologies Pvt Ltd Nodal Ac,2695.35
+2023-07-19,Google Pay,4151.0
+2023-07-20,Google Pay,6632.0
+2023-07-21,Pos Settlement,830.0
+2023-07-21,Google Pay,7757.0
+2023-07-21,Google Pay,2346.0
+2023-07-22,Pos Settlement,1851.29
+2023-07-22,Google Pay,14658.0
+2023-07-23,Google Pay,6979.0
+2023-07-24,Pos Settlement,3581.49
+2023-07-25,Google Pay,5621.0
+2023-07-25,Pos Settlement,1757.03
+2023-07-25,Google Pay,9643.0
+2023-07-26,Pos Settlement,415.23
+2023-07-26,Bundl Technologies Pvt Ltd,594.41
+2023-07-26,Bundl Technologies Pvt Ltd Nodal Ac,4897.98
+2023-07-26,Google Pay,6655.0
+2023-07-27,Pos Settlement,4571.91
+2023-07-27,Google Pay,6449.0
+2023-07-28,Google Pay,6051.0
+2023-07-29,Pos Settlement,1242.65
+2023-07-29,Google Pay,8737.0
+2023-07-30,Google Pay,8257.0
+2023-07-31,Pos Settlement,4221.26
+2023-07-31,Google Pay,8991.0
+2023-08-01,Google Pay,10474.0
+2023-08-02,Google Pay,6477.0
+2023-08-03,Bundl Technologies Pvt Ltd,1843.84
+2023-08-03,Bundl Technologies Pvt Ltd Nodal Ac,10712.39
+2023-08-04,Google Pay,5603.0
+2023-08-04,Google Pay,9561.0
+2023-08-05,Google Pay,8799.0
+2023-08-06,Shajahan Pookodan,1802.0
+2023-08-06,Google Pay,6978.0
+2023-08-07,Pos Settlement,4056.29
+2023-08-07,Abdul Rasheed,1410.0
+2023-08-07,Abdul Rasheed,440.0
+2023-08-07,Google Pay,3567.0
+2023-08-08,Bundl Technologies Pvt Ltd,245.4
+2023-08-08,Bundl Technologies Pvt Ltd Nodal Ac,3238.95
+2023-08-08,Google Pay,4956.0
+2023-08-09,Pos Settlement,254.74
+2023-08-09,Google Pay,4467.0
+2023-08-10,Pos Settlement,758.11
+2023-08-10,Google Pay,4903.0
+2023-08-11,Google Pay,4742.0
+2023-08-12,Pos Settlement,413.82
+2023-08-12,Google Pay,6236.0
+2023-08-14,Google Pay,13580.0
+2023-08-14,Pos Settlement,1860.72
+2023-08-14,Google Pay,10907.0
+2023-08-15,Google Pay,5994.0
+2023-08-16,Bundl Technologies Pvt Ltd,210.91
+2023-08-16,Bundl Technologies Pvt Ltd Nodal Ac,3686.85
+2023-08-16,Pos Settlement,2619.06
+2023-08-16,Google Pay,5483.0
+2023-08-18,Google Pay,5082.0
+2023-08-18,Pos Settlement,848.3
+2023-08-18,Google Pay,3982.0
+2023-08-19,Google Pay,4716.0
+2023-08-20,Google Pay,7385.0
+2023-08-21,Pos Settlement,4007.14
+2023-08-21,By Cash Br:Cherpulassery/Abafp9102H,7000.0
+2023-08-21,Google Pay,9242.0
+2023-08-22,Google Pay,3436.0
+2023-08-23,Pos Settlement,881.0
+2023-08-23,Bundl Technologies Pvt Ltd,685.74
+2023-08-23,Bundl Technologies Pvt Ltd Nodal Ac,5732.43
+2023-08-23,Google Pay,8201.0
+2023-08-24,Google Pay,7174.0
+2023-08-25,Pos Settlement,1687.67
+2023-08-25,Google Pay,8224.0
+2023-08-26,Pos Settlement,441.99
+2023-08-26,Google Pay,8090.0
+2023-08-27,Google Pay,9907.0
+2023-08-28,Pos Settlement,1831.31
+2023-08-28,Google Pay,8531.0
+2023-08-29,Pos Settlement,724.37
+2023-08-29,Google Pay,11059.0
+2023-08-30,Pos Settlement,1510.78
+2023-08-30,Bundl Technologies Pvt Ltd,1112.11
+2023-08-30,Bundl Technologies Pvt Ltd Nodal Ac,2791.73
+2023-08-30,Google Pay,10247.0
+2023-09-01,Google Pay,9459.0
+2023-09-01,Pos Settlement,1348.17
+2023-09-01,Upi/Esmf/324490759909/Hamzathul Siyad K/Upi/Hdf38Cb5Acccfcb4Bdd9B4261252Be72Fb7/Siyadsiu48-1@O,22000.0
+2023-09-01,Google Pay,11576.0
+2023-09-02,Pos Settlement,147.83
+2023-09-02,Google Pay,21920.0
+2023-09-04,Google Pay,11129.0
+2023-09-04,Pos Settlement,3591.53
+2023-09-04,Bundl Technologies Pvt Ltd,774.67
+2023-09-05,Google Pay,10779.0
+2023-09-05,Google Pay,4896.0
+2023-09-06,Pos Settlement,543.07
+2023-09-06,Bundl Technologies Pvt Ltd Nodal Ac,4740.62
+2023-09-06,Google Pay,9884.0
+2023-09-07,Pos Settlement,1497.18
+2023-09-07,Google Pay,5540.0
+2023-09-08,Google Pay,5676.0
+2023-09-09,Pos Settlement,1439.23
+2023-09-09,Google Pay,17125.0
+2023-09-10,Google Pay,6546.0
+2023-09-11,Pos Settlement,1183.71
+2023-09-11,Google Pay,7279.0
+2023-09-12,Pos Settlement,220.58
+2023-09-12,Google Pay,6180.0
+2023-09-13,Bundl Technologies Pvt Ltd,828.37
+2023-09-13,Bundl Technologies Pvt Ltd Nodal Ac,7089.85
+2023-09-14,Google Pay,5042.0
+2023-09-14,Pos Settlement,689.74
+2023-09-14,Google Pay,7229.0
+2023-09-15,Pos Settlement,1301.18
+2023-09-15,Google Pay,8658.0
+2023-09-16,Pos Settlement,1248.31
+2023-09-16,Google Pay,10504.0
+2023-09-17,Google Pay,12522.0
+2023-09-18,Pos Settlement,2852.2
+2023-09-18,Google Pay,7140.0
+2023-09-19,Pos Settlement,429.44
+2023-09-19,Google Pay,6339.0
+2023-09-20,Pos Settlement,416.22
+2023-09-20,Google Pay,4160.0
+2023-09-21,Pos Settlement,1014.24
+2023-09-21,Bundl Technologies Pvt Ltd,1345.97
+2023-09-21,Bundl Technologies Pvt Ltd Nodal Ac,3680.68
+2023-09-21,Google Pay,10150.0
+2023-09-23,Google Pay,7581.0
+2023-09-23,Pos Settlement,858.58
+2023-09-23,Google Pay,11892.0
+2023-09-24,Google Pay,189.0
+2023-09-24,Google Pay,8363.0
+2023-09-25,Pos Settlement,1382.58
+2023-09-25,By Cash Br:Cherpulassery/Abafp9102H,23000.0
+2023-09-25,Google Pay,6051.0
+2023-09-26,Pos Settlement,2294.16
+2023-09-26,Google Pay,3285.0
+2023-09-27,Pos Settlement,142.0
+2023-09-27,Bundl Technologies Pvt Ltd,1856.02
+2023-09-27,Bundl Technologies Pvt Ltd Nodal Ac,7461.14
+2023-09-27,Google Pay,9674.0
+2023-09-28,Google Pay,6023.0
+2023-09-29,Pos Settlement,1797.67
+2023-09-29,Google Pay,7099.0
+2023-09-30,Google Pay,8695.0
+2023-10-02,Google Pay,9873.0
+2023-10-02,Pos Settlement,2115.75
+2023-10-02,Google Pay,4791.0
+2023-10-03,Pos Settlement,1057.01
+2023-10-03,Google Pay,4696.0
+2023-10-04,Pos Settlement,285.97
+2023-10-04,Bundl Technologies Pvt Ltd Nodal Ac,4412.29
+2023-10-04,Bundl Technologies Pvt Ltd,923.9
+2023-10-04,Google Pay,4965.0
+2023-10-05,Pos Settlement,873.07
+2023-10-05,Google Pay,5420.0
+2023-10-06,Google Pay,7111.0
+2023-10-07,Pos Settlement,629.53
+2023-10-07,Google Pay,9206.0
+2023-10-09,Google Pay,10175.0
+2023-10-09,Pos Settlement,1246.35
+2023-10-09,Google Pay,4664.0
+2023-10-10,Pos Settlement,2023.47
+2023-10-10,Google Pay,4715.0
+2023-10-11,Bundl Technologies Pvt Ltd,1165.78
+2023-10-11,Bundl Technologies Pvt Ltd Nodal Ac,5548.28
+2023-10-11,Google Pay,5270.0
+2023-10-12,Pos Settlement,966.22
+2023-10-12,Google Pay,6029.0
+2023-10-13,Pos Settlement,1035.17
+2023-10-13,Google Pay,6071.0
+2023-10-14,Pos Settlement,899.87
+2023-10-14,Google Pay,8565.0
+2023-10-15,Google Pay,7446.0
+2023-10-16,Pos Settlement,4767.64
+2023-10-16,Google Pay,3306.0
+2023-10-17,Google Pay,7225.0
+2023-10-18,Pos Settlement,2312.74
+2023-10-18,Bundl Technologies Pvt Ltd,644.24
+2023-10-18,Bundl Technologies Pvt Ltd Nodal Ac,6436.94
+2023-10-18,Google Pay,8448.0
+2023-10-19,Google Pay,7413.0
+2023-10-20,Pos Settlement,506.54
+2023-10-20,Google Pay,7508.0
+2023-10-21,Pos Settlement,1194.62
+2023-10-21,Google Pay,19583.0
+2023-10-22,Google Pay,9670.0
+2023-10-22,Google Pay,2420.0
+2023-10-23,Pos Settlement,6478.9
+2023-10-23,Google Pay,13538.0
+2023-10-24,Pos Settlement,1563.6
+2023-10-24,Google Pay,14333.0
+2023-10-25,Pos Settlement,2508.29
+2023-10-25,Bundl Technologies Pvt Ltd,999.38
+2023-10-25,Bundl Technologies Pvt Ltd Nodal Ac,7221.06
+2023-10-25,Google Pay,5852.0
+2023-10-26,Pos Settlement,883.85
+2023-10-26,Google Pay,5137.0
+2023-10-27,Google Pay,4717.0
+2023-10-27,Google Pay,1653.0
+2023-10-28,Pos Settlement,1075.92
+2023-10-28,Google Pay,16550.0
+2023-10-29,Google Pay,6844.0
+2023-10-30,Pos Settlement,878.45
+2023-10-30,Google Pay,2558.0
+2023-10-30,Google Pay,1270.0
+2023-10-31,Pos Settlement,1263.52
+2023-10-31,Google Pay,5672.0
+2023-11-01,Pos Settlement,307.41
+2023-11-01,Bundl Technologies Pvt Ltd,1215.65
+2023-11-01,Bundl Technologies Pvt Ltd Nodal Ac,10194.39
+2023-11-01,Google Pay,9810.0
+2023-11-02,Pos Settlement,917.72
+2023-11-02,Google Pay,8384.0
+2023-11-03,Pos Settlement,742.83
+2023-11-03,Bundl Technologies Pvt Ltd Nodal Ac,3179.12
+2023-11-03,Bundl Technologies Pvt Ltd,498.54
+2023-11-03,Google Pay,10074.0
+2023-11-04,Pos Settlement,703.12
+2023-11-04,Google Pay,8760.0
+2023-11-05,Google Pay,11166.0
+2023-11-06,Pos Settlement,5754.33
+2023-11-06,Google Pay,5416.0
+2023-11-07,Google Pay,6525.0
+2023-11-08,Pos Settlement,695.89
+2023-11-08,Bundl Technologies Pvt Ltd Nodal Ac,2269.49
+2023-11-08,Bundl Technologies Pvt Ltd,421.85
+2023-11-08,Google Pay,7323.0
+2023-11-09,Pos Settlement,569.82
+2023-11-09,Google Pay,4670.0
+2023-11-10,Pos Settlement,836.29
+2023-11-10,Google Pay,5771.0
+2023-11-11,Pos Settlement,999.42
+2023-11-11,Google Pay,24114.0
+2023-11-12,Google Pay,13535.0
+2023-11-13,Pos Settlement,6393.0
+2023-11-13,Google Pay,4010.0
+2023-11-14,Pos Settlement,847.81
+2023-11-14,Google Pay,1759.0
+2023-11-15,Google Pay,3995.0
+2023-11-16,Bundl Technologies Pvt Ltd,1392.06
+2023-11-16,Bundl Technologies Pvt Ltd Nodal Ac,3465.02
+2023-11-16,Google Pay,5030.0
+2023-11-17,Google Pay,7433.0
+2023-11-18,Shajahan Pookodan,435.0
+2023-11-18,Google Pay,12436.0
+2023-11-19,Google Pay,5626.0
+2023-11-20,Pos Settlement,2399.93
+2023-11-20,Google Pay,4378.0
+2023-11-22,Google Pay,5136.0
+2023-11-22,Bundl Technologies Pvt Ltd,931.87
+2023-11-22,Bundl Technologies Pvt Ltd Nodal Ac,5993.65
+2023-11-22,Google Pay,3763.0
+2023-11-23,Pos Settlement,1085.21
+2023-11-23,Google Pay,6187.0
+2023-11-24,Pos Settlement,2098.93
+2023-11-24,Google Pay,7015.0
+2023-11-25,Google Pay,7885.0
+2023-11-26,Google Pay,12291.0
+2023-11-27,Pos Settlement,2713.23
+2023-11-28,Google Pay,5207.0
+2023-11-28,Google Pay,4669.0
+2023-11-29,Pos Settlement,479.9
+2023-11-29,Bundl Technologies Pvt Ltd,613.57
+2023-11-29,Bundl Technologies Pvt Ltd Nodal Ac,5288.29
+2023-11-29,Google Pay,1125.0
+2023-11-29,Google Pay,6770.0
+2023-11-30,Google Pay,4221.0
+2023-12-01,Google Pay,8404.0
+2023-12-02,Pos Settlement,1073.25
+2023-12-02,Google Pay,6580.0
+2023-12-03,Google Pay,6796.0
+2023-12-04,Pos Settlement,2078.5
+2023-12-04,Google Pay,5627.0
+2023-12-05,Bundl Technologies Pvt Ltd,1246.74
+2023-12-05,Bundl Technologies Pvt Ltd Nodal Ac,3572.54
+2023-12-05,Pos Settlement,1053.1
+2023-12-05,Google Pay,6005.0
+2023-12-06,Google Pay,7600.0
+2023-12-07,Pos Settlement,1119.26
+2023-12-07,Google Pay,9580.0
+2023-12-08,Pos Settlement,1007.85
+2023-12-08,Google Pay,5603.0
+2023-12-09,Pos Settlement,446.0
+2023-12-09,Google Pay,10689.0
+2023-12-10,Google Pay,10433.0
+2023-12-11,Pos Settlement,1485.56
+2023-12-11,Google Pay,9035.0
+2023-12-12,Google Pay,7294.0
+2023-12-13,Pos Settlement,924.23
+2023-12-13,Bundl Technologies Pvt Ltd,930.54
+2023-12-13,Bundl Technologies Pvt Ltd Nodal Ac,6658.99
+2023-12-13,Google Pay,9546.0
+2023-12-14,Google Pay,7303.0
+2023-12-15,Google Pay,8568.0
+2023-12-16,Pos Settlement,1650.42
+2023-12-16,Google Pay,14967.0
+2023-12-17,Google Pay,16465.0
+2023-12-18,Pos Settlement,1085.0
+2023-12-18,Google Pay,4296.0
+2023-12-19,Google Pay,3558.0
+2023-12-20,Bundl Technologies Pvt Ltd,981.71
+2023-12-20,Bundl Technologies Pvt Ltd Nodal Ac,6320.65
+2023-12-20,Google Pay,5158.0
+2023-12-21,Pos Settlement,1683.9
+2023-12-21,Google Pay,2385.0
+2023-12-22,Google Pay,7796.0
+2023-12-23,Pos Settlement,6148.8
+2023-12-23,Google Pay,11403.0
+2023-12-24,Google Pay,7925.0
+2023-12-25,Pos Settlement,2273.53
+2023-12-25,Google Pay,17397.0
+2023-12-26,Pos Settlement,4074.97
+2023-12-27,Google Pay,12681.0
+2023-12-27,Pos Settlement,972.15
+2023-12-27,Bundl Technologies Pvt Ltd,1300.01
+2023-12-27,Bundl Technologies Pvt Ltd Nodal Ac,5733.19
+2023-12-27,Google Pay,7777.0
+2023-12-28,Google Pay,3750.0
+2023-12-29,Pos Settlement,598.29
+2023-12-29,Google Pay,10971.0
+2023-12-30,Pos Settlement,410.27
+2023-12-30,Google Pay,12556.0
+2023-12-31,Google Pay,18794.0
+2026-02-01,Google Pay,11365.0
+2026-02-03,Pos Settlement,1986.0
+2026-02-02,Google Pay,3854.0
 2025-02-28,Pos Settlement,284.7
 2025-02-28,Google Pay,4225.0
 2025-03-01,Pos Settlement,728.0
