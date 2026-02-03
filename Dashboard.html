@@ -143,6 +143,11 @@ document.addEventListener("DOMContentLoaded", () => {
             pane.className = "tab-pane fade";
             pane.id = tabId;
             pane.innerHTML = `
+                <div class="d-flex justify-content-end mb-2">
+                    <button class="btn btn-outline-primary btn-sm download-btn" data-tab-id="${tabId}">
+                        Download Filtered CSV
+                    </button>
+                </div>
                 <div class="table-responsive">
                     <table id="${tabId}Table" class="display table table-striped table-bordered"></table>
                 </div>`;
@@ -189,6 +194,36 @@ function filterTabs(groupIndex) {
 
 document.addEventListener("shown.bs.tab", () => {
     Object.values(tableMap).forEach(t => t && t.columns.adjust());
+});
+
+document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".download-btn");
+    if (!btn) return;
+    const tabId = btn.dataset.tabId;
+    const table = tableMap[tabId];
+    if (!table) return;
+
+    const headers = table.columns().header().toArray().map(h => h.textContent.trim());
+    const rows = table.rows({ search: "applied" }).data().toArray();
+
+    const data = rows.map(row => {
+        const obj = {};
+        headers.forEach(h => {
+            obj[h] = row[h] ?? "";
+        });
+        return obj;
+    });
+
+    const csv = Papa.unparse(data);
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${tabId}_filtered.csv`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
 });
 
 async function updateLastRefreshedFromAllCSVs() {
