@@ -128,11 +128,8 @@ function lockDashboard() {
     loginOverlay.classList.remove("hidden");
 }
 
-if (localStorage.getItem("dashboard_authed") === "true") {
-    unlockDashboard();
-} else {
-    lockDashboard();
-}
+// Always show login on page load
+lockDashboard();
 
 loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
