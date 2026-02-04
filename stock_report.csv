@@ -8826,6 +8826,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-01,Mexican Masala,Pkt,2.5,1037.5,0.0,0.0,8.0,3320.0,-5.5,-2282.5
 2026-02,hungritos premium,Kg,52.0,5788.64,0.0,0.0,0.0,0.0,52.0,5788.64
 2026-02,Large Pizza Box,Nos,350.0,5197.5,0.0,0.0,0.0,0.0,350.0,5197.5
+2026-02,dynamic diced mozerella,Kg,0.0,0.0,12.0,5055.72,0.0,0.0,12.0,5055.72
 2026-02,Boneless Chicken,Kg,5.0,1550.0,9.05,2805.5,0.0,0.0,14.0,4355.5
 2026-02,Regular Pizza Box,Nos,400.0,3400.0,0.0,0.0,0.0,0.0,400.0,3400.0
 2026-02,Mexican Masala,Pkt,8.0,3320.0,0.0,0.0,0.0,0.0,8.0,3320.0
@@ -8863,6 +8864,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Blue curacao mojito,Nos,2.7,1162.35,0.0,0.0,0.0,0.0,2.7,1162.35
 2026-02,Butter Scotch Ice-cream,Pkt,1.6,1100.8,0.0,0.0,0.0,0.0,1.6,1100.8
 2026-02,Vanilla Ice-cream 4ltr,Nos,2.0,1088.0,0.0,0.0,0.0,0.0,2.0,1088.0
+2026-02,dynamix butter,Pkt,0.0,0.0,4.0,1078.0,0.0,0.0,4.0,1078.0
 2026-02,Veeba Ketchup Sachet,Nos,1200.0,960.0,0.0,0.0,0.0,0.0,1200.0,960.0
 2026-02,cheesy spread dip,Pkt,3.0,928.14,0.0,0.0,0.0,0.0,3.0,928.14
 2026-02,Berry Fresh Tender Coconut Pulp 2kg,Tin,2.5,925.0,0.0,0.0,0.0,0.0,2.5,925.0
@@ -8871,11 +8873,13 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,red paprika habit,Tin,2.0,790.0,0.0,0.0,0.0,0.0,2.0,790.0
 2026-02,veeba pizza pasta sauce,Pkt,4.0,723.8,0.0,0.0,0.0,0.0,4.0,723.8
 2026-02,Rose lichy crush mojito,Nos,2.0,693.0,0.0,0.0,0.0,0.0,2.0,693.0
+2026-02,CHILLY FLAKES SACHET 0.8GM,Nos,300.0,156.0,1000.0,520.0,0.0,0.0,1300.0,676.0
 2026-02,Oregano Sprinkler 500g,Pkt,2.0,614.0,0.0,0.0,0.0,0.0,2.0,614.0
 2026-02,Paneer,Kg,2.0,580.0,0.0,0.0,0.0,0.0,2.0,580.0
 2026-02,Piri Piri Marinade 1KG,Kg,1.3,578.5,0.0,0.0,0.0,0.0,1.3,578.5
 2026-02,Veeba ThousandIsland Dressing 1KG,Pkt,3.0,549.0,0.0,0.0,0.0,0.0,3.0,549.0
 2026-02,vegetables,Nos,0.0,0.0,10.0,505.0,0.0,0.0,10.0,505.0
+2026-02,sneha chi burgar pattis,Pkt,0.0,0.0,2.0,504.0,0.0,0.0,2.0,504.0
 2026-02,Honey,Kg,2.0,488.0,0.0,0.0,0.0,0.0,2.0,488.0
 2026-02,chicken kheema masala,Kg,0.7,455.0,0.0,0.0,0.0,0.0,0.7,455.0
 2026-02,paneer tikka powder,Kg,0.5,450.0,0.0,0.0,0.0,0.0,0.5,450.0
@@ -8893,16 +8897,17 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Baby Corn Whole-800GM-Tajir Habit,Tin,3.0,336.0,0.0,0.0,0.0,0.0,3.0,336.0
 2026-02,DVC Watermelon Syrup 750 ml,Nos,0.6,311.52,0.0,0.0,0.0,0.0,0.6,311.52
 2026-02,French Fries Box,Nos,50.0,267.5,0.0,0.0,0.0,0.0,50.0,267.5
+2026-02,sneha chi nuggets,Pkt,0.0,0.0,1.0,258.75,0.0,0.0,1.0,258.75
 2026-02,oil,Pkt,2.0,254.0,0.0,0.0,0.0,0.0,2.0,254.0
 2026-02,Berry Fresh Chicku Pulp 2kg,Tin,0.9,252.0,0.0,0.0,0.0,0.0,0.9,252.0
 2026-02,mango crush taste craft,Nos,1.0,246.75,0.0,0.0,0.0,0.0,1.0,246.75
+2026-02,CHICKEN POPCORN,Pkt,0.0,0.0,1.0,225.0,0.0,0.0,1.0,225.0
 2026-02,Mini Burger Box,Nos,80.0,224.0,0.0,0.0,0.0,0.0,80.0,224.0
 2026-02,Dip Bowl,Nos,100.0,200.0,0.0,0.0,0.0,0.0,100.0,200.0
 2026-02,Aromat Seasoning Powder,Pkt,1.0,172.0,0.0,0.0,0.0,0.0,1.0,172.0
 2026-02,milk 28 milma,Nos,6.0,168.0,0.0,0.0,0.0,0.0,6.0,168.0
 2026-02,Corn Meal - MAKKA RAVA,Pkt,3.0,165.0,0.0,0.0,0.0,0.0,3.0,165.0
 2026-02,chilly garlic spread,Pkt,1.0,165.0,0.0,0.0,0.0,0.0,1.0,165.0
-2026-02,CHILLY FLAKES SACHET 0.8GM,Nos,300.0,156.0,0.0,0.0,0.0,0.0,300.0,156.0
 2026-02,dry basil,Pkt,0.9,126.0,0.0,0.0,0.0,0.0,0.9,126.0
 2026-02,milk,Nos,0.0,0.0,4.0,100.0,0.0,0.0,4.0,100.0
 2026-02,egg 8,Nos,10.0,80.0,0.0,0.0,0.0,0.0,10.0,80.0
