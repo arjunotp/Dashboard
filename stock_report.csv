@@ -8875,6 +8875,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Paneer,Kg,2.0,580.0,0.0,0.0,0.0,0.0,2.0,580.0
 2026-02,Piri Piri Marinade 1KG,Kg,1.3,578.5,0.0,0.0,0.0,0.0,1.3,578.5
 2026-02,Veeba ThousandIsland Dressing 1KG,Pkt,3.0,549.0,0.0,0.0,0.0,0.0,3.0,549.0
+2026-02,vegetables,Nos,0.0,0.0,10.0,505.0,0.0,0.0,10.0,505.0
 2026-02,Honey,Kg,2.0,488.0,0.0,0.0,0.0,0.0,2.0,488.0
 2026-02,chicken kheema masala,Kg,0.7,455.0,0.0,0.0,0.0,0.0,0.7,455.0
 2026-02,paneer tikka powder,Kg,0.5,450.0,0.0,0.0,0.0,0.0,0.5,450.0
@@ -8889,7 +8890,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,dynamic cheddar block,Kg,0.7,363.57,0.0,0.0,0.0,0.0,0.7,363.57
 2026-02,Schezwan sauce,Pkt,2.0,350.64,0.0,0.0,0.0,0.0,2.0,350.64
 2026-02,Mayonise premium,Pkt,2.0,345.0,0.0,0.0,0.0,0.0,2.0,345.0
-2026-02,vegetables,Nos,0.0,0.0,6.0,337.0,0.0,0.0,6.0,337.0
 2026-02,Baby Corn Whole-800GM-Tajir Habit,Tin,3.0,336.0,0.0,0.0,0.0,0.0,3.0,336.0
 2026-02,DVC Watermelon Syrup 750 ml,Nos,0.6,311.52,0.0,0.0,0.0,0.0,0.6,311.52
 2026-02,French Fries Box,Nos,50.0,267.5,0.0,0.0,0.0,0.0,50.0,267.5
