@@ -1,4 +1,78 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-03,POS,item,Non Veg Meal For 4,1.0,120.0,120.0
+2026-02-03,POS,item,2 Regular Non-veg@409,1.0,80.0,80.0
+2026-02-03,POS,item,2 Regular Veg@349,1.0,80.0,80.0
+2026-02-03,POS,item,9 Inch - Medium Pizza,6.0,75.0,450.0
+2026-02-03,Swiggy,item,9 Inch - Medium Pizza,1.0,75.0,75.0
+2026-02-03,POS,item,Veg Meal For 2,1.0,75.0,75.0
+2026-02-03,POS,item,7 Inch - Regular Pizza,9.0,40.0,360.0
+2026-02-03,Swiggy,item,7 Inch - Regular Pizza,5.0,40.0,200.0
+2026-02-03,POS,item,Super Saver Meal Regular,2.0,40.0,80.0
+2026-02-03,Swiggy,addon,7 Inch - Regular Pizza -Extra Cheese,1.0,20.0,20.0
+2026-02-03,POS,item,Combo Delight Non-veg,1.0,20.0,20.0
+2026-02-03,POS,item,7up @50rs,1.0,0.0,0.0
+2026-02-03,POS,item,Blue Curacao,1.0,0.0,0.0
+2026-02-03,POS,item,Burger Combo @ 179,1.0,0.0,0.0
+2026-02-03,POS,item,Cheese N Macaroni Salad,1.0,0.0,0.0
+2026-02-03,Swiggy,item,Cheese N Macaroni Salad,1.0,0.0,0.0
+2026-02-03,POS,item,Cheesy Fries,1.0,0.0,0.0
+2026-02-03,Swiggy,item,Chicken Nuggets,1.0,0.0,0.0
+2026-02-03,POS,item,Chikku Shake,6.0,0.0,0.0
+2026-02-03,POS,item,Chilly Potato Shots,1.0,0.0,0.0
+2026-02-03,POS,item,Chocolate Shake,4.0,0.0,0.0
+2026-02-03,POS,item,French Fries,2.0,0.0,0.0
+2026-02-03,POS,item,Grapes Juice,2.0,0.0,0.0
+2026-02-03,POS,item,Mdew 250ml Pet,1.0,0.0,0.0
+2026-02-03,POS,item,Mdew@40rs,1.0,0.0,0.0
+2026-02-03,POS,item,Mineral Water,3.0,0.0,0.0
+2026-02-03,POS,item,Mixed Chicken Salad,1.0,0.0,0.0
+2026-02-03,POS,item,Pepsi 250ml Pet,3.0,0.0,0.0
+2026-02-03,POS,item,Pepsi@50rs,2.0,0.0,0.0
+2026-02-03,POS,item,Pizza Upgrade,1.0,0.0,0.0
+2026-02-03,POS,item,Potato Wedges,1.0,0.0,0.0
+2026-02-03,POS,item,Soft Drink,1.0,0.0,0.0
+2026-02-03,POS,item,Special Discount,0.0,0.0,0.0
+2026-02-03,POS,item,Tender Coconut,2.0,0.0,0.0
+2026-02-03,POS,item,Veg Burger,1.0,0.0,0.0
+2026-02-03,POS,item,Veg Pasta,1.0,0.0,0.0
+2026-02-03,POS,item,Water Melon,1.0,0.0,0.0
+2026-02-03,POS,item,Non Veg Meal For 4,1.0,120.0,120.0
+2026-02-03,POS,item,2 Regular Non-veg@409,1.0,80.0,80.0
+2026-02-03,POS,item,2 Regular Veg@349,1.0,80.0,80.0
+2026-02-03,POS,item,9 Inch - Medium Pizza,6.0,75.0,450.0
+2026-02-03,Swiggy,item,9 Inch - Medium Pizza,1.0,75.0,75.0
+2026-02-03,POS,item,Veg Meal For 2,1.0,75.0,75.0
+2026-02-03,POS,item,7 Inch - Regular Pizza,9.0,40.0,360.0
+2026-02-03,Swiggy,item,7 Inch - Regular Pizza,5.0,40.0,200.0
+2026-02-03,POS,item,Super Saver Meal Regular,2.0,40.0,80.0
+2026-02-03,Swiggy,addon,7 Inch - Regular Pizza -Extra Cheese,1.0,20.0,20.0
+2026-02-03,POS,item,Combo Delight Non-veg,1.0,20.0,20.0
+2026-02-03,POS,item,7up @50rs,1.0,0.0,0.0
+2026-02-03,POS,item,Blue Curacao,1.0,0.0,0.0
+2026-02-03,POS,item,Burger Combo @ 179,1.0,0.0,0.0
+2026-02-03,POS,item,Cheese N Macaroni Salad,1.0,0.0,0.0
+2026-02-03,Swiggy,item,Cheese N Macaroni Salad,1.0,0.0,0.0
+2026-02-03,POS,item,Cheesy Fries,1.0,0.0,0.0
+2026-02-03,Swiggy,item,Chicken Nuggets,1.0,0.0,0.0
+2026-02-03,POS,item,Chikku Shake,6.0,0.0,0.0
+2026-02-03,POS,item,Chilly Potato Shots,1.0,0.0,0.0
+2026-02-03,POS,item,Chocolate Shake,4.0,0.0,0.0
+2026-02-03,POS,item,French Fries,2.0,0.0,0.0
+2026-02-03,POS,item,Grapes Juice,2.0,0.0,0.0
+2026-02-03,POS,item,Mdew 250ml Pet,1.0,0.0,0.0
+2026-02-03,POS,item,Mdew@40rs,1.0,0.0,0.0
+2026-02-03,POS,item,Mineral Water,3.0,0.0,0.0
+2026-02-03,POS,item,Mixed Chicken Salad,1.0,0.0,0.0
+2026-02-03,POS,item,Pepsi 250ml Pet,3.0,0.0,0.0
+2026-02-03,POS,item,Pepsi@50rs,2.0,0.0,0.0
+2026-02-03,POS,item,Pizza Upgrade,1.0,0.0,0.0
+2026-02-03,POS,item,Potato Wedges,1.0,0.0,0.0
+2026-02-03,POS,item,Soft Drink,1.0,0.0,0.0
+2026-02-03,POS,item,Special Discount,0.0,0.0,0.0
+2026-02-03,POS,item,Tender Coconut,2.0,0.0,0.0
+2026-02-03,POS,item,Veg Burger,1.0,0.0,0.0
+2026-02-03,POS,item,Veg Pasta,1.0,0.0,0.0
+2026-02-03,POS,item,Water Melon,1.0,0.0,0.0
 2026-02-02,POS,item,2 Medium Non-veg@759,2.0,150.0,300.0
 2026-02-02,POS,item,2 Regular Non-veg@409,1.0,80.0,80.0
 2026-02-02,POS,item,9 Inch - Medium Pizza,3.0,75.0,225.0
