@@ -120,7 +120,7 @@ const loginForm = document.getElementById("loginForm");
 const loginMessage = document.getElementById("loginMessage");
 
 function unlockDashboard() {
-    loginOverlay.classList.remove("hidden");
+    loginOverlay.classList.add("hidden");
     localStorage.setItem("dashboard_authed", "true");
 }
 
