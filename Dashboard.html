@@ -26,6 +26,15 @@
             background: linear-gradient(to bottom, #d1e7dd, #bcd0c7);
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
         }
+        .tile.restricted {
+            opacity: 0.55;
+            cursor: not-allowed;
+        }
+        .tile.restricted:hover {
+            transform: none;
+            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
 
         .hidden { display: none !important; }
 
@@ -66,6 +75,10 @@
 
 const isAuthed = localStorage.getItem("dashboard_authed") === "true" ||
                  sessionStorage.getItem("dashboard_authed") === "true";
+const currentRole = localStorage.getItem("dashboard_role") ||
+                    sessionStorage.getItem("dashboard_role") ||
+                    "admin";
+const isAuditor = currentRole === "auditor";
 
 if (!isAuthed) {
     window.location.replace("Login.html");
@@ -74,11 +87,39 @@ if (!isAuthed) {
 const logoutBtn = document.getElementById("logoutBtn");
 logoutBtn.addEventListener("click", () => {
     localStorage.removeItem("dashboard_authed");
+    localStorage.removeItem("dashboard_role");
     sessionStorage.removeItem("dashboard_authed");
+    sessionStorage.removeItem("dashboard_role");
     window.location.replace("Login.html");
 });
 
 const tableMap = {};
+const AUDITOR_GROUP_LABEL = "Auditors Section";
+let auditorGroupIndex = -1;
+
+function parseNumericValue(value) {
+    if (value === null || value === undefined) return null;
+    if (typeof value === "number") return Number.isFinite(value) ? value : null;
+
+    const normalized = String(value).trim().replace(/,/g, "");
+    if (!normalized) return null;
+
+    const parsed = Number(normalized);
+    return Number.isFinite(parsed) ? parsed : null;
+}
+
+function isNumericColumn(rows, field) {
+    const populatedValues = rows
+        .map(row => row[field])
+        .filter(value => value !== null && value !== undefined && String(value).trim() !== "");
+
+    if (!populatedValues.length) return false;
+    return populatedValues.every(value => parseNumericValue(value) !== null);
+}
+
+function showAdminOnlyNotification() {
+    window.alert("This section is accessible only to the admin.");
+}
 
 const config = [
     {
@@ -155,11 +196,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const tileContainer = document.getElementById("tile-container");
     const dataTabs = document.getElementById("dataTabs");
     const tabContent = document.getElementById("tab-content");
+    auditorGroupIndex = config.findIndex(group => group.label === AUDITOR_GROUP_LABEL);
 
     config.forEach((group, gIdx) => {
         const col = document.createElement("div");
         col.className = "col-12 col-md-4 mb-3";
-        col.innerHTML = `<div class="tile" onclick="filterTabs(${gIdx})"><h4>${group.label}</h4></div>`;
+        col.innerHTML = `<div class="tile" onclick="handleGroupClick(${gIdx})"><h4>${group.label}</h4></div>`;
+        if (isAuditor && gIdx !== auditorGroupIndex) {
+            col.querySelector(".tile").classList.add("restricted");
+        }
         tileContainer.appendChild(col);
 
         group.subtabs.forEach((sub, sIdx) => {
@@ -168,7 +213,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const li = document.createElement("li");
             li.className = "nav-item hidden";
             li.dataset.group = gIdx;
-            li.innerHTML = `<button class="nav-link" data-bs-toggle="tab" data-bs-target="#${tabId}">${sub.label}</button>`;
+            li.innerHTML = `<button class="nav-link" data-bs-toggle="tab" data-bs-target="#${tabId}" ${isAuditor && gIdx !== auditorGroupIndex ? "disabled" : ""}>${sub.label}</button>`;
             dataTabs.appendChild(li);
 
             const pane = document.createElement("div");
@@ -190,7 +235,34 @@ document.addEventListener("DOMContentLoaded", () => {
                 header: true,
                 skipEmptyLines: true,
                 complete: res => {
-                    const columns = res.meta.fields.map(f => ({ title: f, data: f }));
+                    const numericFields = new Set(
+                        res.meta.fields.filter(field => isNumericColumn(res.data, field))
+                    );
+
+                    const columns = res.meta.fields.map(field => {
+                        if (!numericFields.has(field)) {
+                            return { title: field, data: field };
+                        }
+
+                        return {
+                            title: field,
+                            data: field,
+                            render: (data, type) => {
+                                const numericValue = parseNumericValue(data);
+                                if (numericValue === null) return data ?? "";
+
+                                const hasFraction = Math.abs(numericValue % 1) > Number.EPSILON;
+                                const displayValue = hasFraction
+                                    ? numericValue.toFixed(2)
+                                    : String(Math.trunc(numericValue));
+
+                                if (type === "display" || type === "filter") return displayValue;
+                                if (type === "sort" || type === "type") return numericValue;
+                                return numericValue;
+                            }
+                        };
+                    });
+
                     tableMap[tabId] = $('#' + tabId + 'Table').DataTable({
                         data: res.data,
                         columns,
@@ -203,10 +275,27 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    if (isAuditor && auditorGroupIndex >= 0) {
+        filterTabs(auditorGroupIndex);
+    }
+
     updateLastRefreshedFromAllCSVs();
 });
 
+function handleGroupClick(groupIndex) {
+    if (isAuditor && groupIndex !== auditorGroupIndex) {
+        showAdminOnlyNotification();
+        return;
+    }
+    filterTabs(groupIndex);
+}
+
 function filterTabs(groupIndex) {
+    if (isAuditor && groupIndex !== auditorGroupIndex) {
+        showAdminOnlyNotification();
+        return;
+    }
+
     document.querySelectorAll('#dataTabs li').forEach(li => li.classList.add('hidden'));
     let firstBtn = null;
 
@@ -226,6 +315,17 @@ function filterTabs(groupIndex) {
 
 document.addEventListener("shown.bs.tab", () => {
     Object.values(tableMap).forEach(t => t && t.columns.adjust());
+});
+
+document.addEventListener("click", (e) => {
+    const navBtn = e.target.closest("#dataTabs .nav-link");
+    if (!navBtn) return;
+    const group = Number(navBtn.closest("li")?.dataset.group);
+    if (isAuditor && group !== auditorGroupIndex) {
+        e.preventDefault();
+        e.stopPropagation();
+        showAdminOnlyNotification();
+    }
 });
 
 document.addEventListener("click", (e) => {

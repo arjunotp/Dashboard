@@ -328,7 +328,7 @@
         <section class="brand-pane" aria-hidden="true">
             <div class="brand-header">
                 <img class="logo-mark" src="Loocos%20Logo.png" alt="Loocos logo">
-                <h1 class="brand-title">Loocos Monitor</h1>
+                <h1 class="brand-title">Pizza Pie Land</h1>
                 <p class="brand-copy">Operational dashboard access for finance, inventory, and settlement insights.</p>
             </div>
             <p class="brand-footnote">Authorized users only. Activity may be logged for security and audit purposes.</p>
@@ -367,8 +367,18 @@
     </main>
 
     <script>
-        const ENCODED_USER = "YWRtaW5AbG9vY29zLmNvbQ==";
-        const ENCODED_PASS = "bG9vY29zQDIwMjY=";
+        const CREDENTIALS = [
+            {
+                role: "admin",
+                encodedUser: "YWRtaW5AbG9vY29zLmNvbQ==",
+                encodedPass: "bG9vY29zQDIwMjY="
+            },
+            {
+                role: "auditor",
+                encodedUser: "YXVkaXRvckBsb29jb3MuY29t",
+                encodedPass: "YXVkaXRvckAyMDI2"
+            }
+        ];
         const loginForm = document.getElementById("loginForm");
         const loginMessage = document.getElementById("loginMessage");
         const rememberSession = document.getElementById("rememberSession");
@@ -392,17 +402,23 @@
 
             const email = document.getElementById("loginEmail").value.trim();
             const password = document.getElementById("loginPassword").value;
+            const encodedEmail = btoa(email);
+            const encodedPassword = btoa(password);
+            const matchedCredential = CREDENTIALS.find(cred =>
+                cred.encodedUser === encodedEmail && cred.encodedPass === encodedPassword
+            );
 
-            const userOk = btoa(email) === ENCODED_USER;
-            const passOk = btoa(password) === ENCODED_PASS;
-
-            if (userOk && passOk) {
+            if (matchedCredential) {
                 if (rememberSession.checked) {
                     localStorage.setItem("dashboard_authed", "true");
+                    localStorage.setItem("dashboard_role", matchedCredential.role);
                     sessionStorage.removeItem("dashboard_authed");
+                    sessionStorage.removeItem("dashboard_role");
                 } else {
                     sessionStorage.setItem("dashboard_authed", "true");
+                    sessionStorage.setItem("dashboard_role", matchedCredential.role);
                     localStorage.removeItem("dashboard_authed");
+                    localStorage.removeItem("dashboard_role");
                 }
                 showMessage("Login successful. Redirecting...", "success");
                 window.setTimeout(() => {
@@ -410,7 +426,9 @@
                 }, 200);
             } else {
                 localStorage.removeItem("dashboard_authed");
+                localStorage.removeItem("dashboard_role");
                 sessionStorage.removeItem("dashboard_authed");
+                sessionStorage.removeItem("dashboard_role");
                 showMessage("Invalid email or password.", "error");
             }
         });
