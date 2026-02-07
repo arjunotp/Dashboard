@@ -64,13 +64,17 @@
 
 <script>
 
-if (localStorage.getItem("dashboard_authed") !== "true") {
+const isAuthed = localStorage.getItem("dashboard_authed") === "true" ||
+                 sessionStorage.getItem("dashboard_authed") === "true";
+
+if (!isAuthed) {
     window.location.replace("Login.html");
 }
 
 const logoutBtn = document.getElementById("logoutBtn");
 logoutBtn.addEventListener("click", () => {
     localStorage.removeItem("dashboard_authed");
+    sessionStorage.removeItem("dashboard_authed");
     window.location.replace("Login.html");
 });
 
