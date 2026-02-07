@@ -8836,6 +8836,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,dynamic diced mozerella,Kg,0.0,0.0,12.0,5055.72,0.0,0.0,12.0,5055.72
 2026-02,Mexican Masala,Pkt,11.0,4565.0,0.0,0.0,0.0,0.0,11.0,4565.0
 2026-02,Gas-LPG-HPCL,Nos,2.5,4325.0,0.0,0.0,0.0,0.0,2.5,4325.0
+2026-02,G.Crown Mushroom Slice 800g,Tin,13.0,1339.0,24.0,2472.0,0.0,0.0,37.0,3811.0
 2026-02,Medium Pizza Box,Nos,373.0,3730.0,0.0,0.0,0.0,0.0,373.0,3730.0
 2026-02,Regular Pizza Box,Nos,406.0,3451.0,0.0,0.0,0.0,0.0,406.0,3451.0
 2026-02,grocery,Nos,0.0,0.0,22.0,3198.94,0.0,0.0,22.0,3198.94
@@ -8863,7 +8864,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,DVC Green Apple 750 ML,Nos,3.0,1380.0,0.0,0.0,0.0,0.0,3.0,1380.0
 2026-02,7UP 750ml Pet,Nos,16.0,549.92,24.0,824.88,0.0,0.0,40.0,1374.8
 2026-02,Lamp Pepperoni,Kg,1.5,1342.5,0.0,0.0,0.0,0.0,1.5,1342.5
-2026-02,G.Crown Mushroom Slice 800g,Tin,13.0,1339.0,0.0,0.0,0.0,0.0,13.0,1339.0
 2026-02,Chocolate Ice-cream 4ltr,Nos,1.6,1305.6,0.0,0.0,0.0,0.0,1.6,1305.6
 2026-02,Processed cheese block,Kg,2.5,1299.38,0.0,0.0,0.0,0.0,2.5,1299.38
 2026-02,chicken pepperoni,Kg,1.5,1297.5,0.0,0.0,0.0,0.0,1.5,1297.5
@@ -8889,6 +8889,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,vegetables,Nos,0.0,0.0,16.0,838.0,0.0,0.0,16.0,838.0
 2026-02,HABIT JALAPENO SLICES 2.9 KG,Tin,3.0,834.0,0.0,0.0,0.0,0.0,3.0,834.0
 2026-02,staff rice 26kg,Kg,15.0,810.0,0.0,0.0,0.0,0.0,15.0,810.0
+2026-02,Puramate Pasta-Penne Rigatte 500g,Pkt,6.0,402.0,6.0,402.0,0.0,0.0,12.0,804.0
 2026-02,red paprika habit,Tin,2.0,790.0,0.0,0.0,0.0,0.0,2.0,790.0
 2026-02,ENGLISH vegetables,Nos,3.0,772.5,0.0,0.0,0.0,0.0,3.0,772.5
 2026-02,Chicken burger pattis,Pkt,3.0,756.0,0.0,0.0,0.0,0.0,3.0,756.0
@@ -8920,12 +8921,13 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,coffee mocha syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
 2026-02,salted cookies syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
 2026-02,Honey mustard dressing,Pkt,2.0,423.74,0.0,0.0,0.0,0.0,2.0,423.74
-2026-02,Puramate Pasta-Penne Rigatte 500g,Pkt,6.0,402.0,0.0,0.0,0.0,0.0,6.0,402.0
+2026-02,tomato ketchup 1.2 bottle,Nos,0.0,0.0,4.0,400.0,0.0,0.0,4.0,400.0
 2026-02,Veeba T. Ketchup 1.2KG,Nos,3.5,367.5,0.0,0.0,0.0,0.0,3.5,367.5
 2026-02,dynamic cheddar block,Kg,0.7,363.57,0.0,0.0,0.0,0.0,0.7,363.57
 2026-02,Slice Mango 200ml pet,Nos,20.0,353.4,0.0,0.0,0.0,0.0,20.0,353.4
 2026-02,Schezwan sauce,Pkt,2.0,350.64,0.0,0.0,0.0,0.0,2.0,350.64
 2026-02,Mayonise premium,Pkt,2.0,345.0,0.0,0.0,0.0,0.0,2.0,345.0
+2026-02,Aromat Seasoning Powder,Pkt,1.0,172.0,1.0,172.0,0.0,0.0,2.0,344.0
 2026-02,Baby Corn Whole-800GM-Tajir Habit,Tin,3.0,336.0,0.0,0.0,0.0,0.0,3.0,336.0
 2026-02,DVC Watermelon Syrup 750 ml,Nos,0.6,311.52,0.0,0.0,0.0,0.0,0.6,311.52
 2026-02,milk choco 180 ml,Nos,0.0,0.0,12.0,288.0,0.0,0.0,12.0,288.0
@@ -8941,10 +8943,10 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Veg burger pattis,Pkt,1.0,225.0,0.0,0.0,0.0,0.0,1.0,225.0
 2026-02,Mini Burger Box,Nos,80.0,224.0,0.0,0.0,0.0,0.0,80.0,224.0
 2026-02,chilly flake sachet,Nos,390.0,202.8,0.0,0.0,0.0,0.0,390.0,202.8
+2026-02,Puramate Pasta-Gomiti Rigate - macroni - 500g,Pkt,1.0,67.0,2.0,134.0,0.0,0.0,3.0,201.0
 2026-02,Dip Bowl,Nos,100.0,200.0,0.0,0.0,0.0,0.0,100.0,200.0
 2026-02,Tissue,Pkt,10.0,180.0,0.0,0.0,0.0,0.0,10.0,180.0
 2026-02,garlic,Kg,0.0,0.0,1.0,180.0,0.0,0.0,1.0,180.0
-2026-02,Aromat Seasoning Powder,Pkt,1.0,172.0,0.0,0.0,0.0,0.0,1.0,172.0
 2026-02,milk 28 milma,Nos,6.0,168.0,0.0,0.0,0.0,0.0,6.0,168.0
 2026-02,Corn Meal - MAKKA RAVA,Pkt,3.0,165.0,0.0,0.0,0.0,0.0,3.0,165.0
 2026-02,chilly garlic spread,Pkt,1.0,165.0,0.0,0.0,0.0,0.0,1.0,165.0
@@ -8955,7 +8957,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,egg 8,Nos,10.0,80.0,0.0,0.0,0.0,0.0,10.0,80.0
 2026-02,ice cube/80,Pkt,1.0,80.0,0.0,0.0,0.0,0.0,1.0,80.0
 2026-02,7up can 300ml,Nos,2.0,68.58,0.0,0.0,0.0,0.0,2.0,68.58
-2026-02,Puramate Pasta-Gomiti Rigate - macroni - 500g,Pkt,1.0,67.0,0.0,0.0,0.0,0.0,1.0,67.0
 2026-02,Green Peas,Pkt,0.7,59.5,0.0,0.0,0.0,0.0,0.7,59.5
 2026-02,chilly flakes 500 gm,Pkt,0.3,58.5,0.0,0.0,0.0,0.0,0.3,58.5
 2026-02,straw,Pkt,1.0,40.0,0.0,0.0,0.0,0.0,1.0,40.0
