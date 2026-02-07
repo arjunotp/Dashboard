@@ -1,4 +1,26 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-06,POS,item,9 Inch - Medium Pizza,9.0,75.0,675.0
+2026-02-06,Swiggy,item,9 Inch - Medium Pizza,1.0,75.0,75.0
+2026-02-06,POS,item,7 Inch - Regular Pizza,3.0,40.0,120.0
+2026-02-06,POS,item,Garlic Bread With Cheese,3.0,40.0,120.0
+2026-02-06,POS,item,Super Saver Meal Regular,1.0,40.0,40.0
+2026-02-06,POS,addon,7 Inch - Regular Pizza -Extra Cheese,1.0,20.0,20.0
+2026-02-06,POS,item,Combo Delight Non-veg,1.0,20.0,20.0
+2026-02-06,POS,item,7up @50rs,1.0,0.0,0.0
+2026-02-06,POS,item,Blue Mojito,2.0,0.0,0.0
+2026-02-06,POS,item,Cheesy Fries,1.0,0.0,0.0
+2026-02-06,POS,item,Chicken Pasta,2.0,0.0,0.0
+2026-02-06,POS,item,Chikku Shake,3.0,0.0,0.0
+2026-02-06,POS,item,Chocolate Shake,1.0,0.0,0.0
+2026-02-06,POS,item,French Fries,2.0,0.0,0.0
+2026-02-06,POS,item,Fresh Garden Mint,1.0,0.0,0.0
+2026-02-06,POS,item,Green Apple,1.0,0.0,0.0
+2026-02-06,POS,item,Loaded Fries,2.0,0.0,0.0
+2026-02-06,POS,item,Mineral Water,1.0,0.0,0.0
+2026-02-06,POS,item,Mint Lime Juice,6.0,0.0,0.0
+2026-02-06,POS,item,Pepsi@40rs,2.0,0.0,0.0
+2026-02-06,POS,item,Regular Chicken Burger,3.0,0.0,0.0
+2026-02-06,POS,item,Veg Pasta,1.0,0.0,0.0
 2026-02-05,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
 2026-02-05,POS,item,12 Inch - Large Pizza,3.0,120.0,360.0
 2026-02-05,POS,item,Non Veg Meal For 4,1.0,120.0,120.0
