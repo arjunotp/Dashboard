@@ -8831,9 +8831,9 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-01,Chicken Kheema  Masala,Kg,0.0,0.0,0.0,0.0,3.0,1950.0,-3.0,-1950.0
 2026-01,Mexican Masala,Pkt,2.5,1037.5,0.0,0.0,11.0,4565.0,-8.5,-3527.5
 2026-02,Gas-LPG-HPCL,Nos,2.5,4325.0,2.0,3560.0,0.0,0.0,4.5,7885.0
+2026-02,Boneless Chicken,Kg,5.0,1550.0,16.7,5065.51,0.0,0.0,22.0,6615.51
 2026-02,hungritos premium,Kg,52.0,5788.64,0.0,0.0,0.0,0.0,52.0,5788.64
 2026-02,Large Pizza Box,Nos,362.0,5375.7,0.0,0.0,0.0,0.0,362.0,5375.7
-2026-02,Boneless Chicken,Kg,5.0,1550.0,11.8,3630.5,0.0,0.0,17.0,5180.5
 2026-02,dynamic diced mozerella,Kg,0.0,0.0,12.0,5055.72,0.0,0.0,12.0,5055.72
 2026-02,Mexican Masala,Pkt,11.0,4565.0,0.0,0.0,0.0,0.0,11.0,4565.0
 2026-02,G.Crown Mushroom Slice 800g,Tin,13.0,1339.0,24.0,2472.0,0.0,0.0,37.0,3811.0
@@ -8884,6 +8884,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Dew 250ml Pet,Nos,21.0,367.5,30.0,525.0,0.0,0.0,51.0,892.5
 2026-02,pepsi 1 ltr,Nos,20.0,886.8,0.0,0.0,0.0,0.0,20.0,886.8
 2026-02,Tropicana Guava Delight 500ml,Nos,11.0,275.88,24.0,601.92,0.0,0.0,35.0,877.8
+2026-02,Paneer,Kg,2.0,580.0,1.0,290.0,0.0,0.0,3.0,870.0
 2026-02,7up 250ml Pet,Nos,19.0,332.5,30.0,525.0,0.0,0.0,49.0,857.5
 2026-02,Berry Fresh Chicku Pulp,Nos,0.0,0.0,3.0,840.0,0.0,0.0,3.0,840.0
 2026-02,vegetables,Nos,0.0,0.0,16.0,838.0,0.0,0.0,16.0,838.0
@@ -8892,6 +8893,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Puramate Pasta-Penne Rigatte 500g,Pkt,6.0,402.0,6.0,402.0,0.0,0.0,12.0,804.0
 2026-02,red paprika habit,Tin,2.0,790.0,0.0,0.0,0.0,0.0,2.0,790.0
 2026-02,ENGLISH vegetables,Nos,3.0,772.5,0.0,0.0,0.0,0.0,3.0,772.5
+2026-02,Butter,Kg,0.0,0.0,2.0,760.0,0.0,0.0,2.0,760.0
 2026-02,Chicken burger pattis,Pkt,3.0,756.0,0.0,0.0,0.0,0.0,3.0,756.0
 2026-02,Lehar Soda,Nos,51.0,755.82,0.0,0.0,0.0,0.0,51.0,755.82
 2026-02,Pepsi 750ml Pet,Nos,22.0,756.14,0.0,0.0,0.0,0.0,22.0,756.14
@@ -8906,7 +8908,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Zippy Chicken Salami,Pkt,2.0,618.0,0.0,0.0,0.0,0.0,2.0,618.0
 2026-02,Oregano Sprinkler 500g,Pkt,2.0,614.0,0.0,0.0,0.0,0.0,2.0,614.0
 2026-02,bio covers,Kg,4.6,598.0,0.0,0.0,0.0,0.0,4.6,598.0
-2026-02,Paneer,Kg,2.0,580.0,0.0,0.0,0.0,0.0,2.0,580.0
 2026-02,Piri Piri Marinade 1KG,Kg,1.3,578.5,0.0,0.0,0.0,0.0,1.3,578.5
 2026-02,Butter,Pkt,3.0,570.0,0.0,0.0,0.0,0.0,3.0,570.0
 2026-02,sneha chi nuggets,Pkt,1.2,310.5,1.0,258.75,0.0,0.0,2.2,569.25
