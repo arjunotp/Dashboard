@@ -1,4 +1,79 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-08,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
+2026-02-08,POS,item,12 Inch - Large Pizza,2.0,120.0,240.0
+2026-02-08,POS,item,9 Inch - Medium Pizza,11.0,75.0,825.0
+2026-02-08,Swiggy,item,9 Inch - Medium Pizza,2.0,75.0,150.0
+2026-02-08,POS,item,Super Saver Meal Medium,1.0,75.0,75.0
+2026-02-08,POS,item,7 Inch - Regular Pizza,12.0,40.0,480.0
+2026-02-08,Swiggy,item,7 Inch - Regular Pizza,1.0,40.0,40.0
+2026-02-08,POS,item,Delicious Combo Delight Regular,1.0,40.0,40.0
+2026-02-08,Swiggy,addon,9 Inch - Medium Pizza -Extra Cheese,1.0,38.0,38.0
+2026-02-08,POS,item,Combo Delight Non-veg,1.0,20.0,20.0
+2026-02-08,Swiggy,item,Blue Mojito,1.0,0.0,0.0
+2026-02-08,POS,item,Brownie,2.0,0.0,0.0
+2026-02-08,POS,item,Brownie With Ice Cream,1.0,0.0,0.0
+2026-02-08,POS,item,Burger Combo @ 169,1.0,0.0,0.0
+2026-02-08,POS,item,Burger Combo @ 179,1.0,0.0,0.0
+2026-02-08,POS,item,Cheese N Macaroni Salad,1.0,0.0,0.0
+2026-02-08,POS,item,Cheesy Fries,1.0,0.0,0.0
+2026-02-08,POS,item,Chicken Nuggets,2.0,0.0,0.0
+2026-02-08,POS,item,Chicken Nuggets Burger,2.0,0.0,0.0
+2026-02-08,POS,item,Chicken Pasta,9.0,0.0,0.0
+2026-02-08,POS,item,Chicken Popcorn,1.0,0.0,0.0
+2026-02-08,POS,item,Chikku Shake,1.0,0.0,0.0
+2026-02-08,POS,item,Chocolate Shake,1.0,0.0,0.0
+2026-02-08,POS,item,Coleslaw Salad,1.0,0.0,0.0
+2026-02-08,POS,item,French Fries,4.0,0.0,0.0
+2026-02-08,POS,item,Grapes Juice,1.0,0.0,0.0
+2026-02-08,POS,item,Greek Salad,1.0,0.0,0.0
+2026-02-08,POS,item,Green Apple,2.0,0.0,0.0
+2026-02-08,POS,item,Hot Garlic Dip,1.0,0.0,0.0
+2026-02-08,POS,item,Loaded Fries,1.0,0.0,0.0
+2026-02-08,POS,item,Nutty Vanilla,1.0,0.0,0.0
+2026-02-08,POS,item,Passion Fruit,1.0,0.0,0.0
+2026-02-08,POS,item,Pepsi 250ml Can,1.0,0.0,0.0
+2026-02-08,POS,item,Pepsi 250ml Pet,1.0,0.0,0.0
+2026-02-08,POS,item,Pineapple Juice,1.0,0.0,0.0
+2026-02-08,POS,item,Regular Chicken Burger,4.0,0.0,0.0
+2026-02-08,POS,item,Soft Drink,1.0,0.0,0.0
+2026-02-08,POS,item,Tender Coconut,2.0,0.0,0.0
+2026-02-08,POS,item,Veg Burger,1.0,0.0,0.0
+2026-02-08,POS,item,Veg Pasta,1.0,0.0,0.0
+2026-02-08,POS,item,Water Melon,1.0,0.0,0.0
+2026-02-07,POS,item,2 Medium Non-veg@759,2.0,150.0,300.0
+2026-02-07,POS,item,12 Inch - Large Pizza,2.0,120.0,240.0
+2026-02-07,Swiggy,item,12 Inch - Large Pizza,1.0,120.0,120.0
+2026-02-07,POS,item,2 Regular Non-veg@409,3.0,80.0,240.0
+2026-02-07,POS,item,9 Inch - Medium Pizza,5.0,75.0,375.0
+2026-02-07,POS,item,Non Veg Meal For 2,1.0,75.0,75.0
+2026-02-07,POS,item,Super Saver Meal Medium,2.0,75.0,150.0
+2026-02-07,POS,item,7 Inch - Regular Pizza,12.0,40.0,480.0
+2026-02-07,POS,item,Garlic Bread Supreme[non-veg],2.0,40.0,80.0
+2026-02-07,Swiggy,item,Garlic Bread Supreme[non-veg],1.0,40.0,40.0
+2026-02-07,POS,item,Garlic Bread With Cheese,1.0,40.0,40.0
+2026-02-07,POS,item,Super Saver Meal Regular,3.0,40.0,120.0
+2026-02-07,POS,addon,7 Inch - Regular Pizza -Extra Cheese,1.0,20.0,20.0
+2026-02-07,POS,item,Combo Delight Non-veg,1.0,20.0,20.0
+2026-02-07,POS,item,Brownie With Ice Cream,1.0,0.0,0.0
+2026-02-07,POS,item,Burger Combo @ 169,1.0,0.0,0.0
+2026-02-07,POS,item,Burger Combo @ 179,1.0,0.0,0.0
+2026-02-07,POS,item,Chicken Pasta,3.0,0.0,0.0
+2026-02-07,POS,item,Chikku Shake,1.0,0.0,0.0
+2026-02-07,POS,item,French Fries,3.0,0.0,0.0
+2026-02-07,POS,item,Fresh Garden Mint,2.0,0.0,0.0
+2026-02-07,POS,item,Garlic Bread,1.0,0.0,0.0
+2026-02-07,POS,item,Green Apple,1.0,0.0,0.0
+2026-02-07,POS,item,Loaded Fries,3.0,0.0,0.0
+2026-02-07,POS,item,Mdew 250ml Pet,1.0,0.0,0.0
+2026-02-07,POS,item,Mint Lime Juice,2.0,0.0,0.0
+2026-02-07,POS,item,Mixed Chicken Salad,2.0,0.0,0.0
+2026-02-07,POS,item,Pepsi 250ml Pet,2.0,0.0,0.0
+2026-02-07,POS,item,Pepsi@40rs,1.0,0.0,0.0
+2026-02-07,POS,item,Peri Peri Dip,1.0,0.0,0.0
+2026-02-07,POS,item,Pizza Upgrade,1.0,0.0,0.0
+2026-02-07,POS,item,Regular Chicken Burger,7.0,0.0,0.0
+2026-02-07,POS,item,Veg Pasta,1.0,0.0,0.0
+2026-02-07,POS,item,Watermelon Juice,1.0,0.0,0.0
 2026-02-06,POS,item,9 Inch - Medium Pizza,9.0,75.0,675.0
 2026-02-06,Swiggy,item,9 Inch - Medium Pizza,1.0,75.0,75.0
 2026-02-06,POS,item,7 Inch - Regular Pizza,3.0,40.0,120.0
