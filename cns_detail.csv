@@ -1,4 +1,30 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-09,POS,item,2 Medium Non-veg@759,2.0,150.0,300.0
+2026-02-09,POS,item,12 Inch - Large Pizza,3.0,120.0,360.0
+2026-02-09,POS,item,2 Regular Non-veg@409,2.0,80.0,160.0
+2026-02-09,POS,item,2 Regular Veg@349,1.0,80.0,80.0
+2026-02-09,POS,item,9 Inch - Medium Pizza,5.0,75.0,375.0
+2026-02-09,POS,item,Super Saver Meal Medium,1.0,75.0,75.0
+2026-02-09,POS,item,7 Inch - Regular Pizza,13.0,40.0,520.0
+2026-02-09,Swiggy,item,7 Inch - Regular Pizza,3.0,40.0,120.0
+2026-02-09,POS,item,Super Saver Meal Regular,1.0,40.0,40.0
+2026-02-09,POS,addon,7 Inch - Regular Pizza -Extra Cheese,1.0,20.0,20.0
+2026-02-09,POS,item,7up 250ml Pet,1.0,0.0,0.0
+2026-02-09,POS,item,Blue Mojito,1.0,0.0,0.0
+2026-02-09,Swiggy,item,Chicken Nuggets,2.0,0.0,0.0
+2026-02-09,POS,item,Chicken Pasta,2.0,0.0,0.0
+2026-02-09,POS,item,Chocolate Shake,2.0,0.0,0.0
+2026-02-09,POS,item,French Fries,3.0,0.0,0.0
+2026-02-09,POS,item,Fresh Lime Juice,2.0,0.0,0.0
+2026-02-09,POS,item,Garlic Bread,2.0,0.0,0.0
+2026-02-09,POS,item,Grapes Juice,5.0,0.0,0.0
+2026-02-09,POS,item,Loaded Fries,2.0,0.0,0.0
+2026-02-09,POS,item,Mdew@40rs,1.0,0.0,0.0
+2026-02-09,POS,item,Passion Fruit,1.0,0.0,0.0
+2026-02-09,POS,item,Pepsi 250ml Pet,1.0,0.0,0.0
+2026-02-09,POS,item,Pepsi@40rs,2.0,0.0,0.0
+2026-02-09,POS,item,Regular Chicken Burger,2.0,0.0,0.0
+2026-02-09,POS,item,Veg Pasta,2.0,0.0,0.0
 2026-02-08,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
 2026-02-08,POS,item,12 Inch - Large Pizza,2.0,120.0,240.0
 2026-02-08,POS,item,9 Inch - Medium Pizza,11.0,75.0,825.0
