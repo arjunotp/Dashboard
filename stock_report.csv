@@ -8830,11 +8830,11 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-01,veg fruit grocery,Nos,0.0,0.0,0.0,0.0,5.0,1880.0,-5.0,-1880.0
 2026-01,Chicken Kheema  Masala,Kg,0.0,0.0,0.0,0.0,3.0,1950.0,-3.0,-1950.0
 2026-01,Mexican Masala,Pkt,2.5,1037.5,0.0,0.0,11.0,4565.0,-8.5,-3527.5
+2026-02,dynamic diced mozerella,Kg,0.0,0.0,24.0,10111.44,0.0,0.0,24.0,10111.44
 2026-02,Gas-LPG-HPCL,Nos,2.5,4325.0,2.0,3560.0,0.0,0.0,4.5,7885.0
 2026-02,Boneless Chicken,Kg,5.0,1550.0,16.7,5065.51,0.0,0.0,22.0,6615.51
 2026-02,hungritos premium,Kg,52.0,5788.64,0.0,0.0,0.0,0.0,52.0,5788.64
 2026-02,Large Pizza Box,Nos,362.0,5375.7,0.0,0.0,0.0,0.0,362.0,5375.7
-2026-02,dynamic diced mozerella,Kg,0.0,0.0,12.0,5055.72,0.0,0.0,12.0,5055.72
 2026-02,Mexican Masala,Pkt,11.0,4565.0,0.0,0.0,0.0,0.0,11.0,4565.0
 2026-02,prince maida 50kg,Kg,40.0,1792.0,50.0,2240.0,0.0,0.0,90.0,4032.0
 2026-02,grocery,Nos,0.0,0.0,30.0,4008.94,0.0,0.0,30.0,4008.94
@@ -8843,12 +8843,14 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Regular Pizza Box,Nos,406.0,3451.0,0.0,0.0,0.0,0.0,406.0,3451.0
 2026-02,Herb Mix Masla,Kg,7.1,3166.6,0.0,0.0,0.0,0.0,7.1,3166.6
 2026-02,Tandoori mix Masala,Kg,7.0,2905.0,0.0,0.0,0.0,0.0,7.0,2905.0
+2026-02,veeba pizza pasta sauce,Pkt,4.0,723.8,12.0,2171.4,0.0,0.0,16.0,2895.2
 2026-02,oil,Pkt,2.0,254.0,20.0,2610.0,0.0,0.0,22.0,2864.0
 2026-02,BBQ Mix Masala,Pkt,5.6,2604.0,0.0,0.0,0.0,0.0,5.6,2604.0
 2026-02,Richs versatie cream,Pkt,12.0,2256.0,0.0,0.0,0.0,0.0,12.0,2256.0
 2026-02,Veeba Eggless Mayonise Chef 1KG,Pkt,16.0,2249.6,0.0,0.0,0.0,0.0,16.0,2249.6
 2026-02,Pasta Container Black,Nos,242.0,2165.9,0.0,0.0,0.0,0.0,242.0,2165.9
 2026-02,Garlic Bread Box,Nos,284.0,2130.0,0.0,0.0,0.0,0.0,284.0,2130.0
+2026-02,Veeba Ketchup Sachet,Nos,1400.0,1120.0,1200.0,960.0,0.0,0.0,2600.0,2080.0
 2026-02,Chicken Kheema  Masala,Kg,3.0,1950.0,0.0,0.0,0.0,0.0,3.0,1950.0
 2026-02,Pizza sauce premix,Kg,5.8,1885.0,0.0,0.0,0.0,0.0,5.8,1885.0
 2026-02,veg fruit grocery,Nos,5.0,1880.0,0.0,0.0,0.0,0.0,5.0,1880.0
@@ -8876,11 +8878,11 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Strawberry-Ice cream,Nos,1.9,1195.1,0.0,0.0,0.0,0.0,1.9,1195.1
 2026-02,vegetables,Nos,0.0,0.0,22.5,1180.35,0.0,0.0,23.0,1180.35
 2026-02,Blue curacao mojito,Nos,2.7,1162.35,0.0,0.0,0.0,0.0,2.7,1162.35
-2026-02,Veeba Ketchup Sachet,Nos,1400.0,1120.0,0.0,0.0,0.0,0.0,1400.0,1120.0
 2026-02,Butter Scotch Ice-cream,Pkt,1.6,1100.8,0.0,0.0,0.0,0.0,1.6,1100.8
 2026-02,Vanilla Ice-cream 4ltr,Nos,2.0,1088.0,0.0,0.0,0.0,0.0,2.0,1088.0
 2026-02,dynamix butter,Pkt,0.0,0.0,4.0,1078.0,0.0,0.0,4.0,1078.0
 2026-02,Dew 750ml Pet,Nos,7.0,240.59,24.0,824.88,0.0,0.0,31.0,1065.47
+2026-02,Chicken burger pattis,Pkt,3.0,756.0,1.0,252.0,0.0,0.0,4.0,1008.0
 2026-02,cheesy spread dip,Pkt,3.0,928.14,0.0,0.0,0.0,0.0,3.0,928.14
 2026-02,Berry Fresh Tender Coconut Pulp 2kg,Tin,2.5,925.0,0.0,0.0,0.0,0.0,2.5,925.0
 2026-02,Dew 250ml Pet,Nos,21.0,367.5,30.0,525.0,0.0,0.0,51.0,892.5
@@ -8890,16 +8892,15 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,7up 250ml Pet,Nos,19.0,332.5,30.0,525.0,0.0,0.0,49.0,857.5
 2026-02,Berry Fresh Chicku Pulp,Nos,0.0,0.0,3.0,840.0,0.0,0.0,3.0,840.0
 2026-02,HABIT JALAPENO SLICES 2.9 KG,Tin,3.0,834.0,0.0,0.0,0.0,0.0,3.0,834.0
+2026-02,sneha chi nuggets,Pkt,1.2,310.5,2.0,517.5,0.0,0.0,3.2,828.0
 2026-02,staff rice 26kg,Kg,15.0,810.0,0.0,0.0,0.0,0.0,15.0,810.0
 2026-02,Puramate Pasta-Penne Rigatte 500g,Pkt,6.0,402.0,6.0,402.0,0.0,0.0,12.0,804.0
 2026-02,red paprika habit,Tin,2.0,790.0,0.0,0.0,0.0,0.0,2.0,790.0
 2026-02,ENGLISH vegetables,Nos,3.0,772.5,0.0,0.0,0.0,0.0,3.0,772.5
 2026-02,Butter,Kg,0.0,0.0,2.0,760.0,0.0,0.0,2.0,760.0
-2026-02,Chicken burger pattis,Pkt,3.0,756.0,0.0,0.0,0.0,0.0,3.0,756.0
 2026-02,Lehar Soda,Nos,51.0,755.82,0.0,0.0,0.0,0.0,51.0,755.82
 2026-02,Pepsi 750ml Pet,Nos,22.0,756.14,0.0,0.0,0.0,0.0,22.0,756.14
 2026-02,Berry Fresh Tender Coconut Pulp,Nos,0.0,0.0,2.0,740.0,0.0,0.0,2.0,740.0
-2026-02,veeba pizza pasta sauce,Pkt,4.0,723.8,0.0,0.0,0.0,0.0,4.0,723.8
 2026-02,7up 1 ltr,Nos,16.0,709.44,0.0,0.0,0.0,0.0,16.0,709.44
 2026-02,Rose lichy crush mojito,Nos,2.0,693.0,0.0,0.0,0.0,0.0,2.0,693.0
 2026-02,CHILLY FLAKES SACHET 0.8GM,Nos,300.0,156.0,1000.0,520.0,0.0,0.0,1300.0,676.0
@@ -8911,8 +8912,8 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,bio covers,Kg,4.6,598.0,0.0,0.0,0.0,0.0,4.6,598.0
 2026-02,Piri Piri Marinade 1KG,Kg,1.3,578.5,0.0,0.0,0.0,0.0,1.3,578.5
 2026-02,Butter,Pkt,3.0,570.0,0.0,0.0,0.0,0.0,3.0,570.0
-2026-02,sneha chi nuggets,Pkt,1.2,310.5,1.0,258.75,0.0,0.0,2.2,569.25
 2026-02,Veeba ThousandIsland Dressing 1KG,Pkt,3.0,549.0,0.0,0.0,0.0,0.0,3.0,549.0
+2026-02,Mayonise premium,Pkt,2.0,345.0,1.0,172.5,0.0,0.0,3.0,517.5
 2026-02,sneha chi burgar pattis,Pkt,0.0,0.0,2.0,504.0,0.0,0.0,2.0,504.0
 2026-02,Honey,Kg,2.0,488.0,0.0,0.0,0.0,0.0,2.0,488.0
 2026-02,Aqua Fina Mineral Water 1Ltr,Nos,25.0,314.5,12.0,150.96,0.0,0.0,37.0,465.46000000000004
@@ -8928,7 +8929,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,dynamic cheddar block,Kg,0.7,363.57,0.0,0.0,0.0,0.0,0.7,363.57
 2026-02,Slice Mango 200ml pet,Nos,20.0,353.4,0.0,0.0,0.0,0.0,20.0,353.4
 2026-02,Schezwan sauce,Pkt,2.0,350.64,0.0,0.0,0.0,0.0,2.0,350.64
-2026-02,Mayonise premium,Pkt,2.0,345.0,0.0,0.0,0.0,0.0,2.0,345.0
 2026-02,Aromat Seasoning Powder,Pkt,1.0,172.0,1.0,172.0,0.0,0.0,2.0,344.0
 2026-02,Baby Corn Whole-800GM-Tajir Habit,Tin,3.0,336.0,0.0,0.0,0.0,0.0,3.0,336.0
 2026-02,DVC Watermelon Syrup 750 ml,Nos,0.6,311.52,0.0,0.0,0.0,0.0,0.6,311.52
