@@ -8832,7 +8832,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-01,Mexican Masala,Pkt,2.5,1037.5,0.0,0.0,11.0,4565.0,-8.5,-3527.5
 2026-02,dynamic diced mozerella,Kg,0.0,0.0,24.0,10111.44,0.0,0.0,24.0,10111.44
 2026-02,Gas-LPG-HPCL,Nos,2.5,4325.0,2.0,3560.0,0.0,0.0,4.5,7885.0
-2026-02,Boneless Chicken,Kg,5.0,1550.0,16.7,5065.51,0.0,0.0,22.0,6615.51
+2026-02,Boneless Chicken,Kg,5.0,1550.0,19.15,5775.52,0.0,0.0,24.0,7325.52
 2026-02,grocery,Nos,0.0,0.0,44.0,6335.88,0.0,0.0,44.0,6335.88
 2026-02,hungritos premium,Kg,52.0,5788.64,0.0,0.0,0.0,0.0,52.0,5788.64
 2026-02,Large Pizza Box,Nos,362.0,5375.7,0.0,0.0,0.0,0.0,362.0,5375.7
@@ -8848,8 +8848,10 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,BBQ Mix Masala,Pkt,5.6,2604.0,0.0,0.0,0.0,0.0,5.6,2604.0
 2026-02,Richs versatie cream,Pkt,12.0,2256.0,0.0,0.0,0.0,0.0,12.0,2256.0
 2026-02,Veeba Eggless Mayonise Chef 1KG,Pkt,16.0,2249.6,0.0,0.0,0.0,0.0,16.0,2249.6
+2026-02,Vanilla Ice-cream 4ltr,Nos,2.0,1088.0,2.0,1088.0,0.0,0.0,4.0,2176.0
 2026-02,Pasta Container Black,Nos,242.0,2165.9,0.0,0.0,0.0,0.0,242.0,2165.9
 2026-02,Garlic Bread Box,Nos,284.0,2130.0,0.0,0.0,0.0,0.0,284.0,2130.0
+2026-02,Chocolate Ice-cream 4ltr,Nos,1.6,1305.6,1.0,816.0,0.0,0.0,2.6,2121.6
 2026-02,Veeba Ketchup Sachet,Nos,1400.0,1120.0,1200.0,960.0,0.0,0.0,2600.0,2080.0
 2026-02,Chicken Kheema  Masala,Kg,3.0,1950.0,0.0,0.0,0.0,0.0,3.0,1950.0
 2026-02,Pizza sauce premix,Kg,5.8,1885.0,0.0,0.0,0.0,0.0,5.8,1885.0
@@ -8863,11 +8865,11 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Brownie,Kg,4.0,1540.0,0.0,0.0,0.0,0.0,4.0,1540.0
 2026-02,Veeba Gouda Flavoured Dressing,Pkt,8.0,1515.04,0.0,0.0,0.0,0.0,8.0,1515.04
 2026-02,Mojito Menta Cubano,Nos,3.2,1472.0,0.0,0.0,0.0,0.0,3.2,1472.0
+2026-02,vegetables,Nos,0.0,0.0,26.5,1428.35,0.0,0.0,27.0,1428.35
 2026-02,Salad Bowl 250ml,Nos,265.0,1391.25,0.0,0.0,0.0,0.0,265.0,1391.25
 2026-02,DVC Green Apple 750 ML,Nos,3.0,1380.0,0.0,0.0,0.0,0.0,3.0,1380.0
 2026-02,7UP 750ml Pet,Nos,16.0,549.92,24.0,824.88,0.0,0.0,40.0,1374.8
 2026-02,Lamp Pepperoni,Kg,1.5,1342.5,0.0,0.0,0.0,0.0,1.5,1342.5
-2026-02,Chocolate Ice-cream 4ltr,Nos,1.6,1305.6,0.0,0.0,0.0,0.0,1.6,1305.6
 2026-02,Processed cheese block,Kg,2.5,1299.38,0.0,0.0,0.0,0.0,2.5,1299.38
 2026-02,chicken pepperoni,Kg,1.5,1297.5,0.0,0.0,0.0,0.0,1.5,1297.5
 2026-02,habit olive oil,Nos,3.5,1291.5,0.0,0.0,0.0,0.0,3.5,1291.5
@@ -8876,10 +8878,8 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Bread Premix,Kg,4.8,1209.6,0.0,0.0,0.0,0.0,4.8,1209.6
 2026-02,pizza sauce,Kg,10.0,1200.0,0.0,0.0,0.0,0.0,10.0,1200.0
 2026-02,Strawberry-Ice cream,Nos,1.9,1195.1,0.0,0.0,0.0,0.0,1.9,1195.1
-2026-02,vegetables,Nos,0.0,0.0,22.5,1180.35,0.0,0.0,23.0,1180.35
 2026-02,Blue curacao mojito,Nos,2.7,1162.35,0.0,0.0,0.0,0.0,2.7,1162.35
 2026-02,Butter Scotch Ice-cream,Pkt,1.6,1100.8,0.0,0.0,0.0,0.0,1.6,1100.8
-2026-02,Vanilla Ice-cream 4ltr,Nos,2.0,1088.0,0.0,0.0,0.0,0.0,2.0,1088.0
 2026-02,dynamix butter,Pkt,0.0,0.0,4.0,1078.0,0.0,0.0,4.0,1078.0
 2026-02,Dew 750ml Pet,Nos,7.0,240.59,24.0,824.88,0.0,0.0,31.0,1065.47
 2026-02,Chicken burger pattis,Pkt,3.0,756.0,1.0,252.0,0.0,0.0,4.0,1008.0
