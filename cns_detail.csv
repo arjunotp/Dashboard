@@ -1,4 +1,24 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-11,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
+2026-02-11,POS,item,2 Regular Non-veg@409,1.0,80.0,80.0
+2026-02-11,POS,item,9 Inch - Medium Pizza,4.0,75.0,300.0
+2026-02-11,POS,item,Super Saver Meal Medium,1.0,75.0,75.0
+2026-02-11,POS,item,7 Inch - Regular Pizza,4.0,40.0,160.0
+2026-02-11,POS,item,Super Saver Meal Regular,2.0,40.0,80.0
+2026-02-11,POS,item,Combo Delight Non-veg,2.0,20.0,40.0
+2026-02-11,POS,item,Brownie With Ice Cream,1.0,0.0,0.0
+2026-02-11,POS,item,Cheesy Fries,2.0,0.0,0.0
+2026-02-11,POS,item,Chicken Pasta,1.0,0.0,0.0
+2026-02-11,POS,item,French Fries,1.0,0.0,0.0
+2026-02-11,POS,item,Mdew 250ml Pet,1.0,0.0,0.0
+2026-02-11,POS,item,Mdew@40rs,1.0,0.0,0.0
+2026-02-11,POS,item,Passion Fruit,2.0,0.0,0.0
+2026-02-11,POS,item,Peri Peri Dip,1.0,0.0,0.0
+2026-02-11,POS,item,Regular Chicken Burger,1.0,0.0,0.0
+2026-02-11,POS,item,Soft Drink,1.0,0.0,0.0
+2026-02-11,POS,item,Veg Burger,1.0,0.0,0.0
+2026-02-11,POS,item,Veg Pasta,2.0,0.0,0.0
+2026-02-11,POS,item,Watermelon Juice,1.0,0.0,0.0
 2026-02-10,POS,item,2 Large Non-veg@1149,1.0,240.0,240.0
 2026-02-10,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
 2026-02-10,Swiggy,item,2 Medium Pizzas,1.0,150.0,150.0
