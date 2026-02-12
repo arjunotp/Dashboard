@@ -8860,6 +8860,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Moktails Glass,Nos,229.0,1832.0,0.0,0.0,0.0,0.0,229.0,1832.0
 2026-02,colby cheese 1 kg,Kg,2.8,1776.54,0.0,0.0,0.0,0.0,2.8,1776.54
 2026-02,Salad Bowl 500ml,Nos,269.0,1761.95,0.0,0.0,0.0,0.0,269.0,1761.95
+2026-02,Pepsi 250ml Pet,Nos,40.0,700.0,60.0,1050.0,0.0,0.0,100.0,1750.0
 2026-02,Pizza Premix,Kg,6.8,1713.6,0.0,0.0,0.0,0.0,6.8,1713.6
 2026-02,black olive slice Habit,Tin,2.0,1542.0,0.0,0.0,0.0,0.0,2.0,1542.0
 2026-02,Brownie,Kg,4.0,1540.0,0.0,0.0,0.0,0.0,4.0,1540.0
@@ -8874,7 +8875,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,chicken pepperoni,Kg,1.5,1297.5,0.0,0.0,0.0,0.0,1.5,1297.5
 2026-02,habit olive oil,Nos,3.5,1291.5,0.0,0.0,0.0,0.0,3.5,1291.5
 2026-02,slice cheese,Nos,153.0,1257.66,0.0,0.0,0.0,0.0,153.0,1257.66
-2026-02,Pepsi 250ml Pet,Nos,40.0,700.0,30.0,525.0,0.0,0.0,70.0,1225.0
 2026-02,Bread Premix,Kg,4.8,1209.6,0.0,0.0,0.0,0.0,4.8,1209.6
 2026-02,pizza sauce,Kg,10.0,1200.0,0.0,0.0,0.0,0.0,10.0,1200.0
 2026-02,Strawberry-Ice cream,Nos,1.9,1195.1,0.0,0.0,0.0,0.0,1.9,1195.1
@@ -8886,6 +8886,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,cheesy spread dip,Pkt,3.0,928.14,0.0,0.0,0.0,0.0,3.0,928.14
 2026-02,Berry Fresh Tender Coconut Pulp 2kg,Tin,2.5,925.0,0.0,0.0,0.0,0.0,2.5,925.0
 2026-02,Dew 250ml Pet,Nos,21.0,367.5,30.0,525.0,0.0,0.0,51.0,892.5
+2026-02,7up can 300ml,Nos,2.0,68.58,24.0,822.96,0.0,0.0,26.0,891.5400000000001
 2026-02,pepsi 1 ltr,Nos,20.0,886.8,0.0,0.0,0.0,0.0,20.0,886.8
 2026-02,Tropicana Guava Delight 500ml,Nos,11.0,275.88,24.0,601.92,0.0,0.0,35.0,877.8
 2026-02,Paneer,Kg,2.0,580.0,1.0,290.0,0.0,0.0,3.0,870.0
@@ -8893,6 +8894,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Berry Fresh Chicku Pulp,Nos,0.0,0.0,3.0,840.0,0.0,0.0,3.0,840.0
 2026-02,HABIT JALAPENO SLICES 2.9 KG,Tin,3.0,834.0,0.0,0.0,0.0,0.0,3.0,834.0
 2026-02,sneha chi nuggets,Pkt,1.2,310.5,2.0,517.5,0.0,0.0,3.2,828.0
+2026-02,pepsi can300ml,Nos,0.0,0.0,24.0,822.96,0.0,0.0,24.0,822.96
 2026-02,staff rice 26kg,Kg,15.0,810.0,0.0,0.0,0.0,0.0,15.0,810.0
 2026-02,Puramate Pasta-Penne Rigatte 500g,Pkt,6.0,402.0,6.0,402.0,0.0,0.0,12.0,804.0
 2026-02,red paprika habit,Tin,2.0,790.0,0.0,0.0,0.0,0.0,2.0,790.0
@@ -8958,7 +8960,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,burger buns,Nos,0.0,0.0,16.0,128.0,0.0,0.0,16.0,128.0
 2026-02,dry basil,Pkt,0.9,126.0,0.0,0.0,0.0,0.0,0.9,126.0
 2026-02,milk shake coffee,Nos,5.0,120.0,0.0,0.0,0.0,0.0,5.0,120.0
-2026-02,7up can 300ml,Nos,2.0,68.58,0.0,0.0,0.0,0.0,2.0,68.58
 2026-02,Green Peas,Pkt,0.7,59.5,0.0,0.0,0.0,0.0,0.7,59.5
 2026-02,chilly flakes 500 gm,Pkt,0.3,58.5,0.0,0.0,0.0,0.0,0.3,58.5
 2026-02,straw,Pkt,1.0,40.0,0.0,0.0,0.0,0.0,1.0,40.0
