@@ -8831,8 +8831,8 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-01,Chicken Kheema  Masala,Kg,0.0,0.0,0.0,0.0,3.0,1950.0,-3.0,-1950.0
 2026-01,Mexican Masala,Pkt,2.5,1037.5,0.0,0.0,11.0,4565.0,-8.5,-3527.5
 2026-02,dynamic diced mozerella,Kg,0.0,0.0,24.0,10111.44,0.0,0.0,24.0,10111.44
+2026-02,Boneless Chicken,Kg,5.0,1550.0,22.0,6601.45,0.0,0.0,27.0,8151.45
 2026-02,Gas-LPG-HPCL,Nos,2.5,4325.0,2.0,3560.0,0.0,0.0,4.5,7885.0
-2026-02,Boneless Chicken,Kg,5.0,1550.0,19.15,5775.52,0.0,0.0,24.0,7325.52
 2026-02,grocery,Nos,0.0,0.0,44.0,6335.88,0.0,0.0,44.0,6335.88
 2026-02,hungritos premium,Kg,52.0,5788.64,0.0,0.0,0.0,0.0,52.0,5788.64
 2026-02,Large Pizza Box,Nos,362.0,5375.7,0.0,0.0,0.0,0.0,362.0,5375.7
@@ -8857,6 +8857,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Pizza sauce premix,Kg,5.8,1885.0,0.0,0.0,0.0,0.0,5.8,1885.0
 2026-02,veg fruit grocery,Nos,5.0,1880.0,0.0,0.0,0.0,0.0,5.0,1880.0
 2026-02, dry yeast 500 gm,Pkt,11.0,1870.0,0.0,0.0,0.0,0.0,11.0,1870.0
+2026-02,vegetables,Nos,0.0,0.0,28.5,1858.35,0.0,0.0,29.0,1858.35
 2026-02,Moktails Glass,Nos,229.0,1832.0,0.0,0.0,0.0,0.0,229.0,1832.0
 2026-02,colby cheese 1 kg,Kg,2.8,1776.54,0.0,0.0,0.0,0.0,2.8,1776.54
 2026-02,Salad Bowl 500ml,Nos,269.0,1761.95,0.0,0.0,0.0,0.0,269.0,1761.95
@@ -8866,11 +8867,11 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Brownie,Kg,4.0,1540.0,0.0,0.0,0.0,0.0,4.0,1540.0
 2026-02,Veeba Gouda Flavoured Dressing,Pkt,8.0,1515.04,0.0,0.0,0.0,0.0,8.0,1515.04
 2026-02,Mojito Menta Cubano,Nos,3.2,1472.0,0.0,0.0,0.0,0.0,3.2,1472.0
-2026-02,vegetables,Nos,0.0,0.0,26.5,1428.35,0.0,0.0,27.0,1428.35
 2026-02,Salad Bowl 250ml,Nos,265.0,1391.25,0.0,0.0,0.0,0.0,265.0,1391.25
 2026-02,DVC Green Apple 750 ML,Nos,3.0,1380.0,0.0,0.0,0.0,0.0,3.0,1380.0
 2026-02,7UP 750ml Pet,Nos,16.0,549.92,24.0,824.88,0.0,0.0,40.0,1374.8
 2026-02,Lamp Pepperoni,Kg,1.5,1342.5,0.0,0.0,0.0,0.0,1.5,1342.5
+2026-02,ENGLISH vegetables,Nos,3.0,772.5,2.0,550.0,0.0,0.0,5.0,1322.5
 2026-02,Processed cheese block,Kg,2.5,1299.38,0.0,0.0,0.0,0.0,2.5,1299.38
 2026-02,chicken pepperoni,Kg,1.5,1297.5,0.0,0.0,0.0,0.0,1.5,1297.5
 2026-02,habit olive oil,Nos,3.5,1291.5,0.0,0.0,0.0,0.0,3.5,1291.5
@@ -8898,7 +8899,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,staff rice 26kg,Kg,15.0,810.0,0.0,0.0,0.0,0.0,15.0,810.0
 2026-02,Puramate Pasta-Penne Rigatte 500g,Pkt,6.0,402.0,6.0,402.0,0.0,0.0,12.0,804.0
 2026-02,red paprika habit,Tin,2.0,790.0,0.0,0.0,0.0,0.0,2.0,790.0
-2026-02,ENGLISH vegetables,Nos,3.0,772.5,0.0,0.0,0.0,0.0,3.0,772.5
 2026-02,Butter,Kg,0.0,0.0,2.0,760.0,0.0,0.0,2.0,760.0
 2026-02,Lehar Soda,Nos,51.0,755.82,0.0,0.0,0.0,0.0,51.0,755.82
 2026-02,Pepsi 750ml Pet,Nos,22.0,756.14,0.0,0.0,0.0,0.0,22.0,756.14
