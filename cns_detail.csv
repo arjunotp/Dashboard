@@ -1,4 +1,31 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-12,POS,item,9 Inch - Medium Pizza,6.0,75.0,450.0
+2026-02-12,POS,item,Super Saver Meal Medium,1.0,75.0,75.0
+2026-02-12,POS,item,7 Inch - Regular Pizza,8.0,40.0,320.0
+2026-02-12,Swiggy,item,7 Inch - Regular Pizza,1.0,40.0,40.0
+2026-02-12,POS,item,Garlic Bread Supreme [veg],1.0,40.0,40.0
+2026-02-12,POS,item,Super Saver Meal Regular,2.0,40.0,80.0
+2026-02-12,POS,item,7up @50rs,2.0,0.0,0.0
+2026-02-12,POS,item,7up@40rs,2.0,0.0,0.0
+2026-02-12,POS,item,Blue Mojito,1.0,0.0,0.0
+2026-02-12,POS,item,Burger Combo @ 169,4.0,0.0,0.0
+2026-02-12,Swiggy,item,Chicken Loaded Fries,1.0,0.0,0.0
+2026-02-12,POS,item,Chicken Nuggets,1.0,0.0,0.0
+2026-02-12,POS,item,Chicken Pasta,2.0,0.0,0.0
+2026-02-12,POS,item,Chikku Shake,1.0,0.0,0.0
+2026-02-12,POS,item,Chocolate Shake,1.0,0.0,0.0
+2026-02-12,POS,item,French Fries,3.0,0.0,0.0
+2026-02-12,POS,item,Fresh Lime Juice,7.0,0.0,0.0
+2026-02-12,POS,item,Grapes Juice,1.0,0.0,0.0
+2026-02-12,POS,item,Green Apple,1.0,0.0,0.0
+2026-02-12,POS,item,Mdew 250ml Pet,1.0,0.0,0.0
+2026-02-12,POS,item,Mineral Water,5.0,0.0,0.0
+2026-02-12,POS,item,Pepsi 250ml Pet,6.0,0.0,0.0
+2026-02-12,POS,item,Pepsi 330ml Can,1.0,0.0,0.0
+2026-02-12,POS,item,Pepsi@40rs,1.0,0.0,0.0
+2026-02-12,POS,item,Potato Wedges,1.0,0.0,0.0
+2026-02-12,POS,item,Slice 200ml,1.0,0.0,0.0
+2026-02-12,POS,item,Soft Drink,2.0,0.0,0.0
 2026-02-11,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
 2026-02-11,POS,item,2 Regular Non-veg@409,1.0,80.0,80.0
 2026-02-11,POS,item,9 Inch - Medium Pizza,4.0,75.0,300.0
