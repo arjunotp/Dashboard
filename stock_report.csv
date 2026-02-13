@@ -8831,7 +8831,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-01,Chicken Kheema  Masala,Kg,0.0,0.0,0.0,0.0,3.0,1950.0,-3.0,-1950.0
 2026-01,Mexican Masala,Pkt,2.5,1037.5,0.0,0.0,11.0,4565.0,-8.5,-3527.5
 2026-02,dynamic diced mozerella,Kg,0.0,0.0,24.0,10111.44,0.0,0.0,24.0,10111.44
-2026-02,Boneless Chicken,Kg,5.0,1550.0,22.0,6601.45,0.0,0.0,27.0,8151.45
+2026-02,Boneless Chicken,Kg,5.0,1550.0,25.0,7470.85,0.0,0.0,30.0,9020.85
 2026-02,Gas-LPG-HPCL,Nos,2.5,4325.0,2.0,3560.0,0.0,0.0,4.5,7885.0
 2026-02,grocery,Nos,0.0,0.0,44.0,6335.88,0.0,0.0,44.0,6335.88
 2026-02,hungritos premium,Kg,52.0,5788.64,0.0,0.0,0.0,0.0,52.0,5788.64
@@ -8926,6 +8926,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,coffee mocha syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
 2026-02,salted cookies syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
 2026-02,Honey mustard dressing,Pkt,2.0,423.74,0.0,0.0,0.0,0.0,2.0,423.74
+2026-02,milk,Nos,0.0,0.0,16.0,400.0,0.0,0.0,16.0,400.0
 2026-02,tomato ketchup 1.2 bottle,Nos,0.0,0.0,4.0,400.0,0.0,0.0,4.0,400.0
 2026-02,Veeba T. Ketchup 1.2KG,Nos,3.5,367.5,0.0,0.0,0.0,0.0,3.5,367.5
 2026-02,dynamic cheddar block,Kg,0.7,363.57,0.0,0.0,0.0,0.0,0.7,363.57
@@ -8934,7 +8935,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Aromat Seasoning Powder,Pkt,1.0,172.0,1.0,172.0,0.0,0.0,2.0,344.0
 2026-02,Baby Corn Whole-800GM-Tajir Habit,Tin,3.0,336.0,0.0,0.0,0.0,0.0,3.0,336.0
 2026-02,DVC Watermelon Syrup 750 ml,Nos,0.6,311.52,0.0,0.0,0.0,0.0,0.6,311.52
-2026-02,milk,Nos,0.0,0.0,12.0,300.0,0.0,0.0,12.0,300.0
 2026-02,milk choco 180 ml,Nos,0.0,0.0,12.0,288.0,0.0,0.0,12.0,288.0
 2026-02,milk coffee 180ml,Nos,0.0,0.0,12.0,288.0,0.0,0.0,12.0,288.0
 2026-02,Celotape-3/4inch-,Nos,12.0,276.0,0.0,0.0,0.0,0.0,12.0,276.0
@@ -8943,6 +8943,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Berry Fresh Chicku Pulp 2kg,Tin,0.9,252.0,0.0,0.0,0.0,0.0,0.9,252.0
 2026-02,mango crush taste craft,Nos,1.0,246.75,0.0,0.0,0.0,0.0,1.0,246.75
 2026-02,bio glass,Pkt,1.0,80.0,2.0,160.0,0.0,0.0,3.0,240.0
+2026-02,egg 8,Nos,10.0,80.0,20.0,160.0,0.0,0.0,30.0,240.0
 2026-02,ice cube/80,Pkt,1.0,80.0,2.0,160.0,0.0,0.0,3.0,240.0
 2026-02,CHICKEN POPCORN,Pkt,0.0,0.0,1.0,225.0,0.0,0.0,1.0,225.0
 2026-02,Veg burger pattis,Pkt,1.0,225.0,0.0,0.0,0.0,0.0,1.0,225.0
@@ -8955,7 +8956,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,milk 28 milma,Nos,6.0,168.0,0.0,0.0,0.0,0.0,6.0,168.0
 2026-02,Corn Meal - MAKKA RAVA,Pkt,3.0,165.0,0.0,0.0,0.0,0.0,3.0,165.0
 2026-02,chilly garlic spread,Pkt,1.0,165.0,0.0,0.0,0.0,0.0,1.0,165.0
-2026-02,egg 8,Nos,10.0,80.0,10.0,80.0,0.0,0.0,20.0,160.0
 2026-02,Wooden Spoon,Nos,200.0,130.0,0.0,0.0,0.0,0.0,200.0,130.0
 2026-02,burger buns,Nos,0.0,0.0,16.0,128.0,0.0,0.0,16.0,128.0
 2026-02,dry basil,Pkt,0.9,126.0,0.0,0.0,0.0,0.0,0.9,126.0
