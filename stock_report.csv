@@ -8850,6 +8850,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Veeba Eggless Mayonise Chef 1KG,Pkt,16.0,2249.6,0.0,0.0,0.0,0.0,16.0,2249.6
 2026-02,Vanilla Ice-cream 4ltr,Nos,2.0,1088.0,2.0,1088.0,0.0,0.0,4.0,2176.0
 2026-02,Pasta Container Black,Nos,242.0,2165.9,0.0,0.0,0.0,0.0,242.0,2165.9
+2026-02,staff rice 26kg,Kg,15.0,810.0,26.0,1326.0,0.0,0.0,41.0,2136.0
 2026-02,Garlic Bread Box,Nos,284.0,2130.0,0.0,0.0,0.0,0.0,284.0,2130.0
 2026-02,Chocolate Ice-cream 4ltr,Nos,1.6,1305.6,1.0,816.0,0.0,0.0,2.6,2121.6
 2026-02,Veeba Ketchup Sachet,Nos,1400.0,1120.0,1200.0,960.0,0.0,0.0,2600.0,2080.0
@@ -8884,6 +8885,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,dynamix butter,Pkt,0.0,0.0,4.0,1078.0,0.0,0.0,4.0,1078.0
 2026-02,Dew 750ml Pet,Nos,7.0,240.59,24.0,824.88,0.0,0.0,31.0,1065.47
 2026-02,Chicken burger pattis,Pkt,3.0,756.0,1.0,252.0,0.0,0.0,4.0,1008.0
+2026-02,fruits and vegetables,Nos,0.0,0.0,5.0,970.0,0.0,0.0,5.0,970.0
 2026-02,cheesy spread dip,Pkt,3.0,928.14,0.0,0.0,0.0,0.0,3.0,928.14
 2026-02,Berry Fresh Tender Coconut Pulp 2kg,Tin,2.5,925.0,0.0,0.0,0.0,0.0,2.5,925.0
 2026-02,Dew 250ml Pet,Nos,21.0,367.5,30.0,525.0,0.0,0.0,51.0,892.5
@@ -8896,7 +8898,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,HABIT JALAPENO SLICES 2.9 KG,Tin,3.0,834.0,0.0,0.0,0.0,0.0,3.0,834.0
 2026-02,sneha chi nuggets,Pkt,1.2,310.5,2.0,517.5,0.0,0.0,3.2,828.0
 2026-02,pepsi can300ml,Nos,0.0,0.0,24.0,822.96,0.0,0.0,24.0,822.96
-2026-02,staff rice 26kg,Kg,15.0,810.0,0.0,0.0,0.0,0.0,15.0,810.0
 2026-02,Puramate Pasta-Penne Rigatte 500g,Pkt,6.0,402.0,6.0,402.0,0.0,0.0,12.0,804.0
 2026-02,red paprika habit,Tin,2.0,790.0,0.0,0.0,0.0,0.0,2.0,790.0
 2026-02,Butter,Kg,0.0,0.0,2.0,760.0,0.0,0.0,2.0,760.0
