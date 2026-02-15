@@ -1,4 +1,54 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-14,POS,item,12 Inch - Large Pizza,5.0,120.0,600.0
+2026-02-14,POS,item,2 Regular Non-veg@409,2.0,80.0,160.0
+2026-02-14,POS,item,2 Regular Veg@349,1.0,80.0,80.0
+2026-02-14,POS,item,9 Inch - Medium Pizza,7.0,75.0,525.0
+2026-02-14,Swiggy,item,9 Inch - Medium Pizza,2.0,75.0,150.0
+2026-02-14,POS,item,Delicious Combo Delight Medium,1.0,75.0,75.0
+2026-02-14,POS,item,Super Saver Meal Medium,1.0,75.0,75.0
+2026-02-14,POS,addon,12 Inch - Large Pizza -Extra Cheese,1.0,60.0,60.0
+2026-02-14,POS,item,7 Inch - Regular Pizza,11.0,40.0,440.0
+2026-02-14,Swiggy,item,7 Inch - Regular Pizza,6.0,40.0,240.0
+2026-02-14,POS,item,Garlic Bread With Cheese,1.0,40.0,40.0
+2026-02-14,Swiggy,item,Garlic Bread With Cheese,1.0,40.0,40.0
+2026-02-14,POS,item,Super Saver Meal Regular,2.0,40.0,80.0
+2026-02-14,POS,item,Combo Delight Non-veg,1.0,20.0,20.0
+2026-02-14,POS,addon,Super Saver Meal Regular-Extra Cheese,1.0,20.0,20.0
+2026-02-14,Swiggy,item,2 Regular Budget Pizzas,1.0,0.0,0.0
+2026-02-14,POS,item,7up 250ml Pet,2.0,0.0,0.0
+2026-02-14,POS,item,7up @50rs,1.0,0.0,0.0
+2026-02-14,POS,item,7up@40rs,2.0,0.0,0.0
+2026-02-14,POS,item,Brownie With Ice Cream,1.0,0.0,0.0
+2026-02-14,Swiggy,item,Brownie With Ice Cream,1.0,0.0,0.0
+2026-02-14,POS,item,Burger Combo @ 169,1.0,0.0,0.0
+2026-02-14,Swiggy,item,Butterscotch Sundae,1.0,0.0,0.0
+2026-02-14,Swiggy,item,Cheese N Macaroni Salad,1.0,0.0,0.0
+2026-02-14,POS,item,Cheesy Fries,1.0,0.0,0.0
+2026-02-14,Swiggy,item,Chicken Nuggets,1.0,0.0,0.0
+2026-02-14,POS,item,Chicken Pasta,3.0,0.0,0.0
+2026-02-14,Swiggy,item,Chicken Pasta,1.0,0.0,0.0
+2026-02-14,POS,item,Chikku Shake,1.0,0.0,0.0
+2026-02-14,POS,item,French Fries,3.0,0.0,0.0
+2026-02-14,Swiggy,item,Fresh Garden Mint,1.0,0.0,0.0
+2026-02-14,POS,item,Fresh Lime Juice,1.0,0.0,0.0
+2026-02-14,POS,item,Garlic Bread,1.0,0.0,0.0
+2026-02-14,Swiggy,item,Green Apple,1.0,0.0,0.0
+2026-02-14,Swiggy,item,Hot Garlic Dip,1.0,0.0,0.0
+2026-02-14,POS,item,Mdew 250ml Pet,2.0,0.0,0.0
+2026-02-14,POS,item,Mineral Water,1.0,0.0,0.0
+2026-02-14,POS,item,Mint Lime Juice,1.0,0.0,0.0
+2026-02-14,POS,item,Mixed Chicken Salad,1.0,0.0,0.0
+2026-02-14,Swiggy,item,Passion Mint,1.0,0.0,0.0
+2026-02-14,POS,item,Pepsi 250ml Pet,2.0,0.0,0.0
+2026-02-14,POS,item,Pepsi@40rs,1.0,0.0,0.0
+2026-02-14,POS,item,Pineapple Juice,4.0,0.0,0.0
+2026-02-14,POS,item,Potato Wedges,1.0,0.0,0.0
+2026-02-14,POS,item,Regular Chicken Burger,5.0,0.0,0.0
+2026-02-14,POS,item,Soft Drink,1.0,0.0,0.0
+2026-02-14,POS,item,Special Discount,0.0,0.0,0.0
+2026-02-14,POS,item,Tender Coconut,1.0,0.0,0.0
+2026-02-14,Swiggy,item,Veg Pasta,1.0,0.0,0.0
+2026-02-14,POS,item,Watermelon Juice,1.0,0.0,0.0
 2026-02-13,POS,item,2 Large Non-veg@1149,2.0,240.0,480.0
 2026-02-13,POS,item,12 Inch - Large Pizza,1.0,120.0,120.0
 2026-02-13,POS,item,2 Regular Non-veg@409,1.0,80.0,80.0
