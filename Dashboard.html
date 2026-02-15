@@ -241,12 +241,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     const columns = res.meta.fields.map(field => {
                         if (!numericFields.has(field)) {
-                            return { title: field, data: field };
+                            return { title: field, data: row => row[field] };
                         }
 
                         return {
                             title: field,
-                            data: field,
+                            data: row => row[field],
                             render: (data, type) => {
                                 const numericValue = parseNumericValue(data);
                                 if (numericValue === null) return data ?? "";
