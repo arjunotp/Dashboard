@@ -1,5 +1,6 @@
 year_month,Transaction_Date,Category,Withdrawals
 2026-02,2026-02-02,Abad Fisheries Private Li,2783.0
+2026-02,2026-02-17,Accounting/Gst Filing - Haseeb,1000.0
 2026-02,2026-02-02,Bistro Frozen,9530.0
 2026-02,2026-02-09,Bistro Frozen,7685.0
 2026-02,2026-02-16,Bistro Frozen,8868.0
@@ -16,6 +17,7 @@ year_month,Transaction_Date,Category,Withdrawals
 2026-02,2026-02-09,Charges For Neft To Naseena,2.96
 2026-02,2026-02-02,Essar Associates,1032.0
 2026-02,2026-02-16,Essar Associates,2171.0
+2026-02,2026-02-17,Gst Payment,21055.0
 2026-02,2026-02-02,Koonathil Stores,8911.0
 2026-02,2026-02-09,Koonathil Stores,3580.0
 2026-02,2026-02-16,Koonathil Stores,2188.0
