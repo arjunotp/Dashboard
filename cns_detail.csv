@@ -1,4 +1,39 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-18,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
+2026-02-18,POS,item,12 Inch - Large Pizza,1.0,120.0,120.0
+2026-02-18,POS,item,2 Regular Non-veg@409,3.0,80.0,240.0
+2026-02-18,POS,item,9 Inch - Medium Pizza,3.0,75.0,225.0
+2026-02-18,Swiggy,item,9 Inch - Medium Pizza,1.0,75.0,75.0
+2026-02-18,POS,item,Super Saver Meal Medium,1.0,75.0,75.0
+2026-02-18,POS,item,7 Inch - Regular Pizza,8.0,40.0,320.0
+2026-02-18,Swiggy,item,Bada Saver Meal Regular,2.0,40.0,80.0
+2026-02-18,POS,item,Garlic Bread With Cheese,2.0,40.0,80.0
+2026-02-18,POS,item,Super Saver Meal Regular,2.0,40.0,80.0
+2026-02-18,POS,addon,Super Saver Meal Regular-Extra Cheese,1.0,20.0,20.0
+2026-02-18,POS,item,7up 250ml Pet,1.0,0.0,0.0
+2026-02-18,POS,item,7up@40rs,2.0,0.0,0.0
+2026-02-18,POS,item,Brownie With Ice Cream,3.0,0.0,0.0
+2026-02-18,Swiggy,item,Brownie With Ice Cream,3.0,0.0,0.0
+2026-02-18,POS,item,Burger Combo @ 169,7.0,0.0,0.0
+2026-02-18,POS,item,Chicken Nuggets Burger,1.0,0.0,0.0
+2026-02-18,POS,item,French Fries,4.0,0.0,0.0
+2026-02-18,Swiggy,item,French Fries,1.0,0.0,0.0
+2026-02-18,Swiggy,item,Fresh Garden Mint,2.0,0.0,0.0
+2026-02-18,POS,item,Grapes Juice,2.0,0.0,0.0
+2026-02-18,POS,item,Loaded Fries,4.0,0.0,0.0
+2026-02-18,POS,item,Mdew 250ml Pet,1.0,0.0,0.0
+2026-02-18,POS,item,Mdew@40rs,1.0,0.0,0.0
+2026-02-18,POS,item,Mint Lime Juice,1.0,0.0,0.0
+2026-02-18,POS,item,Mixed Chicken Salad,1.0,0.0,0.0
+2026-02-18,POS,item,Pepsi 330ml Can,1.0,0.0,0.0
+2026-02-18,POS,item,Pepsi@40rs,2.0,0.0,0.0
+2026-02-18,POS,item,Pineapple Juice,2.0,0.0,0.0
+2026-02-18,Swiggy,item,Pink Lady,1.0,0.0,0.0
+2026-02-18,POS,item,Regular Chicken Burger,1.0,0.0,0.0
+2026-02-18,POS,item,Soft Drink,5.0,0.0,0.0
+2026-02-18,POS,item,Veg Burger,1.0,0.0,0.0
+2026-02-18,POS,item,Veg Pasta,2.0,0.0,0.0
+2026-02-18,Swiggy,item,Veg Pasta,1.0,0.0,0.0
 2026-02-17,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
 2026-02-17,POS,item,12 Inch - Large Pizza,3.0,120.0,360.0
 2026-02-17,POS,item,2 Regular Non-veg@409,2.0,80.0,160.0
