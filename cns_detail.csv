@@ -1,4 +1,30 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-19,POS,item,12 Inch - Large Pizza,1.0,120.0,120.0
+2026-02-19,POS,item,9 Inch - Medium Pizza,3.0,75.0,225.0
+2026-02-19,POS,item,Super Saver Meal Medium,1.0,75.0,75.0
+2026-02-19,POS,item,7 Inch - Regular Pizza,7.0,40.0,280.0
+2026-02-19,Swiggy,item,7 Inch - Regular Pizza,1.0,40.0,40.0
+2026-02-19,POS,item,Delicious Combo Delight Regular,1.0,40.0,40.0
+2026-02-19,POS,item,Garlic Bread Supreme[non-veg],1.0,40.0,40.0
+2026-02-19,POS,addon,Super Saver Meal Medium-Extra Cheese,1.0,38.0,38.0
+2026-02-19,POS,addon,7 Inch - Regular Pizza -Extra Cheese,2.0,20.0,40.0
+2026-02-19,POS,item,7up @50rs,1.0,0.0,0.0
+2026-02-19,POS,item,Brownie,1.0,0.0,0.0
+2026-02-19,POS,item,Burger Combo @ 169,1.0,0.0,0.0
+2026-02-19,Swiggy,item,Chicken Nuggets,1.0,0.0,0.0
+2026-02-19,POS,item,French Fries,3.0,0.0,0.0
+2026-02-19,Swiggy,item,French Fries,1.0,0.0,0.0
+2026-02-19,POS,item,Garlic Bread,1.0,0.0,0.0
+2026-02-19,Swiggy,item,Garlic Bread,1.0,0.0,0.0
+2026-02-19,POS,item,Green Apple,1.0,0.0,0.0
+2026-02-19,POS,item,Loaded Fries,1.0,0.0,0.0
+2026-02-19,POS,item,Macaroni N Chicken Salad,1.0,0.0,0.0
+2026-02-19,POS,item,Pepsi 250ml Pet,1.0,0.0,0.0
+2026-02-19,POS,item,Peri Peri Dip,1.0,0.0,0.0
+2026-02-19,POS,item,Regular Chicken Burger,1.0,0.0,0.0
+2026-02-19,POS,item,Soft Drink,2.0,0.0,0.0
+2026-02-19,POS,item,Veg Pasta,2.0,0.0,0.0
+2026-02-19,POS,item,Watermelon Juice,4.0,0.0,0.0
 2026-02-18,POS,item,2 Medium Non-veg@759,1.0,150.0,150.0
 2026-02-18,POS,item,12 Inch - Large Pizza,1.0,120.0,120.0
 2026-02-18,POS,item,2 Regular Non-veg@409,3.0,80.0,240.0
