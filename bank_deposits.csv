@@ -1315,55 +1315,6 @@ Transaction_Date,Particulars,Deposits
 2023-12-30,Pos Settlement,410.27
 2023-12-30,Google Pay,12556.0
 2023-12-31,Google Pay,18794.0
-2026-01-02,Google Pay,11042.0
-2026-01-03,Swiggy,11548.06
-2026-01-03,Google Pay,11385.0
-2026-01-04,Google Pay,15535.0
-2026-01-05,Google Pay,5441.0
-2026-01-06,Google Pay,7808.0
-2026-01-07,Pos Settlement,765.67
-2026-01-07,Swiggy,4942.97
-2026-01-07,Google Pay,12731.0
-2026-01-08,Pos Settlement,92.31
-2026-01-08,Google Pay,5483.0
-2026-01-09,Google Pay,12224.0
-2026-01-10,Pos Settlement,1028.04
-2026-01-10,Google Pay,15510.0
-2026-01-11,Google Pay,10291.0
-2026-01-12,Pos Settlement,1016.47
-2026-01-12,Google Pay,9845.0
-2026-01-13,Google Pay,7138.0
-2026-01-14,Swiggy,12475.78
-2026-01-14,Shajahan Pookodan,499.0
-2026-01-14,Google Pay,7404.0
-2026-01-15,Google Pay,13441.0
-2026-01-16,Google Pay,5862.0
-2026-01-17,Google Pay,10393.0
-2026-01-18,Google Pay,10402.0
-2026-01-19,Pos Settlement,4102.17
-2026-01-19,Google Pay,7127.0
-2026-01-20,Pos Settlement,1204.88
-2026-01-20,Google Pay,12819.0
-2026-01-21,Swiggy,8432.86
-2026-01-21,Google Pay,8478.0
-2026-01-22,Google Pay,6616.0
-2026-01-24,Google Pay,8804.0
-2026-01-24,Google Pay,14939.0
-2026-01-25,Upi/Utib/974093880256/Google India Digital Service/Axi679B955D5747479Fbb628300E7Cdda63/Goog-Payments@,125.0
-2026-01-25,Google Pay,15099.0
-2026-01-26,Pos Settlement,4465.06
-2026-01-27,Google Pay,9392.0
-2026-01-28,Google Pay,3751.0
-2026-01-28,Pos Settlement,345.92
-2026-01-28,Swiggy,7919.79
-2026-01-28,Google Pay,7969.0
-2026-01-29,Pos Settlement,1068.53
-2026-01-29,Google Pay,11962.0
-2026-01-30,Pos Settlement,2504.63
-2026-01-30,Google Pay,5525.0
-2026-01-31,Pos Settlement,493.7
-2026-01-31,Google Pay,10017.0
-2026-02-14,Imp/Xfer/20260214024605,8819.0
 2025-01-01,Pos Settlement,1715.2
 2025-01-01,Google Pay,14548.0
 2025-01-02,Pos Settlement,2486.31
@@ -1954,9 +1905,64 @@ Transaction_Date,Particulars,Deposits
 2025-12-30,Google Pay,13426.0
 2025-12-31,Pos Settlement,4375.78
 2025-12-31,Google Pay,18913.0
+2026-02-17,Google Pay,5991.0
+2026-02-18,Swiggy,9537.0
+2026-02-18,Google Pay,10556.0
+2026-02-19,Google Pay,5475.0
+2026-02-20,Google Pay,9171.0
+2026-02-21,Pos Settlement,2626.0
+2026-02-21,Google Pay,11558.0
 2026-01-01,Swiggy,13398.66
 2026-01-01,Pos Settlement,917.26
 2026-01-01,Google Pay,20651.0
+2026-01-02,Google Pay,11042.0
+2026-01-03,Swiggy,11548.06
+2026-01-03,Google Pay,11385.0
+2026-01-04,Google Pay,15535.0
+2026-01-05,Google Pay,5441.0
+2026-01-06,Google Pay,7808.0
+2026-01-07,Pos Settlement,765.67
+2026-01-07,Swiggy,4942.97
+2026-01-07,Google Pay,12731.0
+2026-01-08,Pos Settlement,92.31
+2026-01-08,Google Pay,5483.0
+2026-01-09,Google Pay,12224.0
+2026-01-10,Pos Settlement,1028.04
+2026-01-10,Google Pay,15510.0
+2026-01-11,Google Pay,10291.0
+2026-01-12,Pos Settlement,1016.47
+2026-01-12,Google Pay,9845.0
+2026-01-13,Google Pay,7138.0
+2026-01-14,Swiggy,12475.78
+2026-01-14,Shajahan Pookodan,499.0
+2026-01-14,Google Pay,7404.0
+2026-01-15,Google Pay,13441.0
+2026-01-16,Google Pay,5862.0
+2026-01-17,Google Pay,10393.0
+2026-01-18,Google Pay,10402.0
+2026-01-19,Pos Settlement,4102.17
+2026-01-19,Google Pay,7127.0
+2026-01-20,Pos Settlement,1204.88
+2026-01-20,Google Pay,12819.0
+2026-01-21,Swiggy,8432.86
+2026-01-21,Google Pay,8478.0
+2026-01-22,Google Pay,6616.0
+2026-01-24,Google Pay,8804.0
+2026-01-24,Google Pay,14939.0
+2026-01-25,Upi/Utib/974093880256/Google India Digital Service/Axi679B955D5747479Fbb628300E7Cdda63/Goog-Payments@,125.0
+2026-01-25,Google Pay,15099.0
+2026-01-26,Pos Settlement,4465.06
+2026-01-27,Google Pay,9392.0
+2026-01-28,Google Pay,3751.0
+2026-01-28,Pos Settlement,345.92
+2026-01-28,Swiggy,7919.79
+2026-01-28,Google Pay,7969.0
+2026-01-29,Pos Settlement,1068.53
+2026-01-29,Google Pay,11962.0
+2026-01-30,Pos Settlement,2504.63
+2026-01-30,Google Pay,5525.0
+2026-01-31,Pos Settlement,493.7
+2026-01-31,Google Pay,10017.0
 2026-02-01,Google Pay,11365.0
 2026-02-02,Google Pay,3854.0
 2026-02-03,Pos Settlement,1986.39
@@ -1976,3 +1982,7 @@ Transaction_Date,Particulars,Deposits
 2026-02-12,Google Pay,5872.0
 2026-02-13,Pos Settlement,509.16
 2026-02-13,Google Pay,8819.0
+2026-02-14,Google Pay,7805.0
+2026-02-15,Pos Settlement,2532.99
+2026-02-15,Google Pay,11336.0
+2026-02-16,Pos Settlement,1472.94
