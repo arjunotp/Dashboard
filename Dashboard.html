@@ -210,35 +210,19 @@ const config = [
         label: "Analytics",
         subtabs: [
             {
-                label: "Consumption % Trend (Top 10 Items)",
-                csv: "stock_consumed_amount_percentage.csv",
-                view: "consumedStockAnalytics",
-                seriesField: "item_name",
-                seriesLabel: "Items",
-                searchPlaceholder: "Search items",
-                chartTitle: "Top 10 Items by Consumed Stock %",
-                chartSubtitle: "Monthly trend comparison for highest consumed-stock percentage items."
-            },
-            {
                 label: "Consumption % Trend (Categories)",
-                csv: "stock_consumed_category_percentage.csv",
-                view: "consumedStockAnalytics",
-                seriesField: "Category",
-                seriesLabel: "Categories",
-                searchPlaceholder: "Search categories",
-                chartTitle: "Consumed Stock % by Category",
-                chartSubtitle: "Monthly trend comparison for category-level consumed-stock percentage.",
+                csv: "stock_consumed_hierarchy.csv",
+                view: "drilldownAnalytics",
+                chartTitle: "Consumed Stock % Drilldown",
+                chartSubtitle: "Click a category line to drill into subcategories, then items.",
                 percentField: "consumed-stock_amount%"
             },
             {
                 label: "Expense % Trend (Categories)",
-                csv: "expense_category_percentage.csv",
-                view: "consumedStockAnalytics",
-                seriesField: "Category",
-                seriesLabel: "Categories",
-                searchPlaceholder: "Search categories",
-                chartTitle: "Expense % by Category",
-                chartSubtitle: "Monthly trend comparison for category-level expense percentage.",
+                csv: "expense_hierarchy.csv",
+                view: "drilldownAnalytics",
+                chartTitle: "Expense % Drilldown",
+                chartSubtitle: "Click a category line to drill into subcategories, then items.",
                 percentField: "expense_amount%"
             }
         ]
@@ -273,7 +257,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         group.subtabs.forEach((sub, sIdx) => {
             const tabId = `g${gIdx}_s${sIdx}`;
-            const isAnalyticsTab = sub.view === "consumedStockAnalytics";
+            const isAnalyticsTab = sub.view === "drilldownAnalytics";
 
             const li = document.createElement("li");
             li.className = "nav-item hidden";
@@ -293,16 +277,12 @@ document.addEventListener("DOMContentLoaded", () => {
                             ${sub.chartSubtitle || "Monthly trend comparison."}
                         </p>
                         <div class="row g-3 mb-3">
-                            <div class="col-12 col-lg-6">
-                                <div class="analytics-filter-header">${sub.seriesLabel || "Series"}</div>
-                                <input id="${tabId}SeriesSearch" class="form-control form-control-sm mb-2" type="text" placeholder="${sub.searchPlaceholder || "Search"}">
-                                <div class="d-flex gap-2 mb-2">
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}SeriesSelectAll" type="button">Select all</button>
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}SeriesClear" type="button">Clear</button>
-                                </div>
-                                <div id="${tabId}SeriesFilterBox" class="analytics-filter-box"></div>
+                            <div class="col-12 col-lg-8">
+                                <div class="analytics-filter-header">Drilldown Path</div>
+                                <div id="${tabId}Breadcrumb" class="small text-muted mb-2">Category</div>
+                                <button class="btn btn-outline-secondary btn-sm" id="${tabId}Back" type="button" disabled>Back</button>
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-lg-4">
                                 <div class="analytics-filter-header">Year-Month</div>
                                 <input id="${tabId}MonthSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search year-month">
                                 <div class="d-flex gap-2 mb-2">
@@ -332,7 +312,7 @@ document.addEventListener("DOMContentLoaded", () => {
             tabContent.appendChild(pane);
 
             if (isAnalyticsTab) {
-                renderConsumptionAnalyticsChart(tabId, sub);
+                renderDrilldownAnalyticsChart(tabId, sub);
             } else {
                 Papa.parse(sub.csv, {
                     download: true,
@@ -418,93 +398,70 @@ function filterTabs(groupIndex) {
     }
 }
 
-function renderConsumptionAnalyticsChart(tabId, sub) {
+function renderDrilldownAnalyticsChart(tabId, sub) {
     Papa.parse(sub.csv, {
         download: true,
         header: true,
         skipEmptyLines: true,
         complete: res => {
-            const seriesField = sub.seriesField || "item_name";
             const percentField = sub.percentField || "consumed-stock_amount%";
             const rows = (res.data || []).filter(row =>
                 row["Month_code"] &&
-                row[seriesField] &&
+                row["Category"] &&
+                row["Subcategory"] &&
+                row["Item_Name"] &&
                 parseNumericValue(row[percentField]) !== null
             );
-
             if (!rows.length) return;
 
-            const peakBySeries = new Map();
-            rows.forEach(row => {
-                const series = String(row[seriesField]);
-                const pct = parseNumericValue(row[percentField]) || 0;
-                if (!peakBySeries.has(series) || pct > peakBySeries.get(series)) {
-                    peakBySeries.set(series, pct);
-                }
-            });
-
-            const topSeries = [...peakBySeries.entries()]
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 10)
-                .map(entry => entry[0]);
-
-            const allSeries = [...new Set(rows.map(row => String(row[seriesField])))].sort((a, b) => a.localeCompare(b));
             const allMonths = [...new Set(rows.map(row => row["Month_code"]))].sort();
             const defaultMonths = allMonths.slice(-12);
-
             analyticsStateMap[tabId] = {
                 rows,
-                allSeries,
                 allMonths,
-                selectedSeries: new Set(topSeries),
                 selectedMonths: new Set(defaultMonths.length ? defaultMonths : allMonths),
-                seriesField,
-                percentField
+                percentField,
+                level: "category",
+                selectedCategory: null,
+                selectedSubcategory: null,
             };
 
-            buildAnalyticsFilterList(tabId, "series", allSeries);
-            buildAnalyticsFilterList(tabId, "month", allMonths);
-            wireAnalyticsFilterEvents(tabId);
-            updateAnalyticsChart(tabId);
+            buildAnalyticsMonthFilter(tabId, allMonths);
+            wireDrilldownEvents(tabId);
+            updateDrilldownChart(tabId);
         }
     });
 }
 
-function buildAnalyticsFilterList(tabId, type, values) {
-    const box = document.getElementById(
-        type === "series" ? `${tabId}SeriesFilterBox` : `${tabId}MonthFilterBox`
-    );
+function buildAnalyticsMonthFilter(tabId, months) {
+    const box = document.getElementById(`${tabId}MonthFilterBox`);
     const state = analyticsStateMap[tabId];
     if (!box || !state) return;
-    const selectedSet = type === "series" ? state.selectedSeries : state.selectedMonths;
 
-    box.innerHTML = values.map(value => {
-        const checked = selectedSet.has(value) ? "checked" : "";
-        const safeValue = escapeHtml(value);
-        const encodedValue = encodeURIComponent(value);
-        const safeId = `${tabId}_${type}_${encodedValue}`;
+    box.innerHTML = months.map(month => {
+        const checked = state.selectedMonths.has(month) ? "checked" : "";
+        const safeValue = escapeHtml(month);
+        const encodedValue = encodeURIComponent(month);
+        const safeId = `${tabId}_month_${encodedValue}`;
         return `
             <div class="form-check mb-1">
-                <input class="form-check-input analytics-${type}-checkbox" type="checkbox" data-value="${encodedValue}" id="${safeId}" ${checked}>
+                <input class="form-check-input analytics-month-checkbox" type="checkbox" data-value="${encodedValue}" id="${safeId}" ${checked}>
                 <label class="form-check-label" for="${safeId}">${safeValue}</label>
             </div>`;
     }).join("");
 }
 
-function wireAnalyticsFilterEvents(tabId) {
+function wireDrilldownEvents(tabId) {
     const state = analyticsStateMap[tabId];
     if (!state || state.eventsBound) return;
     state.eventsBound = true;
 
-    const seriesSearch = document.getElementById(`${tabId}SeriesSearch`);
     const monthSearch = document.getElementById(`${tabId}MonthSearch`);
-    const seriesBox = document.getElementById(`${tabId}SeriesFilterBox`);
     const monthBox = document.getElementById(`${tabId}MonthFilterBox`);
-    const seriesSelectAll = document.getElementById(`${tabId}SeriesSelectAll`);
-    const seriesClear = document.getElementById(`${tabId}SeriesClear`);
     const monthSelectAll = document.getElementById(`${tabId}MonthSelectAll`);
     const monthClear = document.getElementById(`${tabId}MonthClear`);
     const resetZoom = document.getElementById(`${tabId}ResetZoom`);
+    const backBtn = document.getElementById(`${tabId}Back`);
 
     const filterCheckboxList = (box, searchValue) => {
         const query = (searchValue || "").trim().toLowerCase();
@@ -514,159 +471,169 @@ function wireAnalyticsFilterEvents(tabId) {
         });
     };
 
-    seriesSearch?.addEventListener("input", () => filterCheckboxList(seriesBox, seriesSearch.value));
     monthSearch?.addEventListener("input", () => filterCheckboxList(monthBox, monthSearch.value));
-
-    seriesBox?.addEventListener("change", (e) => {
-        if (!e.target.classList.contains("analytics-series-checkbox")) return;
-        const value = decodeURIComponent(e.target.dataset.value);
-        if (e.target.checked) state.selectedSeries.add(value);
-        else state.selectedSeries.delete(value);
-        updateAnalyticsChart(tabId);
-    });
 
     monthBox?.addEventListener("change", (e) => {
         if (!e.target.classList.contains("analytics-month-checkbox")) return;
         const value = decodeURIComponent(e.target.dataset.value);
         if (e.target.checked) state.selectedMonths.add(value);
         else state.selectedMonths.delete(value);
-        updateAnalyticsChart(tabId);
-    });
-
-    seriesSelectAll?.addEventListener("click", () => {
-        state.selectedSeries = new Set(state.allSeries);
-        buildAnalyticsFilterList(tabId, "series", state.allSeries);
-        filterCheckboxList(seriesBox, seriesSearch.value);
-        updateAnalyticsChart(tabId);
-    });
-
-    seriesClear?.addEventListener("click", () => {
-        state.selectedSeries = new Set();
-        buildAnalyticsFilterList(tabId, "series", state.allSeries);
-        filterCheckboxList(seriesBox, seriesSearch.value);
-        updateAnalyticsChart(tabId);
+        updateDrilldownChart(tabId);
     });
 
     monthSelectAll?.addEventListener("click", () => {
         state.selectedMonths = new Set(state.allMonths);
-        buildAnalyticsFilterList(tabId, "month", state.allMonths);
+        buildAnalyticsMonthFilter(tabId, state.allMonths);
         filterCheckboxList(monthBox, monthSearch.value);
-        updateAnalyticsChart(tabId);
+        updateDrilldownChart(tabId);
     });
 
     monthClear?.addEventListener("click", () => {
         state.selectedMonths = new Set();
-        buildAnalyticsFilterList(tabId, "month", state.allMonths);
+        buildAnalyticsMonthFilter(tabId, state.allMonths);
         filterCheckboxList(monthBox, monthSearch.value);
-        updateAnalyticsChart(tabId);
+        updateDrilldownChart(tabId);
     });
 
     resetZoom?.addEventListener("click", () => {
-        if (chartMap[tabId]) {
-            chartMap[tabId].resetZoom();
+        if (chartMap[tabId]) chartMap[tabId].resetZoom();
+    });
+
+    backBtn?.addEventListener("click", () => {
+        if (state.level === "item") {
+            state.level = "subcategory";
+            state.selectedSubcategory = null;
+        } else if (state.level === "subcategory") {
+            state.level = "category";
+            state.selectedCategory = null;
         }
+        updateDrilldownChart(tabId);
     });
 }
 
-function updateAnalyticsChart(tabId) {
+function getDrilldownSeries(state, selectedMonths) {
+    const grouped = new Map();
+    state.rows.forEach(row => {
+        if (!selectedMonths.includes(row["Month_code"])) return;
+        if (state.level === "subcategory" && row["Category"] !== state.selectedCategory) return;
+        if (state.level === "item" && (row["Category"] !== state.selectedCategory || row["Subcategory"] !== state.selectedSubcategory)) return;
+
+        const key = state.level === "category"
+            ? row["Category"]
+            : state.level === "subcategory"
+                ? row["Subcategory"]
+                : row["Item_Name"];
+
+        const mapKey = `${key}||${row["Month_code"]}`;
+        const current = grouped.get(mapKey) || 0;
+        grouped.set(mapKey, current + (parseNumericValue(row[state.percentField]) || 0));
+    });
+
+    const seriesNames = [...new Set([...grouped.keys()].map(k => k.split("||")[0]))];
+    const peakBySeries = new Map();
+    seriesNames.forEach(name => {
+        let peak = 0;
+        selectedMonths.forEach(month => {
+            const val = grouped.get(`${name}||${month}`) || 0;
+            if (val > peak) peak = val;
+        });
+        peakBySeries.set(name, peak);
+    });
+
+    const sortedSeries = seriesNames.sort((a, b) => (peakBySeries.get(b) || 0) - (peakBySeries.get(a) || 0));
+    const cappedSeries = state.level === "item" ? sortedSeries.slice(0, 20) : sortedSeries;
+
+    return {
+        series: cappedSeries,
+        valueFor: (name, month) => grouped.get(`${name}||${month}`) || 0
+    };
+}
+
+function updateDrilldownChart(tabId) {
     const state = analyticsStateMap[tabId];
     if (!state) return;
 
-    const selectedSeries = [...state.selectedSeries];
     const selectedMonths = [...state.selectedMonths].sort();
+    const breadcrumb = document.getElementById(`${tabId}Breadcrumb`);
+    const backBtn = document.getElementById(`${tabId}Back`);
+
+    let path = "Category";
+    if (state.level === "subcategory") {
+        path = `Category: ${state.selectedCategory}`;
+    } else if (state.level === "item") {
+        path = `Category: ${state.selectedCategory} > Subcategory: ${state.selectedSubcategory}`;
+    }
+    if (breadcrumb) breadcrumb.textContent = path;
+    if (backBtn) backBtn.disabled = state.level === "category";
+
+    const { series, valueFor } = getDrilldownSeries(state, selectedMonths);
 
     const palette = [
         "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
         "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"
     ];
 
-    const datasets = selectedSeries.map((series, idx) => {
-        const monthToPct = new Map();
-        state.rows.forEach(row => {
-            if (String(row[state.seriesField]) === series && selectedMonths.includes(row["Month_code"])) {
-                monthToPct.set(
-                    row["Month_code"],
-                    parseNumericValue(row[state.percentField]) || 0
-                );
-            }
-        });
-
-        return {
-            label: series,
-            data: selectedMonths.map(month => monthToPct.has(month) ? monthToPct.get(month) : null),
-            borderColor: palette[idx % palette.length],
-            backgroundColor: palette[idx % palette.length],
-            borderWidth: 2,
-            tension: 0.2,
-            spanGaps: true
-        };
-    });
+    const datasets = series.map((name, idx) => ({
+        label: name,
+        data: selectedMonths.map(month => valueFor(name, month)),
+        borderColor: palette[idx % palette.length],
+        backgroundColor: palette[idx % palette.length],
+        borderWidth: 2,
+        tension: 0.2,
+        spanGaps: true
+    }));
 
     const canvas = document.getElementById(`${tabId}Chart`);
     if (!canvas) return;
-    if (chartMap[tabId]) {
-        chartMap[tabId].destroy();
-    }
+    if (chartMap[tabId]) chartMap[tabId].destroy();
 
     chartMap[tabId] = new Chart(canvas, {
         type: "line",
-        data: {
-            labels: selectedMonths,
-            datasets
-        },
+        data: { labels: selectedMonths, datasets },
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            interaction: {
-                mode: "index",
-                intersect: false
+            interaction: { mode: "index", intersect: false },
+            onClick: (_, elements, chart) => {
+                if (!elements.length) return;
+                const clicked = chart.data.datasets[elements[0].datasetIndex]?.label;
+                if (!clicked) return;
+                if (state.level === "category") {
+                    state.level = "subcategory";
+                    state.selectedCategory = clicked;
+                    updateDrilldownChart(tabId);
+                } else if (state.level === "subcategory") {
+                    state.level = "item";
+                    state.selectedSubcategory = clicked;
+                    updateDrilldownChart(tabId);
+                }
             },
             plugins: {
-                legend: {
-                    position: "bottom"
-                },
+                legend: { position: "bottom" },
                 tooltip: {
                     callbacks: {
                         label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y?.toFixed(2) ?? "0.00"}%`
                     }
                 },
                 zoom: {
-                    pan: {
-                        enabled: true,
-                        mode: "x"
-                    },
+                    pan: { enabled: true, mode: "x" },
                     zoom: {
-                        wheel: {
-                            enabled: true
-                        },
-                        pinch: {
-                            enabled: true
-                        },
-                        drag: {
-                            enabled: true
-                        },
+                        wheel: { enabled: true },
+                        pinch: { enabled: true },
+                        drag: { enabled: true },
                         mode: "x"
                     },
-                    limits: {
-                        x: {
-                            minRange: 2
-                        }
-                    }
+                    limits: { x: { minRange: 2 } }
                 }
             },
             scales: {
                 y: {
-                    title: { display: true, text: "Consumed Stock %" },
-                    ticks: {
-                        callback: value => `${value}%`
-                    }
+                    title: { display: true, text: "Percentage %" },
+                    ticks: { callback: value => `${value}%` }
                 },
                 x: {
                     title: { display: true, text: "Year-Month" },
-                    ticks: {
-                        autoSkip: true,
-                        maxTicksLimit: 18
-                    }
+                    ticks: { autoSkip: true, maxTicksLimit: 18 }
                 }
             }
         }
