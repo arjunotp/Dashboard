@@ -264,6 +264,7 @@ milk 28 milma,CHEESE & DAIRY,milk,0.92
 milk 30,CHEESE & DAIRY,milk,0.92
 milk choco,CHEESE & DAIRY,milk,0.92
 milk choco 180 ml,CHEESE & DAIRY,milk,0.92
+milk coffee 180ml,CHEESE & DAIRY,milk,0.92
 milk fruits sugar balls,CHEESE & DAIRY,milk,0.92
 milk kesar badam 180ml,CHEESE & DAIRY,milk,0.92
 milk maid,CHEESE & DAIRY,milk maid,1.0
@@ -387,6 +388,7 @@ horlicks,"FLOUR, GRAINS & DRY GOODS",horlicks,1.0
 labour Charges-maida,"FLOUR, GRAINS & DRY GOODS",maida,0.92
 maida,"FLOUR, GRAINS & DRY GOODS",maida,1.0
 maida 30kg,"FLOUR, GRAINS & DRY GOODS",maida,0.92
+maida loose,"FLOUR, GRAINS & DRY GOODS",maida,0.95
 maida prince,"FLOUR, GRAINS & DRY GOODS",maida,0.92
 maida prince 30kg,"FLOUR, GRAINS & DRY GOODS",maida,0.92
 masoor dal,"FLOUR, GRAINS & DRY GOODS",masoor dal,1.0
@@ -580,6 +582,7 @@ garam masala,MASALA & SEASONINGS,garam masala,1.0
 mexican mix,MASALA & SEASONINGS,mexican mix,1.0
 mix herb amazon 1 kg,MASALA & SEASONINGS,herb mix,0.9
 salt powder,MASALA & SEASONINGS,salt,0.92
+salted cookies syrup taste craft,MASALA & SEASONINGS,salt,0.92
 AK Chicken Adakkaputhur-kheema-,MEAT & POULTRY,kheema,0.92
 Boneless Chicken,MEAT & POULTRY,boneless chicken,1.0
 Bornless Chicken- Adakkaputhur,MEAT & POULTRY,whole chicken,0.9
@@ -964,6 +967,7 @@ Jar Caplar,UNMAPPED,,0.45
 Jeerakham - Loose,UNMAPPED,,0.45
 Jumbo Cover-Blue,UNMAPPED,,0.45
 KOT Printing Rolls,UNMAPPED,,0.45
+KOT ROLLS,UNMAPPED,,0.45
 KTP Vegitables-vegitables,UNMAPPED,,0.359
 KTP Vegitables-vegitables-,UNMAPPED,,0.359
 LED Star,UNMAPPED,,0.5
@@ -1076,7 +1080,9 @@ black olive slice btl 450gm,UNMAPPED,,0.4651
 brinjal-veg,UNMAPPED,,0.45
 bucket-Plastic,UNMAPPED,,0.5185
 cashew,UNMAPPED,,0.45
+cheese cake cassata syrup,UNMAPPED,,0.5
 churanga,UNMAPPED,,0.45
+coffee mocha syrup taste craft,UNMAPPED,,0.4783
 colour,UNMAPPED,,0.45
 cover colour,UNMAPPED,,0.45
 diya wicks,UNMAPPED,,0.45
@@ -1116,6 +1122,7 @@ kadala brown,UNMAPPED,,0.45
 kitchen towel,UNMAPPED,,0.45
 kovakka-veg,UNMAPPED,,0.45
 lighter,UNMAPPED,,0.45
+mango crush taste craft,UNMAPPED,,0.4706
 mbS Traders-Egg,UNMAPPED,,0.45
 mbS Traders-Micro 20x26,UNMAPPED,,0.45
 mbS Traders-Vilakenna,UNMAPPED,,0.45
