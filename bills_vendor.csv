@@ -1,28 +1,154 @@
 year_month,Date,Vendor_Name,Amount
+2026-02,2026-02-04,BERRY FRESH,1580.0
+2026-02,2026-02-16,Dhanalaxmi traders,2700.0
+2026-02,2026-02-04,Essar Associates,4554.0
+2026-02,2026-02-11,Essar Associates,2171.0
+2026-02,2026-02-21,Essar Associates,2691.0
+2026-02,2026-02-01,KTP Vegitables,238.0
+2026-02,2026-02-02,KTP Vegitables,99.0
+2026-02,2026-02-03,KTP Vegitables,168.0
+2026-02,2026-02-05,KTP Vegitables,333.0
+2026-02,2026-02-07,KTP Vegitables,158.0
+2026-02,2026-02-09,KTP Vegitables,184.0
+2026-02,2026-02-10,KTP Vegitables,248.0
+2026-02,2026-02-15,KTP Vegitables,244.0
+2026-02,2026-02-16,KTP Vegitables,144.0
+2026-02,2026-02-19,KTP Vegitables,435.0
+2026-02,2026-02-06,Koonathil Traders,3580.0
+2026-02,2026-02-14,Koonathil Traders,2192.0
+2026-02,2026-02-20,Koonathil Traders,1721.0
+2026-02,2026-02-01,Local Purchase,100.0
+2026-02,2026-02-02,Local Purchase,2734.0
+2026-02,2026-02-03,Local Purchase,465.0
+2026-02,2026-02-05,Local Purchase,340.0
+2026-02,2026-02-07,Local Purchase,388.0
+2026-02,2026-02-08,Local Purchase,180.0
+2026-02,2026-02-09,Local Purchase,810.0
+2026-02,2026-02-10,Local Purchase,4231.0
+2026-02,2026-02-11,Local Purchase,980.0
+2026-02,2026-02-12,Local Purchase,180.0
+2026-02,2026-02-13,Local Purchase,2296.0
+2026-02,2026-02-14,Local Purchase,1074.0
+2026-02,2026-02-15,Local Purchase,156.0
+2026-02,2026-02-16,Local Purchase,718.0
+2026-02,2026-02-17,Local Purchase,1740.0
+2026-02,2026-02-18,Local Purchase,800.0
+2026-02,2026-02-19,Local Purchase,266.0
+2026-02,2026-02-21,Local Purchase,1577.0
+2026-02,2026-02-07,Local Purchase-Gas AGency,3560.0
+2026-02,2026-02-14,Local Purchase-Gas AGency,3560.0
+2026-02,2026-02-21,Local Purchase-Gas AGency,3560.0
+2026-02,2026-02-07,RK Agencies,4850.0
+2026-02,2026-02-16,RK Agencies,3545.0
+2026-02,2026-02-07,Ranjith Loocos,1050.0
+2026-02,2026-02-03,bistro frozen,7641.0
+2026-02,2026-02-10,bistro frozen,8870.0
+2026-02,2026-02-17,bistro frozen,7582.0
+2026-02,2026-02-01,shabana chicken stall,1147.0
+2026-02,2026-02-02,shabana chicken stall,884.0
+2026-02,2026-02-03,shabana chicken stall,775.0
+2026-02,2026-02-05,shabana chicken stall,825.0
+2026-02,2026-02-07,shabana chicken stall,1435.0
+2026-02,2026-02-10,shabana chicken stall,710.0
+2026-02,2026-02-11,shabana chicken stall,826.0
+2026-02,2026-02-12,shabana chicken stall,869.0
+2026-02,2026-02-15,shabana chicken stall,918.0
+2026-02,2026-02-19,shabana chicken stall,518.0
+2026-02,2026-02-21,shabana chicken stall,623.0
+2026-01,2026-01-08,BERRY FRESH,1300.0
+2026-01,2026-01-10,Essar Associates,4163.0
+2026-01,2026-01-21,Essar Associates,2494.0
+2026-01,2026-01-31,Essar Associates,1032.0
 2026-01,2026-01-01,Isha Fresh Vegitables (Hisham),376.0
+2026-01,2026-01-10,Isha Fresh Vegitables (Hisham),1042.0
+2026-01,2026-01-24,Isha Fresh Vegitables (Hisham),598.0
 2026-01,2026-01-01,KTP Vegitables,433.0
 2026-01,2026-01-02,KTP Vegitables,1112.0
 2026-01,2026-01-03,KTP Vegitables,270.0
 2026-01,2026-01-06,KTP Vegitables,265.0
 2026-01,2026-01-07,KTP Vegitables,474.0
-2026-01,2026-01-31,KTP Vegitables,501.0
+2026-01,2026-01-09,KTP Vegitables,418.0
+2026-01,2026-01-10,KTP Vegitables,201.0
+2026-01,2026-01-11,KTP Vegitables,684.0
+2026-01,2026-01-14,KTP Vegitables,415.0
+2026-01,2026-01-16,KTP Vegitables,403.0
+2026-01,2026-01-17,KTP Vegitables,210.0
+2026-01,2026-01-21,KTP Vegitables,605.0
+2026-01,2026-01-22,KTP Vegitables,143.0
+2026-01,2026-01-23,KTP Vegitables,280.0
+2026-01,2026-01-24,KTP Vegitables,391.0
+2026-01,2026-01-26,KTP Vegitables,450.0
+2026-01,2026-01-29,KTP Vegitables,134.0
+2026-01,2026-01-30,KTP Vegitables,360.0
+2026-01,2026-01-31,KTP Vegitables,621.0
 2026-01,2026-01-02,Koonathil Traders,11700.0
+2026-01,2026-01-09,Koonathil Traders,2886.0
+2026-01,2026-01-16,Koonathil Traders,3197.0
+2026-01,2026-01-30,Koonathil Traders,8911.0
+2026-01,2026-01-08,Lakhsyam Foods,39649.0
 2026-01,2026-01-03,Local Purchase,3119.0
 2026-01,2026-01-04,Local Purchase,406.0
 2026-01,2026-01-05,Local Purchase,175.0
 2026-01,2026-01-06,Local Purchase,580.0
 2026-01,2026-01-07,Local Purchase,990.0
-2026-01,2026-01-31,Local Purchase,1319.0
+2026-01,2026-01-08,Local Purchase,160.0
+2026-01,2026-01-09,Local Purchase,430.0
+2026-01,2026-01-10,Local Purchase,2155.0
+2026-01,2026-01-11,Local Purchase,1088.0
+2026-01,2026-01-12,Local Purchase,625.0
+2026-01,2026-01-13,Local Purchase,360.0
+2026-01,2026-01-14,Local Purchase,1070.0
+2026-01,2026-01-15,Local Purchase,668.0
+2026-01,2026-01-16,Local Purchase,578.0
+2026-01,2026-01-17,Local Purchase,865.0
+2026-01,2026-01-18,Local Purchase,3374.0
+2026-01,2026-01-19,Local Purchase,180.0
+2026-01,2026-01-20,Local Purchase,1218.0
+2026-01,2026-01-21,Local Purchase,956.0
+2026-01,2026-01-22,Local Purchase,2465.0
+2026-01,2026-01-23,Local Purchase,296.0
+2026-01,2026-01-24,Local Purchase,2036.0
+2026-01,2026-01-25,Local Purchase,459.0
+2026-01,2026-01-26,Local Purchase,690.0
+2026-01,2026-01-27,Local Purchase,420.0
+2026-01,2026-01-28,Local Purchase,459.0
+2026-01,2026-01-29,Local Purchase,1030.0
+2026-01,2026-01-30,Local Purchase,1796.0
+2026-01,2026-01-31,Local Purchase,2587.0
 2026-01,2026-01-03,Local Purchase-Gas AGency,3460.0
+2026-01,2026-01-16,Local Purchase-Gas AGency,3460.0
+2026-01,2026-01-23,Local Purchase-Gas AGency,3460.0
+2026-01,2026-01-31,Local Purchase-Gas AGency,3460.0
+2026-01,2026-01-11,Local Purchase-Petrol,1730.0
+2026-01,2026-01-21,NEXT TRADERS,1538.0
 2026-01,2026-01-02,RK Agencies,3480.0
+2026-01,2026-01-10,RK Agencies,3480.0
+2026-01,2026-01-21,RK Agencies,3500.0
+2026-01,2026-01-26,RK Agencies,3510.0
 2026-01,2026-01-07,abad fisheries pvt.ltd,3258.0
+2026-01,2026-01-28,abad fisheries pvt.ltd,2783.0
 2026-01,2026-01-06,bistro frozen,12907.0
+2026-01,2026-01-20,bistro frozen,13713.0
+2026-01,2026-01-27,bistro frozen,9532.0
 2026-01,2026-01-01,shabana chicken stall,1435.0
 2026-01,2026-01-02,shabana chicken stall,1303.0
 2026-01,2026-01-04,shabana chicken stall,1620.0
 2026-01,2026-01-05,shabana chicken stall,1105.0
 2026-01,2026-01-07,shabana chicken stall,1517.0
-2026-01,2026-01-31,shabana chicken stall,1232.0
+2026-01,2026-01-10,shabana chicken stall,741.0
+2026-01,2026-01-11,shabana chicken stall,1102.0
+2026-01,2026-01-14,shabana chicken stall,1140.0
+2026-01,2026-01-15,shabana chicken stall,1691.0
+2026-01,2026-01-17,shabana chicken stall,969.0
+2026-01,2026-01-18,shabana chicken stall,608.0
+2026-01,2026-01-20,shabana chicken stall,1140.0
+2026-01,2026-01-22,shabana chicken stall,954.0
+2026-01,2026-01-23,shabana chicken stall,682.0
+2026-01,2026-01-24,shabana chicken stall,1171.0
+2026-01,2026-01-25,shabana chicken stall,1270.0
+2026-01,2026-01-28,shabana chicken stall,1008.0
+2026-01,2026-01-29,shabana chicken stall,976.0
+2026-01,2026-01-31,shabana chicken stall,2160.0
 2025-12,2025-12-10,BERRY FRESH,1300.0
 2025-12,2025-12-06,Essar Associates,4539.0
 2025-12,2025-12-17,Essar Associates,1877.0
