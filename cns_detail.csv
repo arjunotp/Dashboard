@@ -1,4 +1,45 @@
 Date,Type,Item Type,Name,Order Quantity,Consumable Cheese per item,Total Consumable Cheese
+2026-02-21,POS,item,12 Inch - Large Pizza,1.0,120.0,120.0
+2026-02-21,POS,item,Non Veg Meal For 4,2.0,120.0,240.0
+2026-02-21,POS,item,2 Regular Non-veg@409,1.0,80.0,80.0
+2026-02-21,POS,item,2 Regular Veg@349,2.0,80.0,160.0
+2026-02-21,POS,item,9 Inch - Medium Pizza,9.0,75.0,675.0
+2026-02-21,POS,item,Super Saver Meal Medium,1.0,75.0,75.0
+2026-02-21,POS,item,7 Inch - Regular Pizza,9.0,40.0,360.0
+2026-02-21,Swiggy,item,7 Inch - Regular Pizza,3.0,40.0,120.0
+2026-02-21,POS,item,Garlic Bread Supreme [veg],1.0,40.0,40.0
+2026-02-21,POS,item,Garlic Bread With Cheese,1.0,40.0,40.0
+2026-02-21,POS,item,Super Saver Meal Regular,2.0,40.0,80.0
+2026-02-21,POS,addon,9 Inch - Medium Pizza -Extra Cheese,3.0,38.0,114.0
+2026-02-21,POS,item,7up @50rs,1.0,0.0,0.0
+2026-02-21,POS,item,Blue Mojito,1.0,0.0,0.0
+2026-02-21,POS,item,Brownie With Ice Cream,1.0,0.0,0.0
+2026-02-21,POS,item,Burger Combo @ 169,1.0,0.0,0.0
+2026-02-21,POS,item,Burger Combo @ 179,4.0,0.0,0.0
+2026-02-21,POS,item,Cheese N Macaroni Salad,1.0,0.0,0.0
+2026-02-21,POS,item,Cheesy Dip,1.0,0.0,0.0
+2026-02-21,POS,item,Chicken Nuggets Burger,1.0,0.0,0.0
+2026-02-21,POS,item,Chicken Pasta,2.0,0.0,0.0
+2026-02-21,Swiggy,item,Chicken Pasta,1.0,0.0,0.0
+2026-02-21,POS,item,Chicken Popcorn,1.0,0.0,0.0
+2026-02-21,POS,item,Chocolate Shake,1.0,0.0,0.0
+2026-02-21,POS,item,French Fries,5.0,0.0,0.0
+2026-02-21,POS,item,Garlic Bread,1.0,0.0,0.0
+2026-02-21,POS,item,Greek Salad,1.0,0.0,0.0
+2026-02-21,POS,item,Green Apple,3.0,0.0,0.0
+2026-02-21,POS,item,Loaded Fries,1.0,0.0,0.0
+2026-02-21,POS,item,Mdew 330ml Can,1.0,0.0,0.0
+2026-02-21,POS,item,Mdew@40rs,3.0,0.0,0.0
+2026-02-21,POS,item,Mineral Water,1.0,0.0,0.0
+2026-02-21,POS,item,Mint Lime Juice,2.0,0.0,0.0
+2026-02-21,POS,item,Passion Fruit,1.0,0.0,0.0
+2026-02-21,POS,item,Pepsi@50rs,1.0,0.0,0.0
+2026-02-21,POS,item,Pineapple Juice,1.0,0.0,0.0
+2026-02-21,POS,item,Potato Wedges,1.0,0.0,0.0
+2026-02-21,POS,item,Regular Chicken Burger,5.0,0.0,0.0
+2026-02-21,POS,item,Slice 200ml,1.0,0.0,0.0
+2026-02-21,POS,item,Soft Drink,7.0,0.0,0.0
+2026-02-21,POS,item,Veg Burger,3.0,0.0,0.0
 2026-02-20,Swiggy,item,2 Medium Pizzas,1.0,150.0,150.0
 2026-02-20,POS,item,12 Inch - Large Pizza,1.0,120.0,120.0
 2026-02-20,Swiggy,item,12 Inch - Large Pizza,1.0,120.0,120.0
