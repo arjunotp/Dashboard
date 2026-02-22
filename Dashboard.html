@@ -45,6 +45,21 @@
             width: 100% !important;
         }
 
+        .analytics-filter-box {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 10px;
+            max-height: 220px;
+            overflow-y: auto;
+            background: #fff;
+        }
+
+        .analytics-filter-header {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
     </style>
 </head>
 <body>
@@ -70,6 +85,8 @@
 <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
 
 <script>
 
@@ -94,6 +111,8 @@ logoutBtn.addEventListener("click", () => {
 });
 
 const tableMap = {};
+const chartMap = {};
+const analyticsStateMap = {};
 const AUDITOR_GROUP_LABEL = "Auditors Section";
 let auditorGroupIndex = -1;
 
@@ -119,6 +138,15 @@ function isNumericColumn(rows, field) {
 
 function showAdminOnlyNotification() {
     window.alert("This section is accessible only to the admin.");
+}
+
+function escapeHtml(value) {
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
 }
 
 const config = [
@@ -179,6 +207,43 @@ const config = [
         ]
     },
     {
+        label: "Analytics",
+        subtabs: [
+            {
+                label: "Consumption % Trend (Top 10 Items)",
+                csv: "stock_consumed_amount_percentage.csv",
+                view: "consumedStockAnalytics",
+                seriesField: "item_name",
+                seriesLabel: "Items",
+                searchPlaceholder: "Search items",
+                chartTitle: "Top 10 Items by Consumed Stock %",
+                chartSubtitle: "Monthly trend comparison for highest consumed-stock percentage items."
+            },
+            {
+                label: "Consumption % Trend (Categories)",
+                csv: "stock_consumed_category_percentage.csv",
+                view: "consumedStockAnalytics",
+                seriesField: "Category",
+                seriesLabel: "Categories",
+                searchPlaceholder: "Search categories",
+                chartTitle: "Consumed Stock % by Category",
+                chartSubtitle: "Monthly trend comparison for category-level consumed-stock percentage.",
+                percentField: "consumed-stock_amount%"
+            },
+            {
+                label: "Expense % Trend (Categories)",
+                csv: "expense_category_percentage.csv",
+                view: "consumedStockAnalytics",
+                seriesField: "Category",
+                seriesLabel: "Categories",
+                searchPlaceholder: "Search categories",
+                chartTitle: "Expense % by Category",
+                chartSubtitle: "Monthly trend comparison for category-level expense percentage.",
+                percentField: "expense_amount%"
+            }
+        ]
+    },
+    {
         label: "Auditors Section",
         subtabs: [
             { label: "Final Summary", csv: "final_summary.csv" },
@@ -208,6 +273,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         group.subtabs.forEach((sub, sIdx) => {
             const tabId = `g${gIdx}_s${sIdx}`;
+            const isAnalyticsTab = sub.view === "consumedStockAnalytics";
 
             const li = document.createElement("li");
             li.className = "nav-item hidden";
@@ -218,7 +284,43 @@ document.addEventListener("DOMContentLoaded", () => {
             const pane = document.createElement("div");
             pane.className = "tab-pane fade";
             pane.id = tabId;
-            pane.innerHTML = `
+            pane.innerHTML = isAnalyticsTab
+                ? `
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">${sub.chartTitle || "Consumed Stock %"}</h5>
+                        <p class="text-muted small mb-3">
+                            ${sub.chartSubtitle || "Monthly trend comparison."}
+                        </p>
+                        <div class="row g-3 mb-3">
+                            <div class="col-12 col-lg-6">
+                                <div class="analytics-filter-header">${sub.seriesLabel || "Series"}</div>
+                                <input id="${tabId}SeriesSearch" class="form-control form-control-sm mb-2" type="text" placeholder="${sub.searchPlaceholder || "Search"}">
+                                <div class="d-flex gap-2 mb-2">
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}SeriesSelectAll" type="button">Select all</button>
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}SeriesClear" type="button">Clear</button>
+                                </div>
+                                <div id="${tabId}SeriesFilterBox" class="analytics-filter-box"></div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="analytics-filter-header">Year-Month</div>
+                                <input id="${tabId}MonthSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search year-month">
+                                <div class="d-flex gap-2 mb-2">
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthSelectAll" type="button">Select all</button>
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthClear" type="button">Clear</button>
+                                </div>
+                                <div id="${tabId}MonthFilterBox" class="analytics-filter-box"></div>
+                            </div>
+                        </div>
+                        <div style="height: 420px;">
+                            <canvas id="${tabId}Chart"></canvas>
+                        </div>
+                        <div class="d-flex justify-content-end mt-2">
+                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}ResetZoom" type="button">Reset Zoom</button>
+                        </div>
+                    </div>
+                </div>`
+                : `
                 <div class="d-flex justify-content-end mb-2">
                     <button class="btn btn-outline-primary btn-sm download-btn" data-tab-id="${tabId}">
                         Download
@@ -229,48 +331,52 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>`;
             tabContent.appendChild(pane);
 
-            Papa.parse(sub.csv, {
-                download: true,
-                header: true,
-                skipEmptyLines: true,
-                complete: res => {
-                    const numericFields = new Set(
-                        res.meta.fields.filter(field => isNumericColumn(res.data, field))
-                    );
+            if (isAnalyticsTab) {
+                renderConsumptionAnalyticsChart(tabId, sub);
+            } else {
+                Papa.parse(sub.csv, {
+                    download: true,
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: res => {
+                        const numericFields = new Set(
+                            res.meta.fields.filter(field => isNumericColumn(res.data, field))
+                        );
 
-                    const columns = res.meta.fields.map(field => {
-                        if (!numericFields.has(field)) {
-                            return { title: field, data: row => row[field] };
-                        }
-
-                        return {
-                            title: field,
-                            data: row => row[field],
-                            render: (data, type) => {
-                                const numericValue = parseNumericValue(data);
-                                if (numericValue === null) return data ?? "";
-
-                                const hasFraction = Math.abs(numericValue % 1) > Number.EPSILON;
-                                const displayValue = hasFraction
-                                    ? numericValue.toFixed(2)
-                                    : String(Math.trunc(numericValue));
-
-                                if (type === "display" || type === "filter") return displayValue;
-                                if (type === "sort" || type === "type") return numericValue;
-                                return numericValue;
+                        const columns = res.meta.fields.map(field => {
+                            if (!numericFields.has(field)) {
+                                return { title: field, data: row => row[field] };
                             }
-                        };
-                    });
 
-                    tableMap[tabId] = $('#' + tabId + 'Table').DataTable({
-                        data: res.data,
-                        columns,
-                        pageLength: 50,
-                        order: [[0, 'desc']],
-                        autoWidth: false
-                    });
-                }
-            });
+                            return {
+                                title: field,
+                                data: row => row[field],
+                                render: (data, type) => {
+                                    const numericValue = parseNumericValue(data);
+                                    if (numericValue === null) return data ?? "";
+
+                                    const hasFraction = Math.abs(numericValue % 1) > Number.EPSILON;
+                                    const displayValue = hasFraction
+                                        ? numericValue.toFixed(2)
+                                        : String(Math.trunc(numericValue));
+
+                                    if (type === "display" || type === "filter") return displayValue;
+                                    if (type === "sort" || type === "type") return numericValue;
+                                    return numericValue;
+                                }
+                            };
+                        });
+
+                        tableMap[tabId] = $('#' + tabId + 'Table').DataTable({
+                            data: res.data,
+                            columns,
+                            pageLength: 50,
+                            order: [[0, 'desc']],
+                            autoWidth: false
+                        });
+                    }
+                });
+            }
         });
     });
 
@@ -310,6 +416,261 @@ function filterTabs(groupIndex) {
         firstBtn.classList.add('active');
         document.querySelector(firstBtn.dataset.bsTarget).classList.add('show', 'active');
     }
+}
+
+function renderConsumptionAnalyticsChart(tabId, sub) {
+    Papa.parse(sub.csv, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: res => {
+            const seriesField = sub.seriesField || "item_name";
+            const percentField = sub.percentField || "consumed-stock_amount%";
+            const rows = (res.data || []).filter(row =>
+                row["Month_code"] &&
+                row[seriesField] &&
+                parseNumericValue(row[percentField]) !== null
+            );
+
+            if (!rows.length) return;
+
+            const peakBySeries = new Map();
+            rows.forEach(row => {
+                const series = String(row[seriesField]);
+                const pct = parseNumericValue(row[percentField]) || 0;
+                if (!peakBySeries.has(series) || pct > peakBySeries.get(series)) {
+                    peakBySeries.set(series, pct);
+                }
+            });
+
+            const topSeries = [...peakBySeries.entries()]
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10)
+                .map(entry => entry[0]);
+
+            const allSeries = [...new Set(rows.map(row => String(row[seriesField])))].sort((a, b) => a.localeCompare(b));
+            const allMonths = [...new Set(rows.map(row => row["Month_code"]))].sort();
+            const defaultMonths = allMonths.slice(-12);
+
+            analyticsStateMap[tabId] = {
+                rows,
+                allSeries,
+                allMonths,
+                selectedSeries: new Set(topSeries),
+                selectedMonths: new Set(defaultMonths.length ? defaultMonths : allMonths),
+                seriesField,
+                percentField
+            };
+
+            buildAnalyticsFilterList(tabId, "series", allSeries);
+            buildAnalyticsFilterList(tabId, "month", allMonths);
+            wireAnalyticsFilterEvents(tabId);
+            updateAnalyticsChart(tabId);
+        }
+    });
+}
+
+function buildAnalyticsFilterList(tabId, type, values) {
+    const box = document.getElementById(
+        type === "series" ? `${tabId}SeriesFilterBox` : `${tabId}MonthFilterBox`
+    );
+    const state = analyticsStateMap[tabId];
+    if (!box || !state) return;
+    const selectedSet = type === "series" ? state.selectedSeries : state.selectedMonths;
+
+    box.innerHTML = values.map(value => {
+        const checked = selectedSet.has(value) ? "checked" : "";
+        const safeValue = escapeHtml(value);
+        const encodedValue = encodeURIComponent(value);
+        const safeId = `${tabId}_${type}_${encodedValue}`;
+        return `
+            <div class="form-check mb-1">
+                <input class="form-check-input analytics-${type}-checkbox" type="checkbox" data-value="${encodedValue}" id="${safeId}" ${checked}>
+                <label class="form-check-label" for="${safeId}">${safeValue}</label>
+            </div>`;
+    }).join("");
+}
+
+function wireAnalyticsFilterEvents(tabId) {
+    const state = analyticsStateMap[tabId];
+    if (!state || state.eventsBound) return;
+    state.eventsBound = true;
+
+    const seriesSearch = document.getElementById(`${tabId}SeriesSearch`);
+    const monthSearch = document.getElementById(`${tabId}MonthSearch`);
+    const seriesBox = document.getElementById(`${tabId}SeriesFilterBox`);
+    const monthBox = document.getElementById(`${tabId}MonthFilterBox`);
+    const seriesSelectAll = document.getElementById(`${tabId}SeriesSelectAll`);
+    const seriesClear = document.getElementById(`${tabId}SeriesClear`);
+    const monthSelectAll = document.getElementById(`${tabId}MonthSelectAll`);
+    const monthClear = document.getElementById(`${tabId}MonthClear`);
+    const resetZoom = document.getElementById(`${tabId}ResetZoom`);
+
+    const filterCheckboxList = (box, searchValue) => {
+        const query = (searchValue || "").trim().toLowerCase();
+        box.querySelectorAll(".form-check").forEach(wrapper => {
+            const label = wrapper.querySelector("label")?.textContent?.toLowerCase() || "";
+            wrapper.style.display = !query || label.includes(query) ? "" : "none";
+        });
+    };
+
+    seriesSearch?.addEventListener("input", () => filterCheckboxList(seriesBox, seriesSearch.value));
+    monthSearch?.addEventListener("input", () => filterCheckboxList(monthBox, monthSearch.value));
+
+    seriesBox?.addEventListener("change", (e) => {
+        if (!e.target.classList.contains("analytics-series-checkbox")) return;
+        const value = decodeURIComponent(e.target.dataset.value);
+        if (e.target.checked) state.selectedSeries.add(value);
+        else state.selectedSeries.delete(value);
+        updateAnalyticsChart(tabId);
+    });
+
+    monthBox?.addEventListener("change", (e) => {
+        if (!e.target.classList.contains("analytics-month-checkbox")) return;
+        const value = decodeURIComponent(e.target.dataset.value);
+        if (e.target.checked) state.selectedMonths.add(value);
+        else state.selectedMonths.delete(value);
+        updateAnalyticsChart(tabId);
+    });
+
+    seriesSelectAll?.addEventListener("click", () => {
+        state.selectedSeries = new Set(state.allSeries);
+        buildAnalyticsFilterList(tabId, "series", state.allSeries);
+        filterCheckboxList(seriesBox, seriesSearch.value);
+        updateAnalyticsChart(tabId);
+    });
+
+    seriesClear?.addEventListener("click", () => {
+        state.selectedSeries = new Set();
+        buildAnalyticsFilterList(tabId, "series", state.allSeries);
+        filterCheckboxList(seriesBox, seriesSearch.value);
+        updateAnalyticsChart(tabId);
+    });
+
+    monthSelectAll?.addEventListener("click", () => {
+        state.selectedMonths = new Set(state.allMonths);
+        buildAnalyticsFilterList(tabId, "month", state.allMonths);
+        filterCheckboxList(monthBox, monthSearch.value);
+        updateAnalyticsChart(tabId);
+    });
+
+    monthClear?.addEventListener("click", () => {
+        state.selectedMonths = new Set();
+        buildAnalyticsFilterList(tabId, "month", state.allMonths);
+        filterCheckboxList(monthBox, monthSearch.value);
+        updateAnalyticsChart(tabId);
+    });
+
+    resetZoom?.addEventListener("click", () => {
+        if (chartMap[tabId]) {
+            chartMap[tabId].resetZoom();
+        }
+    });
+}
+
+function updateAnalyticsChart(tabId) {
+    const state = analyticsStateMap[tabId];
+    if (!state) return;
+
+    const selectedSeries = [...state.selectedSeries];
+    const selectedMonths = [...state.selectedMonths].sort();
+
+    const palette = [
+        "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
+        "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"
+    ];
+
+    const datasets = selectedSeries.map((series, idx) => {
+        const monthToPct = new Map();
+        state.rows.forEach(row => {
+            if (String(row[state.seriesField]) === series && selectedMonths.includes(row["Month_code"])) {
+                monthToPct.set(
+                    row["Month_code"],
+                    parseNumericValue(row[state.percentField]) || 0
+                );
+            }
+        });
+
+        return {
+            label: series,
+            data: selectedMonths.map(month => monthToPct.has(month) ? monthToPct.get(month) : null),
+            borderColor: palette[idx % palette.length],
+            backgroundColor: palette[idx % palette.length],
+            borderWidth: 2,
+            tension: 0.2,
+            spanGaps: true
+        };
+    });
+
+    const canvas = document.getElementById(`${tabId}Chart`);
+    if (!canvas) return;
+    if (chartMap[tabId]) {
+        chartMap[tabId].destroy();
+    }
+
+    chartMap[tabId] = new Chart(canvas, {
+        type: "line",
+        data: {
+            labels: selectedMonths,
+            datasets
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                mode: "index",
+                intersect: false
+            },
+            plugins: {
+                legend: {
+                    position: "bottom"
+                },
+                tooltip: {
+                    callbacks: {
+                        label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y?.toFixed(2) ?? "0.00"}%`
+                    }
+                },
+                zoom: {
+                    pan: {
+                        enabled: true,
+                        mode: "x"
+                    },
+                    zoom: {
+                        wheel: {
+                            enabled: true
+                        },
+                        pinch: {
+                            enabled: true
+                        },
+                        drag: {
+                            enabled: true
+                        },
+                        mode: "x"
+                    },
+                    limits: {
+                        x: {
+                            minRange: 2
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    title: { display: true, text: "Consumed Stock %" },
+                    ticks: {
+                        callback: value => `${value}%`
+                    }
+                },
+                x: {
+                    title: { display: true, text: "Year-Month" },
+                    ticks: {
+                        autoSkip: true,
+                        maxTicksLimit: 18
+                    }
+                }
+            }
+        }
+    });
 }
 
 document.addEventListener("shown.bs.tab", () => {
@@ -378,4 +739,3 @@ async function updateLastRefreshedFromAllCSVs() {
 
 </body>
 </html>
-
