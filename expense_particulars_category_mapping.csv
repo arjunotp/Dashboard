@@ -6,6 +6,7 @@ Advertisement Onam,ADVERTISEMENT & MARKETING,advertisement onam,1.0
 Advertisement Safa,ADVERTISEMENT & MARKETING,advertisement,0.92
 Advertisement-Notice,ADVERTISEMENT & MARKETING,notice advertisement,0.95
 Advertisement-Notice Distribution,ADVERTISEMENT & MARKETING,advertisement,0.92
+Athul govind boosting,ADVERTISEMENT & MARKETING,boosting,0.92
 Boosting ( Arjun),ADVERTISEMENT & MARKETING,boosting,0.92
 Boosting ( Ottapalam),ADVERTISEMENT & MARKETING,boosting,0.92
 Notice Advertisement,ADVERTISEMENT & MARKETING,notice advertisement,1.0
@@ -176,6 +177,8 @@ Transportation Charge hisham vegetables,FOOD RAW MATERIAL PURCHASE,vegetables,0.
 auto charge maida and loading,FOOD RAW MATERIAL PURCHASE,maida,0.92
 berry fresh fruit pulp,FOOD RAW MATERIAL PURCHASE,fruit pulp,0.92
 bio cover,FOOD RAW MATERIAL PURCHASE,bio cover,1.0
+bone less chicken 24/1,FOOD RAW MATERIAL PURCHASE,chicken,0.92
+bone less chicken 25/1,FOOD RAW MATERIAL PURCHASE,chicken,0.92
 boneless chicken,FOOD RAW MATERIAL PURCHASE,boneless chicken,1.0
 boneless chicken 16th & 17th,FOOD RAW MATERIAL PURCHASE,boneless chicken,0.92
 boneless chicken 17/12,FOOD RAW MATERIAL PURCHASE,boneless chicken,0.92
@@ -296,6 +299,7 @@ KVVES,"LICENSE, TAX & GOVERNMENT FEES",kvves,1.0
 License Document Works,"LICENSE, TAX & GOVERNMENT FEES",license renewal,0.5946
 License Renewal,"LICENSE, TAX & GOVERNMENT FEES",license renewal,1.0
 Petpooja Renewal,"LICENSE, TAX & GOVERNMENT FEES",fssai renewal,0.6207
+Solar- Fabrication work,"LICENSE, TAX & GOVERNMENT FEES",documentation work,0.6
 Stamp paper and Notery,"LICENSE, TAX & GOVERNMENT FEES",stamp paper,0.92
 frame for FSSAI certificate and loocos ad,"LICENSE, TAX & GOVERNMENT FEES",fssai certificate,0.92
 "haritha karmasena,licence service","LICENSE, TAX & GOVERNMENT FEES",haritha karmasena,0.92
@@ -318,7 +322,9 @@ local purchase 11/6/25,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase
 local purchase 15/12,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase,0.92
 local purchase 17th 18th 19th,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase,0.92
 local purchase 19th 20th 21st,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase,0.92
+local purchase 2/2/26,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase,0.92
 local purchase 23/12,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase,0.92
+local purchase 3/2/26,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase,0.92
 local purchase 5-12-25,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase,0.92
 A C Water Service,MAINTENANCE – SHOP & EQUIPMENT,ac service,0.7407
 A/C service,MAINTENANCE – SHOP & EQUIPMENT,ac service,0.9524
@@ -355,6 +361,7 @@ chiller technician,MAINTENANCE – SHOP & EQUIPMENT,deep freezer technician,0.63
 dough machine machanic,MAINTENANCE – SHOP & EQUIPMENT,dough machine repair,0.7619
 dough machine repair,MAINTENANCE – SHOP & EQUIPMENT,dough machine repair,1.0
 dough machine repair n transport,MAINTENANCE – SHOP & EQUIPMENT,dough machine repair,0.92
+electric work kitchen,MAINTENANCE – SHOP & EQUIPMENT,kitchen door work,0.6
 electrical work meterial and labour,MAINTENANCE – SHOP & EQUIPMENT,electrical work material labour,0.9091
 exhaust fan repair,MAINTENANCE – SHOP & EQUIPMENT,exhaust fan repair,1.0
 exhaust fan repair and lathe work,MAINTENANCE – SHOP & EQUIPMENT,fan repair,0.92
@@ -437,6 +444,7 @@ menu card distribution news paper,PACKAGING & DISPOSABLES,menu distribution,0.9
 menu printing MUSTAFA,PACKAGING & DISPOSABLES,menu printing,0.92
 paper glass straw,PACKAGING & DISPOSABLES,paper glass,0.92
 printing (QR Code),PACKAGING & DISPOSABLES,menu printing,0.5517
+safa menu printing,PACKAGING & DISPOSABLES,menu printing,0.92
 wodden fork 4 pkt,PACKAGING & DISPOSABLES,wooden fork,0.7143
 Adjustment,PARTNER & CAPITAL TRANSACTIONS,adjustment,1.0
 Amount mismatch to verify,PARTNER & CAPITAL TRANSACTIONS,amount mismatch to verify,1.0
@@ -527,6 +535,8 @@ Mahendra Salary adv,SALARIES (MONTHLY PAYMENTS),salary,0.92
 Marshad Salary,SALARIES (MONTHLY PAYMENTS),marshad salary,1.0
 Marshad salary,SALARIES (MONTHLY PAYMENTS),marshad salary,1.0
 Mehboob Salary,SALARIES (MONTHLY PAYMENTS),mehboob salary,1.0
+Muhsin salary,SALARIES (MONTHLY PAYMENTS),salary,0.92
+Mushin salary,SALARIES (MONTHLY PAYMENTS),salary,0.92
 Najah Salary,SALARIES (MONTHLY PAYMENTS),salary,0.92
 Nihal salary,SALARIES (MONTHLY PAYMENTS),nihal salary,1.0
 Nishal Salary,SALARIES (MONTHLY PAYMENTS),nishal salary,1.0
@@ -570,6 +580,7 @@ Vipin Salary,SALARIES (MONTHLY PAYMENTS),vipin salary,1.0
 Yasir Salary,SALARIES (MONTHLY PAYMENTS),yasir salary,1.0
 ajay salary,SALARIES (MONTHLY PAYMENTS),ajay salary,1.0
 akshayjith salary,SALARIES (MONTHLY PAYMENTS),salary,0.92
+anas salary,SALARIES (MONTHLY PAYMENTS),anas salary,1.0
 anas salary advance,SALARIES (MONTHLY PAYMENTS),salary,0.92
 ansil salary,SALARIES (MONTHLY PAYMENTS),salary,0.92
 arun salary,SALARIES (MONTHLY PAYMENTS),arjun salary,0.9565
@@ -638,6 +649,7 @@ amount taken for salary,SALARY ADVANCES & SETTLEMENTS,amount taken for salary,1.
 pashupathi sal advance,SALARY ADVANCES & SETTLEMENTS,salary advance,0.6111
 shatru sal advance,SALARY ADVANCES & SETTLEMENTS,salary advance,0.6875
 2 kitchen staff medical lab testing charges,STAFF WELFARE & BENEFITS,medical lab testing,0.92
+Gafoor party fund,STAFF WELFARE & BENEFITS,staff party,0.5714
 Health card Form,STAFF WELFARE & BENEFITS,health card form,1.0
 Kitchen staff uniform stitching,STAFF WELFARE & BENEFITS,staff uniform,0.92
 "Looco,s ottapalam T Shirts",STAFF WELFARE & BENEFITS,uniform t shirts,0.6
@@ -736,6 +748,7 @@ Vegitable,UNMAPPED,,0.45
 Vegitable  Hisham,UNMAPPED,,0.45
 Vegitables Pattambi,UNMAPPED,,0.45
 accelarator cable pa pro,UNMAPPED,,0.4848
+athul Govind,UNMAPPED,,0.45
 bed 3 pc staffroom,UNMAPPED,,0.45
 bright electricals,UNMAPPED,,0.45
 cap 5,UNMAPPED,,0.4286
@@ -750,17 +763,20 @@ fork n spoon,UNMAPPED,,0.45
 high stool welding charges,UNMAPPED,,0.5128
 hisham,UNMAPPED,,0.4444
 hungritos french fry 3 box,UNMAPPED,,0.4737
+isolator E Breaker,UNMAPPED,,0.45
 key board,UNMAPPED,,0.45
 lader fund,UNMAPPED,,0.45
 lock and key 2pc,UNMAPPED,,0.4828
 mocktail ice breaker spoon,UNMAPPED,,0.45
 mosquito bat,UNMAPPED,,0.45
 news paper agent 2500pc flyer distribution,UNMAPPED,,0.5085
+next traders(mojito),UNMAPPED,,0.45
 painting meterials/LED fittings/whatsapp marketing,UNMAPPED,,0.45
 pepsi 250ml pet,UNMAPPED,,0.45
 pepsi essar associates,UNMAPPED,,0.4348
 pizza pan transport PTB and MKD,UNMAPPED,,0.4889
 project work - Green wall,UNMAPPED,,0.4815
+puthanalkal temple festival,UNMAPPED,,0.45
 raw papaya,UNMAPPED,,0.45
 restaurant table work,UNMAPPED,,0.4615
 shihab,UNMAPPED,,0.45
