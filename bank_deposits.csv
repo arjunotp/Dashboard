@@ -1912,6 +1912,7 @@ Transaction_Date,Particulars,Deposits
 2026-02-20,Google Pay,9171.0
 2026-02-21,Pos Settlement,2626.0
 2026-02-21,Google Pay,11558.0
+2026-02-22,Google Pay,13809.0
 2026-01-01,Swiggy,13398.66
 2026-01-01,Pos Settlement,917.26
 2026-01-01,Google Pay,20651.0
@@ -1986,4 +1987,3 @@ Transaction_Date,Particulars,Deposits
 2026-02-15,Pos Settlement,2532.99
 2026-02-15,Google Pay,11336.0
 2026-02-16,Pos Settlement,1472.94
-2026-02-22,Google Pay,13809.0
