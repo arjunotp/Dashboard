@@ -1,7 +1,7 @@
 Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total Sales[POS Sales less GST + Swiggy to Loocos],consumed-stock_amount%
 2026-02,BAKERY & PREMIX,bread premix,Bread Premix,1209.6,2026-02,310353.8,0.39
 2026-02,BAKERY & PREMIX,brownie,Brownie,1540.0,2026-02,310353.8,0.5
-2026-02,BAKERY & PREMIX,burger bun,burger buns,448.0,2026-02,310353.8,0.14
+2026-02,BAKERY & PREMIX,burger bun,burger buns,544.0,2026-02,310353.8,0.18
 2026-02,BAKERY & PREMIX,chocolate chips,chocolate chips,270.0,2026-02,310353.8,0.09
 2026-02,BAKERY & PREMIX,pizza premix,Pizza Premix,1713.6,2026-02,310353.8,0.55
 2026-02,BEVERAGES,7up,7UP 750ml Pet,1374.8,2026-02,310353.8,0.44
@@ -31,7 +31,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,2176.0,2026-02,310353.8,0.7
 2026-02,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,2121.6,2026-02,310353.8,0.68
 2026-02,CHEESE & DAIRY,fresh cream,Strawberry-Ice cream,1195.1,2026-02,310353.8,0.39
-2026-02,CHEESE & DAIRY,milk,milk,700.0,2026-02,310353.8,0.23
+2026-02,CHEESE & DAIRY,milk,milk,800.0,2026-02,310353.8,0.26
 2026-02,CHEESE & DAIRY,milk,milk choco 180 ml,288.0,2026-02,310353.8,0.09
 2026-02,CHEESE & DAIRY,milk,milk coffee 180ml,288.0,2026-02,310353.8,0.09
 2026-02,CHEESE & DAIRY,milk,milk 28 milma,168.0,2026-02,310353.8,0.05
@@ -52,6 +52,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,FRUITS,chicku pulp,Berry Fresh Chicku Pulp,840.0,2026-02,310353.8,0.27
 2026-02,FRUITS,chicku pulp,Berry Fresh Chicku Pulp 2kg,252.0,2026-02,310353.8,0.08
 2026-02,FRUITS,pineapple,Pineapple slice-Tajir Habit-850g,441.0,2026-02,310353.8,0.14
+2026-02,FRUITS,pineapple,pineapple,117.0,2026-02,310353.8,0.04
 2026-02,FRUITS,tender coconut pulp,Berry Fresh Tender Coconut Pulp 2kg,925.0,2026-02,310353.8,0.3
 2026-02,FRUITS,tender coconut pulp,Berry Fresh Tender Coconut Pulp,740.0,2026-02,310353.8,0.24
 2026-02,FRUITS,watermelon,DVC Watermelon Syrup 750 ml,311.52,2026-02,310353.8,0.1
@@ -117,8 +118,8 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,STATIONERY & MISC,tape,Celotape-3/4inch-,276.0,2026-02,310353.8,0.09
 2026-02,UNMAPPED,UNMAPPED,grocery,10466.84,2026-02,310353.8,3.37
 2026-02,UNMAPPED,UNMAPPED,hungritos premium,5788.64,2026-02,310353.8,1.87
+2026-02,UNMAPPED,UNMAPPED,vegetables,3136.33,2026-02,310353.8,1.01
 2026-02,UNMAPPED,UNMAPPED,KOT ROLLS,2700.0,2026-02,310353.8,0.87
-2026-02,UNMAPPED,UNMAPPED,vegetables,2681.33,2026-02,310353.8,0.86
 2026-02,UNMAPPED,UNMAPPED,veg fruit grocery,1880.0,2026-02,310353.8,0.61
 2026-02,UNMAPPED,UNMAPPED,black olive slice Habit,1542.0,2026-02,310353.8,0.5
 2026-02,UNMAPPED,UNMAPPED,ENGLISH vegetables,1322.5,2026-02,310353.8,0.43
