@@ -4939,7 +4939,6 @@ Local Purchase,grocery,Nos,75.5,2025-11-23
 KTP Vegitables,vegetables,Nos,34.67,2025-11-23
 Local Purchase-Gas AGency,Gas-LPG-HPCL,Nos,1630.0,2025-11-24
 Local Purchase,atta,Kg,54.0,2025-11-24
-Local Purchase,pineapple,Nos,90.0,2025-11-24
 bistro frozen,chicken popcorn,Pkt,262.5,2025-11-25
 bistro frozen,cheesy spread dip,Pkt,309.38,2025-11-25
 bistro frozen,slice cheese,Nos,7.63,2025-11-25
@@ -5022,7 +5021,6 @@ Local Purchase,grocery,Nos,185.33,2025-12-17
 KTP Vegitables,vegetables,Nos,73.0,2025-12-17
 Local Purchase,grocery,Nos,124.25,2025-12-18
 shabana chicken stall,Boneless Chicken,Kg,289.9,2025-12-19
-KTP Vegitables,vegetables,Nos,65.0,2025-12-19
 Isha Fresh Vegitables (Hisham),ENGLISH vegetables,Nos,221.83,2025-12-19
 Koonathil Traders,Mojito Menta Cubano,Nos,460.0,2025-12-19
 KTP Vegitables,vegetables,Nos,93.75,2025-12-20
@@ -5420,9 +5418,7 @@ Local Purchase,grocery,Nos,145.0,2026-02-17
 Local Purchase,staff chicken,Kg,150.0,2026-02-18
 shabana chicken stall,Boneless Chicken,Kg,280.0,2026-02-19
 KTP Vegitables,vegetables,Nos,62.14,2026-02-19
-Local Purchase,milk,Nos,25.0,2026-02-19
 Local Purchase,egg 7,Nos,7.0,2026-02-19
-Local Purchase,burger buns,Nos,8.0,2026-02-19
 Koonathil Traders,burger box 5*5*4,Nos,3.8,2026-02-20
 Koonathil Traders,Puramate Pasta-Gomiti Rigate - macroni - 500g,Pkt,67.0,2026-02-20
 Koonathil Traders,Oregano Sprinkler 500g,Pkt,307.0,2026-02-20
@@ -5434,3 +5430,7 @@ Essar Associates,Aqua Fina Mineral Water 1Ltr,Nos,12.58,2026-02-21
 shabana chicken stall,Boneless Chicken,Kg,289.77,2026-02-21
 Local Purchase-Gas AGency,Gas-LPG-HPCL,Nos,1780.0,2026-02-21
 Local Purchase,grocery,Nos,197.12,2026-02-21
+KTP Vegitables,vegetables,Nos,65.0,2026-02-22
+Local Purchase,pineapple,Nos,90.0,2026-02-22
+Local Purchase,milk,Nos,25.0,2026-02-22
+Local Purchase,burger buns,Nos,8.0,2026-02-22
