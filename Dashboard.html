@@ -215,7 +215,8 @@ const config = [
                 view: "drilldownAnalytics",
                 chartTitle: "Consumed Stock % Drilldown",
                 chartSubtitle: "Click a category line to drill into subcategories, then items.",
-                percentField: "consumed-stock_amount%"
+                percentField: "consumed-stock_amount%",
+                amountField: "consumed-stock_amount"
             },
             {
                 label: "Expense % Trend (Categories)",
@@ -223,7 +224,19 @@ const config = [
                 view: "drilldownAnalytics",
                 chartTitle: "Expense % Drilldown",
                 chartSubtitle: "Click a category line to drill into subcategories, then items.",
-                percentField: "expense_amount%"
+                percentField: "expense_amount%",
+                amountField: "expense_amount"
+            },
+            {
+                label: "POS Order Insights",
+                view: "orderAnalytics",
+                itemCsv: "pos_item_performance_daily.csv",
+                orderTypeCsv: "pos_order_type_daily.csv",
+                seriesLabel: "Item_Name",
+                valueLabel: "Sales_Amount",
+                orderTypeValueLabel: "Orders",
+                categoryField: "Category",
+                chartSubtitle: "Top/Bottom items and order type trend with month/date drilldown."
             }
         ]
     },
@@ -257,7 +270,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         group.subtabs.forEach((sub, sIdx) => {
             const tabId = `g${gIdx}_s${sIdx}`;
-            const isAnalyticsTab = sub.view === "drilldownAnalytics";
+            const isDrilldownAnalyticsTab = sub.view === "drilldownAnalytics";
+            const isOrderAnalyticsTab = sub.view === "orderAnalytics";
 
             const li = document.createElement("li");
             li.className = "nav-item hidden";
@@ -268,7 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const pane = document.createElement("div");
             pane.className = "tab-pane fade";
             pane.id = tabId;
-            pane.innerHTML = isAnalyticsTab
+            pane.innerHTML = isDrilldownAnalyticsTab
                 ? `
                 <div class="card shadow-sm border-0">
                     <div class="card-body">
@@ -280,7 +294,12 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="col-12 col-lg-8">
                                 <div class="analytics-filter-header">Drilldown Path</div>
                                 <div id="${tabId}Breadcrumb" class="small text-muted mb-2">Category</div>
-                                <button class="btn btn-outline-secondary btn-sm" id="${tabId}Back" type="button" disabled>Back</button>
+                                <div class="d-flex gap-2 mb-2">
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}Back" type="button" disabled>Back</button>
+                                    <button class="btn btn-outline-primary btn-sm" id="${tabId}DrillDown" type="button">Drill Down</button>
+                                </div>
+                                <input id="${tabId}DrillSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search current level series">
+                                <select id="${tabId}DrillSeriesList" class="form-select form-select-sm" size="6"></select>
                             </div>
                             <div class="col-12 col-lg-4">
                                 <div class="analytics-filter-header">Year-Month</div>
@@ -296,7 +315,69 @@ document.addEventListener("DOMContentLoaded", () => {
                             <canvas id="${tabId}Chart"></canvas>
                         </div>
                         <div class="d-flex justify-content-end mt-2">
+                            <button class="btn btn-outline-success btn-sm me-2" id="${tabId}DownloadGraphData" type="button">Download Graph Data</button>
+                            <button class="btn btn-outline-primary btn-sm me-2" id="${tabId}MetricToggle" type="button">Show Amount</button>
                             <button class="btn btn-outline-secondary btn-sm" id="${tabId}ResetZoom" type="button">Reset Zoom</button>
+                        </div>
+                    </div>
+                </div>`
+                : isOrderAnalyticsTab
+                ? `
+                <div class="card shadow-sm border-0 mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">${sub.label}</h5>
+                        <p class="text-muted small mb-3">${sub.chartSubtitle || ""}</p>
+                        <div class="row g-3">
+                            <div class="col-12 col-lg-4">
+                                <div class="analytics-filter-header">Month</div>
+                                <input id="${tabId}MonthSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search month">
+                                <div class="d-flex gap-2 mb-2">
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthSelectAll" type="button">Select all</button>
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthClear" type="button">Clear</button>
+                                </div>
+                                <div id="${tabId}MonthFilterBox" class="analytics-filter-box"></div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="analytics-filter-header">Order Date</div>
+                                <select id="${tabId}DateSelect" class="form-select form-select-sm">
+                                    <option value="ALL">All Dates</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="analytics-filter-header">Category</div>
+                                <input id="${tabId}CategorySearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search category">
+                                <div class="d-flex gap-2 mb-2">
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}CategorySelectAll" type="button">Select all</button>
+                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}CategoryClear" type="button">Clear</button>
+                                </div>
+                                <div id="${tabId}CategoryFilterBox" class="analytics-filter-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-12 col-xl-6">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h6 class="mb-2">Top 10 Performing</h6>
+                                <div style="height: 360px;"><canvas id="${tabId}TopChart"></canvas></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h6 class="mb-2">Bottom 10 Performing</h6>
+                                <div style="height: 360px;"><canvas id="${tabId}BottomChart"></canvas></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <h6 class="mb-2">Order Type Trend</h6>
+                                <div style="height: 360px;"><canvas id="${tabId}TypeChart"></canvas></div>
+                            </div>
                         </div>
                     </div>
                 </div>`
@@ -311,8 +392,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>`;
             tabContent.appendChild(pane);
 
-            if (isAnalyticsTab) {
+            if (isDrilldownAnalyticsTab) {
                 renderDrilldownAnalyticsChart(tabId, sub);
+            } else if (isOrderAnalyticsTab) {
+                renderOrderAnalytics(tabId, sub);
             } else {
                 Papa.parse(sub.csv, {
                     download: true,
@@ -405,6 +488,7 @@ function renderDrilldownAnalyticsChart(tabId, sub) {
         skipEmptyLines: true,
         complete: res => {
             const percentField = sub.percentField || "consumed-stock_amount%";
+            const amountField = sub.amountField || "consumed-stock_amount";
             const rows = (res.data || []).filter(row =>
                 row["Month_code"] &&
                 row["Category"] &&
@@ -421,6 +505,8 @@ function renderDrilldownAnalyticsChart(tabId, sub) {
                 allMonths,
                 selectedMonths: new Set(defaultMonths.length ? defaultMonths : allMonths),
                 percentField,
+                amountField,
+                metricMode: "percent",
                 level: "category",
                 selectedCategory: null,
                 selectedSubcategory: null,
@@ -461,7 +547,12 @@ function wireDrilldownEvents(tabId) {
     const monthSelectAll = document.getElementById(`${tabId}MonthSelectAll`);
     const monthClear = document.getElementById(`${tabId}MonthClear`);
     const resetZoom = document.getElementById(`${tabId}ResetZoom`);
+    const metricToggle = document.getElementById(`${tabId}MetricToggle`);
+    const downloadGraphData = document.getElementById(`${tabId}DownloadGraphData`);
     const backBtn = document.getElementById(`${tabId}Back`);
+    const drillDownBtn = document.getElementById(`${tabId}DrillDown`);
+    const drillSearch = document.getElementById(`${tabId}DrillSearch`);
+    const drillSeriesList = document.getElementById(`${tabId}DrillSeriesList`);
 
     const filterCheckboxList = (box, searchValue) => {
         const query = (searchValue || "").trim().toLowerCase();
@@ -499,6 +590,15 @@ function wireDrilldownEvents(tabId) {
         if (chartMap[tabId]) chartMap[tabId].resetZoom();
     });
 
+    metricToggle?.addEventListener("click", () => {
+        state.metricMode = state.metricMode === "percent" ? "amount" : "percent";
+        updateDrilldownChart(tabId);
+    });
+
+    downloadGraphData?.addEventListener("click", () => {
+        exportCurrentDrilldownChartData(tabId);
+    });
+
     backBtn?.addEventListener("click", () => {
         if (state.level === "item") {
             state.level = "subcategory";
@@ -509,6 +609,70 @@ function wireDrilldownEvents(tabId) {
         }
         updateDrilldownChart(tabId);
     });
+
+    drillSearch?.addEventListener("input", () => {
+        state.drillSearchQuery = drillSearch.value || "";
+        renderDrillSeriesList(tabId, state.currentSeries || []);
+    });
+
+    drillDownBtn?.addEventListener("click", () => {
+        const selected = drillSeriesList?.value || "";
+        if (!selected) return;
+        if (state.level === "category") {
+            state.level = "subcategory";
+            state.selectedCategory = selected;
+            state.selectedSubcategory = null;
+            updateDrilldownChart(tabId);
+        } else if (state.level === "subcategory") {
+            state.level = "item";
+            state.selectedSubcategory = selected;
+            updateDrilldownChart(tabId);
+        }
+    });
+
+    drillSeriesList?.addEventListener("dblclick", () => {
+        drillDownBtn?.click();
+    });
+}
+
+function exportCurrentDrilldownChartData(tabId) {
+    const state = analyticsStateMap[tabId];
+    const chart = chartMap[tabId];
+    if (!state || !chart) return;
+
+    const months = chart.data?.labels || [];
+    const datasets = chart.data?.datasets || [];
+    if (!months.length || !datasets.length) return;
+
+    const metricLabel = state.metricMode === "amount" ? "Amount" : "Percent";
+    const rows = [];
+    months.forEach((month, monthIdx) => {
+        datasets.forEach(ds => {
+            const val = ds.data?.[monthIdx];
+            rows.push({
+                Level: state.level,
+                Category: state.selectedCategory || "",
+                Subcategory: state.selectedSubcategory || "",
+                Series: ds.label || "",
+                Month_code: month,
+                Metric: metricLabel,
+                Value: val ?? ""
+            });
+        });
+    });
+
+    const csv = Papa.unparse(rows);
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    const safeLevel = (state.level || "level").replace(/[^a-z0-9_-]/gi, "_");
+    const safeMetric = state.metricMode === "amount" ? "amount" : "percent";
+    a.download = `${tabId}_${safeLevel}_${safeMetric}_graph_data.csv`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
 }
 
 function getDrilldownSeries(state, selectedMonths) {
@@ -524,9 +688,10 @@ function getDrilldownSeries(state, selectedMonths) {
                 ? row["Subcategory"]
                 : row["Item_Name"];
 
+        const valueField = state.metricMode === "amount" ? state.amountField : state.percentField;
         const mapKey = `${key}||${row["Month_code"]}`;
         const current = grouped.get(mapKey) || 0;
-        grouped.set(mapKey, current + (parseNumericValue(row[state.percentField]) || 0));
+        grouped.set(mapKey, current + (parseNumericValue(row[valueField]) || 0));
     });
 
     const seriesNames = [...new Set([...grouped.keys()].map(k => k.split("||")[0]))];
@@ -549,6 +714,33 @@ function getDrilldownSeries(state, selectedMonths) {
     };
 }
 
+function renderDrillSeriesList(tabId, series) {
+    const state = analyticsStateMap[tabId];
+    const list = document.getElementById(`${tabId}DrillSeriesList`);
+    const drillDownBtn = document.getElementById(`${tabId}DrillDown`);
+    if (!state || !list) return;
+
+    const previousSelection = list.value;
+    const query = (state.drillSearchQuery || "").trim().toLowerCase();
+    const filteredSeries = series.filter(name => !query || String(name).toLowerCase().includes(query));
+
+    list.innerHTML = filteredSeries
+        .map(name => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`)
+        .join("");
+
+    if (filteredSeries.includes(previousSelection)) {
+        list.value = previousSelection;
+    }
+
+    if (!list.value && filteredSeries.length) {
+        list.selectedIndex = 0;
+    }
+
+    if (drillDownBtn) {
+        drillDownBtn.disabled = state.level === "item" || filteredSeries.length === 0;
+    }
+}
+
 function updateDrilldownChart(tabId) {
     const state = analyticsStateMap[tabId];
     if (!state) return;
@@ -556,6 +748,7 @@ function updateDrilldownChart(tabId) {
     const selectedMonths = [...state.selectedMonths].sort();
     const breadcrumb = document.getElementById(`${tabId}Breadcrumb`);
     const backBtn = document.getElementById(`${tabId}Back`);
+    const metricToggle = document.getElementById(`${tabId}MetricToggle`);
 
     let path = "Category";
     if (state.level === "subcategory") {
@@ -565,8 +758,13 @@ function updateDrilldownChart(tabId) {
     }
     if (breadcrumb) breadcrumb.textContent = path;
     if (backBtn) backBtn.disabled = state.level === "category";
+    if (metricToggle) {
+        metricToggle.textContent = state.metricMode === "percent" ? "Show Amount" : "Show %";
+    }
 
     const { series, valueFor } = getDrilldownSeries(state, selectedMonths);
+    state.currentSeries = series;
+    renderDrillSeriesList(tabId, series);
 
     const palette = [
         "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
@@ -594,25 +792,17 @@ function updateDrilldownChart(tabId) {
             responsive: true,
             maintainAspectRatio: false,
             interaction: { mode: "index", intersect: false },
-            onClick: (_, elements, chart) => {
-                if (!elements.length) return;
-                const clicked = chart.data.datasets[elements[0].datasetIndex]?.label;
-                if (!clicked) return;
-                if (state.level === "category") {
-                    state.level = "subcategory";
-                    state.selectedCategory = clicked;
-                    updateDrilldownChart(tabId);
-                } else if (state.level === "subcategory") {
-                    state.level = "item";
-                    state.selectedSubcategory = clicked;
-                    updateDrilldownChart(tabId);
-                }
-            },
             plugins: {
                 legend: { position: "bottom" },
                 tooltip: {
                     callbacks: {
-                        label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y?.toFixed(2) ?? "0.00"}%`
+                        label: (ctx) => {
+                            const v = ctx.parsed.y ?? 0;
+                            if (state.metricMode === "amount") {
+                                return `${ctx.dataset.label}: ${Number(v).toLocaleString(undefined, { maximumFractionDigits: 2 })}`;
+                            }
+                            return `${ctx.dataset.label}: ${Number(v).toFixed(2)}%`;
+                        }
                     }
                 },
                 zoom: {
@@ -628,8 +818,12 @@ function updateDrilldownChart(tabId) {
             },
             scales: {
                 y: {
-                    title: { display: true, text: "Percentage %" },
-                    ticks: { callback: value => `${value}%` }
+                    title: { display: true, text: state.metricMode === "amount" ? "Amount" : "Percentage %" },
+                    ticks: {
+                        callback: value => state.metricMode === "amount"
+                            ? Number(value).toLocaleString(undefined, { maximumFractionDigits: 2 })
+                            : `${value}%`
+                    }
                 },
                 x: {
                     title: { display: true, text: "Year-Month" },
@@ -638,6 +832,306 @@ function updateDrilldownChart(tabId) {
             }
         }
     });
+}
+
+function parseCsvPromise(csvPath) {
+    return new Promise((resolve, reject) => {
+        Papa.parse(csvPath, {
+            download: true,
+            header: true,
+            skipEmptyLines: true,
+            complete: res => resolve(res.data || []),
+            error: err => reject(err)
+        });
+    });
+}
+
+async function renderOrderAnalytics(tabId, sub) {
+    try {
+        const [itemRows, orderTypeRows] = await Promise.all([
+            parseCsvPromise(sub.itemCsv),
+            parseCsvPromise(sub.orderTypeCsv),
+        ]);
+
+        const months = [...new Set(itemRows.map(r => r.Month_code).filter(Boolean))].sort();
+        const defaultMonths = months.slice(-12);
+        analyticsStateMap[tabId] = {
+            mode: "orderAnalytics",
+            itemRows,
+            orderTypeRows,
+            allMonths: months,
+            selectedMonths: new Set(defaultMonths.length ? defaultMonths : months),
+            selectedDate: "ALL",
+            seriesLabel: sub.seriesLabel || "Item_Name",
+            valueLabel: sub.valueLabel || "Sales_Amount",
+            orderTypeValueLabel: sub.orderTypeValueLabel || "Orders",
+            categoryField: sub.categoryField || "",
+            allCategories: [],
+            selectedCategories: new Set(),
+            charts: {}
+        };
+
+        buildOrderAnalyticsMonthFilter(tabId);
+        buildOrderAnalyticsCategoryFilter(tabId);
+        buildOrderAnalyticsDateOptions(tabId);
+        wireOrderAnalyticsEvents(tabId);
+        updateOrderAnalyticsCharts(tabId);
+    } catch (err) {
+        console.error("Order analytics failed:", err);
+    }
+}
+
+function buildOrderAnalyticsMonthFilter(tabId) {
+    const state = analyticsStateMap[tabId];
+    const box = document.getElementById(`${tabId}MonthFilterBox`);
+    if (!state || !box) return;
+    box.innerHTML = state.allMonths.map(month => {
+        const checked = state.selectedMonths.has(month) ? "checked" : "";
+        const safeValue = escapeHtml(month);
+        const encodedValue = encodeURIComponent(month);
+        const safeId = `${tabId}_month_${encodedValue}`;
+        return `
+            <div class="form-check mb-1">
+                <input class="form-check-input order-month-checkbox" type="checkbox" data-value="${encodedValue}" id="${safeId}" ${checked}>
+                <label class="form-check-label" for="${safeId}">${safeValue}</label>
+            </div>`;
+    }).join("");
+}
+
+function buildOrderAnalyticsDateOptions(tabId) {
+    const state = analyticsStateMap[tabId];
+    const dateSelect = document.getElementById(`${tabId}DateSelect`);
+    if (!state || !dateSelect) return;
+    const selectedMonths = [...state.selectedMonths];
+    const dates = [...new Set(state.itemRows
+        .filter(r => selectedMonths.includes(r.Month_code))
+        .map(r => r.Order_Date)
+        .filter(Boolean)
+    )].sort();
+    dateSelect.innerHTML = `<option value="ALL">All Dates</option>` +
+        dates.map(d => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join("");
+    if (state.selectedDate !== "ALL" && dates.includes(state.selectedDate)) {
+        dateSelect.value = state.selectedDate;
+    } else {
+        state.selectedDate = "ALL";
+        dateSelect.value = "ALL";
+    }
+}
+
+function buildOrderAnalyticsCategoryFilter(tabId) {
+    const state = analyticsStateMap[tabId];
+    const box = document.getElementById(`${tabId}CategoryFilterBox`);
+    if (!state || !box || !state.categoryField) return;
+
+    const categories = [...new Set(state.itemRows.map(r => String(r[state.categoryField] || "").trim()).filter(Boolean))].sort();
+    state.allCategories = categories;
+    if (state.selectedCategories.size === 0) {
+        state.selectedCategories = new Set(categories);
+    }
+
+    box.innerHTML = categories.map(cat => {
+        const checked = state.selectedCategories.has(cat) ? "checked" : "";
+        const safeValue = escapeHtml(cat);
+        const encodedValue = encodeURIComponent(cat);
+        const safeId = `${tabId}_category_${encodedValue}`;
+        return `
+            <div class="form-check mb-1">
+                <input class="form-check-input order-category-checkbox" type="checkbox" data-value="${encodedValue}" id="${safeId}" ${checked}>
+                <label class="form-check-label" for="${safeId}">${safeValue}</label>
+            </div>`;
+    }).join("");
+}
+
+function wireOrderAnalyticsEvents(tabId) {
+    const state = analyticsStateMap[tabId];
+    if (!state || state.eventsBound) return;
+    state.eventsBound = true;
+
+    const monthSearch = document.getElementById(`${tabId}MonthSearch`);
+    const monthBox = document.getElementById(`${tabId}MonthFilterBox`);
+    const monthSelectAll = document.getElementById(`${tabId}MonthSelectAll`);
+    const monthClear = document.getElementById(`${tabId}MonthClear`);
+    const dateSelect = document.getElementById(`${tabId}DateSelect`);
+    const categorySearch = document.getElementById(`${tabId}CategorySearch`);
+    const categoryBox = document.getElementById(`${tabId}CategoryFilterBox`);
+    const categorySelectAll = document.getElementById(`${tabId}CategorySelectAll`);
+    const categoryClear = document.getElementById(`${tabId}CategoryClear`);
+
+    const filterCheckboxList = (box, searchValue) => {
+        const query = (searchValue || "").trim().toLowerCase();
+        box.querySelectorAll(".form-check").forEach(wrapper => {
+            const label = wrapper.querySelector("label")?.textContent?.toLowerCase() || "";
+            wrapper.style.display = !query || label.includes(query) ? "" : "none";
+        });
+    };
+
+    monthSearch?.addEventListener("input", () => filterCheckboxList(monthBox, monthSearch.value));
+    categorySearch?.addEventListener("input", () => filterCheckboxList(categoryBox, categorySearch.value));
+
+    monthBox?.addEventListener("change", e => {
+        if (!e.target.classList.contains("order-month-checkbox")) return;
+        const val = decodeURIComponent(e.target.dataset.value);
+        if (e.target.checked) state.selectedMonths.add(val);
+        else state.selectedMonths.delete(val);
+        buildOrderAnalyticsDateOptions(tabId);
+        updateOrderAnalyticsCharts(tabId);
+    });
+
+    monthSelectAll?.addEventListener("click", () => {
+        state.selectedMonths = new Set(state.allMonths);
+        buildOrderAnalyticsMonthFilter(tabId);
+        filterCheckboxList(monthBox, monthSearch.value);
+        buildOrderAnalyticsDateOptions(tabId);
+        updateOrderAnalyticsCharts(tabId);
+    });
+
+    monthClear?.addEventListener("click", () => {
+        state.selectedMonths = new Set();
+        buildOrderAnalyticsMonthFilter(tabId);
+        filterCheckboxList(monthBox, monthSearch.value);
+        buildOrderAnalyticsDateOptions(tabId);
+        updateOrderAnalyticsCharts(tabId);
+    });
+
+    categoryBox?.addEventListener("change", e => {
+        if (!e.target.classList.contains("order-category-checkbox")) return;
+        const val = decodeURIComponent(e.target.dataset.value);
+        if (e.target.checked) state.selectedCategories.add(val);
+        else state.selectedCategories.delete(val);
+        updateOrderAnalyticsCharts(tabId);
+    });
+
+    categorySelectAll?.addEventListener("click", () => {
+        state.selectedCategories = new Set(state.allCategories);
+        buildOrderAnalyticsCategoryFilter(tabId);
+        filterCheckboxList(categoryBox, categorySearch.value);
+        updateOrderAnalyticsCharts(tabId);
+    });
+
+    categoryClear?.addEventListener("click", () => {
+        state.selectedCategories = new Set();
+        buildOrderAnalyticsCategoryFilter(tabId);
+        filterCheckboxList(categoryBox, categorySearch.value);
+        updateOrderAnalyticsCharts(tabId);
+    });
+
+    dateSelect?.addEventListener("change", () => {
+        state.selectedDate = dateSelect.value || "ALL";
+        updateOrderAnalyticsCharts(tabId);
+    });
+}
+
+function buildTopBottomSeries(rows, keyField, valueField) {
+    const map = new Map();
+    rows.forEach(r => {
+        const key = String(r[keyField] || "").trim();
+        if (!key) return;
+        const current = map.get(key) || 0;
+        map.set(key, current + (parseNumericValue(r[valueField]) || 0));
+    });
+    const entries = [...map.entries()].sort((a, b) => b[1] - a[1]);
+    return {
+        top: entries.slice(0, 10),
+        bottom: [...entries].reverse().slice(0, 10).reverse()
+    };
+}
+
+function buildOrderTypeSeries(rows, valueField) {
+    const dates = [...new Set(rows.map(r => r.Order_Date).filter(Boolean))].sort();
+    const types = [...new Set(rows.map(r => r.Order_Type || "Unknown"))].sort();
+    const valMap = new Map();
+    rows.forEach(r => {
+        const key = `${r.Order_Type || "Unknown"}||${r.Order_Date}`;
+        const current = valMap.get(key) || 0;
+        valMap.set(key, current + (parseNumericValue(r[valueField]) || 0));
+    });
+    return {
+        dates,
+        datasets: types.map((t, idx) => {
+            const palette = [
+                "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
+                "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"
+            ];
+            return {
+                label: t,
+                data: dates.map(d => valMap.get(`${t}||${d}`) || 0),
+                borderColor: palette[idx % palette.length],
+                backgroundColor: palette[idx % palette.length],
+                borderWidth: 2,
+                tension: 0.2
+            };
+        })
+    };
+}
+
+function renderOrReplaceChart(targetMap, key, canvasId, config) {
+    if (targetMap[key]) targetMap[key].destroy();
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+    targetMap[key] = new Chart(canvas, config);
+}
+
+function updateOrderAnalyticsCharts(tabId) {
+    const state = analyticsStateMap[tabId];
+    if (!state) return;
+    const months = [...state.selectedMonths];
+    let filteredItems = state.itemRows.filter(r => months.includes(r.Month_code));
+    let filteredTypes = state.orderTypeRows.filter(r => months.includes(r.Month_code));
+    if (state.selectedDate !== "ALL") {
+        filteredItems = filteredItems.filter(r => r.Order_Date === state.selectedDate);
+        filteredTypes = filteredTypes.filter(r => r.Order_Date === state.selectedDate);
+    }
+    if (state.categoryField) {
+        filteredItems = filteredItems.filter(r => state.selectedCategories.has(String(r[state.categoryField] || "").trim()));
+    }
+
+    const { top, bottom } = buildTopBottomSeries(filteredItems, state.seriesLabel, state.valueLabel);
+    const orderType = buildOrderTypeSeries(filteredTypes, state.orderTypeValueLabel);
+
+    renderOrReplaceChart(
+        state.charts,
+        "top",
+        `${tabId}TopChart`,
+        {
+            type: "bar",
+            data: {
+                labels: top.map(x => x[0]),
+                datasets: [{ label: "Top 10", data: top.map(x => x[1]), backgroundColor: "#2ca02c" }]
+            },
+            options: { indexAxis: "y", responsive: true, maintainAspectRatio: false }
+        }
+    );
+
+    renderOrReplaceChart(
+        state.charts,
+        "bottom",
+        `${tabId}BottomChart`,
+        {
+            type: "bar",
+            data: {
+                labels: bottom.map(x => x[0]),
+                datasets: [{ label: "Bottom 10", data: bottom.map(x => x[1]), backgroundColor: "#d62728" }]
+            },
+            options: { indexAxis: "y", responsive: true, maintainAspectRatio: false }
+        }
+    );
+
+    renderOrReplaceChart(
+        state.charts,
+        "type",
+        `${tabId}TypeChart`,
+        {
+            type: "line",
+            data: { labels: orderType.dates, datasets: orderType.datasets },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { mode: "index", intersect: false },
+                plugins: { legend: { position: "bottom" } },
+                scales: { x: { ticks: { autoSkip: true, maxTicksLimit: 18 } } }
+            }
+        }
+    );
 }
 
 document.addEventListener("shown.bs.tab", () => {
@@ -686,7 +1180,13 @@ document.addEventListener("click", (e) => {
 });
 
 async function updateLastRefreshedFromAllCSVs() {
-    const csvs = [...new Set(config.flatMap(g => g.subtabs.map(s => s.csv)))];
+    const csvs = [
+        ...new Set(
+            config.flatMap(g =>
+                g.subtabs.flatMap(s => [s.csv, s.itemCsv, s.orderTypeCsv].filter(Boolean))
+            )
+        )
+    ];
     let latest = null;
 
     for (const file of csvs) {
