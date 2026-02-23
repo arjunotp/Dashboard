@@ -1,0 +1,1194 @@
+Month_code,Order_Date,Category,Item_Name,Sales_Amount,Qty
+2026-01,2026-01-01,Burger,Regular Chicken Burger,551.28,5.0
+2026-01,2026-01-01,Burger,Burger Combo @ 169,532.3399999999999,3.0
+2026-01,2026-01-01,Combos,2 Medium Non-veg@759,2600.88,3.0
+2026-01,2026-01-01,Combos,2 Large Non-veg@1149,1332.46,1.0
+2026-01,2026-01-01,Combos,2 Regular Non-veg@409,942.9200000000001,2.0
+2026-01,2026-01-01,Combos,2 Regular Veg@349,858.92,2.0
+2026-01,2026-01-01,Combos,2 Medium Veg@699,786.46,1.0
+2026-01,2026-01-01,Combos,Super Saver Meal Regular,627.92,2.0
+2026-01,2026-01-01,Combos,Super Saver Meal Medium,523.96,1.0
+2026-01,2026-01-01,Combos,Combo Delight Non-veg,396.88,2.0
+2026-01,2026-01-01,Combos,Non Veg Meal For 1,303.46,1.0
+2026-01,2026-01-01,Combos,Veg Meal For 1,271.96,1.0
+2026-01,2026-01-01,Desserts,Sizzling Brownie,430.52,2.0
+2026-01,2026-01-01,Garlic Bread,Garlic Bread Supreme [veg],346.5,2.0
+2026-01,2026-01-01,Garlic Bread,Garlic Bread,126.0,1.0
+2026-01,2026-01-01,Mojitos,Green Apple,207.92,2.0
+2026-01,2026-01-01,Mojitos,Water Melon,207.92,2.0
+2026-01,2026-01-01,Mojitos,Blue Curacao,103.96,1.0
+2026-01,2026-01-01,Mojitos,Bubble Gum,103.96,1.0
+2026-01,2026-01-01,Mojitos,Fresh Garden Mint,103.96,1.0
+2026-01,2026-01-01,Mojitos,Passion Fruit,103.96,1.0
+2026-01,2026-01-01,Munchies,French Fries,798.08,8.0
+2026-01,2026-01-01,Munchies,Cheesy Fries,162.76,1.0
+2026-01,2026-01-01,Munchies,Chicken Popcorn,141.76,1.0
+2026-01,2026-01-01,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-01,Munchies,Peri Peri Dip,31.5,1.0
+2026-01,2026-01-01,Non Veg Pizza,Tandoori Chicken Pizza (9 Inch),1496.28,3.0
+2026-01,2026-01-01,Non Veg Pizza,Butter Chicken Pizza (12 Inch),1438.52,2.0
+2026-01,2026-01-01,Non Veg Pizza,Hot Chicken Pizza (7 Inch),1029.04,4.0
+2026-01,2026-01-01,Non Veg Pizza,Schezwan Chicken (9 Inch),997.52,2.0
+2026-01,2026-01-01,Non Veg Pizza,Hot Chicken Pizza (9 Inch),934.52,2.0
+2026-01,2026-01-01,Non Veg Pizza,Meat Feast Pizza (12 Inch),761.26,1.0
+2026-01,2026-01-01,Non Veg Pizza,Mexicana Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-01,Non Veg Pizza,Schezwan Chicken (12 Inch),719.26,1.0
+2026-01,2026-01-01,Non Veg Pizza,BBQ & Onion Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-01,Non Veg Pizza,Hot Chicken Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-01,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-01,Non Veg Pizza,Chicken Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-01,Non Veg Pizza,Hot Treat Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-01,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-01,Non Veg Pizza,Cheese N Corn Chicken (9 Inch),467.26,1.0
+2026-01,2026-01-01,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-01,Non Veg Pizza,Red Indian Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-01,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-01,Non Veg Pizza,Fiery Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-01,Pasta,Chicken Pasta,866.28,3.0
+2026-01,2026-01-01,Shakes & Juices,Chocolate Shake,396.0,4.0
+2026-01,2026-01-01,Shakes & Juices,Chikku Shake,178.0,2.0
+2026-01,2026-01-01,Shakes & Juices,Watermelon Juice,168.0,2.0
+2026-01,2026-01-01,Shakes & Juices,Mint Lime Juice,141.78,3.0
+2026-01,2026-01-01,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-01,Shakes & Juices,Pineapple Juice,84.0,1.0
+2026-01,2026-01-01,Soft Drinks,Mdew@40rs,80.0,2.0
+2026-01,2026-01-01,Soft Drinks,Pepsi@50rs,50.0,1.0
+2026-01,2026-01-01,Soft Drinks,Mdew 250ml Pet,40.0,2.0
+2026-01,2026-01-01,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-01,Soft Drinks,Pepsi 250ml Can,35.0,1.0
+2026-01,2026-01-01,Soft Drinks,Pizza Upgrade,31.5,1.0
+2026-01,2026-01-01,Soft Drinks,Mineral Water,20.0,1.0
+2026-01,2026-01-01,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-01,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-01,Soft Drinks,Soda,20.0,1.0
+2026-01,2026-01-01,Sundaes,Nutty Vanilla,183.76,1.0
+2026-01,2026-01-01,Veg Pizza,Supreme Veg Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-01,Veg Pizza,Veg Tandoori Paneer Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-01,Veg Pizza,Supreme Veg Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-01,Veg Pizza,Schezwan Paneer (9 Inch),498.76,1.0
+2026-01,2026-01-01,Veg Pizza,Paneer Tikka Butter Masala (7 Inch),313.96,1.0
+2026-01,2026-01-01,Veg Pizza,Schezwan Paneer (7 Inch),313.96,1.0
+2026-01,2026-01-01,Veg Pizza,Mexican Veg Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-02,Burger,Veg Burger,378.0,4.0
+2026-01,2026-01-02,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-02,Burger,Regular Chicken Burger,110.26,1.0
+2026-01,2026-01-02,Combos,Non Veg Meal For 4,870.46,1.0
+2026-01,2026-01-02,Combos,2 Regular Non-veg@409,858.92,2.0
+2026-01,2026-01-02,Combos,Super Saver Meal Medium,523.96,1.0
+2026-01,2026-01-02,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-02,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-02,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-02,Garlic Bread,Garlic Bread With Cheese,325.52,2.0
+2026-01,2026-01-02,Garlic Bread,Garlic Bread,126.0,1.0
+2026-01,2026-01-02,Mojitos,Green Apple,207.92,2.0
+2026-01,2026-01-02,Munchies,French Fries,299.28000000000003,3.0
+2026-01,2026-01-02,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-02,Munchies,Hot Garlic Dip,31.5,1.0
+2026-01,2026-01-02,Non Veg Pizza,Mexicana Pizza (9 Inch),997.52,2.0
+2026-01,2026-01-02,Non Veg Pizza,Tandoori Chicken Pizza (9 Inch),997.52,2.0
+2026-01,2026-01-02,Non Veg Pizza,Bbq Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-02,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-02,Non Veg Pizza,New York Pizza (9 Inch),572.26,1.0
+2026-01,2026-01-02,Non Veg Pizza,Cheese N Corn Chicken (9 Inch),467.26,1.0
+2026-01,2026-01-02,Non Veg Pizza,Hot Chicken Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-02,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-02,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-02,Non Veg Pizza,Fiery Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-02,Pasta,Veg Pasta,514.52,2.0
+2026-01,2026-01-02,Salad,Greek Chicken Salad[non-veg],198.44,1.0
+2026-01,2026-01-02,Salad,Greek Salad,187.94,1.0
+2026-01,2026-01-02,Salad,Cheese N Macaroni Salad,166.96,1.0
+2026-01,2026-01-02,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-02,Shakes & Juices,Watermelon Juice,168.0,2.0
+2026-01,2026-01-02,Shakes & Juices,Fresh Lime Juice,42.0,1.0
+2026-01,2026-01-02,Soft Drinks,7up @50rs,50.0,1.0
+2026-01,2026-01-02,Soft Drinks,Soft Drink,20.0,1.0
+2026-01,2026-01-02,Veg Pizza,Mushroom Delight Pizza (12 Inch),572.26,1.0
+2026-01,2026-01-02,Veg Pizza,Mexican Veg Pizza (9 Inch),404.26,1.0
+2026-01,2026-01-02,Veg Pizza,Supreme Veg Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-02,Veg Pizza,5 Cheese Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-03,Burger,Regular Chicken Burger,551.28,5.0
+2026-01,2026-01-03,Burger,Burger Combo @ 169,354.9,2.0
+2026-01,2026-01-03,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-03,Burger,Veg Burger,94.5,1.0
+2026-01,2026-01-03,Combos,2 Large Non-veg@1149,3745.38,3.0
+2026-01,2026-01-03,Combos,2 Regular Non-veg@409,3132.22,7.0
+2026-01,2026-01-03,Combos,Combo Delight Non-veg,396.88,2.0
+2026-01,2026-01-03,Combos,Non Veg Meal For 1,303.46,1.0
+2026-01,2026-01-03,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-03,Mojitos,Blue Mojito,103.96,1.0
+2026-01,2026-01-03,Munchies,Loaded Fries,582.78,3.0
+2026-01,2026-01-03,Munchies,French Fries,199.52,2.0
+2026-01,2026-01-03,Munchies,Cheesy Fries,162.76,1.0
+2026-01,2026-01-03,Non Veg Pizza,BBQ & Onion Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-03,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),514.52,2.0
+2026-01,2026-01-03,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-03,Non Veg Pizza,Schezwan Chicken (7 Inch),313.96,1.0
+2026-01,2026-01-03,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-03,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-03,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-03,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-03,Shakes & Juices,Fresh Lime Juice,42.0,1.0
+2026-01,2026-01-03,Soft Drinks,Soft Drink,30.0,1.0
+2026-01,2026-01-03,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-03,Veg Pizza,Burn To Hell Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-03,Veg Pizza,American Heat (7 Inch),246.76,1.0
+2026-01,2026-01-04,Burger,Regular Chicken Burger,1102.52,10.0
+2026-01,2026-01-04,Burger,Burger Combo @ 199,208.94,1.0
+2026-01,2026-01-04,Burger,Burger Combo @ 169,177.44,1.0
+2026-01,2026-01-04,Burger,Veg Burger,94.5,1.0
+2026-01,2026-01-04,Combos,2 Medium Non-veg@759,2443.38,3.0
+2026-01,2026-01-04,Combos,2 Regular Non-veg@409,1885.8400000000001,4.0
+2026-01,2026-01-04,Combos,2 Regular Veg@349,450.46,1.0
+2026-01,2026-01-04,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-04,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-04,Desserts,Brownie,362.28000000000003,3.0
+2026-01,2026-01-04,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-04,Garlic Bread,Garlic Bread With Cheese,325.52,2.0
+2026-01,2026-01-04,Garlic Bread,Garlic Bread Supreme[non-veg],194.26,1.0
+2026-01,2026-01-04,Mojitos,Green Apple,415.82,4.0
+2026-01,2026-01-04,Mojitos,Blue Mojito,103.96,1.0
+2026-01,2026-01-04,Mojitos,Fresh Garden Mint,103.96,1.0
+2026-01,2026-01-04,Mojitos,Passion Fruit,103.96,1.0
+2026-01,2026-01-04,Munchies,Chicken Nuggets,682.5,5.0
+2026-01,2026-01-04,Munchies,French Fries,598.5400000000001,6.0
+2026-01,2026-01-04,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-04,Munchies,Chicken Popcorn,141.76,1.0
+2026-01,2026-01-04,Non Veg Pizza,Schezwan Chicken (12 Inch),719.26,1.0
+2026-01,2026-01-04,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-04,Non Veg Pizza,Mambo Combo Pizza (9 Inch),572.26,1.0
+2026-01,2026-01-04,Non Veg Pizza,Hot Chicken Pizza (7 Inch),514.52,2.0
+2026-01,2026-01-04,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-04,Non Veg Pizza,New York Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-04,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-04,Non Veg Pizza,Chicken Tikka Butter Masala (7 Inch),313.96,1.0
+2026-01,2026-01-04,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-04,Non Veg Pizza,Schezwan Chicken (7 Inch),313.96,1.0
+2026-01,2026-01-04,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-04,Pasta,Chicken Pasta,866.28,3.0
+2026-01,2026-01-04,Pasta,Veg Pasta,514.52,2.0
+2026-01,2026-01-04,Shakes & Juices,Mint Lime Juice,189.01999999999998,4.0
+2026-01,2026-01-04,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-04,Soft Drinks,7up@40rs,80.0,2.0
+2026-01,2026-01-04,Soft Drinks,Mdew@40rs,80.0,2.0
+2026-01,2026-01-04,Soft Drinks,Slice 200ml,80.0,4.0
+2026-01,2026-01-04,Soft Drinks,Pepsi 250ml Pet,60.0,3.0
+2026-01,2026-01-04,Soft Drinks,7up 250ml Pet,40.0,2.0
+2026-01,2026-01-04,Soft Drinks,Mdew 250ml Pet,40.0,2.0
+2026-01,2026-01-04,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-04,Soft Drinks,Mineral Water,20.0,1.0
+2026-01,2026-01-04,Veg Pizza,Paneer Tikka Butter Masala (12 Inch),719.26,1.0
+2026-01,2026-01-04,Veg Pizza,Veg Tandoori Paneer Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-04,Veg Pizza,Mushroom Delight Pizza (9 Inch),404.26,1.0
+2026-01,2026-01-04,Veg Pizza,Plain Cheese Pizza (7 Inch),183.76,1.0
+2026-01,2026-01-05,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-05,Combos,2 Regular Non-veg@409,942.9200000000001,2.0
+2026-01,2026-01-05,Combos,2 Medium Non-veg@759,901.96,1.0
+2026-01,2026-01-05,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-05,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-05,Mojitos,Green Apple,415.8,4.0
+2026-01,2026-01-05,Munchies,French Fries,99.76,1.0
+2026-01,2026-01-05,Non Veg Pizza,Mexicana Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-05,Non Veg Pizza,Hot Chicken Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-05,Non Veg Pizza,Tandoori Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-05,Non Veg Pizza,Chicken Pepperoni (7 Inch),330.76,1.0
+2026-01,2026-01-05,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-05,Non Veg Pizza,Hot Treat Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-05,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-05,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-05,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-05,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-05,Salad,Macaroni N Chicken Salad,198.44,1.0
+2026-01,2026-01-05,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-05,Soft Drinks,Pepsi@40rs,80.0,2.0
+2026-01,2026-01-05,Soft Drinks,Pizza Upgrade,31.5,1.0
+2026-01,2026-01-05,Soft Drinks,Soft Drink,28.0,1.0
+2026-01,2026-01-05,Veg Pizza,Mushroom Delight Pizza (7 Inch),430.52,2.0
+2026-01,2026-01-06,Burger,Burger Combo @ 169,1242.16,7.0
+2026-01,2026-01-06,Burger,Regular Chicken Burger,330.76,3.0
+2026-01,2026-01-06,Combos,2 Medium Non-veg@759,901.96,1.0
+2026-01,2026-01-06,Combos,2 Regular Non-veg@409,429.46,1.0
+2026-01,2026-01-06,Combos,2 Regular Veg@349,366.46,1.0
+2026-01,2026-01-06,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-06,Desserts,Brownie With Ice Cream,418.94,2.0
+2026-01,2026-01-06,Garlic Bread,Garlic Bread Supreme [veg],173.26,1.0
+2026-01,2026-01-06,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-06,Mojitos,Green Apple,229.95999999999998,2.0
+2026-01,2026-01-06,Mojitos,Fresh Garden Mint,126.0,1.0
+2026-01,2026-01-06,Mojitos,Passion Fruit,103.96,1.0
+2026-01,2026-01-06,Munchies,French Fries,299.26,3.0
+2026-01,2026-01-06,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-06,Munchies,Chilly Potato Shots,152.26,1.0
+2026-01,2026-01-06,Munchies,Peri Peri Dip,31.5,1.0
+2026-01,2026-01-06,Non Veg Pizza,Mexicana Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-06,Non Veg Pizza,Red Indian Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-06,Non Veg Pizza,Chicken Pepperoni (9 Inch),572.26,1.0
+2026-01,2026-01-06,Non Veg Pizza,Meat Feast Pizza (9 Inch),572.26,1.0
+2026-01,2026-01-06,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-06,Non Veg Pizza,Butter Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-06,Non Veg Pizza,Chicken Kheema Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-06,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),351.76,1.0
+2026-01,2026-01-06,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-06,Non Veg Pizza,Schezwan Chicken (7 Inch),313.96,1.0
+2026-01,2026-01-06,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-06,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-06,Non Veg Pizza,Fiery Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-06,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-06,Pasta,Chicken Pasta,577.52,2.0
+2026-01,2026-01-06,Shakes & Juices,Mint Lime Juice,189.0,4.0
+2026-01,2026-01-06,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-06,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-06,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-06,Soft Drinks,Mdew@40rs,80.0,2.0
+2026-01,2026-01-06,Veg Pizza,Paneer Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-06,Veg Pizza,Veg Tandoori Paneer Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-06,Veg Pizza,Mexican Veg Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-06,Veg Pizza,5 Cheese Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-07,Burger,Regular Chicken Burger,551.26,5.0
+2026-01,2026-01-07,Burger,Chicken Nuggets Burger,441.0,3.0
+2026-01,2026-01-07,Burger,Burger Combo @ 179,375.88,2.0
+2026-01,2026-01-07,Burger,Veg Burger,94.5,1.0
+2026-01,2026-01-07,Combos,2 Medium Non-veg@759,1803.92,2.0
+2026-01,2026-01-07,Combos,Non Veg Meal For 4,870.46,1.0
+2026-01,2026-01-07,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-07,Combos,Non Veg Meal For 1,303.46,1.0
+2026-01,2026-01-07,Combos,Veg Meal For 1,271.96,1.0
+2026-01,2026-01-07,Desserts,Sizzling Brownie,215.26,1.0
+2026-01,2026-01-07,Garlic Bread,Garlic Bread With Cheese,488.26,3.0
+2026-01,2026-01-07,Garlic Bread,Garlic Bread,126.0,1.0
+2026-01,2026-01-07,Munchies,French Fries,399.04,4.0
+2026-01,2026-01-07,Munchies,Mayo,31.5,1.0
+2026-01,2026-01-07,Non Veg Pizza,Red Indian Pizza (9 Inch),748.12,2.0
+2026-01,2026-01-07,Non Veg Pizza,Bbq Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-07,Non Veg Pizza,Mexicana Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-07,Non Veg Pizza,BBQ & Onion Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-07,Non Veg Pizza,Hot Chicken Pizza (9 Inch),509.26,1.0
+2026-01,2026-01-07,Non Veg Pizza,Mambo Combo Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-07,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-07,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-07,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-07,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-07,Salad,Macaroni N Chicken Salad,198.44,1.0
+2026-01,2026-01-07,Shakes & Juices,Pineapple Juice,252.0,3.0
+2026-01,2026-01-07,Shakes & Juices,Chocolate Shake,198.0,2.0
+2026-01,2026-01-07,Shakes & Juices,Fresh Lime Juice,168.0,4.0
+2026-01,2026-01-07,Soft Drinks,Pepsi@50rs,50.0,1.0
+2026-01,2026-01-07,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-07,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-07,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-07,Veg Pizza,5 Cheese Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-07,Veg Pizza,Supreme Veg Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-07,Veg Pizza,Margherita Pizza (9 Inch),309.76,1.0
+2026-01,2026-01-07,Veg Pizza,Hawaiian Fantasy Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-07,Veg Pizza,Hot Passion Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-07,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-08,Combos,Non Veg Meal For 4,870.46,1.0
+2026-01,2026-01-08,Combos,2 Regular Veg@349,366.46,1.0
+2026-01,2026-01-08,Combos,Non Veg Meal For 1,303.46,1.0
+2026-01,2026-01-08,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-08,Munchies,French Fries,399.04,4.0
+2026-01,2026-01-08,Munchies,Chicken Nuggets,273.0,2.0
+2026-01,2026-01-08,Munchies,Cheesy Fries,162.76,1.0
+2026-01,2026-01-08,Munchies,Makhani Dip,31.5,1.0
+2026-01,2026-01-08,Munchies,Peri Peri Dip,31.5,1.0
+2026-01,2026-01-08,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-08,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-08,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-08,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-08,Non Veg Pizza,Hot Treat Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-08,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-08,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-08,Pasta,Veg Pasta,514.52,2.0
+2026-01,2026-01-08,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-08,Shakes & Juices,Chikku Shake,356.0,4.0
+2026-01,2026-01-08,Shakes & Juices,Mint Lime Juice,94.5,2.0
+2026-01,2026-01-08,Shakes & Juices,Fresh Lime Juice,84.0,2.0
+2026-01,2026-01-08,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-08,Soft Drinks,7up 250ml Pet,40.0,2.0
+2026-01,2026-01-08,Soft Drinks,Pepsi 250ml Pet,40.0,2.0
+2026-01,2026-01-08,Veg Pizza,Supreme Veg Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-08,Veg Pizza,Paneer Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-08,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-09,Burger,Regular Chicken Burger,220.5,2.0
+2026-01,2026-01-09,Combos,2 Large Veg@999,1174.96,1.0
+2026-01,2026-01-09,Combos,Non Veg Meal For 4,870.46,1.0
+2026-01,2026-01-09,Combos,Super Saver Meal Medium,523.96,1.0
+2026-01,2026-01-09,Combos,2 Regular Non-veg@409,513.46,1.0
+2026-01,2026-01-09,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-09,Garlic Bread,Garlic Bread With Cheese,651.02,4.0
+2026-01,2026-01-09,Munchies,Loaded Fries,971.28,5.0
+2026-01,2026-01-09,Munchies,French Fries,199.5,2.0
+2026-01,2026-01-09,Munchies,Cheesy Fries,162.76,1.0
+2026-01,2026-01-09,Non Veg Pizza,Butter Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-09,Non Veg Pizza,Chicken Tikka Butter Masala (12 Inch),719.26,1.0
+2026-01,2026-01-09,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-09,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-09,Non Veg Pizza,Cheese N Corn Chicken (9 Inch),467.26,1.0
+2026-01,2026-01-09,Non Veg Pizza,Hot Chicken Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-09,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-09,Non Veg Pizza,Red Indian Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-09,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-09,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-09,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-09,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-09,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-09,Salad,Cheese N Macaroni Salad,166.96,1.0
+2026-01,2026-01-09,Shakes & Juices,Chikku Shake,178.0,2.0
+2026-01,2026-01-09,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-09,Shakes & Juices,Tender Coconut,99.0,1.0
+2026-01,2026-01-09,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-09,Shakes & Juices,Pineapple Juice,84.0,1.0
+2026-01,2026-01-09,Shakes & Juices,Watermelon Juice,84.0,1.0
+2026-01,2026-01-09,Soft Drinks,Soft Drink,96.0,2.0
+2026-01,2026-01-09,Soft Drinks,Pizza Upgrade,42.0,1.0
+2026-01,2026-01-09,Soft Drinks,Mdew 330ml Can,40.0,1.0
+2026-01,2026-01-09,Soft Drinks,Pepsi 250ml Pet,40.0,2.0
+2026-01,2026-01-09,Veg Pizza,Plain Cheese Pizza (12 Inch),561.76,1.0
+2026-01,2026-01-09,Veg Pizza,Supreme Veg Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-09,Veg Pizza,Veg Tandoori Paneer Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-09,Veg Pizza,Mexican Veg Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-09,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-10,Burger,Regular Chicken Burger,661.5,6.0
+2026-01,2026-01-10,Burger,Burger Combo @ 199,208.94,1.0
+2026-01,2026-01-10,Combos,2 Medium Non-veg@759,1803.92,2.0
+2026-01,2026-01-10,Combos,2 Regular Non-veg@409,858.92,2.0
+2026-01,2026-01-10,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-10,Combos,Non Veg Meal For 1,303.46,1.0
+2026-01,2026-01-10,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-10,Garlic Bread,Garlic Bread With Cheese,325.52,2.0
+2026-01,2026-01-10,Garlic Bread,Garlic Bread,126.0,1.0
+2026-01,2026-01-10,Mojitos,Fresh Garden Mint,103.96,1.0
+2026-01,2026-01-10,Munchies,French Fries,997.56,10.0
+2026-01,2026-01-10,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-10,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-10,Munchies,Hot Garlic Dip,63.0,2.0
+2026-01,2026-01-10,Non Veg Pizza,Italian Feast Pizza (12 Inch),792.76,1.0
+2026-01,2026-01-10,Non Veg Pizza,Chicken Tikka Butter Masala (12 Inch),719.26,1.0
+2026-01,2026-01-10,Non Veg Pizza,Mexicana Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-10,Non Veg Pizza,5 Chicken Pizza (9 Inch),572.26,1.0
+2026-01,2026-01-10,Non Veg Pizza,Chicken Pepperoni (9 Inch),572.26,1.0
+2026-01,2026-01-10,Non Veg Pizza,New York Pizza (9 Inch),572.26,1.0
+2026-01,2026-01-10,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),514.52,2.0
+2026-01,2026-01-10,Non Veg Pizza,Hot Chicken Pizza (7 Inch),514.52,2.0
+2026-01,2026-01-10,Non Veg Pizza,Chicken Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-10,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-10,Non Veg Pizza,Tandoori Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-10,Non Veg Pizza,Hot Chicken Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-10,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-10,Non Veg Pizza,Fiery Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-10,Pasta,Chicken Pasta,866.28,3.0
+2026-01,2026-01-10,Salad,Coleslaw Salad,145.96,1.0
+2026-01,2026-01-10,Shakes & Juices,Fresh Lime Juice,126.0,3.0
+2026-01,2026-01-10,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-10,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-10,Soft Drinks,Pepsi@40rs,120.0,3.0
+2026-01,2026-01-10,Soft Drinks,7up 250ml Pet,60.0,3.0
+2026-01,2026-01-10,Soft Drinks,Mdew@40rs,40.0,1.0
+2026-01,2026-01-10,Soft Drinks,Slice 200ml,40.0,2.0
+2026-01,2026-01-10,Soft Drinks,Soft Drink,30.0,1.0
+2026-01,2026-01-10,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-10,Veg Pizza,Paneer Tikka Butter Masala (12 Inch),719.26,1.0
+2026-01,2026-01-10,Veg Pizza,Schezwan Paneer (12 Inch),719.26,1.0
+2026-01,2026-01-10,Veg Pizza,Supreme Veg Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-10,Veg Pizza,Veg Tandoori Paneer Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-10,Veg Pizza,Mexican Veg Pizza (9 Inch),404.26,1.0
+2026-01,2026-01-10,Veg Pizza,Mexican Veg Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-11,Burger,Regular Chicken Burger,771.76,7.0
+2026-01,2026-01-11,Combos,2 Regular Non-veg@409,1372.38,3.0
+2026-01,2026-01-11,Combos,Non Veg Meal For 4,870.46,1.0
+2026-01,2026-01-11,Combos,Delicious Combo Delight Regular,471.46,1.0
+2026-01,2026-01-11,Mojitos,Blue Mojito,103.96,1.0
+2026-01,2026-01-11,Munchies,French Fries,199.52,2.0
+2026-01,2026-01-11,Munchies,Chilly Potato Shots,152.26,1.0
+2026-01,2026-01-11,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-11,Non Veg Pizza,Bbq Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-11,Non Veg Pizza,Schezwan Chicken (9 Inch),498.76,1.0
+2026-01,2026-01-11,Non Veg Pizza,Cheese N Corn Chicken (9 Inch),467.26,1.0
+2026-01,2026-01-11,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-11,Non Veg Pizza,Chicken Kheema Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-11,Non Veg Pizza,Chicken Tikka Butter Masala (7 Inch),313.96,1.0
+2026-01,2026-01-11,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-11,Salad,Greek Salad,187.94,1.0
+2026-01,2026-01-11,Shakes & Juices,Chocolate Shake,297.0,3.0
+2026-01,2026-01-11,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-11,Shakes & Juices,Fresh Lime Juice,84.0,2.0
+2026-01,2026-01-11,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-11,Shakes & Juices,Watermelon Juice,84.0,1.0
+2026-01,2026-01-11,Soft Drinks,7up @50rs,100.0,2.0
+2026-01,2026-01-11,Soft Drinks,Soft Drink,90.0,2.0
+2026-01,2026-01-11,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-11,Soft Drinks,7up 250ml Pet,20.0,1.0
+2026-01,2026-01-11,Veg Pizza,Supreme Veg Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-11,Veg Pizza,Margherita Pizza (9 Inch),309.76,1.0
+2026-01,2026-01-11,Veg Pizza,Las Vegas Pizza (7 Inch),288.76,1.0
+2026-01,2026-01-11,Veg Pizza,Hot Passion Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-11,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-11,Veg Pizza,Veg Bite Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-11,Veg Pizza,Plain Cheese Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-12,Burger,Burger Combo @ 179,375.88,2.0
+2026-01,2026-01-12,Burger,Burger Combo @ 169,177.44,1.0
+2026-01,2026-01-12,Burger,Regular Chicken Burger,110.26,1.0
+2026-01,2026-01-12,Burger,Veg Burger,94.5,1.0
+2026-01,2026-01-12,Combos,Combo Delight Non-veg,595.3199999999999,3.0
+2026-01,2026-01-12,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-12,Desserts,Brownie,120.76,1.0
+2026-01,2026-01-12,Garlic Bread,Garlic Bread With Cheese,488.26,3.0
+2026-01,2026-01-12,Mojitos,Passion Fruit,311.86,3.0
+2026-01,2026-01-12,Mojitos,Fresh Garden Mint,207.9,2.0
+2026-01,2026-01-12,Munchies,Potato Wedges,488.26,3.0
+2026-01,2026-01-12,Munchies,Chilly Potato Shots,152.26,1.0
+2026-01,2026-01-12,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-12,Munchies,French Fries,99.76,1.0
+2026-01,2026-01-12,Non Veg Pizza,Bbq Chicken Pizza (12 Inch),1438.52,2.0
+2026-01,2026-01-12,Non Veg Pizza,Butter Chicken Pizza (9 Inch),997.52,2.0
+2026-01,2026-01-12,Non Veg Pizza,Chicken Tikka Butter Masala (7 Inch),941.8799999999999,3.0
+2026-01,2026-01-12,Non Veg Pizza,Chicken Pepperoni (12 Inch),761.26,1.0
+2026-01,2026-01-12,Non Veg Pizza,Mambo Combo Pizza (12 Inch),761.26,1.0
+2026-01,2026-01-12,Non Veg Pizza,New York Pizza (12 Inch),761.26,1.0
+2026-01,2026-01-12,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-12,Non Veg Pizza,Red Indian Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-12,Non Veg Pizza,Cheese N Corn Chicken (9 Inch),467.26,1.0
+2026-01,2026-01-12,Non Veg Pizza,Red Indian Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-12,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-12,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-12,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-12,Pasta,Chicken Pasta,866.28,3.0
+2026-01,2026-01-12,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-12,Salad,Cheese N Macaroni Salad,166.96,1.0
+2026-01,2026-01-12,Shakes & Juices,Chikku Shake,267.0,3.0
+2026-01,2026-01-12,Shakes & Juices,Mint Lime Juice,141.76,3.0
+2026-01,2026-01-12,Shakes & Juices,Pineapple Juice,84.0,1.0
+2026-01,2026-01-12,Soft Drinks,Soft Drink,110.0,2.0
+2026-01,2026-01-12,Soft Drinks,Mdew 330ml Can,40.0,1.0
+2026-01,2026-01-12,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-12,Soft Drinks,Mineral Water,20.0,1.0
+2026-01,2026-01-12,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-12,Veg Pizza,Supreme Veg Pizza (9 Inch),997.52,2.0
+2026-01,2026-01-12,Veg Pizza,Paneer Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-12,Veg Pizza,Schezwan Paneer (9 Inch),498.76,1.0
+2026-01,2026-01-12,Veg Pizza,Burn To Hell Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-12,Veg Pizza,Paneer Tikka Butter Masala (7 Inch),313.96,1.0
+2026-01,2026-01-12,Veg Pizza,Veg Tandoori Paneer Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-12,Veg Pizza,Plain Cheese Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-13,Burger,Regular Chicken Burger,330.78000000000003,3.0
+2026-01,2026-01-13,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-13,Burger,Chicken Nuggets Burger,147.0,1.0
+2026-01,2026-01-13,Burger,Veg Burger,94.5,1.0
+2026-01,2026-01-13,Combos,2 Regular Non-veg@409,1414.38,3.0
+2026-01,2026-01-13,Combos,Delicious Combo Delight Medium,1362.92,2.0
+2026-01,2026-01-13,Combos,Super Saver Meal Regular,627.92,2.0
+2026-01,2026-01-13,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-13,Mojitos,Green Apple,207.92,2.0
+2026-01,2026-01-13,Mojitos,Cucumber,103.96,1.0
+2026-01,2026-01-13,Mojitos,Strawberry,103.96,1.0
+2026-01,2026-01-13,Munchies,Cheesy Fries,162.76,1.0
+2026-01,2026-01-13,Non Veg Pizza,Hot Chicken Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-13,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-13,Non Veg Pizza,Butter Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-13,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-13,Non Veg Pizza,Schezwan Chicken (9 Inch),498.76,1.0
+2026-01,2026-01-13,Non Veg Pizza,Mambo Combo Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-13,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-13,Non Veg Pizza,Hot Treat Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-13,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-13,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-13,Pasta,Chicken Pasta,577.52,2.0
+2026-01,2026-01-13,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-13,Salad,Roasted Chicken Salad,187.94,1.0
+2026-01,2026-01-13,Shakes & Juices,Mint Lime Juice,94.5,2.0
+2026-01,2026-01-13,Soft Drinks,Soft Drink,40.0,2.0
+2026-01,2026-01-13,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-13,Veg Pizza,Mexican Veg Pizza (9 Inch),404.26,1.0
+2026-01,2026-01-13,Veg Pizza,Schezwan Paneer (7 Inch),313.96,1.0
+2026-01,2026-01-13,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-13,Veg Pizza,Veg Bite Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-13,Veg Pizza,Margherita Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-14,Burger,Regular Chicken Burger,1323.02,12.0
+2026-01,2026-01-14,Burger,Burger Combo @ 199,417.9,2.0
+2026-01,2026-01-14,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-14,Burger,Burger Combo @ 169,177.44,1.0
+2026-01,2026-01-14,Combos,2 Regular Non-veg@409,942.9200000000001,2.0
+2026-01,2026-01-14,Combos,Super Saver Meal Medium,523.96,1.0
+2026-01,2026-01-14,Desserts,Brownie With Ice Cream,396.88,2.0
+2026-01,2026-01-14,Mojitos,Blue Mojito,311.86,3.0
+2026-01,2026-01-14,Munchies,French Fries,199.52,2.0
+2026-01,2026-01-14,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-14,Munchies,Cheesy Fries,162.76,1.0
+2026-01,2026-01-14,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-14,Non Veg Pizza,Bbq Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-14,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-14,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-14,Non Veg Pizza,Red Indian Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-14,Non Veg Pizza,Cheese N Corn Chicken (9 Inch),467.26,1.0
+2026-01,2026-01-14,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-14,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-14,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-14,Pasta,Chicken Pasta,866.28,3.0
+2026-01,2026-01-14,Shakes & Juices,Tender Coconut,99.0,1.0
+2026-01,2026-01-14,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-14,Shakes & Juices,Watermelon Juice,84.0,1.0
+2026-01,2026-01-14,Soft Drinks,7up @50rs,50.0,1.0
+2026-01,2026-01-14,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-14,Veg Pizza,Veg Tandoori Paneer Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-14,Veg Pizza,Margherita Pizza (9 Inch),309.76,1.0
+2026-01,2026-01-14,Veg Pizza,Plain Cheese Pizza (7 Inch),283.5,2.0
+2026-01,2026-01-14,Veg Pizza,Veg Bite Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-15,Burger,Burger Combo @ 179,563.8399999999999,3.0
+2026-01,2026-01-15,Burger,Veg Burger,189.0,2.0
+2026-01,2026-01-15,Burger,Burger Combo @ 169,177.44,1.0
+2026-01,2026-01-15,Burger,Regular Chicken Burger,110.26,1.0
+2026-01,2026-01-15,Combos,2 Large Non-veg@1149,1269.46,1.0
+2026-01,2026-01-15,Combos,2 Medium Veg@699,786.46,1.0
+2026-01,2026-01-15,Combos,Delicious Combo Delight Medium,681.46,1.0
+2026-01,2026-01-15,Combos,Super Saver Meal Regular,627.92,2.0
+2026-01,2026-01-15,Combos,Delicious Combo Delight Regular,471.46,1.0
+2026-01,2026-01-15,Combos,2 Regular Veg@349,366.46,1.0
+2026-01,2026-01-15,Garlic Bread,Garlic Bread,126.0,1.0
+2026-01,2026-01-15,Mojitos,Green Apple,415.82,4.0
+2026-01,2026-01-15,Mojitos,Fresh Garden Mint,207.92,2.0
+2026-01,2026-01-15,Mojitos,Bubble Gum,103.96,1.0
+2026-01,2026-01-15,Mojitos,Water Melon,103.96,1.0
+2026-01,2026-01-15,Munchies,French Fries,598.5600000000001,6.0
+2026-01,2026-01-15,Munchies,Cheesy Fries,325.52,2.0
+2026-01,2026-01-15,Non Veg Pizza,Hot Treat Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-15,Non Veg Pizza,Red Indian Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-15,Non Veg Pizza,Hot Chicken Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-15,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-15,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-15,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-15,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-15,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-15,Shakes & Juices,Chikku Shake,445.0,5.0
+2026-01,2026-01-15,Shakes & Juices,Tender Coconut,99.0,1.0
+2026-01,2026-01-15,Shakes & Juices,Pineapple Juice,84.0,1.0
+2026-01,2026-01-15,Shakes & Juices,Watermelon Juice,84.0,1.0
+2026-01,2026-01-15,Shakes & Juices,Fresh Lime Juice,42.0,1.0
+2026-01,2026-01-15,Soft Drinks,Pizza Upgrade,42.0,1.0
+2026-01,2026-01-15,Soft Drinks,7up@40rs,40.0,1.0
+2026-01,2026-01-15,Soft Drinks,Mdew 250ml Pet,20.0,1.0
+2026-01,2026-01-15,Soft Drinks,Mineral Water,20.0,1.0
+2026-01,2026-01-15,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-15,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-15,Veg Pizza,Supreme Veg Pizza (7 Inch),941.8799999999999,3.0
+2026-01,2026-01-15,Veg Pizza,Veg Tandoori Paneer Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-15,Veg Pizza,American Heat (9 Inch),467.26,1.0
+2026-01,2026-01-15,Veg Pizza,Mexican Veg Pizza (7 Inch),430.52,2.0
+2026-01,2026-01-15,Veg Pizza,Mexican Veg Pizza (9 Inch),404.26,1.0
+2026-01,2026-01-15,Veg Pizza,Veg Tandoori Paneer Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-15,Veg Pizza,Margherita Pizza (9 Inch),309.76,1.0
+2026-01,2026-01-15,Veg Pizza,Plain Cheese Pizza (7 Inch),283.52,2.0
+2026-01,2026-01-16,Burger,Veg Burger,472.5,5.0
+2026-01,2026-01-16,Combos,2 Regular Non-veg@409,858.92,2.0
+2026-01,2026-01-16,Combos,2 Medium Non-veg@759,796.96,1.0
+2026-01,2026-01-16,Combos,Combo Delight Non-veg,396.9,2.0
+2026-01,2026-01-16,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-16,Garlic Bread,Garlic Bread,378.0,3.0
+2026-01,2026-01-16,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-16,Mojitos,Green Apple,103.96,1.0
+2026-01,2026-01-16,Munchies,French Fries,299.28000000000003,3.0
+2026-01,2026-01-16,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-16,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-16,Non Veg Pizza,Butter Chicken Pizza (9 Inch),997.52,2.0
+2026-01,2026-01-16,Non Veg Pizza,Butter Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-16,Non Veg Pizza,Hot Chicken Pizza (7 Inch),514.52,2.0
+2026-01,2026-01-16,Non Veg Pizza,Hot Chicken Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-16,Non Veg Pizza,New York Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-16,Non Veg Pizza,Red Indian Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-16,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-16,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-16,Pasta,Chicken Pasta,577.52,2.0
+2026-01,2026-01-16,Shakes & Juices,Chocolate Shake,297.0,3.0
+2026-01,2026-01-16,Shakes & Juices,Fresh Lime Juice,252.0,6.0
+2026-01,2026-01-16,Shakes & Juices,Watermelon Juice,168.0,2.0
+2026-01,2026-01-16,Shakes & Juices,Mint Lime Juice,94.52,2.0
+2026-01,2026-01-16,Soft Drinks,Soft Drink,60.0,2.0
+2026-01,2026-01-16,Soft Drinks,7up @50rs,50.0,1.0
+2026-01,2026-01-16,Soft Drinks,Pepsi@50rs,50.0,1.0
+2026-01,2026-01-16,Soft Drinks,Mineral Water,40.0,2.0
+2026-01,2026-01-16,Soft Drinks,Pepsi 330ml Can,40.0,1.0
+2026-01,2026-01-16,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-16,Soft Drinks,7up 250ml Pet,20.0,1.0
+2026-01,2026-01-16,Veg Pizza,Tomatino Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-17,Burger,Regular Chicken Burger,661.52,6.0
+2026-01,2026-01-17,Burger,Burger Combo @ 199,208.94,1.0
+2026-01,2026-01-17,Burger,Burger Combo @ 169,177.44,1.0
+2026-01,2026-01-17,Combos,2 Regular Veg@349,811.66,2.0
+2026-01,2026-01-17,Combos,Super Saver Meal Regular,627.92,2.0
+2026-01,2026-01-17,Combos,Super Saver Meal Medium,523.96,1.0
+2026-01,2026-01-17,Combos,2 Regular Non-veg@409,471.46,1.0
+2026-01,2026-01-17,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-17,Combos,Combo Delight Veg,198.44,1.0
+2026-01,2026-01-17,Garlic Bread,Garlic Bread,252.0,2.0
+2026-01,2026-01-17,Mojitos,Green Apple,311.88,3.0
+2026-01,2026-01-17,Mojitos,Blue Curacao,103.96,1.0
+2026-01,2026-01-17,Mojitos,Blue Mojito,103.96,1.0
+2026-01,2026-01-17,Munchies,Loaded Fries,582.78,3.0
+2026-01,2026-01-17,Munchies,Chicken Nuggets,546.0,4.0
+2026-01,2026-01-17,Munchies,French Fries,399.04,4.0
+2026-01,2026-01-17,Munchies,Chilly Potato Shots,152.26,1.0
+2026-01,2026-01-17,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),771.78,3.0
+2026-01,2026-01-17,Non Veg Pizza,Chicken Kheema Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-17,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-17,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-17,Non Veg Pizza,Chicken Pepperoni (7 Inch),330.76,1.0
+2026-01,2026-01-17,Non Veg Pizza,Meat Feast Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-17,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-17,Salad,Greek Salad,187.94,1.0
+2026-01,2026-01-17,Shakes & Juices,Tender Coconut,198.0,2.0
+2026-01,2026-01-17,Shakes & Juices,Chikku Shake,178.0,2.0
+2026-01,2026-01-17,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-17,Shakes & Juices,Pineapple Juice,84.0,1.0
+2026-01,2026-01-17,Shakes & Juices,Fresh Lime Juice,42.0,1.0
+2026-01,2026-01-17,Soft Drinks,Slice 200ml,40.0,2.0
+2026-01,2026-01-17,Soft Drinks,Mineral Water,20.0,1.0
+2026-01,2026-01-17,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-17,Veg Pizza,Hot Passion Pizza (12 Inch),656.26,1.0
+2026-01,2026-01-17,Veg Pizza,Veg Bite Pizza (12 Inch),572.26,1.0
+2026-01,2026-01-17,Veg Pizza,Burn To Hell Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-17,Veg Pizza,Margherita Pizza (12 Inch),498.76,1.0
+2026-01,2026-01-17,Veg Pizza,Supreme Veg Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-17,Veg Pizza,Mushroom Delight Pizza (7 Inch),430.52,2.0
+2026-01,2026-01-17,Veg Pizza,Supreme Veg Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-17,Veg Pizza,Margherita Pizza (7 Inch),283.52,2.0
+2026-01,2026-01-17,Veg Pizza,Veg Bite Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-18,Burger,Regular Chicken Burger,220.5,2.0
+2026-01,2026-01-18,Burger,Burger Combo @ 179,148.33,1.0
+2026-01,2026-01-18,Combos,2 Regular Non-veg@409,2147.2999999999997,5.0
+2026-01,2026-01-18,Combos,2 Medium Non-veg@759,901.96,1.0
+2026-01,2026-01-18,Combos,Non Veg Meal For 1,606.92,2.0
+2026-01,2026-01-18,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-18,Garlic Bread,Garlic Bread Supreme[non-veg],194.26,1.0
+2026-01,2026-01-18,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-18,Mojitos,Fresh Garden Mint,103.96,1.0
+2026-01,2026-01-18,Mojitos,Passion Fruit,103.96,1.0
+2026-01,2026-01-18,Munchies,French Fries,530.3,5.0
+2026-01,2026-01-18,Munchies,Loaded Fries,388.52,2.0
+2026-01,2026-01-18,Munchies,Peri Peri Dip,31.5,1.0
+2026-01,2026-01-18,Non Veg Pizza,Butter Chicken Pizza (9 Inch),1889.89,4.0
+2026-01,2026-01-18,Non Veg Pizza,Hot Treat Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-18,Non Veg Pizza,Schezwan Chicken (12 Inch),719.26,1.0
+2026-01,2026-01-18,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),604.51,1.0
+2026-01,2026-01-18,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-18,Non Veg Pizza,Schezwan Chicken (9 Inch),498.76,1.0
+2026-01,2026-01-18,Non Veg Pizza,Tandoori Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-18,Non Veg Pizza,Fiery Chicken Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-18,Non Veg Pizza,Chicken Kheema Pizza (9 Inch),393.61,1.0
+2026-01,2026-01-18,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-18,Non Veg Pizza,Chicken Kheema Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-18,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-18,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-18,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-18,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-18,Shakes & Juices,Fresh Lime Juice,672.0,16.0
+2026-01,2026-01-18,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-18,Shakes & Juices,Mint Lime Juice,47.26,1.0
+2026-01,2026-01-18,Soft Drinks,Mineral Water,80.0,4.0
+2026-01,2026-01-18,Soft Drinks,Mdew 250ml Pet,60.0,3.0
+2026-01,2026-01-18,Soft Drinks,7up @50rs,50.0,1.0
+2026-01,2026-01-18,Soft Drinks,7up@40rs,40.0,1.0
+2026-01,2026-01-18,Soft Drinks,Pepsi 330ml Can,40.0,1.0
+2026-01,2026-01-18,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-18,Soft Drinks,Soda,40.0,2.0
+2026-01,2026-01-18,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-18,Veg Pizza,Paneer Tikka Butter Masala (7 Inch),941.8799999999999,3.0
+2026-01,2026-01-18,Veg Pizza,Veg Tandoori Paneer Pizza (12 Inch),604.51,1.0
+2026-01,2026-01-18,Veg Pizza,Supreme Veg Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-18,Veg Pizza,Veg Tandoori Paneer Pizza (9 Inch),419.19,1.0
+2026-01,2026-01-18,Veg Pizza,Mushroom Delight Pizza (9 Inch),404.26,1.0
+2026-01,2026-01-18,Veg Pizza,Supreme Veg Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-18,Veg Pizza,Margherita Pizza (7 Inch),283.52,2.0
+2026-01,2026-01-18,Veg Pizza,Veg Tandoori Paneer Pizza (7 Inch),263.87,1.0
+2026-01,2026-01-18,Veg Pizza,5 Cheese Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-19,Burger,Veg Burger,189.0,2.0
+2026-01,2026-01-19,Burger,Regular Chicken Burger,110.26,1.0
+2026-01,2026-01-19,Combos,Super Saver Meal Medium,1571.88,3.0
+2026-01,2026-01-19,Combos,Super Saver Meal Regular,941.8799999999999,3.0
+2026-01,2026-01-19,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-19,Mojitos,Passion Fruit,207.92,2.0
+2026-01,2026-01-19,Mojitos,Fresh Garden Mint,103.96,1.0
+2026-01,2026-01-19,Munchies,French Fries,498.76,5.0
+2026-01,2026-01-19,Munchies,Potato Wedges,162.76,1.0
+2026-01,2026-01-19,Non Veg Pizza,Red Indian Pizza (12 Inch),782.26,1.0
+2026-01,2026-01-19,Non Veg Pizza,Meat Feast Pizza (12 Inch),761.26,1.0
+2026-01,2026-01-19,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-19,Non Veg Pizza,Tandoori Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-19,Non Veg Pizza,New York Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-19,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-19,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-19,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-19,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-19,Salad,Greek Chicken Salad[non-veg],198.44,1.0
+2026-01,2026-01-19,Salad,Macaroni N Chicken Salad,198.44,1.0
+2026-01,2026-01-19,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-19,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-19,Shakes & Juices,Watermelon Juice,84.0,1.0
+2026-01,2026-01-19,Shakes & Juices,Mint Lime Juice,47.26,1.0
+2026-01,2026-01-19,Soft Drinks,Pizza Upgrade,88.2,2.0
+2026-01,2026-01-19,Soft Drinks,Pepsi@50rs,50.0,1.0
+2026-01,2026-01-19,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-19,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-19,Veg Pizza,Veg Tandoori Paneer Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-19,Veg Pizza,5 Cheese Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-20,Burger,Regular Chicken Burger,441.02,4.0
+2026-01,2026-01-20,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-20,Burger,Burger Combo @ 169,177.44,1.0
+2026-01,2026-01-20,Combos,2 Large Non-veg@1149,1332.46,1.0
+2026-01,2026-01-20,Combos,Combo Delight Non-veg,595.3399999999999,3.0
+2026-01,2026-01-20,Combos,Super Saver Meal Medium,523.96,1.0
+2026-01,2026-01-20,Combos,2 Regular Veg@349,366.46,1.0
+2026-01,2026-01-20,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-20,Munchies,French Fries,399.04,4.0
+2026-01,2026-01-20,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-20,Munchies,Chicken Popcorn,141.76,1.0
+2026-01,2026-01-20,Non Veg Pizza,Chicken Pepperoni (9 Inch),1144.52,2.0
+2026-01,2026-01-20,Non Veg Pizza,Hot Chicken Pizza (9 Inch),934.52,2.0
+2026-01,2026-01-20,Non Veg Pizza,New York Pizza (7 Inch),661.52,2.0
+2026-01,2026-01-20,Non Veg Pizza,Mambo Combo Pizza (9 Inch),572.26,1.0
+2026-01,2026-01-20,Non Veg Pizza,Hot Chicken Pizza (7 Inch),514.52,2.0
+2026-01,2026-01-20,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-20,Non Veg Pizza,Schezwan Chicken (9 Inch),498.76,1.0
+2026-01,2026-01-20,Non Veg Pizza,BBQ & Onion Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-20,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-20,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-20,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-20,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-20,Salad,Macaroni N Chicken Salad,198.44,1.0
+2026-01,2026-01-20,Shakes & Juices,Tender Coconut,396.0,4.0
+2026-01,2026-01-20,Shakes & Juices,Mint Lime Juice,189.01999999999998,4.0
+2026-01,2026-01-20,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-20,Shakes & Juices,Pineapple Juice,84.0,1.0
+2026-01,2026-01-20,Soft Drinks,Soda,80.0,4.0
+2026-01,2026-01-20,Soft Drinks,Mdew@40rs,40.0,1.0
+2026-01,2026-01-20,Soft Drinks,Mdew 250ml Pet,20.0,1.0
+2026-01,2026-01-20,Soft Drinks,Mineral Water,20.0,1.0
+2026-01,2026-01-20,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-20,Veg Pizza,Supreme Veg Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-20,Veg Pizza,Las Vegas Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-20,Veg Pizza,Las Vegas Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-21,Burger,Regular Chicken Burger,220.52,2.0
+2026-01,2026-01-21,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-21,Combos,2 Regular Non-veg@409,1885.8400000000001,4.0
+2026-01,2026-01-21,Combos,Super Saver Meal Medium,1047.92,2.0
+2026-01,2026-01-21,Combos,2 Medium Non-veg@759,796.96,1.0
+2026-01,2026-01-21,Combos,2 Medium Veg@699,733.96,1.0
+2026-01,2026-01-21,Combos,Non Veg Meal For 2,681.46,1.0
+2026-01,2026-01-21,Combos,Super Saver Meal Regular,627.92,2.0
+2026-01,2026-01-21,Combos,Delicious Combo Delight Regular,471.46,1.0
+2026-01,2026-01-21,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-21,Mojitos,Green Apple,207.92,2.0
+2026-01,2026-01-21,Mojitos,Blue Mojito,103.96,1.0
+2026-01,2026-01-21,Mojitos,Passion Fruit,103.96,1.0
+2026-01,2026-01-21,Mojitos,Water Melon,103.96,1.0
+2026-01,2026-01-21,Munchies,French Fries,199.52,2.0
+2026-01,2026-01-21,Non Veg Pizza,Chicken Pepperoni (12 Inch),761.26,1.0
+2026-01,2026-01-21,Non Veg Pizza,Tandoori Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-21,Non Veg Pizza,BBQ & Onion Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-21,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-21,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-21,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-21,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-21,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-21,Salad,Cheese N Macaroni Salad,166.96,1.0
+2026-01,2026-01-21,Soft Drinks,7up@40rs,80.0,2.0
+2026-01,2026-01-21,Soft Drinks,Pizza Upgrade,63.0,1.0
+2026-01,2026-01-21,Veg Pizza,Hot Passion Pizza (7 Inch),283.5,1.0
+2026-01,2026-01-21,Veg Pizza,5 Cheese Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-21,Veg Pizza,Margherita Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-22,Burger,Regular Chicken Burger,1102.52,10.0
+2026-01,2026-01-22,Burger,Burger Combo @ 179,375.9,2.0
+2026-01,2026-01-22,Combos,Super Saver Meal Regular,627.92,2.0
+2026-01,2026-01-22,Combos,Combo Delight Non-veg,396.88,2.0
+2026-01,2026-01-22,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-22,Munchies,French Fries,299.28000000000003,3.0
+2026-01,2026-01-22,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-22,Non Veg Pizza,Chicken Pepperoni (9 Inch),1144.5,2.0
+2026-01,2026-01-22,Non Veg Pizza,Meat Feast Pizza (12 Inch),761.26,1.0
+2026-01,2026-01-22,Non Veg Pizza,Hot Treat Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-22,Non Veg Pizza,Red Indian Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-22,Non Veg Pizza,Chicken Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-22,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-22,Non Veg Pizza,Chicken Pepperoni (7 Inch),330.76,1.0
+2026-01,2026-01-22,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-22,Non Veg Pizza,Schezwan Chicken (7 Inch),313.96,1.0
+2026-01,2026-01-22,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-22,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-22,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-22,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-22,Shakes & Juices,Watermelon Juice,168.0,2.0
+2026-01,2026-01-22,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-22,Soft Drinks,Pepsi@50rs,50.0,1.0
+2026-01,2026-01-22,Soft Drinks,7up 250ml Pet,40.0,2.0
+2026-01,2026-01-22,Soft Drinks,Mdew 330ml Can,40.0,1.0
+2026-01,2026-01-22,Soft Drinks,Mdew@40rs,40.0,1.0
+2026-01,2026-01-22,Soft Drinks,Mineral Water,20.0,1.0
+2026-01,2026-01-22,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-22,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-22,Sundaes,Butterscotch Sundae,208.94,1.0
+2026-01,2026-01-22,Veg Pizza,Burn To Hell Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-22,Veg Pizza,Las Vegas Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-23,Burger,Burger Combo @ 169,354.9,2.0
+2026-01,2026-01-23,Burger,Regular Chicken Burger,110.26,1.0
+2026-01,2026-01-23,Combos,2 Regular Non-veg@409,984.9200000000001,2.0
+2026-01,2026-01-23,Garlic Bread,Garlic Bread With Cheese,325.52,2.0
+2026-01,2026-01-23,Munchies,Cheesy Fries,651.0,4.0
+2026-01,2026-01-23,Munchies,French Fries,199.52,2.0
+2026-01,2026-01-23,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-23,Munchies,Hot Garlic Dip,63.0,2.0
+2026-01,2026-01-23,Munchies,Peri Peri Dip,31.5,1.0
+2026-01,2026-01-23,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-23,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),355.96,1.0
+2026-01,2026-01-23,Pasta,Veg Pasta,1286.28,5.0
+2026-01,2026-01-23,Salad,Mixed Chicken Salad,198.44,1.0
+2026-01,2026-01-23,Shakes & Juices,Chikku Shake,267.0,3.0
+2026-01,2026-01-23,Shakes & Juices,Tender Coconut,198.0,2.0
+2026-01,2026-01-23,Shakes & Juices,Mint Lime Juice,47.26,1.0
+2026-01,2026-01-23,Soft Drinks,Pepsi@40rs,80.0,2.0
+2026-01,2026-01-23,Soft Drinks,Mdew 250ml Pet,20.0,1.0
+2026-01,2026-01-23,Soft Drinks,Mineral Water,20.0,1.0
+2026-01,2026-01-23,Veg Pizza,Spicy N Hot Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-23,Veg Pizza,Plain Cheese Pizza (9 Inch),619.5,2.0
+2026-01,2026-01-23,Veg Pizza,Margherita Pizza (12 Inch),498.76,1.0
+2026-01,2026-01-23,Veg Pizza,Paneer Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-23,Veg Pizza,Spicy N Hot Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-23,Veg Pizza,Supreme Veg Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-23,Veg Pizza,Margherita Pizza (9 Inch),309.76,1.0
+2026-01,2026-01-23,Veg Pizza,Plain Cheese Pizza (7 Inch),283.52,2.0
+2026-01,2026-01-24,Burger,Burger Combo @ 169,887.24,5.0
+2026-01,2026-01-24,Burger,Chicken Nuggets Burger,441.0,3.0
+2026-01,2026-01-24,Burger,Regular Chicken Burger,330.78000000000003,3.0
+2026-01,2026-01-24,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-24,Combos,2 Regular Non-veg@409,1885.8400000000001,4.0
+2026-01,2026-01-24,Combos,2 Medium Non-veg@759,1803.92,2.0
+2026-01,2026-01-24,Combos,Super Saver Meal Medium,523.96,1.0
+2026-01,2026-01-24,Combos,Delicious Combo Delight Regular,471.46,1.0
+2026-01,2026-01-24,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-24,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-24,Combos,Combo Delight Veg,198.44,1.0
+2026-01,2026-01-24,Desserts,Sizzling Brownie,215.26,1.0
+2026-01,2026-01-24,Desserts,Brownie,120.76,1.0
+2026-01,2026-01-24,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-24,Garlic Bread,Garlic Bread,126.0,1.0
+2026-01,2026-01-24,Mojitos,Blue Mojito,207.92,2.0
+2026-01,2026-01-24,Mojitos,Green Apple,207.92,2.0
+2026-01,2026-01-24,Mojitos,Passion Fruit,103.96,1.0
+2026-01,2026-01-24,Munchies,French Fries,598.54,6.0
+2026-01,2026-01-24,Munchies,Loaded Fries,582.78,3.0
+2026-01,2026-01-24,Munchies,Chicken Nuggets,546.0,4.0
+2026-01,2026-01-24,Munchies,Cheesy Fries,325.52,2.0
+2026-01,2026-01-24,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),1029.04,4.0
+2026-01,2026-01-24,Non Veg Pizza,Mexicana Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-24,Non Veg Pizza,BBQ & Onion Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-24,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-24,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-24,Non Veg Pizza,Chicken Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-24,Non Veg Pizza,Hot Treat Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-24,Non Veg Pizza,Fiery Chicken Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-24,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-24,Non Veg Pizza,Red Indian Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-24,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-24,Pasta,Chicken Pasta,577.5,2.0
+2026-01,2026-01-24,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-24,Salad,Greek Salad,187.94,1.0
+2026-01,2026-01-24,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-24,Shakes & Juices,Fresh Lime Juice,84.0,2.0
+2026-01,2026-01-24,Shakes & Juices,Watermelon Juice,84.0,1.0
+2026-01,2026-01-24,Soft Drinks,Pizza Upgrade,136.5,1.0
+2026-01,2026-01-24,Soft Drinks,Soft Drink,120.0,6.0
+2026-01,2026-01-24,Soft Drinks,Pepsi 250ml Pet,60.0,3.0
+2026-01,2026-01-24,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-24,Soft Drinks,7up 250ml Pet,20.0,1.0
+2026-01,2026-01-24,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-24,Veg Pizza,Mexican Veg Pizza (12 Inch),572.26,1.0
+2026-01,2026-01-24,Veg Pizza,Paneer Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-24,Veg Pizza,Supreme Veg Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-24,Veg Pizza,Margherita Pizza (7 Inch),283.5,2.0
+2026-01,2026-01-24,Veg Pizza,Las Vegas Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-24,Veg Pizza,Mexican Veg Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-24,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-24,Veg Pizza,Plain Cheese Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-25,Burger,Regular Chicken Burger,661.52,6.0
+2026-01,2026-01-25,Burger,Burger Combo @ 179,563.8399999999999,3.0
+2026-01,2026-01-25,Burger,Veg Burger,378.0,4.0
+2026-01,2026-01-25,Burger,Burger Combo @ 169,354.9,2.0
+2026-01,2026-01-25,Combos,Super Saver Meal Medium,1571.8600000000001,3.0
+2026-01,2026-01-25,Combos,2 Regular Non-veg@409,1414.38,3.0
+2026-01,2026-01-25,Combos,2 Regular Veg@349,387.46,1.0
+2026-01,2026-01-25,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-25,Desserts,Brownie With Ice Cream,396.88,2.0
+2026-01,2026-01-25,Garlic Bread,Garlic Bread Supreme[non-veg],388.5,2.0
+2026-01,2026-01-25,Garlic Bread,Garlic Bread With Cheese,162.76,1.0
+2026-01,2026-01-25,Mojitos,Blue Mojito,103.96,1.0
+2026-01,2026-01-25,Munchies,French Fries,892.54,8.0
+2026-01,2026-01-25,Munchies,Loaded Fries,388.52,2.0
+2026-01,2026-01-25,Munchies,Cheesy Fries,162.76,1.0
+2026-01,2026-01-25,Munchies,Chicken Popcorn,141.76,1.0
+2026-01,2026-01-25,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-25,Non Veg Pizza,Bbq Chicken Pizza (12 Inch),2157.7799999999997,3.0
+2026-01,2026-01-25,Non Veg Pizza,Mexicana Pizza (9 Inch),997.52,2.0
+2026-01,2026-01-25,Non Veg Pizza,Hawaiian Chicken Pizza (12 Inch),761.26,1.0
+2026-01,2026-01-25,Non Veg Pizza,New York Pizza (12 Inch),761.26,1.0
+2026-01,2026-01-25,Non Veg Pizza,Mexicana Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-25,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-25,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-25,Non Veg Pizza,Mexicana Pizza (7 Inch),627.92,2.0
+2026-01,2026-01-25,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-25,Non Veg Pizza,Butter Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-25,Non Veg Pizza,Mambo Combo Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-25,Non Veg Pizza,Chicken Tikka Butter Masala (7 Inch),313.96,1.0
+2026-01,2026-01-25,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-25,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-25,Pasta,Chicken Pasta,866.26,3.0
+2026-01,2026-01-25,Pasta,Veg Pasta,514.52,2.0
+2026-01,2026-01-25,Salad,Greek Chicken Salad[non-veg],198.44,1.0
+2026-01,2026-01-25,Shakes & Juices,Chikku Shake,445.0,5.0
+2026-01,2026-01-25,Shakes & Juices,Tender Coconut,297.0,3.0
+2026-01,2026-01-25,Shakes & Juices,Mint Lime Juice,283.52,6.0
+2026-01,2026-01-25,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-25,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-25,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-25,Shakes & Juices,Fresh Lime Juice,42.0,1.0
+2026-01,2026-01-25,Soft Drinks,Mineral Water,140.0,7.0
+2026-01,2026-01-25,Soft Drinks,7up 330ml Can,80.0,2.0
+2026-01,2026-01-25,Soft Drinks,7up@40rs,80.0,2.0
+2026-01,2026-01-25,Soft Drinks,Pepsi@50rs,50.0,1.0
+2026-01,2026-01-25,Soft Drinks,Pepsi@40rs,40.0,1.0
+2026-01,2026-01-25,Soft Drinks,Soft Drink,30.0,1.0
+2026-01,2026-01-25,Soft Drinks,7up 250ml Pet,20.0,1.0
+2026-01,2026-01-25,Veg Pizza,Paneer Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-25,Veg Pizza,Spicy N Hot Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-25,Veg Pizza,Mushroom Delight Pizza (9 Inch),404.26,1.0
+2026-01,2026-01-25,Veg Pizza,Tomatino Pizza (9 Inch),404.26,1.0
+2026-01,2026-01-25,Veg Pizza,Supreme Veg Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-25,Veg Pizza,Veg Tandoori Paneer Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-25,Veg Pizza,Mexican Veg Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-25,Veg Pizza,Plain Cheese Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-26,Burger,Regular Chicken Burger,330.78000000000003,3.0
+2026-01,2026-01-26,Burger,Burger Combo @ 179,187.94,1.0
+2026-01,2026-01-26,Combos,2 Regular Non-veg@409,858.92,2.0
+2026-01,2026-01-26,Combos,2 Medium Non-veg@759,796.96,1.0
+2026-01,2026-01-26,Combos,Delicious Combo Delight Regular,471.46,1.0
+2026-01,2026-01-26,Combos,2 Regular Veg@349,366.46,1.0
+2026-01,2026-01-26,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-26,Combos,Non Veg Meal For 1,303.46,1.0
+2026-01,2026-01-26,Desserts,Brownie,362.28000000000003,3.0
+2026-01,2026-01-26,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-26,Mojitos,Fresh Garden Mint,103.96,1.0
+2026-01,2026-01-26,Mojitos,Green Apple,103.96,1.0
+2026-01,2026-01-26,Mojitos,Passion Fruit,103.96,1.0
+2026-01,2026-01-26,Munchies,Loaded Fries,582.78,3.0
+2026-01,2026-01-26,Munchies,Cheesy Fries,325.52,2.0
+2026-01,2026-01-26,Munchies,Chicken Popcorn,141.76,1.0
+2026-01,2026-01-26,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-26,Munchies,French Fries,99.76,1.0
+2026-01,2026-01-26,Non Veg Pizza,Fiery Chicken Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-26,Non Veg Pizza,Italian Feast Pizza (9 Inch),614.26,1.0
+2026-01,2026-01-26,Non Veg Pizza,BBQ & Onion Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-26,Non Veg Pizza,Fiery Chicken Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-26,Non Veg Pizza,5 Chicken Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-26,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-26,Non Veg Pizza,Mexicana Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-26,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-26,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-26,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-26,Non Veg Pizza,Fiery Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-26,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-26,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-26,Shakes & Juices,Fresh Lime Juice,126.0,3.0
+2026-01,2026-01-26,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-26,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-26,Shakes & Juices,Watermelon Juice,84.0,1.0
+2026-01,2026-01-26,Shakes & Juices,Mint Lime Juice,47.26,1.0
+2026-01,2026-01-26,Soft Drinks,Pepsi 250ml Pet,60.0,3.0
+2026-01,2026-01-26,Soft Drinks,7up@40rs,40.0,1.0
+2026-01,2026-01-26,Veg Pizza,Supreme Veg Pizza (7 Inch),941.8799999999999,3.0
+2026-01,2026-01-26,Veg Pizza,Paneer Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-26,Veg Pizza,Veg Tandoori Paneer Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-26,Veg Pizza,Plain Cheese Pizza (9 Inch),309.76,1.0
+2026-01,2026-01-26,Veg Pizza,Mexican Veg Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-26,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-26,Veg Pizza,Veg Bite Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-27,Burger,Burger Combo @ 179,375.88,2.0
+2026-01,2026-01-27,Combos,2 Regular Non-veg@409,942.9200000000001,2.0
+2026-01,2026-01-27,Combos,Super Saver Meal Regular,627.92,2.0
+2026-01,2026-01-27,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-27,Desserts,Brownie,120.76,1.0
+2026-01,2026-01-27,Mojitos,Passion Fruit,103.96,1.0
+2026-01,2026-01-27,Munchies,French Fries,99.76,1.0
+2026-01,2026-01-27,Non Veg Pizza,Bbq Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-27,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-27,Non Veg Pizza,New York Pizza (9 Inch),572.26,1.0
+2026-01,2026-01-27,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-27,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-27,Non Veg Pizza,Mexicana Pizza (7 Inch),376.96,1.0
+2026-01,2026-01-27,Non Veg Pizza,5 Chicken Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-27,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-27,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),257.26,1.0
+2026-01,2026-01-27,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-27,Shakes & Juices,Chocolate Shake,198.0,2.0
+2026-01,2026-01-27,Shakes & Juices,Chikku Shake,178.0,2.0
+2026-01,2026-01-27,Shakes & Juices,Fresh Lime Juice,42.0,1.0
+2026-01,2026-01-27,Soft Drinks,Pepsi 330ml Can,40.0,1.0
+2026-01,2026-01-27,Soft Drinks,Pizza Upgrade,31.5,1.0
+2026-01,2026-01-27,Soft Drinks,7up 250ml Pet,20.0,1.0
+2026-01,2026-01-27,Veg Pizza,Margherita Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-28,Burger,Burger Combo @ 169,532.3399999999999,3.0
+2026-01,2026-01-28,Combos,2 Medium Non-veg@759,1803.92,2.0
+2026-01,2026-01-28,Combos,Super Saver Meal Medium,1047.92,2.0
+2026-01,2026-01-28,Combos,Combo Delight Non-veg,396.88,2.0
+2026-01,2026-01-28,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-28,Garlic Bread,Garlic Bread With Cheese,325.52,2.0
+2026-01,2026-01-28,Garlic Bread,Garlic Bread Supreme[non-veg],194.26,1.0
+2026-01,2026-01-28,Mojitos,Blue Mojito,415.82,4.0
+2026-01,2026-01-28,Mojitos,Passion Fruit,207.9,2.0
+2026-01,2026-01-28,Mojitos,Water Melon,103.96,1.0
+2026-01,2026-01-28,Munchies,Loaded Fries,582.76,3.0
+2026-01,2026-01-28,Munchies,French Fries,99.76,1.0
+2026-01,2026-01-28,Non Veg Pizza,Butter Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-28,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),514.52,2.0
+2026-01,2026-01-28,Non Veg Pizza,Schezwan Chicken (9 Inch),498.76,1.0
+2026-01,2026-01-28,Non Veg Pizza,BBQ & Onion Pizza (9 Inch),467.26,1.0
+2026-01,2026-01-28,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-28,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-28,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-28,Pasta,Chicken Pasta,577.52,2.0
+2026-01,2026-01-28,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-28,Salad,Greek Salad,187.94,1.0
+2026-01,2026-01-28,Shakes & Juices,Fresh Lime Juice,42.0,1.0
+2026-01,2026-01-28,Soft Drinks,Soft Drink,30.0,1.0
+2026-01,2026-01-28,Soft Drinks,7up 250ml Pet,20.0,1.0
+2026-01,2026-01-28,Veg Pizza,Supreme Veg Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-28,Veg Pizza,Veg Tandoori Paneer Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-28,Veg Pizza,Supreme Veg Pizza (7 Inch),355.96,1.0
+2026-01,2026-01-28,Veg Pizza,Hungarian Street Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-28,Veg Pizza,Margherita Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-29,Burger,Veg Burger,189.0,2.0
+2026-01,2026-01-29,Burger,Regular Chicken Burger,110.26,1.0
+2026-01,2026-01-29,Combos,2 Regular Non-veg@409,1288.3799999999999,3.0
+2026-01,2026-01-29,Combos,2 Medium Non-veg@759,796.96,1.0
+2026-01,2026-01-29,Combos,2 Regular Veg@349,732.92,2.0
+2026-01,2026-01-29,Combos,Super Saver Meal Regular,313.96,1.0
+2026-01,2026-01-29,Desserts,Brownie,241.5,2.0
+2026-01,2026-01-29,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-29,Garlic Bread,Garlic Bread,378.0,3.0
+2026-01,2026-01-29,Garlic Bread,Garlic Bread With Cheese,325.52,2.0
+2026-01,2026-01-29,Mojitos,Passion Fruit,311.86,3.0
+2026-01,2026-01-29,Mojitos,Blue Mojito,103.96,1.0
+2026-01,2026-01-29,Mojitos,Fresh Garden Mint,103.96,1.0
+2026-01,2026-01-29,Mojitos,Water Melon,103.96,1.0
+2026-01,2026-01-29,Munchies,French Fries,498.8,5.0
+2026-01,2026-01-29,Munchies,Cheesy Fries,488.26,3.0
+2026-01,2026-01-29,Munchies,Chicken Nuggets,409.5,3.0
+2026-01,2026-01-29,Munchies,Loaded Fries,388.52,2.0
+2026-01,2026-01-29,Munchies,Hot Garlic Dip,31.5,1.0
+2026-01,2026-01-29,Non Veg Pizza,Schezwan Chicken (12 Inch),782.26,1.0
+2026-01,2026-01-29,Non Veg Pizza,Spanish Passion Pizza (12 Inch),761.26,1.0
+2026-01,2026-01-29,Non Veg Pizza,Mexicana Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-29,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),514.52,2.0
+2026-01,2026-01-29,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-29,Non Veg Pizza,Mexicana Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-29,Non Veg Pizza,Red Indian Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-29,Non Veg Pizza,Schezwan Chicken (9 Inch),498.76,1.0
+2026-01,2026-01-29,Non Veg Pizza,Tandoori Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-29,Non Veg Pizza,5 Chicken Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-29,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-29,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-29,Non Veg Pizza,Chicken Tikka Butter Masala (7 Inch),313.96,1.0
+2026-01,2026-01-29,Non Veg Pizza,Schezwan Chicken (7 Inch),313.96,1.0
+2026-01,2026-01-29,Pasta,Chicken Pasta,866.26,3.0
+2026-01,2026-01-29,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-29,Shakes & Juices,Tender Coconut,297.0,3.0
+2026-01,2026-01-29,Shakes & Juices,Fresh Lime Juice,210.0,5.0
+2026-01,2026-01-29,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-29,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-29,Shakes & Juices,Chikku Shake,89.0,1.0
+2026-01,2026-01-29,Shakes & Juices,Grapes Juice,84.0,1.0
+2026-01,2026-01-29,Soft Drinks,Pizza Upgrade,120.76,2.0
+2026-01,2026-01-29,Soft Drinks,7up@40rs,80.0,2.0
+2026-01,2026-01-29,Soft Drinks,Pepsi 330ml Can,80.0,2.0
+2026-01,2026-01-29,Soft Drinks,7up @50rs,50.0,1.0
+2026-01,2026-01-29,Soft Drinks,Pepsi@50rs,50.0,1.0
+2026-01,2026-01-29,Soft Drinks,Soft Drink,30.0,1.0
+2026-01,2026-01-29,Sundaes,Nutty Vanilla,183.76,1.0
+2026-01,2026-01-29,Veg Pizza,Paneer Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-29,Veg Pizza,Supreme Veg Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-29,Veg Pizza,Margherita Pizza (9 Inch),309.76,1.0
+2026-01,2026-01-29,Veg Pizza,Plain Cheese Pizza (9 Inch),309.76,1.0
+2026-01,2026-01-29,Veg Pizza,5 Cheese Pizza (7 Inch),246.76,1.0
+2026-01,2026-01-29,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-30,Combos,Delicious Combo Delight Regular,471.46,1.0
+2026-01,2026-01-30,Combos,2 Regular Non-veg@409,429.46,1.0
+2026-01,2026-01-30,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-30,Desserts,Brownie With Ice Cream,198.44,1.0
+2026-01,2026-01-30,Desserts,Brownie,120.76,1.0
+2026-01,2026-01-30,Garlic Bread,Garlic Bread With Cheese,325.52,2.0
+2026-01,2026-01-30,Garlic Bread,Garlic Bread,126.0,1.0
+2026-01,2026-01-30,Mojitos,Strawberry,103.96,1.0
+2026-01,2026-01-30,Munchies,Loaded Fries,388.5,2.0
+2026-01,2026-01-30,Munchies,Chicken Nuggets,136.5,1.0
+2026-01,2026-01-30,Munchies,French Fries,99.76,1.0
+2026-01,2026-01-30,Non Veg Pizza,Bbq Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-30,Non Veg Pizza,Hot Treat Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-30,Non Veg Pizza,Hot Chicken Pizza (12 Inch),687.76,1.0
+2026-01,2026-01-30,Non Veg Pizza,Bbq Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-30,Non Veg Pizza,Butter Chicken Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-30,Non Veg Pizza,Chicken Tikka Butter Masala (9 Inch),498.76,1.0
+2026-01,2026-01-30,Non Veg Pizza,Cheese N Corn Chicken (9 Inch),467.26,1.0
+2026-01,2026-01-30,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-30,Non Veg Pizza,Schezwan Chicken (7 Inch),313.96,1.0
+2026-01,2026-01-30,Non Veg Pizza,Tandoori Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-30,Non Veg Pizza,BBQ & Onion Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-30,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-30,Pasta,Veg Pasta,257.26,1.0
+2026-01,2026-01-30,Salad,Cheese N Macaroni Salad,166.96,1.0
+2026-01,2026-01-30,Salad,Coleslaw Salad,145.96,1.0
+2026-01,2026-01-30,Shakes & Juices,Pineapple Juice,168.0,2.0
+2026-01,2026-01-30,Shakes & Juices,Mint Lime Juice,141.76,3.0
+2026-01,2026-01-30,Soft Drinks,Mdew@40rs,40.0,1.0
+2026-01,2026-01-30,Soft Drinks,Mdew 250ml Pet,20.0,1.0
+2026-01,2026-01-30,Soft Drinks,Pepsi 250ml Pet,20.0,1.0
+2026-01,2026-01-30,Veg Pizza,Supreme Veg Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-30,Veg Pizza,Veg Tandoori Paneer Pizza (7 Inch),371.7,1.0
+2026-01,2026-01-30,Veg Pizza,Veg Bite Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-30,Veg Pizza,Margherita Pizza (7 Inch),141.76,1.0
+2026-01,2026-01-31,Burger,Burger Combo @ 199,417.88,2.0
+2026-01,2026-01-31,Burger,Regular Chicken Burger,330.76,3.0
+2026-01,2026-01-31,Burger,Veg Burger,283.5,3.0
+2026-01,2026-01-31,Combos,2 Regular Non-veg@409,1288.3799999999999,3.0
+2026-01,2026-01-31,Combos,Non Veg Meal For 4,870.46,1.0
+2026-01,2026-01-31,Combos,2 Medium Non-veg@759,849.46,1.0
+2026-01,2026-01-31,Combos,Super Saver Meal Regular,627.92,2.0
+2026-01,2026-01-31,Combos,Super Saver Meal Medium,523.96,1.0
+2026-01,2026-01-31,Combos,Combo Delight Non-veg,198.44,1.0
+2026-01,2026-01-31,Garlic Bread,Garlic Bread,126.0,1.0
+2026-01,2026-01-31,Mojitos,Fresh Garden Mint,103.96,1.0
+2026-01,2026-01-31,Mojitos,Green Apple,103.96,1.0
+2026-01,2026-01-31,Munchies,French Fries,598.54,6.0
+2026-01,2026-01-31,Munchies,Loaded Fries,194.26,1.0
+2026-01,2026-01-31,Non Veg Pizza,Tandoori Chicken Pizza (12 Inch),719.26,1.0
+2026-01,2026-01-31,Non Veg Pizza,Chicken Pepperoni (7 Inch),661.5,2.0
+2026-01,2026-01-31,Non Veg Pizza,Cheese N Corn Chicken (7 Inch),514.52,2.0
+2026-01,2026-01-31,Non Veg Pizza,Hot Treat Pizza (9 Inch),498.76,1.0
+2026-01,2026-01-31,Non Veg Pizza,Meat Feast Pizza (7 Inch),330.76,1.0
+2026-01,2026-01-31,Non Veg Pizza,Bbq Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-31,Non Veg Pizza,Butter Chicken Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-31,Non Veg Pizza,Hot Treat Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-31,Non Veg Pizza,Hot Chicken Pizza (7 Inch),257.26,1.0
+2026-01,2026-01-31,Pasta,Chicken Pasta,288.76,1.0
+2026-01,2026-01-31,Salad,Greek Salad,187.94,1.0
+2026-01,2026-01-31,Shakes & Juices,Pineapple Juice,252.0,3.0
+2026-01,2026-01-31,Shakes & Juices,Mint Lime Juice,189.01999999999998,4.0
+2026-01,2026-01-31,Shakes & Juices,Chikku Shake,178.0,2.0
+2026-01,2026-01-31,Shakes & Juices,Chocolate Shake,99.0,1.0
+2026-01,2026-01-31,Shakes & Juices,Tender Coconut,99.0,1.0
+2026-01,2026-01-31,Shakes & Juices,Fresh Lime Juice,84.0,2.0
+2026-01,2026-01-31,Soft Drinks,7up 250ml Pet,60.0,3.0
+2026-01,2026-01-31,Soft Drinks,Soft Drink,55.0,1.0
+2026-01,2026-01-31,Soft Drinks,7up @50rs,50.0,1.0
+2026-01,2026-01-31,Soft Drinks,Mdew 330ml Can,40.0,1.0
+2026-01,2026-01-31,Soft Drinks,Pepsi 250ml Pet,40.0,2.0
+2026-01,2026-01-31,Soft Drinks,Pepsi 330ml Can,40.0,1.0
+2026-01,2026-01-31,Soft Drinks,Slice 200ml,20.0,1.0
+2026-01,2026-01-31,Veg Pizza,Supreme Veg Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-31,Veg Pizza,Veg Tandoori Paneer Pizza (7 Inch),313.96,1.0
+2026-01,2026-01-31,Veg Pizza,Mushroom Delight Pizza (7 Inch),215.26,1.0
+2026-01,2026-01-31,Veg Pizza,Margherita Pizza (7 Inch),141.76,1.0
