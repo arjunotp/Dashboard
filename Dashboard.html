@@ -158,7 +158,8 @@ const config = [
         label: "Cashbook Summary",
         subtabs: [
             { label: "Sales", csv: "sales_summary.csv" },
-            { label: "Expenses", csv: "expense_summary.csv" }
+            { label: "Expenses", csv: "expense_summary.csv" },
+            { label: "Salary", csv: "salary_summary.csv", view: "salarySummary" }
         ]
     },
     {
@@ -232,8 +233,10 @@ const config = [
                 view: "orderAnalytics",
                 itemCsv: "pos_item_performance_daily.csv",
                 orderTypeCsv: "pos_order_type_daily.csv",
+                orderTypeCategoryCsv: "pos_order_type_by_category_daily.csv",
                 seriesLabel: "Item_Name",
                 valueLabel: "Sales_Amount",
+                alternateValueLabel: "Orders",
                 orderTypeValueLabel: "Orders",
                 categoryField: "Category",
                 chartSubtitle: "Top/Bottom items and order type trend with month/date drilldown."
@@ -272,6 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const tabId = `g${gIdx}_s${sIdx}`;
             const isDrilldownAnalyticsTab = sub.view === "drilldownAnalytics";
             const isOrderAnalyticsTab = sub.view === "orderAnalytics";
+            const isSalarySummaryTab = sub.view === "salarySummary";
 
             const li = document.createElement("li");
             li.className = "nav-item hidden";
@@ -375,11 +379,35 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="col-12">
                         <div class="card shadow-sm border-0">
                             <div class="card-body">
+                                <div class="d-flex justify-content-end mb-2">
+                                    <button class="btn btn-outline-primary btn-sm" id="${tabId}TopBottomMetricToggle" type="button">Top/Bottom by Amount</button>
+                                </div>
                                 <h6 class="mb-2">Order Type Trend</h6>
                                 <div style="height: 360px;"><canvas id="${tabId}TypeChart"></canvas></div>
                             </div>
                         </div>
                     </div>
+                </div>`
+                : isSalarySummaryTab
+                ? `
+                <div class="card shadow-sm border-0 mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">${sub.label}</h5>
+                        <div class="row g-3 align-items-end">
+                            <div class="col-12 col-md-4">
+                                <label class="form-label mb-1" for="${tabId}SettlementDay">Settlement Date (Day)</label>
+                                <select id="${tabId}SettlementDay" class="form-select form-select-sm"></select>
+                            </div>
+                            <div class="col-12 col-md-8 d-flex gap-2">
+                                <button class="btn btn-outline-primary btn-sm" id="${tabId}Apply" type="button">Apply</button>
+                                <button class="btn btn-outline-secondary btn-sm" id="${tabId}Reset" type="button">Reset to 13</button>
+                                <button class="btn btn-outline-success btn-sm" id="${tabId}Download" type="button">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table id="${tabId}Table" class="display table table-striped table-bordered"></table>
                 </div>`
                 : `
                 <div class="d-flex justify-content-end mb-2">
@@ -396,6 +424,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 renderDrilldownAnalyticsChart(tabId, sub);
             } else if (isOrderAnalyticsTab) {
                 renderOrderAnalytics(tabId, sub);
+            } else if (isSalarySummaryTab) {
+                renderSalarySummary(tabId, sub);
             } else {
                 Papa.parse(sub.csv, {
                     download: true,
@@ -848,9 +878,10 @@ function parseCsvPromise(csvPath) {
 
 async function renderOrderAnalytics(tabId, sub) {
     try {
-        const [itemRows, orderTypeRows] = await Promise.all([
+        const [itemRows, orderTypeRows, orderTypeCategoryRows] = await Promise.all([
             parseCsvPromise(sub.itemCsv),
             parseCsvPromise(sub.orderTypeCsv),
+            sub.orderTypeCategoryCsv ? parseCsvPromise(sub.orderTypeCategoryCsv) : Promise.resolve([]),
         ]);
 
         const months = [...new Set(itemRows.map(r => r.Month_code).filter(Boolean))].sort();
@@ -859,17 +890,24 @@ async function renderOrderAnalytics(tabId, sub) {
             mode: "orderAnalytics",
             itemRows,
             orderTypeRows,
+            orderTypeCategoryRows,
             allMonths: months,
             selectedMonths: new Set(defaultMonths.length ? defaultMonths : months),
             selectedDate: "ALL",
             seriesLabel: sub.seriesLabel || "Item_Name",
             valueLabel: sub.valueLabel || "Sales_Amount",
+            alternateValueLabel: sub.alternateValueLabel || "",
             orderTypeValueLabel: sub.orderTypeValueLabel || "Orders",
             categoryField: sub.categoryField || "",
             allCategories: [],
             selectedCategories: new Set(),
+            topBottomMetricMode: "primary",
             charts: {}
         };
+
+        const categories = [...new Set(itemRows.map(r => String(r[analyticsStateMap[tabId].categoryField] || "").trim()).filter(Boolean))].sort();
+        analyticsStateMap[tabId].allCategories = categories;
+        analyticsStateMap[tabId].selectedCategories = new Set(categories);
 
         buildOrderAnalyticsMonthFilter(tabId);
         buildOrderAnalyticsCategoryFilter(tabId);
@@ -923,11 +961,7 @@ function buildOrderAnalyticsCategoryFilter(tabId) {
     const box = document.getElementById(`${tabId}CategoryFilterBox`);
     if (!state || !box || !state.categoryField) return;
 
-    const categories = [...new Set(state.itemRows.map(r => String(r[state.categoryField] || "").trim()).filter(Boolean))].sort();
-    state.allCategories = categories;
-    if (state.selectedCategories.size === 0) {
-        state.selectedCategories = new Set(categories);
-    }
+    const categories = state.allCategories || [];
 
     box.innerHTML = categories.map(cat => {
         const checked = state.selectedCategories.has(cat) ? "checked" : "";
@@ -956,6 +990,7 @@ function wireOrderAnalyticsEvents(tabId) {
     const categoryBox = document.getElementById(`${tabId}CategoryFilterBox`);
     const categorySelectAll = document.getElementById(`${tabId}CategorySelectAll`);
     const categoryClear = document.getElementById(`${tabId}CategoryClear`);
+    const topBottomMetricToggle = document.getElementById(`${tabId}TopBottomMetricToggle`);
 
     const filterCheckboxList = (box, searchValue) => {
         const query = (searchValue || "").trim().toLowerCase();
@@ -1019,6 +1054,12 @@ function wireOrderAnalyticsEvents(tabId) {
         state.selectedDate = dateSelect.value || "ALL";
         updateOrderAnalyticsCharts(tabId);
     });
+
+    topBottomMetricToggle?.addEventListener("click", () => {
+        if (!state.alternateValueLabel) return;
+        state.topBottomMetricMode = state.topBottomMetricMode === "primary" ? "alternate" : "primary";
+        updateOrderAnalyticsCharts(tabId);
+    });
 }
 
 function buildTopBottomSeries(rows, keyField, valueField) {
@@ -1077,15 +1118,47 @@ function updateOrderAnalyticsCharts(tabId) {
     const months = [...state.selectedMonths];
     let filteredItems = state.itemRows.filter(r => months.includes(r.Month_code));
     let filteredTypes = state.orderTypeRows.filter(r => months.includes(r.Month_code));
+    let filteredTypesByCategory = (state.orderTypeCategoryRows || []).filter(r => months.includes(r.Month_code));
     if (state.selectedDate !== "ALL") {
         filteredItems = filteredItems.filter(r => r.Order_Date === state.selectedDate);
         filteredTypes = filteredTypes.filter(r => r.Order_Date === state.selectedDate);
+        filteredTypesByCategory = filteredTypesByCategory.filter(r => r.Order_Date === state.selectedDate);
     }
     if (state.categoryField) {
         filteredItems = filteredItems.filter(r => state.selectedCategories.has(String(r[state.categoryField] || "").trim()));
+        filteredTypesByCategory = filteredTypesByCategory.filter(r =>
+            state.selectedCategories.has(String(r[state.categoryField] || "").trim())
+        );
     }
 
-    const { top, bottom } = buildTopBottomSeries(filteredItems, state.seriesLabel, state.valueLabel);
+    const categorySelectionActive = state.categoryField
+        && state.selectedCategories.size > 0
+        && state.selectedCategories.size < state.allCategories.length;
+    if (state.categoryField && state.selectedCategories.size === 0) {
+        filteredTypes = [];
+    } else if (categorySelectionActive && filteredTypesByCategory.length) {
+        const deliveryTypes = filteredTypes.filter(r => String(r.Order_Type) === "Delivery");
+        const typeMap = new Map();
+        filteredTypesByCategory.forEach(r => {
+            const key = `${r.Month_code}||${r.Order_Date}||${r.Order_Type}`;
+            const existing = typeMap.get(key) || { ...r, Orders: 0, Sales_Amount: 0 };
+            existing.Orders += parseNumericValue(r.Orders) || 0;
+            existing.Sales_Amount += parseNumericValue(r.Sales_Amount) || 0;
+            typeMap.set(key, existing);
+        });
+        filteredTypes = [...typeMap.values(), ...deliveryTypes];
+    }
+
+    const metricField = state.topBottomMetricMode === "alternate" && state.alternateValueLabel
+        ? state.alternateValueLabel
+        : state.valueLabel;
+    const metricLabel = metricField === state.valueLabel ? "Amount" : "Orders";
+    const topBottomMetricToggle = document.getElementById(`${tabId}TopBottomMetricToggle`);
+    if (topBottomMetricToggle) {
+        topBottomMetricToggle.textContent = `Top/Bottom by ${metricLabel}`;
+    }
+
+    const { top, bottom } = buildTopBottomSeries(filteredItems, state.seriesLabel, metricField);
     const orderType = buildOrderTypeSeries(filteredTypes, state.orderTypeValueLabel);
 
     renderOrReplaceChart(
@@ -1096,7 +1169,7 @@ function updateOrderAnalyticsCharts(tabId) {
             type: "bar",
             data: {
                 labels: top.map(x => x[0]),
-                datasets: [{ label: "Top 10", data: top.map(x => x[1]), backgroundColor: "#2ca02c" }]
+                datasets: [{ label: `Top 10 (${metricLabel})`, data: top.map(x => x[1]), backgroundColor: "#2ca02c" }]
             },
             options: { indexAxis: "y", responsive: true, maintainAspectRatio: false }
         }
@@ -1110,7 +1183,7 @@ function updateOrderAnalyticsCharts(tabId) {
             type: "bar",
             data: {
                 labels: bottom.map(x => x[0]),
-                datasets: [{ label: "Bottom 10", data: bottom.map(x => x[1]), backgroundColor: "#d62728" }]
+                datasets: [{ label: `Bottom 10 (${metricLabel})`, data: bottom.map(x => x[1]), backgroundColor: "#d62728" }]
             },
             options: { indexAxis: "y", responsive: true, maintainAspectRatio: false }
         }
@@ -1132,6 +1205,146 @@ function updateOrderAnalyticsCharts(tabId) {
             }
         }
     );
+}
+
+function renderSalarySummary(tabId, sub) {
+    Papa.parse(sub.csv, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: res => {
+            const rows = (res.data || []).map(row => ({
+                Date: row.Date || "",
+                Name: String(row.Name || "").trim(),
+                Amount: parseNumericValue(row.Amount) || 0
+            }));
+
+            const validRows = rows.filter(row => row.Date && row.Name);
+            const settlementDaySelect = document.getElementById(`${tabId}SettlementDay`);
+            const applyBtn = document.getElementById(`${tabId}Apply`);
+            const resetBtn = document.getElementById(`${tabId}Reset`);
+            const downloadBtn = document.getElementById(`${tabId}Download`);
+
+            if (settlementDaySelect) {
+                settlementDaySelect.innerHTML = Array.from({ length: 31 }, (_, idx) => {
+                    const day = idx + 1;
+                    return `<option value="${day}">${day}</option>`;
+                }).join("");
+                settlementDaySelect.value = "13";
+            }
+
+            const getLastDayOfMonth = (year, month1to12) =>
+                new Date(Date.UTC(year, month1to12, 0)).getUTCDate();
+
+            const parseIsoDate = (value) => {
+                const [yy, mm, dd] = String(value || "").split("-").map(Number);
+                if (!yy || !mm || !dd) return null;
+                return { year: yy, month: mm, day: dd };
+            };
+
+            const getPayrollMonthLabel = (isoDate, settlementDay) => {
+                const dateParts = parseIsoDate(isoDate);
+                if (!dateParts) return "";
+
+                const { year, month, day } = dateParts;
+                const sameMonthEndDay = Math.min(settlementDay, getLastDayOfMonth(year, month));
+                let cycleEndYear = year;
+                let cycleEndMonth = month;
+
+                if (day > sameMonthEndDay) {
+                    cycleEndMonth += 1;
+                    if (cycleEndMonth === 13) {
+                        cycleEndMonth = 1;
+                        cycleEndYear += 1;
+                    }
+                }
+
+                let labelYear = cycleEndYear;
+                let labelMonth = cycleEndMonth - 1;
+                if (labelMonth === 0) {
+                    labelMonth = 12;
+                    labelYear -= 1;
+                }
+
+                return `${labelYear}-${String(labelMonth).padStart(2, "0")}`;
+            };
+
+            const refresh = () => {
+                const settlementDay = Number(settlementDaySelect?.value || 13);
+
+                const groupedMap = new Map();
+                validRows.forEach(row => {
+                    const payrollMonth = getPayrollMonthLabel(row.Date, settlementDay);
+                    const key = `${payrollMonth}||${row.Name}`;
+                    groupedMap.set(key, (groupedMap.get(key) || 0) + row.Amount);
+                });
+
+                const groupedRows = [...groupedMap.entries()]
+                    .map(([key, amount]) => {
+                        const [yearMonth, name] = key.split("||");
+                        return { YEAR_MONTH: yearMonth, Name: name, Amount: amount };
+                    })
+                    .filter(row => row.YEAR_MONTH)
+                    .sort((a, b) => {
+                        if (a.YEAR_MONTH === b.YEAR_MONTH) return a.Name.localeCompare(b.Name);
+                        return b.YEAR_MONTH.localeCompare(a.YEAR_MONTH);
+                    });
+
+                if (tableMap[tabId]) {
+                    tableMap[tabId].clear();
+                    tableMap[tabId].rows.add(groupedRows);
+                    tableMap[tabId].draw();
+                } else {
+                    tableMap[tabId] = $("#" + tabId + "Table").DataTable({
+                        data: groupedRows,
+                        columns: [
+                            { title: "YEAR_MONTH", data: "YEAR_MONTH" },
+                            { title: "Name", data: "Name" },
+                            {
+                                title: "Amount",
+                                data: "Amount",
+                                render: (data, type) => {
+                                    const numericValue = parseNumericValue(data) || 0;
+                                    if (type === "sort" || type === "type") return numericValue;
+                                    return Number(numericValue).toLocaleString(undefined, {
+                                        minimumFractionDigits: 2,
+                                        maximumFractionDigits: 2
+                                    });
+                                }
+                            }
+                        ],
+                        pageLength: 50,
+                        order: [[0, "desc"], [1, "asc"]],
+                        autoWidth: false
+                    });
+                }
+            };
+
+            applyBtn?.addEventListener("click", refresh);
+            resetBtn?.addEventListener("click", () => {
+                if (settlementDaySelect) settlementDaySelect.value = "13";
+                refresh();
+            });
+            downloadBtn?.addEventListener("click", () => {
+                const table = tableMap[tabId];
+                if (!table) return;
+                const rowsToExport = table.rows({ search: "applied" }).data().toArray();
+                const csv = Papa.unparse(rowsToExport);
+                const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                const selectedDay = settlementDaySelect?.value || "13";
+                a.download = `salary_summary_settlement_day_${selectedDay}.csv`;
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                URL.revokeObjectURL(url);
+            });
+
+            refresh();
+        }
+    });
 }
 
 document.addEventListener("shown.bs.tab", () => {
@@ -1183,7 +1396,7 @@ async function updateLastRefreshedFromAllCSVs() {
     const csvs = [
         ...new Set(
             config.flatMap(g =>
-                g.subtabs.flatMap(s => [s.csv, s.itemCsv, s.orderTypeCsv].filter(Boolean))
+                g.subtabs.flatMap(s => [s.csv, s.itemCsv, s.orderTypeCsv, s.orderTypeCategoryCsv].filter(Boolean))
             )
         )
     ];
