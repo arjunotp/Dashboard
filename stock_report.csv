@@ -8871,8 +8871,10 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Brownie,Kg,4.0,1540.0,0.0,0.0,0.0,0.0,4.0,1540.0
 2026-02,Veeba Gouda Flavoured Dressing,Pkt,8.0,1515.04,0.0,0.0,0.0,0.0,8.0,1515.04
 2026-02,Chicken burger pattis,Pkt,3.0,756.0,3.0,756.0,0.0,0.0,6.0,1512.0
+2026-02,Berry Fresh Tender Coconut Pulp,Nos,0.0,0.0,4.0,1480.0,0.0,0.0,4.0,1480.0
 2026-02,Mojito Menta Cubano,Nos,3.2,1472.0,0.0,0.0,0.0,0.0,3.2,1472.0
 2026-02,OREGANO SACHET 0.8GM,Nos,920.0,634.8,1200.0,828.0,0.0,0.0,2120.0,1462.8
+2026-02,Berry Fresh Chicku Pulp,Nos,0.0,0.0,5.0,1400.0,0.0,0.0,5.0,1400.0
 2026-02,Salad Bowl 250ml,Nos,265.0,1391.25,0.0,0.0,0.0,0.0,265.0,1391.25
 2026-02,HABIT JALAPENO SLICES 2.9 KG,Tin,3.0,834.0,2.0,556.0,0.0,0.0,5.0,1390.0
 2026-02,DVC Green Apple 750 ML,Nos,3.0,1380.0,0.0,0.0,0.0,0.0,3.0,1380.0
@@ -8905,12 +8907,10 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Paneer,Kg,2.0,580.0,1.0,290.0,0.0,0.0,3.0,870.0
 2026-02,7up 250ml Pet,Nos,19.0,332.5,30.0,525.0,0.0,0.0,49.0,857.5
 2026-02,Honey mustard dressing,Pkt,2.0,423.74,2.0,423.74,0.0,0.0,4.0,847.48
-2026-02,Berry Fresh Chicku Pulp,Nos,0.0,0.0,3.0,840.0,0.0,0.0,3.0,840.0
 2026-02,pepsi can300ml,Nos,0.0,0.0,24.0,822.96,0.0,0.0,24.0,822.96
 2026-02,red paprika habit,Tin,2.0,790.0,0.0,0.0,0.0,0.0,2.0,790.0
 2026-02,Butter,Kg,0.0,0.0,2.0,760.0,0.0,0.0,2.0,760.0
 2026-02,Lehar Soda,Nos,51.0,755.82,0.0,0.0,0.0,0.0,51.0,755.82
-2026-02,Berry Fresh Tender Coconut Pulp,Nos,0.0,0.0,2.0,740.0,0.0,0.0,2.0,740.0
 2026-02,Rose lichy crush mojito,Nos,2.0,693.0,0.0,0.0,0.0,0.0,2.0,693.0
 2026-02,sky vanilla 4 ltr,Nos,0.0,0.0,2.0,688.0,0.0,0.0,2.0,688.0
 2026-02,CHILLY FLAKES SACHET 0.8GM,Nos,300.0,156.0,1000.0,520.0,0.0,0.0,1300.0,676.0
