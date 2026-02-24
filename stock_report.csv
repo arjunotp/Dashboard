@@ -8847,11 +8847,12 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Tandoori mix Masala,Kg,7.0,2905.0,0.0,0.0,0.0,0.0,7.0,2905.0
 2026-02,veeba pizza pasta sauce,Pkt,4.0,723.8,12.0,2171.4,0.0,0.0,16.0,2895.2
 2026-02,Pepsi 250ml Pet,Nos,40.0,700.0,120.0,2100.0,0.0,0.0,160.0,2800.0
+2026-02,Vanilla Ice-cream 4ltr,Nos,2.0,1088.0,3.0,1632.0,0.0,0.0,5.0,2720.0
 2026-02,KOT ROLLS,Nos,0.0,0.0,50.0,2700.0,0.0,0.0,50.0,2700.0
 2026-02,BBQ Mix Masala,Pkt,5.6,2604.0,0.0,0.0,0.0,0.0,5.6,2604.0
+2026-02,ENGLISH vegetables,Nos,3.0,772.5,9.0,1623.03,0.0,0.0,12.0,2395.5299999999997
 2026-02,Richs versatie cream,Pkt,12.0,2256.0,0.0,0.0,0.0,0.0,12.0,2256.0
 2026-02,Veeba Eggless Mayonise Chef 1KG,Pkt,16.0,2249.6,0.0,0.0,0.0,0.0,16.0,2249.6
-2026-02,Vanilla Ice-cream 4ltr,Nos,2.0,1088.0,2.0,1088.0,0.0,0.0,4.0,2176.0
 2026-02,Pasta Container Black,Nos,242.0,2165.9,0.0,0.0,0.0,0.0,242.0,2165.9
 2026-02,staff rice 26kg,Kg,15.0,810.0,26.0,1326.0,0.0,0.0,41.0,2136.0
 2026-02,Garlic Bread Box,Nos,284.0,2130.0,0.0,0.0,0.0,0.0,284.0,2130.0
@@ -8879,7 +8880,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,7up 1 ltr,Nos,16.0,709.44,15.0,665.1,0.0,0.0,31.0,1374.54
 2026-02,sneha chi nuggets,Pkt,1.2,310.5,4.0,1035.0,0.0,0.0,5.2,1345.5
 2026-02,Lamp Pepperoni,Kg,1.5,1342.5,0.0,0.0,0.0,0.0,1.5,1342.5
-2026-02,ENGLISH vegetables,Nos,3.0,772.5,2.0,550.0,0.0,0.0,5.0,1322.5
 2026-02,Processed cheese block,Kg,2.5,1299.38,0.0,0.0,0.0,0.0,2.5,1299.38
 2026-02,chicken pepperoni,Kg,1.5,1297.5,0.0,0.0,0.0,0.0,1.5,1297.5
 2026-02,habit olive oil,Nos,3.5,1291.5,0.0,0.0,0.0,0.0,3.5,1291.5
@@ -8912,6 +8912,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Lehar Soda,Nos,51.0,755.82,0.0,0.0,0.0,0.0,51.0,755.82
 2026-02,Berry Fresh Tender Coconut Pulp,Nos,0.0,0.0,2.0,740.0,0.0,0.0,2.0,740.0
 2026-02,Rose lichy crush mojito,Nos,2.0,693.0,0.0,0.0,0.0,0.0,2.0,693.0
+2026-02,sky vanilla 4 ltr,Nos,0.0,0.0,2.0,688.0,0.0,0.0,2.0,688.0
 2026-02,CHILLY FLAKES SACHET 0.8GM,Nos,300.0,156.0,1000.0,520.0,0.0,0.0,1300.0,676.0
 2026-02,Chicken Sausage,Pkt,2.3,632.5,0.0,0.0,0.0,0.0,2.3,632.5
 2026-02,sweet corn 1kg,Kg,5.0,630.0,0.0,0.0,0.0,0.0,5.0,630.0
