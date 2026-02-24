@@ -27,8 +27,8 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,CHEESE & DAIRY,butter,dynamix butter,1078.0,2026-02,317849.3,0.34
 2026-02,CHEESE & DAIRY,colby cheese,colby cheese 1 kg,1776.54,2026-02,317849.3,0.56
 2026-02,CHEESE & DAIRY,diced mozzarella,dynamic diced mozerella,15167.16,2026-02,317849.3,4.77
+2026-02,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,2720.0,2026-02,317849.3,0.86
 2026-02,CHEESE & DAIRY,fresh cream,Richs versatie cream,2256.0,2026-02,317849.3,0.71
-2026-02,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,2176.0,2026-02,317849.3,0.68
 2026-02,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,2121.6,2026-02,317849.3,0.67
 2026-02,CHEESE & DAIRY,fresh cream,Strawberry-Ice cream,1195.1,2026-02,317849.3,0.38
 2026-02,CHEESE & DAIRY,milk,milk,900.0,2026-02,317849.3,0.28
@@ -49,12 +49,12 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,FROZEN ITEMS,frozen sweet corn,sweet corn 1kg,630.0,2026-02,317849.3,0.2
 2026-02,FROZEN ITEMS,potato wedges,potato wedges,435.75,2026-02,317849.3,0.14
 2026-02,FRUITS,apple,DVC Green Apple 750 ML,1380.0,2026-02,317849.3,0.43
-2026-02,FRUITS,chicku pulp,Berry Fresh Chicku Pulp,840.0,2026-02,317849.3,0.26
+2026-02,FRUITS,chicku pulp,Berry Fresh Chicku Pulp,1400.0,2026-02,317849.3,0.44
 2026-02,FRUITS,chicku pulp,Berry Fresh Chicku Pulp 2kg,252.0,2026-02,317849.3,0.08
 2026-02,FRUITS,pineapple,Pineapple slice-Tajir Habit-850g,441.0,2026-02,317849.3,0.14
 2026-02,FRUITS,pineapple,pineapple,117.0,2026-02,317849.3,0.04
+2026-02,FRUITS,tender coconut pulp,Berry Fresh Tender Coconut Pulp,1480.0,2026-02,317849.3,0.47
 2026-02,FRUITS,tender coconut pulp,Berry Fresh Tender Coconut Pulp 2kg,925.0,2026-02,317849.3,0.29
-2026-02,FRUITS,tender coconut pulp,Berry Fresh Tender Coconut Pulp,740.0,2026-02,317849.3,0.23
 2026-02,FRUITS,watermelon,DVC Watermelon Syrup 750 ml,311.52,2026-02,317849.3,0.1
 2026-02,MASALA & SEASONINGS,aromat seasoning,Aromat Seasoning Powder,344.0,2026-02,317849.3,0.11
 2026-02,MASALA & SEASONINGS,bbq mix,BBQ Mix Masala,2604.0,2026-02,317849.3,0.82
@@ -120,13 +120,14 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,UNMAPPED,UNMAPPED,hungritos premium,5788.64,2026-02,317849.3,1.82
 2026-02,UNMAPPED,UNMAPPED,vegetables,3290.33,2026-02,317849.3,1.04
 2026-02,UNMAPPED,UNMAPPED,KOT ROLLS,2700.0,2026-02,317849.3,0.85
+2026-02,UNMAPPED,UNMAPPED,ENGLISH vegetables,2395.5299999999997,2026-02,317849.3,0.75
 2026-02,UNMAPPED,UNMAPPED,veg fruit grocery,1880.0,2026-02,317849.3,0.59
 2026-02,UNMAPPED,UNMAPPED,black olive slice Habit,1542.0,2026-02,317849.3,0.49
-2026-02,UNMAPPED,UNMAPPED,ENGLISH vegetables,1322.5,2026-02,317849.3,0.42
 2026-02,UNMAPPED,UNMAPPED,Blue curacao mojito,1162.35,2026-02,317849.3,0.37
 2026-02,UNMAPPED,UNMAPPED,fruits and vegetables,970.0,2026-02,317849.3,0.31
 2026-02,UNMAPPED,UNMAPPED,red paprika habit,790.0,2026-02,317849.3,0.25
 2026-02,UNMAPPED,UNMAPPED,Rose lichy crush mojito,693.0,2026-02,317849.3,0.22
+2026-02,UNMAPPED,UNMAPPED,sky vanilla 4 ltr,688.0,2026-02,317849.3,0.22
 2026-02,UNMAPPED,UNMAPPED,bio covers,598.0,2026-02,317849.3,0.19
 2026-02,UNMAPPED,UNMAPPED,Mayonise premium,517.5,2026-02,317849.3,0.16
 2026-02,UNMAPPED,UNMAPPED,cheese cake cassata syrup,430.5,2026-02,317849.3,0.14
