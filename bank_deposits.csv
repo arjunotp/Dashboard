@@ -1905,15 +1905,6 @@ Transaction_Date,Particulars,Deposits
 2025-12-30,Google Pay,13426.0
 2025-12-31,Pos Settlement,4375.78
 2025-12-31,Google Pay,18913.0
-2026-02-17,Google Pay,5991.0
-2026-02-18,Swiggy,9537.0
-2026-02-18,Google Pay,10556.0
-2026-02-19,Google Pay,5475.0
-2026-02-20,Google Pay,9171.0
-2026-02-21,Pos Settlement,2626.0
-2026-02-21,Google Pay,11558.0
-2026-02-22,Google Pay,13809.0
-2026-02-23,Google Pay,5902.0
 2026-01-01,Swiggy,13398.66
 2026-01-01,Pos Settlement,917.26
 2026-01-01,Google Pay,20651.0
@@ -1966,27 +1957,3 @@ Transaction_Date,Particulars,Deposits
 2026-01-31,Pos Settlement,493.7
 2026-01-31,Google Pay,10017.0
 2026-02-01,Google Pay,11365.0
-2026-02-02,Google Pay,3854.0
-2026-02-03,Pos Settlement,1986.39
-2026-02-04,Google Pay,8223.0
-2026-02-04,Swiggy,10902.52
-2026-02-04,Google Pay,6190.0
-2026-02-05,Google Pay,12096.0
-2026-02-06,Google Pay,7603.0
-2026-02-07,Google Pay,14468.0
-2026-02-08,Google Pay,12492.0
-2026-02-09,Pos Settlement,511.02
-2026-02-09,Google Pay,9621.0
-2026-02-10,Pos Settlement,387.7
-2026-02-10,Google Pay,11746.0
-2026-02-11,Swiggy,7223.72
-2026-02-11,Google Pay,4632.0
-2026-02-12,Google Pay,5872.0
-2026-02-13,Pos Settlement,509.16
-2026-02-13,Google Pay,8819.0
-2026-02-14,Google Pay,7805.0
-2026-02-15,Pos Settlement,2532.99
-2026-02-15,Google Pay,11336.0
-2026-02-16,Pos Settlement,1472.94
-2026-02-24,Google Pay,6254.0
-2026-02-25,Swiggy,9811.0
