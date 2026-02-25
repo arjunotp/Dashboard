@@ -26,7 +26,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,CHEESE & DAIRY,butter,Butter Scotch Ice-cream,1100.8,2026-02,326333.75,0.34
 2026-02,CHEESE & DAIRY,butter,dynamix butter,1078.0,2026-02,326333.75,0.33
 2026-02,CHEESE & DAIRY,colby cheese,colby cheese 1 kg,1776.54,2026-02,326333.75,0.54
-2026-02,CHEESE & DAIRY,diced mozzarella,dynamic diced mozerella,15167.16,2026-02,326333.75,4.65
+2026-02,CHEESE & DAIRY,diced mozzarella,dynamic diced mozerella,20222.88,2026-02,326333.75,6.2
 2026-02,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,2720.0,2026-02,326333.75,0.83
 2026-02,CHEESE & DAIRY,fresh cream,Richs versatie cream,2256.0,2026-02,326333.75,0.69
 2026-02,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,2121.6,2026-02,326333.75,0.65
@@ -40,14 +40,15 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,CHEESE & DAIRY,paneer,Paneer,870.0,2026-02,326333.75,0.27
 2026-02,CHEESE & DAIRY,paneer,paneer,580.0,2026-02,326333.75,0.18
 2026-02,CHEESE & DAIRY,paneer,paneer tikka powder,450.0,2026-02,326333.75,0.14
-2026-02,CHEESE & DAIRY,processed cheese,Processed cheese block,1299.38,2026-02,326333.75,0.4
-2026-02,CHEESE & DAIRY,slice cheese,slice cheese,1257.66,2026-02,326333.75,0.39
+2026-02,CHEESE & DAIRY,processed cheese,Processed cheese block,2338.88,2026-02,326333.75,0.72
+2026-02,CHEESE & DAIRY,slice cheese,slice cheese,2515.32,2026-02,326333.75,0.77
 2026-02,"FLOUR, GRAINS & DRY GOODS",corn meal,Corn Meal - MAKKA RAVA,165.0,2026-02,326333.75,0.05
 2026-02,"FLOUR, GRAINS & DRY GOODS",maida,prince maida 50kg,6272.0,2026-02,326333.75,1.92
 2026-02,"FLOUR, GRAINS & DRY GOODS",rice,staff rice 26kg,2136.0,2026-02,326333.75,0.65
+2026-02,FROZEN ITEMS,french fries,french fry hungritos 2.5kg,1396.5,2026-02,326333.75,0.43
 2026-02,FROZEN ITEMS,french fries,chill fill french fry,900.0,2026-02,326333.75,0.28
 2026-02,FROZEN ITEMS,frozen sweet corn,sweet corn 1kg,630.0,2026-02,326333.75,0.19
-2026-02,FROZEN ITEMS,potato wedges,potato wedges,435.75,2026-02,326333.75,0.13
+2026-02,FROZEN ITEMS,potato wedges,potato wedges,871.5,2026-02,326333.75,0.27
 2026-02,FRUITS,apple,DVC Green Apple 750 ML,1380.0,2026-02,326333.75,0.42
 2026-02,FRUITS,chicku pulp,Berry Fresh Chicku Pulp,1400.0,2026-02,326333.75,0.43
 2026-02,FRUITS,chicku pulp,Berry Fresh Chicku Pulp 2kg,252.0,2026-02,326333.75,0.08
@@ -58,7 +59,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,FRUITS,watermelon,DVC Watermelon Syrup 750 ml,311.52,2026-02,326333.75,0.1
 2026-02,MASALA & SEASONINGS,aromat seasoning,Aromat Seasoning Powder,344.0,2026-02,326333.75,0.11
 2026-02,MASALA & SEASONINGS,bbq mix,BBQ Mix Masala,2604.0,2026-02,326333.75,0.8
-2026-02,MASALA & SEASONINGS,chilly flakes,CHILLY FLAKES SACHET 0.8GM,676.0,2026-02,326333.75,0.21
+2026-02,MASALA & SEASONINGS,chilly flakes,CHILLY FLAKES SACHET 0.8GM,1196.0,2026-02,326333.75,0.37
 2026-02,MASALA & SEASONINGS,chilly flakes,chilly flake sachet,202.8,2026-02,326333.75,0.06
 2026-02,MASALA & SEASONINGS,chilly flakes,chilly flakes 500 gm,58.5,2026-02,326333.75,0.02
 2026-02,MASALA & SEASONINGS,dry basil,dry basil,126.0,2026-02,326333.75,0.04
@@ -69,8 +70,8 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,MASALA & SEASONINGS,piri piri marinade,Piri Piri Marinade 1KG,578.5,2026-02,326333.75,0.18
 2026-02,MASALA & SEASONINGS,salt,salted cookies syrup taste craft,430.5,2026-02,326333.75,0.13
 2026-02,MASALA & SEASONINGS,tandoori masala,Tandoori mix Masala,2905.0,2026-02,326333.75,0.89
-2026-02,MEAT & POULTRY,boneless chicken,Boneless Chicken,11934.68,2026-02,326333.75,3.66
-2026-02,MEAT & POULTRY,chicken burger pattis,Chicken burger pattis,1512.0,2026-02,326333.75,0.46
+2026-02,MEAT & POULTRY,boneless chicken,Boneless Chicken,12615.64,2026-02,326333.75,3.87
+2026-02,MEAT & POULTRY,chicken burger pattis,Chicken burger pattis,2016.0,2026-02,326333.75,0.62
 2026-02,MEAT & POULTRY,chicken burger pattis,sneha chi burgar pattis,504.0,2026-02,326333.75,0.15
 2026-02,MEAT & POULTRY,chicken burger pattis,Veg burger pattis,450.0,2026-02,326333.75,0.14
 2026-02,MEAT & POULTRY,chicken kheema,Chicken Kheema  Masala,1950.0,2026-02,326333.75,0.6
@@ -111,25 +112,25 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,SAUCES & SPREADS,pizza sauce,pizza sauce,1200.0,2026-02,326333.75,0.37
 2026-02,SAUCES & SPREADS,schezwan sauce,Schezwan sauce,350.64,2026-02,326333.75,0.11
 2026-02,SAUCES & SPREADS,thousand island dressing,Veeba ThousandIsland Dressing 1KG,549.0,2026-02,326333.75,0.17
-2026-02,SAUCES & SPREADS,tomato ketchup,tomato ketchup 1.2 bottle,400.0,2026-02,326333.75,0.12
+2026-02,SAUCES & SPREADS,tomato ketchup,tomato ketchup 1.2 bottle,812.52,2026-02,326333.75,0.25
 2026-02,SAUCES & SPREADS,tomato ketchup,Veeba T. Ketchup 1.2KG,367.5,2026-02,326333.75,0.11
 2026-02,STATIONERY & MISC,pen,HABIT JALAPENO SLICES 2.9 KG,1390.0,2026-02,326333.75,0.43
 2026-02,STATIONERY & MISC,pen,Puramate Pasta-Penne Rigatte 500g,1072.0,2026-02,326333.75,0.33
 2026-02,STATIONERY & MISC,tape,Celotape-3/4inch-,276.0,2026-02,326333.75,0.08
-2026-02,UNMAPPED,UNMAPPED,grocery,10466.84,2026-02,326333.75,3.21
+2026-02,UNMAPPED,UNMAPPED,grocery,11195.84,2026-02,326333.75,3.43
 2026-02,UNMAPPED,UNMAPPED,hungritos premium,5788.64,2026-02,326333.75,1.77
 2026-02,UNMAPPED,UNMAPPED,vegetables,3290.33,2026-02,326333.75,1.01
 2026-02,UNMAPPED,UNMAPPED,KOT ROLLS,2700.0,2026-02,326333.75,0.83
+2026-02,UNMAPPED,UNMAPPED,black olive slice Habit,2406.37,2026-02,326333.75,0.74
 2026-02,UNMAPPED,UNMAPPED,ENGLISH vegetables,2395.5299999999997,2026-02,326333.75,0.73
 2026-02,UNMAPPED,UNMAPPED,veg fruit grocery,1880.0,2026-02,326333.75,0.58
-2026-02,UNMAPPED,UNMAPPED,black olive slice Habit,1542.0,2026-02,326333.75,0.47
 2026-02,UNMAPPED,UNMAPPED,Blue curacao mojito,1162.35,2026-02,326333.75,0.36
 2026-02,UNMAPPED,UNMAPPED,fruits and vegetables,970.0,2026-02,326333.75,0.3
+2026-02,UNMAPPED,UNMAPPED,Mayonise premium,862.5,2026-02,326333.75,0.26
 2026-02,UNMAPPED,UNMAPPED,red paprika habit,790.0,2026-02,326333.75,0.24
 2026-02,UNMAPPED,UNMAPPED,Rose lichy crush mojito,693.0,2026-02,326333.75,0.21
 2026-02,UNMAPPED,UNMAPPED,sky vanilla 4 ltr,688.0,2026-02,326333.75,0.21
 2026-02,UNMAPPED,UNMAPPED,bio covers,598.0,2026-02,326333.75,0.18
-2026-02,UNMAPPED,UNMAPPED,Mayonise premium,517.5,2026-02,326333.75,0.16
 2026-02,UNMAPPED,UNMAPPED,cheese cake cassata syrup,430.5,2026-02,326333.75,0.13
 2026-02,UNMAPPED,UNMAPPED,coffee mocha syrup taste craft,430.5,2026-02,326333.75,0.13
 2026-02,UNMAPPED,UNMAPPED,Puramate Pasta-Gomiti Rigate - macroni - 500g,335.0,2026-02,326333.75,0.1
