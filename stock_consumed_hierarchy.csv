@@ -1,7 +1,7 @@
 Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total Sales[POS Sales less GST + Swiggy to Loocos],consumed-stock_amount%
 2026-02,BAKERY & PREMIX,bread premix,Bread Premix,1209.6,2026-02,351834.95,0.34
 2026-02,BAKERY & PREMIX,brownie,Brownie,1540.0,2026-02,351834.95,0.44
-2026-02,BAKERY & PREMIX,burger bun,burger buns,544.0,2026-02,351834.95,0.15
+2026-02,BAKERY & PREMIX,burger bun,burger buns,640.0,2026-02,351834.95,0.18
 2026-02,BAKERY & PREMIX,chocolate chips,chocolate chips,270.0,2026-02,351834.95,0.08
 2026-02,BAKERY & PREMIX,pizza premix,Pizza Premix,1713.6,2026-02,351834.95,0.49
 2026-02,BEVERAGES,7up,7UP 750ml Pet,1374.8,2026-02,351834.95,0.39
@@ -31,7 +31,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,CHEESE & DAIRY,fresh cream,Richs versatie cream,2256.0,2026-02,351834.95,0.64
 2026-02,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,2121.6,2026-02,351834.95,0.6
 2026-02,CHEESE & DAIRY,fresh cream,Strawberry-Ice cream,1195.1,2026-02,351834.95,0.34
-2026-02,CHEESE & DAIRY,milk,milk,1000.0,2026-02,351834.95,0.28
+2026-02,CHEESE & DAIRY,milk,milk,1100.0,2026-02,351834.95,0.31
 2026-02,CHEESE & DAIRY,milk,milk coffee 180ml,596.4,2026-02,351834.95,0.17
 2026-02,CHEESE & DAIRY,milk,milk choco,288.0,2026-02,351834.95,0.08
 2026-02,CHEESE & DAIRY,milk,milk choco 180 ml,288.0,2026-02,351834.95,0.08
@@ -71,7 +71,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,MASALA & SEASONINGS,piri piri marinade,Piri Piri Marinade 1KG,578.5,2026-02,351834.95,0.16
 2026-02,MASALA & SEASONINGS,salt,salted cookies syrup taste craft,430.5,2026-02,351834.95,0.12
 2026-02,MASALA & SEASONINGS,tandoori masala,Tandoori mix Masala,2905.0,2026-02,351834.95,0.83
-2026-02,MEAT & POULTRY,boneless chicken,Boneless Chicken,13470.46,2026-02,351834.95,3.83
+2026-02,MEAT & POULTRY,boneless chicken,Boneless Chicken,14180.4,2026-02,351834.95,4.03
 2026-02,MEAT & POULTRY,chicken burger pattis,Chicken burger pattis,2016.0,2026-02,351834.95,0.57
 2026-02,MEAT & POULTRY,chicken burger pattis,sneha chi burgar pattis,504.0,2026-02,351834.95,0.14
 2026-02,MEAT & POULTRY,chicken burger pattis,Veg burger pattis,450.0,2026-02,351834.95,0.13
