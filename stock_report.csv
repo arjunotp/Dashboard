@@ -8832,7 +8832,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-01,Mexican Masala,Pkt,2.5,1037.5,0.0,0.0,11.0,4565.0,-8.5,-3527.5
 2026-02,dynamic diced mozerella,Kg,0.0,0.0,48.0,20222.88,0.0,0.0,48.0,20222.88
 2026-02,Gas-LPG-HPCL,Nos,2.5,4325.0,6.0,10680.0,0.0,0.0,8.5,15005.0
-2026-02,Boneless Chicken,Kg,5.0,1550.0,40.65,11920.46,0.0,0.0,46.0,13470.46
+2026-02,Boneless Chicken,Kg,5.0,1550.0,43.1,12630.4,0.0,0.0,48.0,14180.4
 2026-02,grocery,Nos,0.0,0.0,79.0,11195.84,0.0,0.0,79.0,11195.84
 2026-02,prince maida 50kg,Kg,40.0,1792.0,100.0,4480.0,0.0,0.0,140.0,6272.0
 2026-02,hungritos premium,Kg,52.0,5788.64,0.0,0.0,0.0,0.0,52.0,5788.64
@@ -8896,10 +8896,10 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Blue curacao mojito,Nos,2.7,1162.35,0.0,0.0,0.0,0.0,2.7,1162.35
 2026-02,Lehar Soda,Nos,51.0,755.82,24.0,355.68,0.0,0.0,75.0,1111.5
 2026-02,Butter Scotch Ice-cream,Pkt,1.6,1100.8,0.0,0.0,0.0,0.0,1.6,1100.8
+2026-02,milk,Nos,0.0,0.0,44.0,1100.0,0.0,0.0,44.0,1100.0
 2026-02,dynamix butter,Pkt,0.0,0.0,4.0,1078.0,0.0,0.0,4.0,1078.0
 2026-02,Puramate Pasta-Penne Rigatte 500g,Pkt,6.0,402.0,10.0,670.0,0.0,0.0,16.0,1072.0
 2026-02,Dew 750ml Pet,Nos,7.0,240.59,24.0,824.88,0.0,0.0,31.0,1065.47
-2026-02,milk,Nos,0.0,0.0,40.0,1000.0,0.0,0.0,40.0,1000.0
 2026-02,fruits and vegetables,Nos,0.0,0.0,5.0,970.0,0.0,0.0,5.0,970.0
 2026-02,cheesy spread dip,Pkt,3.0,928.14,0.0,0.0,0.0,0.0,3.0,928.14
 2026-02,Berry Fresh Tender Coconut Pulp 2kg,Tin,2.5,925.0,0.0,0.0,0.0,0.0,2.5,925.0
@@ -8919,6 +8919,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Butter,Kg,0.0,0.0,2.0,760.0,0.0,0.0,2.0,760.0
 2026-02,Rose lichy crush mojito,Nos,2.0,693.0,0.0,0.0,0.0,0.0,2.0,693.0
 2026-02,sky vanilla 4 ltr,Nos,0.0,0.0,2.0,688.0,0.0,0.0,2.0,688.0
+2026-02,burger buns,Nos,0.0,0.0,80.0,640.0,0.0,0.0,80.0,640.0
 2026-02,Chicken Sausage,Pkt,2.3,632.5,0.0,0.0,0.0,0.0,2.3,632.5
 2026-02,sweet corn 1kg,Kg,5.0,630.0,0.0,0.0,0.0,0.0,5.0,630.0
 2026-02,Zippy Chicken Salami,Pkt,2.0,618.0,0.0,0.0,0.0,0.0,2.0,618.0
@@ -8929,7 +8930,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,Piri Piri Marinade 1KG,Kg,1.3,578.5,0.0,0.0,0.0,0.0,1.3,578.5
 2026-02,Butter,Pkt,3.0,570.0,0.0,0.0,0.0,0.0,3.0,570.0
 2026-02,Veeba ThousandIsland Dressing 1KG,Pkt,3.0,549.0,0.0,0.0,0.0,0.0,3.0,549.0
-2026-02,burger buns,Nos,0.0,0.0,68.0,544.0,0.0,0.0,68.0,544.0
 2026-02,habit baby corn,Tin,0.0,0.0,5.0,540.0,0.0,0.0,5.0,540.0
 2026-02,sneha chi burgar pattis,Pkt,0.0,0.0,2.0,504.0,0.0,0.0,2.0,504.0
 2026-02,Honey,Kg,2.0,488.0,0.0,0.0,0.0,0.0,2.0,488.0
