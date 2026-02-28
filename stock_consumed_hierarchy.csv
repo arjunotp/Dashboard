@@ -27,8 +27,8 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,CHEESE & DAIRY,butter,dynamix butter,1078.0,2026-02,363382.2,0.3
 2026-02,CHEESE & DAIRY,colby cheese,colby cheese 1 kg,1776.54,2026-02,363382.2,0.49
 2026-02,CHEESE & DAIRY,diced mozzarella,dynamic diced mozerella,20222.88,2026-02,363382.2,5.57
+2026-02,CHEESE & DAIRY,fresh cream,Richs versatie cream,4512.0,2026-02,363382.2,1.24
 2026-02,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,2720.0,2026-02,363382.2,0.75
-2026-02,CHEESE & DAIRY,fresh cream,Richs versatie cream,2256.0,2026-02,363382.2,0.62
 2026-02,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,2121.6,2026-02,363382.2,0.58
 2026-02,CHEESE & DAIRY,fresh cream,Strawberry-Ice cream,1195.1,2026-02,363382.2,0.33
 2026-02,CHEESE & DAIRY,milk,milk,1100.0,2026-02,363382.2,0.3
@@ -49,6 +49,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,FROZEN ITEMS,french fries,french fry hungritos 2.5kg,1396.5,2026-02,363382.2,0.38
 2026-02,FROZEN ITEMS,french fries,chill fill french fry,900.0,2026-02,363382.2,0.25
 2026-02,FROZEN ITEMS,frozen sweet corn,sweet corn 1kg,630.0,2026-02,363382.2,0.17
+2026-02,FROZEN ITEMS,frozen sweet corn,Sweet corn koonathil,260.0,2026-02,363382.2,0.07
 2026-02,FROZEN ITEMS,potato wedges,potato wedges,871.5,2026-02,363382.2,0.24
 2026-02,FRUITS,apple,DVC Green Apple 750 ML,1380.0,2026-02,363382.2,0.38
 2026-02,FRUITS,chicku pulp,Berry Fresh Chicku Pulp,1400.0,2026-02,363382.2,0.39
@@ -116,7 +117,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,SAUCES & SPREADS,tomato ketchup,tomato ketchup 1.2 bottle,812.52,2026-02,363382.2,0.22
 2026-02,SAUCES & SPREADS,tomato ketchup,Veeba T. Ketchup 1.2KG,367.5,2026-02,363382.2,0.1
 2026-02,STATIONERY & MISC,pen,HABIT JALAPENO SLICES 2.9 KG,1390.0,2026-02,363382.2,0.38
-2026-02,STATIONERY & MISC,pen,Puramate Pasta-Penne Rigatte 500g,1072.0,2026-02,363382.2,0.3
+2026-02,STATIONERY & MISC,pen,Puramate Pasta-Penne Rigatte 500g,1340.0,2026-02,363382.2,0.37
 2026-02,STATIONERY & MISC,tape,Celotape-3/4inch-,276.0,2026-02,363382.2,0.08
 2026-02,UNMAPPED,UNMAPPED,grocery,11195.84,2026-02,363382.2,3.08
 2026-02,UNMAPPED,UNMAPPED,hungritos premium,5788.64,2026-02,363382.2,1.59
@@ -129,6 +130,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,UNMAPPED,UNMAPPED,fruits and vegetables,970.0,2026-02,363382.2,0.27
 2026-02,UNMAPPED,UNMAPPED,Mayonise premium,862.5,2026-02,363382.2,0.24
 2026-02,UNMAPPED,UNMAPPED,red paprika habit,790.0,2026-02,363382.2,0.22
+2026-02,UNMAPPED,UNMAPPED,sirocco black olive,771.0,2026-02,363382.2,0.21
 2026-02,UNMAPPED,UNMAPPED,Rose lichy crush mojito,693.0,2026-02,363382.2,0.19
 2026-02,UNMAPPED,UNMAPPED,sky vanilla 4 ltr,688.0,2026-02,363382.2,0.19
 2026-02,UNMAPPED,UNMAPPED,bio covers,598.0,2026-02,363382.2,0.16
@@ -146,6 +148,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-02,VEGETABLES,garlic,garlic,380.0,2026-02,363382.2,0.1
 2026-02,VEGETABLES,garlic,chilly garlic spread,165.0,2026-02,363382.2,0.05
 2026-02,VEGETABLES,mushroom,G.Crown Mushroom Slice 800g,3811.0,2026-02,363382.2,1.05
+2026-02,VEGETABLES,mushroom,mushroom slice Food coast,2280.0,2026-02,363382.2,0.63
 2026-02,VEGETABLES,tomato,TOMATO 10KG,220.0,2026-02,363382.2,0.06
 2026-01,BAKERY & PREMIX,bread premix,Bread Premix,134.4000000000001,2026-01,464506.6,0.03
 2026-01,BAKERY & PREMIX,brownie,Brownie,1155.0,2026-01,464506.6,0.25
