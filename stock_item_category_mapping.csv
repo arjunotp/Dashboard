@@ -424,6 +424,7 @@ POTATO POPS,FROZEN ITEMS,potato pops,potato pops,1.0
 Potato Wedges,FROZEN ITEMS,potato wedges,potato wedges,1.0
 Potato Wedges-2.5kg,FROZEN ITEMS,potato wedges,potato wedges,0.92
 Savoury Wedges 2.5 KG,FROZEN ITEMS,savoury wedges,savoury wedges,0.92
+Sweet corn koonathil,FROZEN ITEMS,frozen sweet corn,frozen sweet corn,0.6
 chill fill french fry,FROZEN ITEMS,french fries,french fries,0.5455
 fish finger,FROZEN ITEMS,fish finger,fish finger,1.0
 french fry hungritos 2.5kg,FROZEN ITEMS,french fries,french fries,0.5789
@@ -1148,6 +1149,7 @@ red paprika habit,UNMAPPED,UNMAPPED,,0.45
 red paprika habit 670ml,UNMAPPED,UNMAPPED,,0.45
 roasted peanuts,UNMAPPED,UNMAPPED,,0.45
 rubber band,UNMAPPED,UNMAPPED,,0.45
+sirocco black olive,UNMAPPED,UNMAPPED,,0.5143
 sky vanilla 4 ltr,UNMAPPED,UNMAPPED,,0.4444
 stationery,UNMAPPED,UNMAPPED,,0.45
 veg,UNMAPPED,UNMAPPED,,0.4444
@@ -1255,6 +1257,7 @@ hybrid tomato,VEGETABLES,tomato,tomato,0.92
 lemon,VEGETABLES,lemon,lemon,1.0
 maida yamuna,VEGETABLES,yam,yam,0.92
 mint,VEGETABLES,mint,mint,1.0
+mushroom slice Food coast,VEGETABLES,mushroom,mushroom,0.92
 onion,VEGETABLES,onion,onion,1.0
 raw papaya,VEGETABLES,raw papaya,raw papaya,1.0
 tomato,VEGETABLES,tomato,tomato,1.0
