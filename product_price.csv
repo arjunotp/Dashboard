@@ -4097,7 +4097,6 @@ bistro frozen,chicken popcorn,Pkt,313.0,2025-03-04
 KTP Vegitables,vegetables,Nos,39.6,2025-03-04
 Local Purchase,grocery,Nos,188.25,2025-03-04
 Local Purchase,Gas-LPG-HPCL,Nos,1846.0,2025-03-05
-Local Purchase,grocery,Nos,133.33,2025-03-05
 shabana chicken stall,bonless chicken,Kg,257.14,2025-03-06
 Local Purchase,grocery,Nos,82.92,2025-03-06
 Gayatri Traders OTP,Maida yamuna,Kg,44.6,2025-03-06
@@ -4531,7 +4530,6 @@ Local Purchase,grocery,Nos,217.71,2025-07-23
 KTP Vegitables,vegetables,Nos,66.17,2025-07-24
 Local Purchase,grocery,Nos,321.0,2025-07-24
 Lakhsyam Foods,Bread Premix,Kg,240.0,2025-07-25
-Lakhsyam Foods,bbq mix,Kg,465.0,2025-07-25
 Local Purchase,grocery,Nos,146.67,2025-07-25
 KTP Vegitables,vegetables,Nos,66.0,2025-07-26
 Local Purchase,fruits,Nos,206.67,2025-07-27
@@ -4917,8 +4915,6 @@ Local Purchase,grocery,Nos,234.0,2025-11-15
 shabana chicken stall,Boneless Chicken,Kg,290.0,2025-11-16
 KTP Vegitables,vegetables,Nos,60.8,2025-11-17
 Lakhsyam Foods,Herb Mix Masla,Kg,446.0,2025-11-18
-Lakhsyam Foods,Tripod,Nos,1.35,2025-11-18
-Lakhsyam Foods,tandoori mayonise,Pkt,260.0,2025-11-18
 bistro frozen,Veeba Eggless Mayonise Chef 1KG,Kg,140.63,2025-11-18
 bistro frozen,chilly flake sachet,Nos,0.52,2025-11-18
 bistro frozen,sweet corn,Kg,126.0,2025-11-18
@@ -5107,27 +5103,17 @@ Local Purchase,TOMATO 10KG,Kg,42.0,2026-01-07
 KTP Vegitables,vegetables,Nos,59.25,2026-01-07
 shabana chicken stall,Boneless Chicken,Kg,370.0,2026-01-07
 Lakhsyam Foods,Dip Bowl,Nos,2.0,2026-01-08
-Lakhsyam Foods,Regular Pizza Box,Nos,8.5,2026-01-08
-Lakhsyam Foods,Medium Pizza Box,Nos,10.0,2026-01-08
 Lakhsyam Foods,Large Pizza Box,Nos,14.85,2026-01-08
 Lakhsyam Foods,Garlic Bread Box,Nos,7.5,2026-01-08
 Lakhsyam Foods,French Fries Box,Nos,5.35,2026-01-08
 Lakhsyam Foods,Tandoori mix Masala,Kg,415.0,2026-01-08
 Lakhsyam Foods,BBQ Mix Masala,Pkt,465.0,2026-01-08
-Lakhsyam Foods,mexican mix,Kg,435.0,2026-01-08
-Lakhsyam Foods,chicken pepperoni,Kg,865.0,2026-01-08
-Lakhsyam Foods,Lamp Pepperoni,Kg,895.0,2026-01-08
-Lakhsyam Foods,Lamp Pepperoni,Kg,895.0,2026-01-08
 Lakhsyam Foods,chicken kheema masala,Kg,650.0,2026-01-08
 Lakhsyam Foods,paneer tikka powder,Kg,900.0,2026-01-08
-Lakhsyam Foods,Pizza sauce premix,Kg,325.0,2026-01-08
-Lakhsyam Foods,Bread Premix,Kg,252.0,2026-01-08
 Lakhsyam Foods,Salad Bowl 250ml,Nos,5.25,2026-01-08
 Lakhsyam Foods,Salad Bowl 500ml,Nos,6.55,2026-01-08
 Lakhsyam Foods,Pasta Container Black,Nos,8.95,2026-01-08
 Lakhsyam Foods,Moktails Glass,Nos,8.0,2026-01-08
-Lakhsyam Foods,Pizza Premix,Kg,252.0,2026-01-08
-Lakhsyam Foods,Brownie,Kg,385.0,2026-01-08
 Local Purchase,fruits and milk,Nos,120.0,2026-01-13
 Local Purchase,grocery,Nos,178.33,2026-01-14
 KTP Vegitables,vegetables,Nos,51.88,2026-01-14
@@ -5408,7 +5394,6 @@ Koonathil Traders,chill fill french fry,Pkt,300.0,2026-02-20
 Essar Associates,7up 1 ltr,Nos,44.34,2026-02-21
 Essar Associates,Pepsi 250ml Pet,Nos,17.5,2026-02-21
 Essar Associates,Pepsi 750ml Pet,Nos,34.37,2026-02-21
-Local Purchase-Gas AGency,Gas-LPG-HPCL,Nos,1780.0,2026-02-21
 Local Purchase,grocery,Nos,197.12,2026-02-21
 KTP Vegitables,vegetables,Nos,65.0,2026-02-22
 Local Purchase,pineapple,Nos,90.0,2026-02-22
@@ -5447,3 +5432,18 @@ Koonathil Traders,Richs versatie cream,Pkt,188.0,2026-02-27
 Koonathil Traders,sirocco black olive,Tin,771.0,2026-02-27
 Koonathil Traders,Puramate Pasta-Penne Rigatte 500g,Pkt,67.0,2026-02-27
 Koonathil Traders,Sweet corn koonathil,Kg,130.0,2026-02-27
+Lakhsyam Foods,Medium Pizza Box,Nos,10.0,2026-02-27
+Lakhsyam Foods,Regular Pizza Box,Nos,8.5,2026-02-27
+Lakhsyam Foods,Pizza sauce premix,Kg,325.0,2026-02-27
+Lakhsyam Foods,Bread Premix,Kg,252.0,2026-02-27
+Lakhsyam Foods,Pizza Premix,Kg,252.0,2026-02-27
+Lakhsyam Foods,Brownie,Kg,385.0,2026-02-27
+Lakhsyam Foods,chicken pepperoni,Kg,865.0,2026-02-27
+Lakhsyam Foods,Lamp Pepperoni,Kg,895.0,2026-02-27
+Lakhsyam Foods,bbq mix,Kg,465.0,2026-02-27
+Lakhsyam Foods,mexican mix,Kg,435.0,2026-02-27
+Lakhsyam Foods,tandoori mayonise,Pkt,260.0,2026-02-27
+Lakhsyam Foods,Tripod,Nos,1.35,2026-02-27
+Lakhsyam Foods,tandoori mayonise,Pkt,260.0,2026-02-27
+Local Purchase-Gas AGency,Gas-LPG-HPCL,Nos,1780.0,2026-02-27
+Local Purchase,grocery,Nos,133.33,2026-02-27
