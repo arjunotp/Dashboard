@@ -23,6 +23,7 @@ year_month,Date,Vendor_Name,Amount
 2026-02,2026-02-14,Koonathil Traders,2192.0
 2026-02,2026-02-20,Koonathil Traders,1721.0
 2026-02,2026-02-27,Koonathil Traders,5835.0
+2026-02,2026-02-27,Lakhsyam Foods,26377.0
 2026-02,2026-02-01,Local Purchase,100.0
 2026-02,2026-02-02,Local Purchase,2734.0
 2026-02,2026-02-03,Local Purchase,465.0
@@ -46,9 +47,11 @@ year_month,Date,Vendor_Name,Amount
 2026-02,2026-02-24,Local Purchase,729.0
 2026-02,2026-02-25,Local Purchase,520.0
 2026-02,2026-02-26,Local Purchase,196.0
+2026-02,2026-02-27,Local Purchase,400.0
 2026-02,2026-02-07,Local Purchase-Gas AGency,3560.0
 2026-02,2026-02-14,Local Purchase-Gas AGency,3560.0
 2026-02,2026-02-21,Local Purchase-Gas AGency,3560.0
+2026-02,2026-02-27,Local Purchase-Gas AGency,3560.0
 2026-02,2026-02-07,RK Agencies,4850.0
 2026-02,2026-02-16,RK Agencies,3545.0
 2026-02,2026-02-07,Ranjith Loocos,1050.0
