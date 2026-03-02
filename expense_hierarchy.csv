@@ -1,4 +1,5 @@
 Month_code,Category,Subcategory,Item_Name,expense_amount,YEAR_MONTH,Total Sales[POS Sales less GST + Swiggy to Loocos],expense_amount%
+2026-03,LOCAL PURCHASE (MISCELLANEOUS STORE ITEMS),local purchase,Local Purchase,1056,2026-03,13933.65,7.58
 2026-02,ADVERTISEMENT & MARKETING,boosting,Athul govind boosting,500,2026-02,375917.45,0.13
 2026-02,FOOD RAW MATERIAL PURCHASE,boneless chicken,Boneless chicken,17199,2026-02,375917.45,4.58
 2026-02,FOOD RAW MATERIAL PURCHASE,butter and paneer,Butter Paneer,1050,2026-02,375917.45,0.28
@@ -21,7 +22,7 @@ Month_code,Category,Subcategory,Item_Name,expense_amount,YEAR_MONTH,Total Sales[
 2026-02,MAINTENANCE – SHOP & EQUIPMENT,ac repair,pa pro repair,200,2026-02,375917.45,0.05
 2026-02,MAINTENANCE – SHOP & EQUIPMENT,kitchen door work,electric work kitchen,250,2026-02,375917.45,0.07
 2026-02,PACKAGING & DISPOSABLES,kot rolls,KOT ROLLS,2700,2026-02,375917.45,0.72
-2026-02,SALARIES (MONTHLY PAYMENTS),anas salary,Anas Salary,2400,2026-02,375917.45,24.0
+2026-02,SALARIES (MONTHLY PAYMENTS),anas salary,Anas Salary,2800,2026-02,375917.45,28.0
 2026-02,SALARIES (MONTHLY PAYMENTS),anas salary,Anas Slary,200,2026-02,375917.45,2.0
 2026-02,SALARIES (MONTHLY PAYMENTS),anas salary,anas salary,200,2026-02,375917.45,2.0
 2026-02,SALARIES (MONTHLY PAYMENTS),indrajith salary,indrajith salary,1400,2026-02,375917.45,14.0
