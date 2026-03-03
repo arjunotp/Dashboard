@@ -8999,6 +8999,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,BBQ Mix Masala,Pkt,9.0,4185.0,0.0,0.0,0.0,0.0,9.0,4185.0
 2026-03,Large Pizza Box,Nos,250.0,3712.5,0.0,0.0,0.0,0.0,250.0,3712.5
 2026-03,Gas-LPG-HPCL,Nos,2.0,3560.0,0.0,0.0,0.0,0.0,2.0,3560.0
+2026-03,grocery,Nos,0.0,0.0,23.0,3023.07,0.0,0.0,23.0,3023.07
 2026-03,mushroom slice Food coast,Tin,30.0,2850.0,0.0,0.0,0.0,0.0,30.0,2850.0
 2026-03,Richs versatie cream,Pkt,14.0,2632.0,0.0,0.0,0.0,0.0,14.0,2632.0
 2026-03,Tandoori mix Masala,Kg,6.0,2490.0,0.0,0.0,0.0,0.0,6.0,2490.0
@@ -9008,6 +9009,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Lamp Pepperoni,Kg,2.0,1790.0,0.0,0.0,0.0,0.0,2.0,1790.0
 2026-03,Herb Mix Masla,Kg,4.0,1784.0,0.0,0.0,0.0,0.0,4.0,1784.0
 2026-03,oil,Pkt,13.0,1696.5,0.0,0.0,0.0,0.0,13.0,1696.5
+2026-03,Chocolate Ice-cream 4ltr,Nos,1.0,816.0,1.0,816.0,0.0,0.0,2.0,1632.0
 2026-03,paneer tikka powder,Kg,1.8,1620.0,0.0,0.0,0.0,0.0,1.8,1620.0
 2026-03,Garlic Bread Box,Nos,200.0,1500.0,0.0,0.0,0.0,0.0,200.0,1500.0
 2026-03,Berry Fresh Tender Coconut Pulp 2kg,Tin,4.0,1480.0,0.0,0.0,0.0,0.0,4.0,1480.0
@@ -9026,8 +9028,8 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,habit olive oil,Nos,2.5,922.5,0.0,0.0,0.0,0.0,2.5,922.5
 2026-03,DVC Green Apple 750 ML,Nos,2.0,920.0,0.0,0.0,0.0,0.0,2.0,920.0
 2026-03,Strawberry-Ice cream,Nos,1.4,880.6,0.0,0.0,0.0,0.0,1.4,880.6
-2026-03,Chocolate Ice-cream 4ltr,Nos,1.0,816.0,0.0,0.0,0.0,0.0,1.0,816.0
 2026-03,French Fries Box,Nos,150.0,802.5,0.0,0.0,0.0,0.0,150.0,802.5
+2026-03,butter scotch ice cream 4 ltr,Nos,0.0,0.0,1.0,773.0,0.0,0.0,1.0,773.0
 2026-03,staff rice,Kg,15.0,765.0,0.0,0.0,0.0,0.0,15.0,765.0
 2026-03,Veeba Ketchup Sachet,Nos,900.0,720.0,0.0,0.0,0.0,0.0,900.0,720.0
 2026-03,Tripod,Nos,500.0,675.0,0.0,0.0,0.0,0.0,500.0,675.0
