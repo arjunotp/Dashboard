@@ -1,4 +1,1194 @@
 Month_code,Order_Date,Category,Order_Type,Item_Name,Orders,Sales_Amount,Qty
+2026-02,2026-02-01,Burger,Dine-In,Chicken Nuggets Burger,1,294.0,2.0
+2026-02,2026-02-01,Burger,Pick-up,Regular Chicken Burger,1,220.5,2.0
+2026-02,2026-02-01,Burger,Dine-In,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-01,Combos,Pick-up,2 Large Non-veg@1149,1,1332.46,1.0
+2026-02,2026-02-01,Combos,Dine-In,Super Saver Meal Medium,1,1047.9,2.0
+2026-02,2026-02-01,Combos,Pick-up,Non Veg Meal For 4,1,870.46,1.0
+2026-02,2026-02-01,Combos,Dine-In,2 Medium Non-veg@759,1,796.96,1.0
+2026-02,2026-02-01,Combos,Dine-In,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-01,Combos,Pick-up,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-01,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-01,Desserts,Dine-In,Brownie,1,120.76,1.0
+2026-02,2026-02-01,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-01,Mojitos,Dine-In,Fresh Garden Mint,1,103.96,1.0
+2026-02,2026-02-01,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-01,Munchies,Dine-In,Loaded Fries,2,388.52,2.0
+2026-02,2026-02-01,Munchies,Dine-In,French Fries,2,199.52,2.0
+2026-02,2026-02-01,Munchies,Dine-In,Chicken Nuggets,1,136.5,1.0
+2026-02,2026-02-01,Munchies,Pick-up,French Fries,1,99.76,1.0
+2026-02,2026-02-01,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (12 Inch),1,2157.76,3.0
+2026-02,2026-02-01,Non Veg Pizza,Dine-In,Chicken Tikka Butter Masala (12 Inch),1,719.26,1.0
+2026-02,2026-02-01,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (12 Inch),1,719.26,1.0
+2026-02,2026-02-01,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (7 Inch),2,627.92,2.0
+2026-02,2026-02-01,Non Veg Pizza,Pick-up,Meat Feast Pizza (9 Inch),1,572.26,1.0
+2026-02,2026-02-01,Non Veg Pizza,Dine-In,Hot Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-01,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-01,Non Veg Pizza,Pick-up,Mexicana Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-01,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-01,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-01,Pasta,Pick-up,Chicken Pasta,1,866.26,3.0
+2026-02,2026-02-01,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-01,Salad,Pick-up,Macaroni N Chicken Salad,1,198.44,1.0
+2026-02,2026-02-01,Salad,Pick-up,Cheese N Macaroni Salad,1,166.96,1.0
+2026-02,2026-02-01,Shakes & Juices,Dine-In,Tender Coconut,1,198.0,2.0
+2026-02,2026-02-01,Shakes & Juices,Dine-In,Fresh Lime Juice,2,126.0,3.0
+2026-02,2026-02-01,Shakes & Juices,Dine-In,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-01,Soft Drinks,Pick-up,7up @50rs,3,150.0,3.0
+2026-02,2026-02-01,Soft Drinks,Pick-up,Soft Drink,1,90.0,1.0
+2026-02,2026-02-01,Soft Drinks,Dine-In,Pizza Upgrade,1,84.0,2.0
+2026-02,2026-02-01,Soft Drinks,Dine-In,Pepsi 250ml Pet,2,60.0,3.0
+2026-02,2026-02-01,Soft Drinks,Pick-up,Mineral Water,2,60.0,3.0
+2026-02,2026-02-01,Soft Drinks,Pick-up,Pepsi@50rs,1,50.0,1.0
+2026-02,2026-02-01,Soft Drinks,Pick-up,Slice 200ml,1,40.0,2.0
+2026-02,2026-02-01,Soft Drinks,Dine-In,Slice 200ml,1,20.0,1.0
+2026-02,2026-02-01,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-01,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (12 Inch),1,719.26,1.0
+2026-02,2026-02-01,Veg Pizza,Pick-up,Schezwan Paneer (9 Inch),1,498.76,1.0
+2026-02,2026-02-01,Veg Pizza,Pick-up,Mushroom Delight Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-01,Veg Pizza,Dine-In,Margherita Pizza (7 Inch),1,141.76,1.0
+2026-02,2026-02-02,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-02,Combos,Pick-up,2 Medium Non-veg@759,2,901.96,2.0
+2026-02,2026-02-02,Combos,Pick-up,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-02,Combos,Dine-In,2 Regular Non-veg@409,1,513.46,1.0
+2026-02,2026-02-02,Combos,Dine-In,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-02,Combos,Pick-up,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-02,Garlic Bread,Dine-In,Garlic Bread Supreme [veg],1,173.26,1.0
+2026-02,2026-02-02,Mojitos,Dine-In,Blue Mojito,1,103.96,1.0
+2026-02,2026-02-02,Mojitos,Dine-In,Green Apple,1,103.96,1.0
+2026-02,2026-02-02,Mojitos,Pick-up,Green Apple,1,103.96,1.0
+2026-02,2026-02-02,Munchies,Pick-up,Chicken Nuggets,1,409.5,3.0
+2026-02,2026-02-02,Munchies,Dine-In,French Fries,1,199.52,2.0
+2026-02,2026-02-02,Munchies,Pick-up,French Fries,1,99.76,1.0
+2026-02,2026-02-02,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (7 Inch),3,941.8799999999999,3.0
+2026-02,2026-02-02,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (9 Inch),2,934.52,2.0
+2026-02,2026-02-02,Non Veg Pizza,Dine-In,Fiery Chicken Pizza (7 Inch),2,514.52,2.0
+2026-02,2026-02-02,Non Veg Pizza,Dine-In,Mambo Combo Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-02,Non Veg Pizza,Dine-In,New York Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-02,Non Veg Pizza,Dine-In,Mexicana Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-02,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-02,Non Veg Pizza,Pick-up,Red Indian Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-02,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-02,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-02,Salad,Dine-In,Macaroni N Chicken Salad,1,198.44,1.0
+2026-02,2026-02-02,Shakes & Juices,Pick-up,Chocolate Shake,1,99.0,1.0
+2026-02,2026-02-02,Shakes & Juices,Pick-up,Chikku Shake,1,89.0,1.0
+2026-02,2026-02-02,Shakes & Juices,Dine-In,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-02,Shakes & Juices,Dine-In,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-02,Shakes & Juices,Pick-up,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-02,Shakes & Juices,Pick-up,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-02,Shakes & Juices,Dine-In,Fresh Lime Juice,1,42.0,1.0
+2026-02,2026-02-02,Soft Drinks,Dine-In,Pepsi 330ml Can,1,40.0,1.0
+2026-02,2026-02-02,Soft Drinks,Pick-up,Mdew 250ml Pet,1,40.0,2.0
+2026-02,2026-02-02,Soft Drinks,Pick-up,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-02,Soft Drinks,Pick-up,7up 250ml Pet,1,20.0,1.0
+2026-02,2026-02-02,Sundaes,Dine-In,Butterscotch Sundae,1,208.94,1.0
+2026-02,2026-02-02,Veg Pizza,Dine-In,Paneer Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-02,Veg Pizza,Dine-In,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-02,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-03,Burger,Dine-In,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-03,Burger,Pick-up,Veg Burger,1,94.5,1.0
+2026-02,2026-02-03,Combos,Pick-up,Non Veg Meal For 4,1,870.46,1.0
+2026-02,2026-02-03,Combos,Dine-In,Super Saver Meal Regular,2,627.92,2.0
+2026-02,2026-02-03,Combos,Dine-In,Veg Meal For 2,1,618.46,1.0
+2026-02,2026-02-03,Combos,Pick-up,2 Regular Non-veg@409,1,513.46,1.0
+2026-02,2026-02-03,Combos,Pick-up,2 Regular Veg@349,1,366.46,1.0
+2026-02,2026-02-03,Combos,Pick-up,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-03,Mojitos,Dine-In,Blue Curacao,1,103.96,1.0
+2026-02,2026-02-03,Mojitos,Dine-In,Water Melon,1,103.96,1.0
+2026-02,2026-02-03,Munchies,Pick-up,French Fries,2,199.52,2.0
+2026-02,2026-02-03,Munchies,Dine-In,Cheesy Fries,1,162.76,1.0
+2026-02,2026-02-03,Munchies,Pick-up,Potato Wedges,1,162.76,1.0
+2026-02,2026-02-03,Munchies,Dine-In,Chilly Potato Shots,1,152.26,1.0
+2026-02,2026-02-03,Non Veg Pizza,Dine-In,New York Pizza (9 Inch),1,572.26,1.0
+2026-02,2026-02-03,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-03,Non Veg Pizza,Pick-up,Hot Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-03,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-03,Non Veg Pizza,Dine-In,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-03,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-03,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-03,Non Veg Pizza,Pick-up,New York Pizza (9 Inch),1,0.0,1.0
+2026-02,2026-02-03,Non Veg Pizza,Pick-up,Schezwan Chicken (9 Inch),1,0.0,1.0
+2026-02,2026-02-03,Pasta,Dine-In,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-03,Salad,Pick-up,Mixed Chicken Salad,1,198.44,1.0
+2026-02,2026-02-03,Salad,Pick-up,Cheese N Macaroni Salad,1,166.96,1.0
+2026-02,2026-02-03,Shakes & Juices,Dine-In,Chikku Shake,4,534.0,6.0
+2026-02,2026-02-03,Shakes & Juices,Dine-In,Chocolate Shake,2,297.0,3.0
+2026-02,2026-02-03,Shakes & Juices,Dine-In,Tender Coconut,1,198.0,2.0
+2026-02,2026-02-03,Shakes & Juices,Pick-up,Grapes Juice,1,168.0,2.0
+2026-02,2026-02-03,Shakes & Juices,Pick-up,Chocolate Shake,1,99.0,1.0
+2026-02,2026-02-03,Soft Drinks,Pick-up,Pepsi@50rs,2,100.0,2.0
+2026-02,2026-02-03,Soft Drinks,Pick-up,Mineral Water,2,60.0,3.0
+2026-02,2026-02-03,Soft Drinks,Pick-up,7up @50rs,1,50.0,1.0
+2026-02,2026-02-03,Soft Drinks,Pick-up,Pizza Upgrade,1,42.0,1.0
+2026-02,2026-02-03,Soft Drinks,Dine-In,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-03,Soft Drinks,Pick-up,Pepsi 250ml Pet,2,40.0,2.0
+2026-02,2026-02-03,Soft Drinks,Pick-up,Soft Drink,1,28.0,1.0
+2026-02,2026-02-03,Soft Drinks,Dine-In,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-03,Soft Drinks,Pick-up,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-03,Veg Pizza,Dine-In,Veg Tandoori Paneer Pizza (7 Inch),2,627.92,2.0
+2026-02,2026-02-03,Veg Pizza,Dine-In,Hawaiian Fantasy Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-03,Veg Pizza,Dine-In,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-03,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-03,Veg Pizza,Dine-In,Plain Cheese Pizza (7 Inch),1,141.76,1.0
+2026-02,2026-02-04,Burger,Dine-In,Burger Combo @ 169,2,354.88,2.0
+2026-02,2026-02-04,Burger,Dine-In,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-04,Combos,Pick-up,Non Veg Meal For 2,1,681.46,1.0
+2026-02,2026-02-04,Combos,Dine-In,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-04,Desserts,Pick-up,Brownie,1,241.5,2.0
+2026-02,2026-02-04,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-04,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-04,Munchies,Pick-up,Cheesy Fries,1,162.76,1.0
+2026-02,2026-02-04,Munchies,Pick-up,Chicken Nuggets,1,136.5,1.0
+2026-02,2026-02-04,Munchies,Dine-In,French Fries,1,99.76,1.0
+2026-02,2026-02-04,Non Veg Pizza,Pick-up,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-04,Non Veg Pizza,Pick-up,Hot Chicken Pizza (12 Inch),1,687.76,1.0
+2026-02,2026-02-04,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),2,514.52,2.0
+2026-02,2026-02-04,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-04,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-04,Non Veg Pizza,Dine-In,Red Indian Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-04,Non Veg Pizza,Dine-In,Fiery Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-04,Pasta,Dine-In,Chicken Pasta,2,577.52,2.0
+2026-02,2026-02-04,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-04,Shakes & Juices,Dine-In,Fresh Lime Juice,2,168.0,4.0
+2026-02,2026-02-04,Shakes & Juices,Dine-In,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-04,Shakes & Juices,Dine-In,Mint Lime Juice,1,47.26,1.0
+2026-02,2026-02-04,Soft Drinks,Pick-up,Pepsi 250ml Pet,2,60.0,3.0
+2026-02,2026-02-04,Soft Drinks,Pick-up,Soft Drink,2,60.0,2.0
+2026-02,2026-02-04,Soft Drinks,Pick-up,Pepsi@50rs,1,50.0,1.0
+2026-02,2026-02-04,Soft Drinks,Dine-In,7up 250ml Pet,1,20.0,1.0
+2026-02,2026-02-04,Soft Drinks,Pick-up,7up 250ml Pet,1,20.0,1.0
+2026-02,2026-02-04,Veg Pizza,Dine-In,Burn To Hell Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-04,Veg Pizza,Pick-up,Las Vegas Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-04,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-05,Burger,Dine-In,Burger Combo @ 169,2,532.3399999999999,3.0
+2026-02,2026-02-05,Burger,Dine-In,Regular Chicken Burger,1,441.0,4.0
+2026-02,2026-02-05,Burger,Dine-In,Burger Combo @ 199,1,208.94,1.0
+2026-02,2026-02-05,Burger,Dine-In,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-05,Burger,Pick-up,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-05,Burger,Pick-up,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-05,Combos,Pick-up,Non Veg Meal For 4,1,970.2,1.0
+2026-02,2026-02-05,Combos,Pick-up,2 Medium Non-veg@759,1,901.96,1.0
+2026-02,2026-02-05,Combos,Pick-up,2 Regular Non-veg@409,2,858.92,2.0
+2026-02,2026-02-05,Combos,Dine-In,2 Regular Non-veg@409,1,513.46,1.0
+2026-02,2026-02-05,Combos,Dine-In,Combo Delight Non-veg,2,396.88,2.0
+2026-02,2026-02-05,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-05,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-05,Mojitos,Dine-In,Blue Mojito,2,207.92,2.0
+2026-02,2026-02-05,Mojitos,Dine-In,Passion Fruit,2,207.92,2.0
+2026-02,2026-02-05,Mojitos,Dine-In,Fresh Garden Mint,1,103.96,1.0
+2026-02,2026-02-05,Mojitos,Dine-In,Water Melon,1,103.96,1.0
+2026-02,2026-02-05,Munchies,Pick-up,Potato Wedges,1,325.5,2.0
+2026-02,2026-02-05,Munchies,Pick-up,French Fries,1,199.5,2.0
+2026-02,2026-02-05,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-05,Munchies,Pick-up,Cheesy Fries,1,162.76,1.0
+2026-02,2026-02-05,Munchies,Dine-In,French Fries,1,99.76,1.0
+2026-02,2026-02-05,Non Veg Pizza,Pick-up,Chicken Pepperoni (9 Inch),1,1144.5,2.0
+2026-02,2026-02-05,Non Veg Pizza,Pick-up,New York Pizza (9 Inch),1,1144.5,2.0
+2026-02,2026-02-05,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-05,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (12 Inch),1,687.76,1.0
+2026-02,2026-02-05,Non Veg Pizza,Pick-up,Mexicana Pizza (7 Inch),2,627.92,2.0
+2026-02,2026-02-05,Non Veg Pizza,Dine-In,5 Chicken Pizza (9 Inch),1,572.26,1.0
+2026-02,2026-02-05,Non Veg Pizza,Dine-In,BBQ & Onion Pizza (7 Inch),2,514.52,2.0
+2026-02,2026-02-05,Non Veg Pizza,Dine-In,Hot Treat Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-05,Non Veg Pizza,Dine-In,Tandoori Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-05,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-05,Non Veg Pizza,Pick-up,Hot Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-05,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-05,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-05,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-05,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-05,Pasta,Dine-In,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-05,Shakes & Juices,Dine-In,Fresh Lime Juice,3,252.0,6.0
+2026-02,2026-02-05,Shakes & Juices,Dine-In,Mint Lime Juice,1,94.5,2.0
+2026-02,2026-02-05,Shakes & Juices,Dine-In,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-05,Soft Drinks,Pick-up,7up @50rs,2,100.0,2.0
+2026-02,2026-02-05,Soft Drinks,Pick-up,Pepsi@40rs,2,80.0,2.0
+2026-02,2026-02-05,Soft Drinks,Pick-up,Soft Drink,1,56.0,2.0
+2026-02,2026-02-05,Soft Drinks,Dine-In,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-05,Soft Drinks,Pick-up,Mdew 250ml Pet,1,40.0,2.0
+2026-02,2026-02-05,Soft Drinks,Pick-up,Pepsi 250ml Pet,2,40.0,2.0
+2026-02,2026-02-05,Soft Drinks,Dine-In,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-05,Soft Drinks,Pick-up,7up 250ml Pet,1,20.0,1.0
+2026-02,2026-02-05,Sundaes,Dine-In,Black And White,1,204.76,1.0
+2026-02,2026-02-05,Veg Pizza,Pick-up,Burn To Hell Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-05,Veg Pizza,Dine-In,Paneer Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-05,Veg Pizza,Dine-In,Supreme Veg Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-05,Veg Pizza,Pick-up,Supreme Veg Pizza (7 Inch),1,355.96,1.0
+2026-02,2026-02-05,Veg Pizza,Dine-In,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-05,Veg Pizza,Pick-up,Veg Tandoori Paneer Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-06,Burger,Dine-In,Regular Chicken Burger,2,220.52,2.0
+2026-02,2026-02-06,Burger,Pick-up,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-06,Combos,Dine-In,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-06,Combos,Pick-up,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-06,Garlic Bread,Pick-up,Garlic Bread With Cheese,2,325.52,2.0
+2026-02,2026-02-06,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-06,Mojitos,Dine-In,Blue Mojito,1,207.9,2.0
+2026-02,2026-02-06,Mojitos,Dine-In,Green Apple,1,103.96,1.0
+2026-02,2026-02-06,Mojitos,Pick-up,Fresh Garden Mint,1,103.96,1.0
+2026-02,2026-02-06,Munchies,Dine-In,Loaded Fries,1,388.5,2.0
+2026-02,2026-02-06,Munchies,Pick-up,French Fries,2,199.52,2.0
+2026-02,2026-02-06,Munchies,Pick-up,Cheesy Fries,1,162.76,1.0
+2026-02,2026-02-06,Non Veg Pizza,Pick-up,Butter Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-06,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-06,Non Veg Pizza,Pick-up,Red Indian Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-06,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-06,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-06,Pasta,Dine-In,Chicken Pasta,2,577.52,2.0
+2026-02,2026-02-06,Pasta,Pick-up,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-06,Shakes & Juices,Dine-In,Mint Lime Juice,2,283.5,6.0
+2026-02,2026-02-06,Shakes & Juices,Pick-up,Chikku Shake,1,178.0,2.0
+2026-02,2026-02-06,Shakes & Juices,Pick-up,Chocolate Shake,1,99.0,1.0
+2026-02,2026-02-06,Shakes & Juices,Dine-In,Chikku Shake,1,89.0,1.0
+2026-02,2026-02-06,Soft Drinks,Pick-up,Pepsi@40rs,2,80.0,2.0
+2026-02,2026-02-06,Soft Drinks,Pick-up,7up @50rs,1,50.0,1.0
+2026-02,2026-02-06,Soft Drinks,Pick-up,Mineral Water,1,20.0,1.0
+2026-02,2026-02-06,Veg Pizza,Pick-up,Supreme Veg Pizza (9 Inch),2,997.52,2.0
+2026-02,2026-02-06,Veg Pizza,Dine-In,Supreme Veg Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-06,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-06,Veg Pizza,Pick-up,Spicy N Hot Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-06,Veg Pizza,Pick-up,Hungarian Street Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-06,Veg Pizza,Pick-up,Supreme Veg Pizza (7 Inch),1,355.96,1.0
+2026-02,2026-02-07,Burger,Pick-up,Regular Chicken Burger,2,661.5,6.0
+2026-02,2026-02-07,Burger,Dine-In,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-07,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-07,Burger,Dine-In,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-07,Combos,Pick-up,2 Medium Non-veg@759,2,1646.42,2.0
+2026-02,2026-02-07,Combos,Pick-up,2 Regular Non-veg@409,2,1288.36,3.0
+2026-02,2026-02-07,Combos,Pick-up,Non Veg Meal For 2,1,681.46,1.0
+2026-02,2026-02-07,Combos,Dine-In,Super Saver Meal Regular,2,627.92,2.0
+2026-02,2026-02-07,Combos,Dine-In,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-07,Combos,Pick-up,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-07,Combos,Pick-up,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-07,Combos,Pick-up,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-07,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-07,Garlic Bread,Pick-up,Garlic Bread Supreme[non-veg],1,388.5,2.0
+2026-02,2026-02-07,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-07,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-07,Mojitos,Dine-In,Fresh Garden Mint,2,207.92,2.0
+2026-02,2026-02-07,Mojitos,Dine-In,Green Apple,1,103.96,1.0
+2026-02,2026-02-07,Munchies,Dine-In,Loaded Fries,2,388.52,2.0
+2026-02,2026-02-07,Munchies,Pick-up,French Fries,3,299.28000000000003,3.0
+2026-02,2026-02-07,Munchies,Pick-up,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-07,Munchies,Dine-In,Peri Peri Dip,1,31.5,1.0
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (12 Inch),1,687.76,1.0
+2026-02,2026-02-07,Non Veg Pizza,Dine-In,Chicken Pepperoni (7 Inch),1,661.52,2.0
+2026-02,2026-02-07,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),2,593.26,2.0
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,New York Pizza (9 Inch),1,572.26,1.0
+2026-02,2026-02-07,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,Red Indian Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-07,Non Veg Pizza,Dine-In,Mexicana Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,Fiery Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-07,Pasta,Pick-up,Chicken Pasta,1,577.52,2.0
+2026-02,2026-02-07,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-07,Pasta,Dine-In,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-07,Salad,Dine-In,Mixed Chicken Salad,2,396.88,2.0
+2026-02,2026-02-07,Shakes & Juices,Pick-up,Mint Lime Juice,1,94.5,2.0
+2026-02,2026-02-07,Shakes & Juices,Dine-In,Chikku Shake,1,89.0,1.0
+2026-02,2026-02-07,Shakes & Juices,Pick-up,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-07,Soft Drinks,Dine-In,Pepsi@40rs,1,40.0,1.0
+2026-02,2026-02-07,Soft Drinks,Pick-up,Pepsi 250ml Pet,2,40.0,2.0
+2026-02,2026-02-07,Soft Drinks,Pick-up,Pizza Upgrade,1,31.5,1.0
+2026-02,2026-02-07,Soft Drinks,Dine-In,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-07,Veg Pizza,Dine-In,5 Cheese Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-07,Veg Pizza,Pick-up,5 Cheese Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-07,Veg Pizza,Dine-In,Mushroom Delight Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-07,Veg Pizza,Pick-up,Mushroom Delight Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-07,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,183.76,1.0
+2026-02,2026-02-08,Burger,Dine-In,Regular Chicken Burger,1,441.0,4.0
+2026-02,2026-02-08,Burger,Dine-In,Chicken Nuggets Burger,2,294.0,2.0
+2026-02,2026-02-08,Burger,Dine-In,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-08,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-08,Burger,Dine-In,Veg Burger,1,94.5,1.0
+2026-02,2026-02-08,Combos,Pick-up,2 Medium Non-veg@759,1,901.96,1.0
+2026-02,2026-02-08,Combos,Dine-In,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-08,Combos,Dine-In,Delicious Combo Delight Regular,1,471.46,1.0
+2026-02,2026-02-08,Combos,Pick-up,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-08,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-08,Desserts,Dine-In,Brownie,1,120.76,1.0
+2026-02,2026-02-08,Desserts,Pick-up,Brownie,1,120.76,1.0
+2026-02,2026-02-08,Mojitos,Dine-In,Green Apple,2,207.92,2.0
+2026-02,2026-02-08,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-08,Mojitos,Dine-In,Water Melon,1,103.96,1.0
+2026-02,2026-02-08,Munchies,Pick-up,French Fries,1,299.26,3.0
+2026-02,2026-02-08,Munchies,Dine-In,Chicken Nuggets,2,273.0,2.0
+2026-02,2026-02-08,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-08,Munchies,Pick-up,Cheesy Fries,1,162.76,1.0
+2026-02,2026-02-08,Munchies,Dine-In,Chicken Popcorn,1,141.76,1.0
+2026-02,2026-02-08,Munchies,Dine-In,French Fries,1,99.76,1.0
+2026-02,2026-02-08,Munchies,Pick-up,Hot Garlic Dip,1,31.5,1.0
+2026-02,2026-02-08,Non Veg Pizza,Dine-In,Mexicana Pizza (9 Inch),2,997.52,2.0
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,Mexicana Pizza (7 Inch),2,627.92,2.0
+2026-02,2026-02-08,Non Veg Pizza,Dine-In,Meat Feast Pizza (9 Inch),1,572.26,1.0
+2026-02,2026-02-08,Non Veg Pizza,Dine-In,Cheese N Corn Chicken (7 Inch),2,514.52,2.0
+2026-02,2026-02-08,Non Veg Pizza,Dine-In,Hot Treat Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-08,Non Veg Pizza,Dine-In,Chicken Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,Hot Treat Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-08,Pasta,Pick-up,Chicken Pasta,3,2310.02,8.0
+2026-02,2026-02-08,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-08,Pasta,Pick-up,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-08,Salad,Dine-In,Greek Salad,1,187.94,1.0
+2026-02,2026-02-08,Salad,Dine-In,Cheese N Macaroni Salad,1,166.96,1.0
+2026-02,2026-02-08,Salad,Dine-In,Coleslaw Salad,1,145.96,1.0
+2026-02,2026-02-08,Shakes & Juices,Dine-In,Tender Coconut,2,198.0,2.0
+2026-02,2026-02-08,Shakes & Juices,Dine-In,Chocolate Shake,1,99.0,1.0
+2026-02,2026-02-08,Shakes & Juices,Dine-In,Chikku Shake,1,89.0,1.0
+2026-02,2026-02-08,Shakes & Juices,Dine-In,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-08,Shakes & Juices,Dine-In,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-08,Soft Drinks,Pick-up,Soft Drink,1,76.0,1.0
+2026-02,2026-02-08,Soft Drinks,Dine-In,Pepsi 250ml Can,1,35.0,1.0
+2026-02,2026-02-08,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-08,Sundaes,Dine-In,Nutty Vanilla,1,183.76,1.0
+2026-02,2026-02-08,Veg Pizza,Pick-up,Schezwan Paneer (12 Inch),1,719.26,1.0
+2026-02,2026-02-08,Veg Pizza,Dine-In,Supreme Veg Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-08,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-08,Veg Pizza,Dine-In,Mushroom Delight Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-08,Veg Pizza,Pick-up,Veg Bite Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-08,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-08,Veg Pizza,Pick-up,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-09,Burger,Pick-up,Regular Chicken Burger,1,220.5,2.0
+2026-02,2026-02-09,Combos,Pick-up,2 Medium Non-veg@759,2,1698.92,2.0
+2026-02,2026-02-09,Combos,Pick-up,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-09,Combos,Dine-In,2 Regular Non-veg@409,1,513.46,1.0
+2026-02,2026-02-09,Combos,Pick-up,2 Regular Veg@349,1,366.46,1.0
+2026-02,2026-02-09,Combos,Dine-In,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-09,Garlic Bread,Pick-up,Garlic Bread,2,252.0,2.0
+2026-02,2026-02-09,Mojitos,Dine-In,Blue Mojito,1,103.96,1.0
+2026-02,2026-02-09,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-09,Munchies,Pick-up,French Fries,2,199.52,2.0
+2026-02,2026-02-09,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-09,Munchies,Pick-up,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-09,Munchies,Dine-In,French Fries,1,99.76,1.0
+2026-02,2026-02-09,Non Veg Pizza,Dine-In,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (12 Inch),1,719.26,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,Hot Treat Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-09,Non Veg Pizza,Dine-In,Fiery Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-09,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-09,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-09,Pasta,Dine-In,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-09,Pasta,Pick-up,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-09,Shakes & Juices,Pick-up,Grapes Juice,1,336.0,4.0
+2026-02,2026-02-09,Shakes & Juices,Dine-In,Chocolate Shake,2,198.0,2.0
+2026-02,2026-02-09,Shakes & Juices,Dine-In,Fresh Lime Juice,1,84.0,2.0
+2026-02,2026-02-09,Shakes & Juices,Dine-In,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-09,Soft Drinks,Pick-up,Pepsi@40rs,2,80.0,2.0
+2026-02,2026-02-09,Soft Drinks,Dine-In,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-09,Soft Drinks,Dine-In,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-09,Soft Drinks,Pick-up,7up 250ml Pet,1,20.0,1.0
+2026-02,2026-02-09,Veg Pizza,Pick-up,Supreme Veg Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-09,Veg Pizza,Pick-up,Veg Tandoori Paneer Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-09,Veg Pizza,Dine-In,Hungarian Street Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-09,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,225.76,1.0
+2026-02,2026-02-09,Veg Pizza,Dine-In,Plain Cheese Pizza (7 Inch),1,141.76,1.0
+2026-02,2026-02-09,Veg Pizza,Pick-up,Margherita Pizza (7 Inch),1,141.76,1.0
+2026-02,2026-02-10,Burger,Pick-up,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-10,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-10,Burger,Dine-In,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-10,Burger,Pick-up,Veg Burger,1,94.5,1.0
+2026-02,2026-02-10,Combos,Pick-up,2 Regular Non-veg@409,3,2399.2599999999998,5.0
+2026-02,2026-02-10,Combos,Pick-up,2 Large Non-veg@1149,1,1332.46,1.0
+2026-02,2026-02-10,Combos,Pick-up,2 Medium Non-veg@759,1,796.96,1.0
+2026-02,2026-02-10,Combos,Dine-In,2 Regular Non-veg@409,1,513.46,1.0
+2026-02,2026-02-10,Combos,Pick-up,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-10,Desserts,Pick-up,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-10,Garlic Bread,Pick-up,Garlic Bread,2,252.0,2.0
+2026-02,2026-02-10,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-10,Mojitos,Pick-up,Fresh Garden Mint,1,103.96,1.0
+2026-02,2026-02-10,Munchies,Pick-up,French Fries,3,498.78,5.0
+2026-02,2026-02-10,Munchies,Pick-up,Loaded Fries,2,388.52,2.0
+2026-02,2026-02-10,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-10,Munchies,Dine-In,French Fries,1,99.76,1.0
+2026-02,2026-02-10,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (12 Inch),2,1438.52,2.0
+2026-02,2026-02-10,Non Veg Pizza,Pick-up,Chicken Pepperoni (12 Inch),1,761.26,1.0
+2026-02,2026-02-10,Non Veg Pizza,Dine-In,Red Indian Pizza (7 Inch),2,627.92,2.0
+2026-02,2026-02-10,Non Veg Pizza,Dine-In,Red Indian Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-10,Non Veg Pizza,Dine-In,Tandoori Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-10,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-10,Non Veg Pizza,Pick-up,Fiery Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-10,Non Veg Pizza,Dine-In,Meat Feast Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-10,Non Veg Pizza,Pick-up,Meat Feast Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-10,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-10,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-10,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-10,Shakes & Juices,Dine-In,Mint Lime Juice,2,189.0,4.0
+2026-02,2026-02-10,Shakes & Juices,Dine-In,Chikku Shake,1,178.0,2.0
+2026-02,2026-02-10,Shakes & Juices,Dine-In,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-10,Shakes & Juices,Dine-In,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-10,Shakes & Juices,Dine-In,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-10,Soft Drinks,Dine-In,Soft Drink,2,150.0,2.0
+2026-02,2026-02-10,Soft Drinks,Dine-In,Pepsi 330ml Can,1,40.0,1.0
+2026-02,2026-02-10,Soft Drinks,Dine-In,Pepsi@40rs,1,40.0,1.0
+2026-02,2026-02-10,Soft Drinks,Pick-up,7up@40rs,1,40.0,1.0
+2026-02,2026-02-10,Soft Drinks,Dine-In,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-10,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-10,Veg Pizza,Pick-up,5 Cheese Pizza (12 Inch),1,656.26,1.0
+2026-02,2026-02-10,Veg Pizza,Dine-In,Supreme Veg Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-10,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-10,Veg Pizza,Dine-In,Veg Tandoori Paneer Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-10,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,225.76,1.0
+2026-02,2026-02-10,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-10,Veg Pizza,Pick-up,Veg Bite Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-11,Burger,Pick-up,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-11,Burger,Dine-In,Veg Burger,1,94.5,1.0
+2026-02,2026-02-11,Combos,Pick-up,2 Medium Non-veg@759,1,901.96,1.0
+2026-02,2026-02-11,Combos,Pick-up,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-11,Combos,Dine-In,2 Regular Non-veg@409,1,429.46,1.0
+2026-02,2026-02-11,Combos,Pick-up,Combo Delight Non-veg,2,396.88,2.0
+2026-02,2026-02-11,Combos,Dine-In,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-11,Combos,Pick-up,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-11,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-11,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-11,Mojitos,Pick-up,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-11,Munchies,Pick-up,French Fries,1,99.76,1.0
+2026-02,2026-02-11,Munchies,Pick-up,Peri Peri Dip,1,31.5,1.0
+2026-02,2026-02-11,Non Veg Pizza,Pick-up,Mexicana Pizza (7 Inch),2,627.92,2.0
+2026-02,2026-02-11,Non Veg Pizza,Pick-up,Butter Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-11,Non Veg Pizza,Pick-up,Red Indian Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-11,Non Veg Pizza,Pick-up,Hot Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-11,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-11,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-11,Pasta,Pick-up,Veg Pasta,2,514.52,2.0
+2026-02,2026-02-11,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-11,Shakes & Juices,Dine-In,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-11,Soft Drinks,Dine-In,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-11,Soft Drinks,Pick-up,Soft Drink,1,30.0,1.0
+2026-02,2026-02-11,Soft Drinks,Pick-up,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-12,Burger,Dine-In,Burger Combo @ 169,1,709.8,4.0
+2026-02,2026-02-12,Combos,Dine-In,Super Saver Meal Regular,1,627.9,2.0
+2026-02,2026-02-12,Combos,Dine-In,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-12,Garlic Bread,Dine-In,Garlic Bread Supreme [veg],1,173.26,1.0
+2026-02,2026-02-12,Mojitos,Dine-In,Blue Mojito,1,103.96,1.0
+2026-02,2026-02-12,Mojitos,Pick-up,Green Apple,1,103.96,1.0
+2026-02,2026-02-12,Munchies,Dine-In,French Fries,2,299.26,3.0
+2026-02,2026-02-12,Munchies,Pick-up,Potato Wedges,1,162.76,1.0
+2026-02,2026-02-12,Non Veg Pizza,Dine-In,Tandoori Chicken Pizza (9 Inch),2,997.52,2.0
+2026-02,2026-02-12,Non Veg Pizza,Dine-In,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-12,Non Veg Pizza,Dine-In,Fiery Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-12,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-12,Non Veg Pizza,Dine-In,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-12,Non Veg Pizza,Dine-In,Tandoori Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-12,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-12,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-12,Pasta,Dine-In,Chicken Pasta,2,577.52,2.0
+2026-02,2026-02-12,Shakes & Juices,Dine-In,Fresh Lime Juice,3,294.0,7.0
+2026-02,2026-02-12,Shakes & Juices,Dine-In,Chocolate Shake,1,99.0,1.0
+2026-02,2026-02-12,Shakes & Juices,Dine-In,Chikku Shake,1,89.0,1.0
+2026-02,2026-02-12,Shakes & Juices,Dine-In,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-12,Soft Drinks,Dine-In,Soft Drink,2,120.0,2.0
+2026-02,2026-02-12,Soft Drinks,Pick-up,7up @50rs,2,100.0,2.0
+2026-02,2026-02-12,Soft Drinks,Pick-up,7up@40rs,2,80.0,2.0
+2026-02,2026-02-12,Soft Drinks,Pick-up,Mineral Water,3,80.0,4.0
+2026-02,2026-02-12,Soft Drinks,Pick-up,Pepsi 250ml Pet,3,80.0,4.0
+2026-02,2026-02-12,Soft Drinks,Dine-In,Pepsi 250ml Pet,2,40.0,2.0
+2026-02,2026-02-12,Soft Drinks,Dine-In,Pepsi 330ml Can,1,40.0,1.0
+2026-02,2026-02-12,Soft Drinks,Pick-up,Pepsi@40rs,1,40.0,1.0
+2026-02,2026-02-12,Soft Drinks,Dine-In,Mineral Water,1,20.0,1.0
+2026-02,2026-02-12,Soft Drinks,Pick-up,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-12,Soft Drinks,Pick-up,Slice 200ml,1,20.0,1.0
+2026-02,2026-02-12,Veg Pizza,Pick-up,Schezwan Paneer (9 Inch),1,498.76,1.0
+2026-02,2026-02-12,Veg Pizza,Pick-up,Mexican Veg Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-12,Veg Pizza,Dine-In,Mushroom Delight Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-12,Veg Pizza,Dine-In,Tomatino Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-12,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-13,Burger,Pick-up,Regular Chicken Burger,2,882.02,8.0
+2026-02,2026-02-13,Combos,Pick-up,2 Large Non-veg@1149,2,2664.92,2.0
+2026-02,2026-02-13,Combos,Dine-In,Delicious Combo Delight Medium,1,681.46,1.0
+2026-02,2026-02-13,Combos,Pick-up,2 Regular Non-veg@409,1,429.46,1.0
+2026-02,2026-02-13,Combos,Pick-up,2 Regular Veg@349,1,366.46,1.0
+2026-02,2026-02-13,Combos,Dine-In,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-13,Desserts,Dine-In,Sizzling Brownie,1,215.26,1.0
+2026-02,2026-02-13,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,325.5,2.0
+2026-02,2026-02-13,Garlic Bread,Pick-up,Garlic Bread Supreme [veg],1,173.26,1.0
+2026-02,2026-02-13,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-13,Mojitos,Dine-In,Passion Fruit,1,311.86,3.0
+2026-02,2026-02-13,Mojitos,Pick-up,Blue Mojito,1,103.96,1.0
+2026-02,2026-02-13,Munchies,Pick-up,French Fries,4,598.54,6.0
+2026-02,2026-02-13,Munchies,Pick-up,Chicken Nuggets,2,409.5,3.0
+2026-02,2026-02-13,Munchies,Dine-In,French Fries,3,299.28000000000003,3.0
+2026-02,2026-02-13,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-13,Non Veg Pizza,Pick-up,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-13,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-13,Non Veg Pizza,Pick-up,Hot Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-13,Non Veg Pizza,Dine-In,Red Indian Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-13,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-13,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-13,Non Veg Pizza,Dine-In,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-13,Pasta,Pick-up,Chicken Pasta,1,866.26,3.0
+2026-02,2026-02-13,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-13,Shakes & Juices,Dine-In,Pineapple Juice,4,672.0,8.0
+2026-02,2026-02-13,Shakes & Juices,Dine-In,Grapes Juice,2,252.0,3.0
+2026-02,2026-02-13,Shakes & Juices,Dine-In,Tender Coconut,1,99.0,1.0
+2026-02,2026-02-13,Shakes & Juices,Dine-In,Mint Lime Juice,2,94.52,2.0
+2026-02,2026-02-13,Shakes & Juices,Dine-In,Fresh Lime Juice,1,84.0,2.0
+2026-02,2026-02-13,Shakes & Juices,Dine-In,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-13,Soft Drinks,Dine-In,Soft Drink,1,120.0,1.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,Soft Drink,1,120.0,1.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,7up @50rs,2,100.0,2.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,7up@40rs,2,80.0,2.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,Mineral Water,3,60.0,3.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,Pepsi@50rs,1,50.0,1.0
+2026-02,2026-02-13,Soft Drinks,Dine-In,Mdew 330ml Can,1,40.0,1.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,Pepsi@40rs,1,40.0,1.0
+2026-02,2026-02-13,Soft Drinks,Dine-In,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,Slice 200ml,1,20.0,1.0
+2026-02,2026-02-13,Veg Pizza,Pick-up,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-13,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-13,Veg Pizza,Dine-In,Margherita Pizza (7 Inch),1,141.76,1.0
+2026-02,2026-02-14,Burger,Pick-up,Regular Chicken Burger,2,441.02,4.0
+2026-02,2026-02-14,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-14,Burger,Dine-In,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-14,Combos,Pick-up,2 Regular Non-veg@409,2,858.92,2.0
+2026-02,2026-02-14,Combos,Dine-In,Delicious Combo Delight Medium,1,681.46,1.0
+2026-02,2026-02-14,Combos,Dine-In,Super Saver Meal Regular,2,669.92,2.0
+2026-02,2026-02-14,Combos,Pick-up,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-14,Combos,Pick-up,2 Regular Veg@349,1,450.46,1.0
+2026-02,2026-02-14,Combos,Dine-In,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-14,Desserts,Pick-up,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-14,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-14,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-14,Munchies,Pick-up,French Fries,2,299.26,3.0
+2026-02,2026-02-14,Munchies,Dine-In,Cheesy Fries,1,162.76,1.0
+2026-02,2026-02-14,Munchies,Pick-up,Potato Wedges,1,162.76,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Butter Chicken Pizza (9 Inch),2,997.52,2.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Chicken Pepperoni (12 Inch),1,861.0,1.0
+2026-02,2026-02-14,Non Veg Pizza,Dine-In,Schezwan Chicken (12 Inch),1,719.26,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Red Indian Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Red Indian Pizza (7 Inch),2,627.92,2.0
+2026-02,2026-02-14,Non Veg Pizza,Dine-In,Butter Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-14,Non Veg Pizza,Dine-In,Red Indian Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Hot Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Meat Feast Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-14,Non Veg Pizza,Dine-In,Mexicana Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (7 Inch),2,313.96,2.0
+2026-02,2026-02-14,Non Veg Pizza,Dine-In,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Fiery Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-14,Pasta,Pick-up,Chicken Pasta,1,577.5,2.0
+2026-02,2026-02-14,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-14,Salad,Dine-In,Mixed Chicken Salad,1,198.44,1.0
+2026-02,2026-02-14,Shakes & Juices,Dine-In,Pineapple Juice,1,336.0,4.0
+2026-02,2026-02-14,Shakes & Juices,Dine-In,Tender Coconut,1,99.0,1.0
+2026-02,2026-02-14,Shakes & Juices,Dine-In,Chikku Shake,1,89.0,1.0
+2026-02,2026-02-14,Shakes & Juices,Dine-In,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-14,Shakes & Juices,Dine-In,Mint Lime Juice,1,47.26,1.0
+2026-02,2026-02-14,Shakes & Juices,Dine-In,Fresh Lime Juice,1,42.0,1.0
+2026-02,2026-02-14,Soft Drinks,Pick-up,7up @50rs,1,50.0,1.0
+2026-02,2026-02-14,Soft Drinks,Dine-In,7up@40rs,1,40.0,1.0
+2026-02,2026-02-14,Soft Drinks,Pick-up,7up 250ml Pet,1,40.0,2.0
+2026-02,2026-02-14,Soft Drinks,Pick-up,7up@40rs,1,40.0,1.0
+2026-02,2026-02-14,Soft Drinks,Pick-up,Pepsi 250ml Pet,2,40.0,2.0
+2026-02,2026-02-14,Soft Drinks,Pick-up,Pepsi@40rs,1,40.0,1.0
+2026-02,2026-02-14,Soft Drinks,Pick-up,Soft Drink,1,36.0,1.0
+2026-02,2026-02-14,Soft Drinks,Dine-In,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-14,Soft Drinks,Dine-In,Mineral Water,1,20.0,1.0
+2026-02,2026-02-14,Soft Drinks,Pick-up,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-14,Veg Pizza,Pick-up,Supreme Veg Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-14,Veg Pizza,Pick-up,Spicy N Hot Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-14,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-15,Burger,Dine-In,Regular Chicken Burger,2,441.0,4.0
+2026-02,2026-02-15,Burger,Dine-In,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-15,Burger,Pick-up,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-15,Burger,Dine-In,Veg Burger,1,94.5,1.0
+2026-02,2026-02-15,Combos,Pick-up,2 Regular Non-veg@409,3,1498.38,3.0
+2026-02,2026-02-15,Combos,Pick-up,Combo Delight Non-veg,2,396.88,2.0
+2026-02,2026-02-15,Combos,Dine-In,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-15,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-15,Garlic Bread,Dine-In,Garlic Bread Supreme[non-veg],1,194.26,1.0
+2026-02,2026-02-15,Garlic Bread,Pick-up,Garlic Bread Supreme[non-veg],1,194.26,1.0
+2026-02,2026-02-15,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-15,Mojitos,Dine-In,Fresh Garden Mint,1,207.9,2.0
+2026-02,2026-02-15,Mojitos,Dine-In,Green Apple,1,207.9,2.0
+2026-02,2026-02-15,Mojitos,Pick-up,Green Apple,1,207.9,2.0
+2026-02,2026-02-15,Munchies,Pick-up,Loaded Fries,2,971.26,5.0
+2026-02,2026-02-15,Munchies,Pick-up,French Fries,3,399.02,4.0
+2026-02,2026-02-15,Munchies,Dine-In,Loaded Fries,2,388.52,2.0
+2026-02,2026-02-15,Munchies,Dine-In,French Fries,1,99.76,1.0
+2026-02,2026-02-15,Munchies,Dine-In,Cheesy Dip,1,31.5,1.0
+2026-02,2026-02-15,Munchies,Dine-In,Thousand Dip,1,31.5,1.0
+2026-02,2026-02-15,Non Veg Pizza,Pick-up,Chicken Pepperoni (12 Inch),1,761.26,1.0
+2026-02,2026-02-15,Non Veg Pizza,Pick-up,Hawaiian Chicken Pizza (12 Inch),1,761.26,1.0
+2026-02,2026-02-15,Non Veg Pizza,Pick-up,New York Pizza (12 Inch),1,761.26,1.0
+2026-02,2026-02-15,Non Veg Pizza,Pick-up,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-15,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-15,Non Veg Pizza,Dine-In,Cheese N Corn Chicken (12 Inch),1,687.76,1.0
+2026-02,2026-02-15,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),2,514.52,2.0
+2026-02,2026-02-15,Non Veg Pizza,Dine-In,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-15,Non Veg Pizza,Dine-In,Schezwan Chicken (9 Inch),1,498.76,1.0
+2026-02,2026-02-15,Non Veg Pizza,Dine-In,Hot Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-15,Non Veg Pizza,Pick-up,Hawaiian Chicken Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-15,Non Veg Pizza,Dine-In,Chicken Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-15,Non Veg Pizza,Dine-In,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-15,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-15,Pasta,Pick-up,Chicken Pasta,2,577.52,2.0
+2026-02,2026-02-15,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-15,Salad,Dine-In,Mixed Chicken Salad,1,198.44,1.0
+2026-02,2026-02-15,Salad,Dine-In,Cheese N Macaroni Salad,1,166.96,1.0
+2026-02,2026-02-15,Shakes & Juices,Dine-In,Fresh Lime Juice,1,168.0,4.0
+2026-02,2026-02-15,Shakes & Juices,Dine-In,Grapes Juice,1,168.0,2.0
+2026-02,2026-02-15,Shakes & Juices,Dine-In,Pineapple Juice,2,168.0,2.0
+2026-02,2026-02-15,Shakes & Juices,Dine-In,Chocolate Shake,1,99.0,1.0
+2026-02,2026-02-15,Shakes & Juices,Dine-In,Chikku Shake,1,89.0,1.0
+2026-02,2026-02-15,Shakes & Juices,Pick-up,Chikku Shake,1,89.0,1.0
+2026-02,2026-02-15,Shakes & Juices,Dine-In,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-15,Shakes & Juices,Pick-up,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-15,Soft Drinks,Pick-up,Soft Drink,2,60.0,2.0
+2026-02,2026-02-15,Soft Drinks,Dine-In,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-15,Soft Drinks,Dine-In,Pepsi 330ml Can,1,40.0,1.0
+2026-02,2026-02-15,Soft Drinks,Dine-In,Pepsi@40rs,1,40.0,1.0
+2026-02,2026-02-15,Soft Drinks,Pick-up,Mineral Water,1,20.0,1.0
+2026-02,2026-02-15,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-15,Soft Drinks,Pick-up,Slice 200ml,1,20.0,1.0
+2026-02,2026-02-15,Veg Pizza,Pick-up,Mushroom Delight Pizza (12 Inch),2,1144.52,2.0
+2026-02,2026-02-15,Veg Pizza,Dine-In,Schezwan Paneer (9 Inch),1,498.76,1.0
+2026-02,2026-02-15,Veg Pizza,Dine-In,Hot Passion Pizza (7 Inch),2,493.52,2.0
+2026-02,2026-02-15,Veg Pizza,Dine-In,Mushroom Delight Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-15,Veg Pizza,Pick-up,Veg Bite Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-15,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-15,Veg Pizza,Dine-In,Las Vegas Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-15,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,141.76,1.0
+2026-02,2026-02-16,Burger,Dine-In,Burger Combo @ 179,2,563.8399999999999,3.0
+2026-02,2026-02-16,Burger,Dine-In,Regular Chicken Burger,2,220.52,2.0
+2026-02,2026-02-16,Burger,Pick-up,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-16,Combos,Pick-up,2 Large Non-veg@1149,1,1332.46,1.0
+2026-02,2026-02-16,Combos,Pick-up,2 Medium Non-veg@759,1,901.96,1.0
+2026-02,2026-02-16,Combos,Dine-In,2 Medium Non-veg@759,1,849.46,1.0
+2026-02,2026-02-16,Combos,Dine-In,2 Regular Non-veg@409,1,429.46,1.0
+2026-02,2026-02-16,Combos,Pick-up,2 Regular Non-veg@409,1,429.46,1.0
+2026-02,2026-02-16,Desserts,Pick-up,Brownie With Ice Cream,1,396.9,2.0
+2026-02,2026-02-16,Desserts,Pick-up,Brownie,1,120.76,1.0
+2026-02,2026-02-16,Garlic Bread,Pick-up,Garlic Bread Supreme[non-veg],1,194.26,1.0
+2026-02,2026-02-16,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-16,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-16,Mojitos,Dine-In,Green Apple,1,207.9,2.0
+2026-02,2026-02-16,Mojitos,Dine-In,Blue Curacao,1,103.96,1.0
+2026-02,2026-02-16,Mojitos,Dine-In,Blue Mojito,1,103.96,1.0
+2026-02,2026-02-16,Mojitos,Pick-up,Green Apple,1,103.96,1.0
+2026-02,2026-02-16,Munchies,Pick-up,French Fries,5,498.8,5.0
+2026-02,2026-02-16,Munchies,Pick-up,Loaded Fries,2,388.52,2.0
+2026-02,2026-02-16,Munchies,Pick-up,Chicken Popcorn,1,141.76,1.0
+2026-02,2026-02-16,Munchies,Dine-In,Chicken Nuggets,1,136.5,1.0
+2026-02,2026-02-16,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (12 Inch),1,719.26,1.0
+2026-02,2026-02-16,Non Veg Pizza,Pick-up,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-16,Non Veg Pizza,Pick-up,Chicken Pepperoni (9 Inch),1,640.5,1.0
+2026-02,2026-02-16,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-16,Non Veg Pizza,Dine-In,Chicken Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-16,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-16,Non Veg Pizza,Dine-In,Chicken Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-16,Non Veg Pizza,Dine-In,Hot Treat Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-16,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-16,Non Veg Pizza,Pick-up,Hot Treat Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-16,Non Veg Pizza,Pick-up,Schezwan Chicken (7 Inch),1,313.96,1.0
+2026-02,2026-02-16,Non Veg Pizza,Dine-In,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-16,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-16,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-16,Salad,Pick-up,Greek Chicken Salad[non-veg],1,198.44,1.0
+2026-02,2026-02-16,Salad,Pick-up,Mixed Chicken Salad,1,198.44,1.0
+2026-02,2026-02-16,Shakes & Juices,Dine-In,Pineapple Juice,2,168.0,2.0
+2026-02,2026-02-16,Shakes & Juices,Dine-In,Mint Lime Juice,2,141.76,3.0
+2026-02,2026-02-16,Shakes & Juices,Dine-In,Watermelon Juice,1,84.0,1.0
+2026-02,2026-02-16,Shakes & Juices,Pick-up,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-16,Shakes & Juices,Dine-In,Fresh Lime Juice,1,42.0,1.0
+2026-02,2026-02-16,Soft Drinks,Pick-up,Soft Drink,3,210.0,3.0
+2026-02,2026-02-16,Soft Drinks,Pick-up,7up@40rs,1,40.0,1.0
+2026-02,2026-02-16,Soft Drinks,Pick-up,Pepsi@40rs,1,40.0,1.0
+2026-02,2026-02-16,Soft Drinks,Dine-In,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-16,Soft Drinks,Dine-In,Slice 200ml,1,20.0,1.0
+2026-02,2026-02-16,Veg Pizza,Pick-up,Mexican Veg Pizza (12 Inch),1,572.26,1.0
+2026-02,2026-02-16,Veg Pizza,Pick-up,Veg Tandoori Paneer Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-16,Veg Pizza,Pick-up,5 Cheese Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-16,Veg Pizza,Dine-In,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-17,Burger,Dine-In,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-17,Burger,Pick-up,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-17,Burger,Pick-up,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-17,Combos,Pick-up,2 Regular Non-veg@409,2,900.92,2.0
+2026-02,2026-02-17,Combos,Dine-In,2 Medium Non-veg@759,1,796.96,1.0
+2026-02,2026-02-17,Combos,Pick-up,Delicious Combo Delight Medium,1,681.46,1.0
+2026-02,2026-02-17,Combos,Pick-up,Combo Delight Non-veg,2,595.3399999999999,3.0
+2026-02,2026-02-17,Desserts,Pick-up,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-17,Desserts,Pick-up,Brownie,1,120.76,1.0
+2026-02,2026-02-17,Munchies,Pick-up,Loaded Fries,2,388.52,2.0
+2026-02,2026-02-17,Munchies,Pick-up,Chicken Popcorn,1,141.76,1.0
+2026-02,2026-02-17,Non Veg Pizza,Pick-up,Butter Chicken Pizza (9 Inch),2,997.52,2.0
+2026-02,2026-02-17,Non Veg Pizza,Dine-In,Butter Chicken Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-17,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (12 Inch),1,719.26,1.0
+2026-02,2026-02-17,Non Veg Pizza,Pick-up,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-17,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-17,Non Veg Pizza,Dine-In,New York Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-17,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-17,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-17,Shakes & Juices,Dine-In,Tender Coconut,1,99.0,1.0
+2026-02,2026-02-17,Shakes & Juices,Dine-In,Mint Lime Juice,1,47.26,1.0
+2026-02,2026-02-17,Shakes & Juices,Dine-In,Fresh Lime Juice,1,42.0,1.0
+2026-02,2026-02-17,Soft Drinks,Dine-In,Soft Drink,2,240.0,4.0
+2026-02,2026-02-17,Soft Drinks,Dine-In,Pepsi 250ml Pet,1,40.0,2.0
+2026-02,2026-02-17,Soft Drinks,Pick-up,7up 330ml Can,1,40.0,1.0
+2026-02,2026-02-17,Soft Drinks,Pick-up,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-17,Soft Drinks,Pick-up,Mineral Water,2,40.0,2.0
+2026-02,2026-02-17,Soft Drinks,Pick-up,Soda,2,40.0,2.0
+2026-02,2026-02-17,Soft Drinks,Pick-up,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-17,Sundaes,Pick-up,Nutty Vanilla,1,183.76,1.0
+2026-02,2026-02-17,Veg Pizza,Pick-up,Supreme Veg Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-17,Veg Pizza,Pick-up,Veg Bite Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-18,Burger,Dine-In,Burger Combo @ 169,2,1064.6999999999998,6.0
+2026-02,2026-02-18,Burger,Pick-up,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-18,Burger,Pick-up,Chicken Nuggets Burger,1,147.0,1.0
+2026-02,2026-02-18,Burger,Dine-In,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-18,Burger,Pick-up,Veg Burger,1,94.5,1.0
+2026-02,2026-02-18,Combos,Pick-up,2 Regular Non-veg@409,2,858.92,2.0
+2026-02,2026-02-18,Combos,Pick-up,2 Medium Non-veg@759,1,796.96,1.0
+2026-02,2026-02-18,Combos,Pick-up,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-18,Combos,Dine-In,2 Regular Non-veg@409,1,513.46,1.0
+2026-02,2026-02-18,Combos,Dine-In,Super Saver Meal Regular,1,355.96,1.0
+2026-02,2026-02-18,Combos,Pick-up,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-18,Desserts,Pick-up,Brownie With Ice Cream,1,396.9,2.0
+2026-02,2026-02-18,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-18,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-18,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-18,Munchies,Pick-up,Loaded Fries,3,582.78,3.0
+2026-02,2026-02-18,Munchies,Pick-up,French Fries,3,299.28000000000003,3.0
+2026-02,2026-02-18,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-18,Munchies,Dine-In,French Fries,1,99.76,1.0
+2026-02,2026-02-18,Non Veg Pizza,Dine-In,Hot Chicken Pizza (12 Inch),1,687.76,1.0
+2026-02,2026-02-18,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (9 Inch),1,467.26,1.0
+2026-02,2026-02-18,Non Veg Pizza,Dine-In,Tandoori Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-18,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-18,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-18,Non Veg Pizza,Pick-up,Hot Treat Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-18,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-18,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-18,Pasta,Dine-In,Veg Pasta,2,514.52,2.0
+2026-02,2026-02-18,Salad,Pick-up,Mixed Chicken Salad,1,198.44,1.0
+2026-02,2026-02-18,Shakes & Juices,Dine-In,Grapes Juice,1,168.0,2.0
+2026-02,2026-02-18,Shakes & Juices,Dine-In,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-18,Shakes & Juices,Pick-up,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-18,Shakes & Juices,Dine-In,Mint Lime Juice,1,47.26,1.0
+2026-02,2026-02-18,Soft Drinks,Pick-up,Soft Drink,3,288.0,3.0
+2026-02,2026-02-18,Soft Drinks,Dine-In,Soft Drink,2,279.0,2.0
+2026-02,2026-02-18,Soft Drinks,Pick-up,7up@40rs,2,80.0,2.0
+2026-02,2026-02-18,Soft Drinks,Pick-up,Pepsi@40rs,2,80.0,2.0
+2026-02,2026-02-18,Soft Drinks,Dine-In,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-18,Soft Drinks,Dine-In,Pepsi 330ml Can,1,40.0,1.0
+2026-02,2026-02-18,Soft Drinks,Pick-up,7up 250ml Pet,1,20.0,1.0
+2026-02,2026-02-18,Soft Drinks,Pick-up,Mdew 250ml Pet,1,20.0,1.0
+2026-02,2026-02-18,Veg Pizza,Pick-up,Mexican Veg Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-18,Veg Pizza,Pick-up,Veg Bite Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-18,Veg Pizza,Dine-In,Veg Bite Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-18,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-19,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-19,Burger,Pick-up,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-19,Combos,Dine-In,Super Saver Meal Medium,1,592.2,1.0
+2026-02,2026-02-19,Combos,Pick-up,Delicious Combo Delight Regular,1,471.46,1.0
+2026-02,2026-02-19,Desserts,Pick-up,Brownie,1,120.76,1.0
+2026-02,2026-02-19,Garlic Bread,Dine-In,Garlic Bread Supreme[non-veg],1,194.26,1.0
+2026-02,2026-02-19,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-19,Mojitos,Dine-In,Green Apple,1,103.96,1.0
+2026-02,2026-02-19,Munchies,Pick-up,French Fries,3,299.28000000000003,3.0
+2026-02,2026-02-19,Munchies,Pick-up,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-19,Munchies,Pick-up,Peri Peri Dip,1,31.5,1.0
+2026-02,2026-02-19,Non Veg Pizza,Pick-up,Mambo Combo Pizza (12 Inch),1,761.26,1.0
+2026-02,2026-02-19,Non Veg Pizza,Pick-up,Schezwan Chicken (9 Inch),1,498.76,1.0
+2026-02,2026-02-19,Non Veg Pizza,Pick-up,Red Indian Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-19,Pasta,Pick-up,Veg Pasta,1,514.5,2.0
+2026-02,2026-02-19,Salad,Pick-up,Macaroni N Chicken Salad,1,198.44,1.0
+2026-02,2026-02-19,Shakes & Juices,Dine-In,Watermelon Juice,1,168.0,2.0
+2026-02,2026-02-19,Shakes & Juices,Pick-up,Watermelon Juice,1,168.0,2.0
+2026-02,2026-02-19,Soft Drinks,Dine-In,Soft Drink,2,70.0,2.0
+2026-02,2026-02-19,Soft Drinks,Pick-up,7up @50rs,1,50.0,1.0
+2026-02,2026-02-19,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-19,Veg Pizza,Pick-up,Mexican Veg Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-19,Veg Pizza,Pick-up,Mushroom Delight Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-19,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (7 Inch),1,355.96,1.0
+2026-02,2026-02-19,Veg Pizza,Pick-up,Spicy N Hot Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-19,Veg Pizza,Pick-up,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-19,Veg Pizza,Pick-up,Las Vegas Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-19,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,225.76,1.0
+2026-02,2026-02-19,Veg Pizza,Dine-In,Mushroom Delight Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-20,Burger,Dine-In,Burger Combo @ 179,3,751.78,4.0
+2026-02,2026-02-20,Combos,Dine-In,Super Saver Meal Regular,2,627.92,2.0
+2026-02,2026-02-20,Combos,Pick-up,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-20,Combos,Dine-In,2 Regular Veg@349,1,450.46,1.0
+2026-02,2026-02-20,Combos,Pick-up,Non Veg Meal For 1,1,303.46,1.0
+2026-02,2026-02-20,Garlic Bread,Dine-In,Garlic Bread Supreme [veg],1,173.26,1.0
+2026-02,2026-02-20,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-20,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-20,Mojitos,Dine-In,Green Apple,1,103.96,1.0
+2026-02,2026-02-20,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-20,Munchies,Dine-In,French Fries,3,399.04,4.0
+2026-02,2026-02-20,Munchies,Pick-up,Loaded Fries,1,388.5,2.0
+2026-02,2026-02-20,Munchies,Pick-up,French Fries,2,199.52,2.0
+2026-02,2026-02-20,Munchies,Pick-up,Cheesy Fries,1,162.76,1.0
+2026-02,2026-02-20,Munchies,Dine-In,Chicken Nuggets,1,136.5,1.0
+2026-02,2026-02-20,Munchies,Pick-up,Chicken Nuggets,1,136.5,1.0
+2026-02,2026-02-20,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),3,771.78,3.0
+2026-02,2026-02-20,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-20,Non Veg Pizza,Dine-In,Tandoori Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-20,Non Veg Pizza,Dine-In,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-20,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-20,Pasta,Pick-up,Chicken Pasta,2,577.52,2.0
+2026-02,2026-02-20,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-20,Pasta,Dine-In,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-20,Salad,Dine-In,Greek Salad,1,187.94,1.0
+2026-02,2026-02-20,Shakes & Juices,Dine-In,Chikku Shake,1,178.0,2.0
+2026-02,2026-02-20,Shakes & Juices,Dine-In,Pineapple Juice,2,168.0,2.0
+2026-02,2026-02-20,Shakes & Juices,Dine-In,Watermelon Juice,2,168.0,2.0
+2026-02,2026-02-20,Shakes & Juices,Dine-In,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-20,Shakes & Juices,Dine-In,Mint Lime Juice,1,47.26,1.0
+2026-02,2026-02-20,Shakes & Juices,Dine-In,Fresh Lime Juice,1,42.0,1.0
+2026-02,2026-02-20,Soft Drinks,Dine-In,Soft Drink,2,350.0,3.0
+2026-02,2026-02-20,Soft Drinks,Dine-In,Pepsi 250ml Pet,2,40.0,2.0
+2026-02,2026-02-20,Soft Drinks,Pick-up,Mineral Water,2,40.0,2.0
+2026-02,2026-02-20,Soft Drinks,Pick-up,Pepsi 330ml Can,1,40.0,1.0
+2026-02,2026-02-20,Soft Drinks,Pick-up,Slice 200ml,1,40.0,2.0
+2026-02,2026-02-20,Soft Drinks,Pick-up,Soda,1,40.0,2.0
+2026-02,2026-02-20,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-20,Veg Pizza,Dine-In,Margherita Pizza (9 Inch),1,619.52,2.0
+2026-02,2026-02-20,Veg Pizza,Dine-In,Margherita Pizza (12 Inch),1,498.76,1.0
+2026-02,2026-02-20,Veg Pizza,Pick-up,5 Cheese Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-20,Veg Pizza,Dine-In,Mushroom Delight Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-20,Veg Pizza,Dine-In,Schezwan Paneer (7 Inch),1,313.96,1.0
+2026-02,2026-02-20,Veg Pizza,Dine-In,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-20,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-20,Veg Pizza,Pick-up,Margherita Pizza (9 Inch),1,309.76,1.0
+2026-02,2026-02-20,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,225.76,1.0
+2026-02,2026-02-20,Veg Pizza,Dine-In,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-21,Burger,Dine-In,Burger Combo @ 179,1,563.86,3.0
+2026-02,2026-02-21,Burger,Dine-In,Regular Chicken Burger,1,330.76,3.0
+2026-02,2026-02-21,Burger,Dine-In,Veg Burger,1,283.5,3.0
+2026-02,2026-02-21,Burger,Pick-up,Regular Chicken Burger,2,220.52,2.0
+2026-02,2026-02-21,Burger,Pick-up,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-21,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-21,Burger,Dine-In,Chicken Nuggets Burger,1,147.0,1.0
+2026-02,2026-02-21,Combos,Dine-In,Non Veg Meal For 4,1,870.46,1.0
+2026-02,2026-02-21,Combos,Pick-up,Non Veg Meal For 4,1,870.46,1.0
+2026-02,2026-02-21,Combos,Dine-In,Super Saver Meal Regular,1,627.9,2.0
+2026-02,2026-02-21,Combos,Dine-In,Super Saver Meal Medium,1,523.96,1.0
+2026-02,2026-02-21,Combos,Pick-up,2 Regular Non-veg@409,1,471.46,1.0
+2026-02,2026-02-21,Combos,Dine-In,2 Regular Veg@349,1,366.46,1.0
+2026-02,2026-02-21,Combos,Pick-up,2 Regular Veg@349,1,366.46,1.0
+2026-02,2026-02-21,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-21,Garlic Bread,Dine-In,Garlic Bread Supreme [veg],1,173.26,1.0
+2026-02,2026-02-21,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-21,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-21,Mojitos,Dine-In,Green Apple,2,207.92,2.0
+2026-02,2026-02-21,Mojitos,Dine-In,Blue Mojito,1,103.96,1.0
+2026-02,2026-02-21,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-21,Mojitos,Pick-up,Green Apple,1,103.96,1.0
+2026-02,2026-02-21,Munchies,Dine-In,French Fries,4,399.04,4.0
+2026-02,2026-02-21,Munchies,Pick-up,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-21,Munchies,Dine-In,Potato Wedges,1,162.76,1.0
+2026-02,2026-02-21,Munchies,Pick-up,Chicken Popcorn,1,141.76,1.0
+2026-02,2026-02-21,Munchies,Pick-up,French Fries,1,99.76,1.0
+2026-02,2026-02-21,Munchies,Pick-up,Cheesy Dip,1,31.5,1.0
+2026-02,2026-02-21,Non Veg Pizza,Dine-In,Mexicana Pizza (9 Inch),2,1065.76,2.0
+2026-02,2026-02-21,Non Veg Pizza,Pick-up,Red Indian Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-21,Non Veg Pizza,Pick-up,5 Chicken Pizza (9 Inch),1,572.26,1.0
+2026-02,2026-02-21,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-21,Non Veg Pizza,Pick-up,Hot Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-21,Non Veg Pizza,Dine-In,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-21,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-21,Pasta,Dine-In,Chicken Pasta,2,577.52,2.0
+2026-02,2026-02-21,Salad,Pick-up,Greek Salad,1,187.94,1.0
+2026-02,2026-02-21,Salad,Pick-up,Cheese N Macaroni Salad,1,166.96,1.0
+2026-02,2026-02-21,Shakes & Juices,Pick-up,Chocolate Shake,1,99.0,1.0
+2026-02,2026-02-21,Shakes & Juices,Pick-up,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-21,Shakes & Juices,Dine-In,Mint Lime Juice,1,47.26,1.0
+2026-02,2026-02-21,Shakes & Juices,Pick-up,Mint Lime Juice,1,47.26,1.0
+2026-02,2026-02-21,Soft Drinks,Dine-In,Soft Drink,6,690.0,7.0
+2026-02,2026-02-21,Soft Drinks,Dine-In,Mdew@40rs,2,120.0,3.0
+2026-02,2026-02-21,Soft Drinks,Pick-up,7up @50rs,1,50.0,1.0
+2026-02,2026-02-21,Soft Drinks,Pick-up,Pepsi@50rs,1,50.0,1.0
+2026-02,2026-02-21,Soft Drinks,Dine-In,Mdew 330ml Can,1,40.0,1.0
+2026-02,2026-02-21,Soft Drinks,Pick-up,Mineral Water,1,20.0,1.0
+2026-02,2026-02-21,Soft Drinks,Pick-up,Slice 200ml,1,20.0,1.0
+2026-02,2026-02-21,Veg Pizza,Dine-In,Las Vegas Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-21,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),3,425.28,3.0
+2026-02,2026-02-21,Veg Pizza,Pick-up,Mushroom Delight Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-21,Veg Pizza,Pick-up,Plain Cheese Pizza (9 Inch),1,378.0,1.0
+2026-02,2026-02-21,Veg Pizza,Dine-In,Hawaiian Fantasy Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-21,Veg Pizza,Dine-In,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-21,Veg Pizza,Pick-up,Mushroom Delight Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-22,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-22,Burger,Dine-In,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-22,Burger,Dine-In,Veg Burger,1,94.5,1.0
+2026-02,2026-02-22,Combos,Dine-In,2 Regular Non-veg@409,2,1026.92,2.0
+2026-02,2026-02-22,Combos,Pick-up,2 Regular Non-veg@409,2,858.92,2.0
+2026-02,2026-02-22,Combos,Dine-In,2 Medium Non-veg@759,1,796.96,1.0
+2026-02,2026-02-22,Combos,Pick-up,Non Veg Meal For 1,1,303.46,1.0
+2026-02,2026-02-22,Desserts,Dine-In,Sizzling Brownie,1,215.26,1.0
+2026-02,2026-02-22,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-22,Desserts,Dine-In,Brownie,1,120.76,1.0
+2026-02,2026-02-22,Desserts,Pick-up,Brownie,1,120.76,1.0
+2026-02,2026-02-22,Mojitos,Dine-In,Water Melon,1,207.9,2.0
+2026-02,2026-02-22,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-22,Mojitos,Pick-up,Blue Mojito,1,103.96,1.0
+2026-02,2026-02-22,Munchies,Dine-In,French Fries,2,299.28000000000003,3.0
+2026-02,2026-02-22,Munchies,Dine-In,Chicken Nuggets,1,273.0,2.0
+2026-02,2026-02-22,Munchies,Pick-up,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-22,Munchies,Pick-up,Potato Wedges,1,162.76,1.0
+2026-02,2026-02-22,Munchies,Dine-In,Chicken Popcorn,1,141.76,1.0
+2026-02,2026-02-22,Munchies,Pick-up,French Fries,1,131.26,1.0
+2026-02,2026-02-22,Munchies,Pick-up,Peri Peri Dip,1,31.5,1.0
+2026-02,2026-02-22,Non Veg Pizza,Pick-up,Red Indian Pizza (12 Inch),2,1438.52,2.0
+2026-02,2026-02-22,Non Veg Pizza,Pick-up,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-22,Non Veg Pizza,Dine-In,Fiery Chicken Pizza (7 Inch),2,514.52,2.0
+2026-02,2026-02-22,Non Veg Pizza,Pick-up,Hot Treat Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-22,Non Veg Pizza,Dine-In,BBQ & Onion Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-22,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-22,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-22,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-22,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-22,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-22,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-22,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-22,Pasta,Dine-In,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-22,Salad,Dine-In,Greek Chicken Salad[non-veg],1,198.44,1.0
+2026-02,2026-02-22,Salad,Dine-In,Mixed Chicken Salad,1,198.44,1.0
+2026-02,2026-02-22,Salad,Dine-In,Coleslaw Salad,1,145.96,1.0
+2026-02,2026-02-22,Shakes & Juices,Dine-In,Chocolate Shake,2,297.0,3.0
+2026-02,2026-02-22,Shakes & Juices,Dine-In,Watermelon Juice,2,252.0,3.0
+2026-02,2026-02-22,Shakes & Juices,Dine-In,Pineapple Juice,2,168.0,2.0
+2026-02,2026-02-22,Shakes & Juices,Dine-In,Mint Lime Juice,2,94.52,2.0
+2026-02,2026-02-22,Shakes & Juices,Dine-In,Fresh Lime Juice,2,84.0,2.0
+2026-02,2026-02-22,Shakes & Juices,Pick-up,Fresh Lime Juice,1,84.0,2.0
+2026-02,2026-02-22,Soft Drinks,Dine-In,Soft Drink,2,219.0,2.0
+2026-02,2026-02-22,Soft Drinks,Pick-up,Pizza Upgrade,1,103.96,1.0
+2026-02,2026-02-22,Soft Drinks,Dine-In,Pepsi@50rs,2,100.0,2.0
+2026-02,2026-02-22,Soft Drinks,Pick-up,Soft Drink,1,28.0,1.0
+2026-02,2026-02-22,Soft Drinks,Dine-In,Mineral Water,1,20.0,1.0
+2026-02,2026-02-22,Soft Drinks,Pick-up,7up 250ml Pet,1,20.0,1.0
+2026-02,2026-02-22,Veg Pizza,Dine-In,Paneer Tikka Butter Masala (12 Inch),1,719.26,1.0
+2026-02,2026-02-22,Veg Pizza,Dine-In,Supreme Veg Pizza (9 Inch),1,567.0,1.0
+2026-02,2026-02-22,Veg Pizza,Dine-In,Mushroom Delight Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-22,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (7 Inch),1,371.7,1.0
+2026-02,2026-02-22,Veg Pizza,Pick-up,Plain Cheese Pizza (9 Inch),1,309.76,1.0
+2026-02,2026-02-22,Veg Pizza,Pick-up,Las Vegas Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-22,Veg Pizza,Pick-up,Mushroom Delight Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-22,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,183.76,1.0
+2026-02,2026-02-22,Veg Pizza,Dine-In,Margherita Pizza (7 Inch),1,141.76,1.0
+2026-02,2026-02-23,Burger,Pick-up,Burger Combo @ 179,1,563.86,3.0
+2026-02,2026-02-23,Burger,Dine-In,Burger Combo @ 179,1,375.9,2.0
+2026-02,2026-02-23,Combos,Pick-up,2 Regular Veg@349,1,366.46,1.0
+2026-02,2026-02-23,Combos,Dine-In,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-23,Combos,Pick-up,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-23,Combos,Pick-up,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-23,Combos,Pick-up,Combo Delight Veg,1,198.44,1.0
+2026-02,2026-02-23,Desserts,Pick-up,Brownie,1,120.76,1.0
+2026-02,2026-02-23,Garlic Bread,Pick-up,Garlic Bread,2,252.0,2.0
+2026-02,2026-02-23,Garlic Bread,Dine-In,Garlic Bread Supreme[non-veg],1,194.26,1.0
+2026-02,2026-02-23,Garlic Bread,Dine-In,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-23,Mojitos,Dine-In,Fresh Garden Mint,1,103.96,1.0
+2026-02,2026-02-23,Munchies,Pick-up,French Fries,1,99.76,1.0
+2026-02,2026-02-23,Non Veg Pizza,Dine-In,Italian Feast Pizza (9 Inch),1,614.26,1.0
+2026-02,2026-02-23,Non Veg Pizza,Pick-up,Meat Feast Pizza (9 Inch),1,572.26,1.0
+2026-02,2026-02-23,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-23,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-23,Shakes & Juices,Pick-up,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-23,Shakes & Juices,Dine-In,Fresh Lime Juice,1,42.0,1.0
+2026-02,2026-02-23,Soft Drinks,Pick-up,7up@40rs,1,40.0,1.0
+2026-02,2026-02-23,Soft Drinks,Dine-In,Mineral Water,1,20.0,1.0
+2026-02,2026-02-23,Soft Drinks,Pick-up,Soda,1,20.0,1.0
+2026-02,2026-02-23,Veg Pizza,Dine-In,Paneer Tikka Butter Masala (9 Inch),2,997.52,2.0
+2026-02,2026-02-23,Veg Pizza,Pick-up,Mexican Veg Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-23,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-23,Veg Pizza,Pick-up,Hot Passion Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-23,Veg Pizza,Pick-up,Mushroom Delight Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-23,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,183.76,1.0
+2026-02,2026-02-24,Burger,Dine-In,Burger Combo @ 169,2,532.3399999999999,3.0
+2026-02,2026-02-24,Burger,Pick-up,Regular Chicken Burger,1,220.5,2.0
+2026-02,2026-02-24,Burger,Dine-In,Veg Burger,1,94.5,1.0
+2026-02,2026-02-24,Combos,Pick-up,2 Regular Non-veg@409,1,429.46,1.0
+2026-02,2026-02-24,Combos,Pick-up,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-24,Combos,Dine-In,Combo Delight Non-veg,1,198.44,1.0
+2026-02,2026-02-24,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-24,Mojitos,Pick-up,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-24,Munchies,Pick-up,French Fries,2,199.52,2.0
+2026-02,2026-02-24,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-24,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),2,514.52,2.0
+2026-02,2026-02-24,Non Veg Pizza,Dine-In,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-24,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-24,Non Veg Pizza,Pick-up,Mambo Combo Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-24,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-24,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-24,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-24,Pasta,Pick-up,Veg Pasta,4,1029.04,4.0
+2026-02,2026-02-24,Pasta,Dine-In,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-24,Salad,Pick-up,Greek Salad,1,187.94,1.0
+2026-02,2026-02-24,Salad,Pick-up,Cheese N Macaroni Salad,1,166.96,1.0
+2026-02,2026-02-24,Shakes & Juices,Dine-In,Tender Coconut,1,198.0,2.0
+2026-02,2026-02-24,Shakes & Juices,Dine-In,Mint Lime Juice,1,141.76,3.0
+2026-02,2026-02-24,Shakes & Juices,Dine-In,Grapes Juice,1,84.0,1.0
+2026-02,2026-02-24,Shakes & Juices,Dine-In,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-24,Shakes & Juices,Pick-up,Fresh Lime Juice,1,84.0,2.0
+2026-02,2026-02-24,Soft Drinks,Pick-up,Pizza Upgrade,1,103.96,1.0
+2026-02,2026-02-24,Soft Drinks,Dine-In,Soft Drink,1,99.0,1.0
+2026-02,2026-02-24,Soft Drinks,Pick-up,Soft Drink,1,60.0,1.0
+2026-02,2026-02-24,Soft Drinks,Dine-In,Mineral Water,1,40.0,2.0
+2026-02,2026-02-24,Soft Drinks,Pick-up,7up 250ml Pet,1,40.0,2.0
+2026-02,2026-02-24,Soft Drinks,Pick-up,Mineral Water,1,40.0,2.0
+2026-02,2026-02-24,Soft Drinks,Pick-up,Soda,1,20.0,1.0
+2026-02,2026-02-24,Veg Pizza,Pick-up,Supreme Veg Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-24,Veg Pizza,Pick-up,5 Cheese Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-24,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-24,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),1,183.76,1.0
+2026-02,2026-02-25,Burger,Pick-up,Regular Chicken Burger,2,220.52,2.0
+2026-02,2026-02-25,Burger,Pick-up,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-25,Combos,Pick-up,2 Regular Non-veg@409,2,942.9200000000001,2.0
+2026-02,2026-02-25,Combos,Pick-up,Non Veg Meal For 4,1,870.46,1.0
+2026-02,2026-02-25,Mojitos,Dine-In,Green Apple,1,103.96,1.0
+2026-02,2026-02-25,Mojitos,Dine-In,Passion Fruit,1,103.96,1.0
+2026-02,2026-02-25,Munchies,Pick-up,Loaded Fries,1,388.5,2.0
+2026-02,2026-02-25,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-25,Munchies,Dine-In,Chicken Nuggets,1,136.5,1.0
+2026-02,2026-02-25,Munchies,Pick-up,French Fries,1,99.76,1.0
+2026-02,2026-02-25,Non Veg Pizza,Pick-up,Chicken Pepperoni (9 Inch),1,572.26,1.0
+2026-02,2026-02-25,Non Veg Pizza,Dine-In,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-25,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-25,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-25,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (9 Inch),1,467.26,1.0
+2026-02,2026-02-25,Non Veg Pizza,Pick-up,Butter Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-25,Non Veg Pizza,Pick-up,Red Indian Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-25,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-25,Shakes & Juices,Dine-In,Watermelon Juice,1,252.0,3.0
+2026-02,2026-02-25,Soft Drinks,Pick-up,Soft Drink,1,60.0,1.0
+2026-02,2026-02-25,Soft Drinks,Pick-up,7up@40rs,1,40.0,1.0
+2026-02,2026-02-25,Soft Drinks,Pick-up,Mineral Water,1,20.0,1.0
+2026-02,2026-02-25,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-25,Veg Pizza,Pick-up,Supreme Veg Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-25,Veg Pizza,Pick-up,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-25,Veg Pizza,Pick-up,Hot Passion Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-26,Burger,Dine-In,Burger Combo @ 169,1,354.9,2.0
+2026-02,2026-02-26,Burger,Pick-up,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-26,Burger,Dine-In,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-26,Combos,Dine-In,2 Medium Non-veg@759,1,901.96,1.0
+2026-02,2026-02-26,Combos,Dine-In,2 Regular Non-veg@409,1,513.46,1.0
+2026-02,2026-02-26,Combos,Pick-up,Super Saver Meal Regular,1,313.96,1.0
+2026-02,2026-02-26,Desserts,Dine-In,Brownie With Ice Cream,1,198.44,1.0
+2026-02,2026-02-26,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-26,Garlic Bread,Pick-up,Garlic Bread,1,126.0,1.0
+2026-02,2026-02-26,Mojitos,Dine-In,Blue Mojito,2,207.92,2.0
+2026-02,2026-02-26,Munchies,Pick-up,French Fries,1,199.5,2.0
+2026-02,2026-02-26,Munchies,Dine-In,Loaded Fries,1,194.26,1.0
+2026-02,2026-02-26,Munchies,Dine-In,French Fries,1,99.76,1.0
+2026-02,2026-02-26,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-26,Non Veg Pizza,Dine-In,Mexicana Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-26,Non Veg Pizza,Pick-up,Red Indian Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-26,Non Veg Pizza,Dine-In,5 Chicken Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-26,Non Veg Pizza,Dine-In,Meat Feast Pizza (7 Inch),1,330.76,1.0
+2026-02,2026-02-26,Pasta,Pick-up,Chicken Pasta,1,288.76,1.0
+2026-02,2026-02-26,Salad,Pick-up,Coleslaw Salad,1,145.96,1.0
+2026-02,2026-02-26,Shakes & Juices,Dine-In,Fresh Lime Juice,1,42.0,1.0
+2026-02,2026-02-26,Soft Drinks,Pick-up,Mdew@40rs,1,40.0,1.0
+2026-02,2026-02-26,Soft Drinks,Pick-up,Soft Drink,1,30.0,1.0
+2026-02,2026-02-26,Soft Drinks,Dine-In,Mineral Water,1,20.0,1.0
+2026-02,2026-02-26,Soft Drinks,Pick-up,7up 250ml Pet,1,20.0,1.0
+2026-02,2026-02-26,Soft Drinks,Pick-up,Pepsi 250ml Pet,1,20.0,1.0
+2026-02,2026-02-26,Sundaes,Dine-In,Nutty Vanilla,1,183.76,1.0
+2026-02,2026-02-26,Veg Pizza,Pick-up,7 Cheese Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-26,Veg Pizza,Pick-up,Mexican Veg Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-26,Veg Pizza,Pick-up,Plain Cheese Pizza (7 Inch),2,325.52,2.0
+2026-02,2026-02-26,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-27,Burger,Dine-In,Regular Chicken Burger,3,441.02,4.0
+2026-02,2026-02-27,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-27,Burger,Pick-up,Veg Burger,1,94.5,1.0
+2026-02,2026-02-27,Combos,Pick-up,2 Regular Non-veg@409,1,429.46,1.0
+2026-02,2026-02-27,Combos,Pick-up,2 Regular Veg@349,1,366.46,1.0
+2026-02,2026-02-27,Combos,Dine-In,Combo Delight Veg,1,198.44,1.0
+2026-02,2026-02-27,Desserts,Pick-up,Brownie With Ice Cream,1,396.9,2.0
+2026-02,2026-02-27,Desserts,Dine-In,Brownie,1,120.76,1.0
+2026-02,2026-02-27,Garlic Bread,Pick-up,Garlic Bread,3,378.0,3.0
+2026-02,2026-02-27,Garlic Bread,Dine-In,Garlic Bread Supreme[non-veg],1,194.26,1.0
+2026-02,2026-02-27,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-27,Mojitos,Pick-up,Blue Mojito,2,311.86,3.0
+2026-02,2026-02-27,Munchies,Pick-up,French Fries,2,299.26,3.0
+2026-02,2026-02-27,Munchies,Pick-up,Chicken Popcorn,1,141.76,1.0
+2026-02,2026-02-27,Non Veg Pizza,Pick-up,Mexicana Pizza (9 Inch),3,1564.52,3.0
+2026-02,2026-02-27,Non Veg Pizza,Pick-up,Bbq Chicken Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-27,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-27,Non Veg Pizza,Dine-In,Bbq Chicken Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-27,Non Veg Pizza,Pick-up,Red Indian Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-27,Non Veg Pizza,Pick-up,Hot Chicken Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-27,Pasta,Pick-up,Veg Pasta,1,257.26,1.0
+2026-02,2026-02-27,Salad,Pick-up,Cheese N Macaroni Salad,1,166.96,1.0
+2026-02,2026-02-27,Shakes & Juices,Dine-In,Chocolate Shake,1,99.0,1.0
+2026-02,2026-02-27,Shakes & Juices,Dine-In,Mint Lime Juice,1,94.5,2.0
+2026-02,2026-02-27,Soft Drinks,Pick-up,Soft Drink,2,90.0,2.0
+2026-02,2026-02-27,Soft Drinks,Dine-In,Pepsi@40rs,1,40.0,1.0
+2026-02,2026-02-27,Soft Drinks,Pick-up,Mdew 330ml Can,1,40.0,1.0
+2026-02,2026-02-27,Soft Drinks,Pick-up,Mineral Water,1,20.0,1.0
+2026-02,2026-02-27,Veg Pizza,Pick-up,Supreme Veg Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-27,Veg Pizza,Pick-up,Margherita Pizza (12 Inch),1,656.26,1.0
+2026-02,2026-02-27,Veg Pizza,Pick-up,Mexican Veg Pizza (12 Inch),1,572.26,1.0
+2026-02,2026-02-27,Veg Pizza,Pick-up,Plain Cheese Pizza (12 Inch),1,498.76,1.0
+2026-02,2026-02-27,Veg Pizza,Dine-In,Hot Passion Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-27,Veg Pizza,Pick-up,Mexican Veg Pizza (9 Inch),1,404.26,1.0
+2026-02,2026-02-27,Veg Pizza,Pick-up,Supreme Veg Pizza (7 Inch),1,313.96,1.0
+2026-02,2026-02-27,Veg Pizza,Pick-up,Las Vegas Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-28,Burger,Pick-up,Burger Combo @ 179,1,187.94,1.0
+2026-02,2026-02-28,Burger,Dine-In,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-28,Burger,Pick-up,Burger Combo @ 169,1,177.44,1.0
+2026-02,2026-02-28,Burger,Pick-up,Regular Chicken Burger,1,110.26,1.0
+2026-02,2026-02-28,Combos,Pick-up,2 Regular Non-veg@409,3,1372.38,3.0
+2026-02,2026-02-28,Combos,Dine-In,Delicious Combo Delight Medium,1,681.46,1.0
+2026-02,2026-02-28,Combos,Dine-In,2 Regular Non-veg@409,1,513.46,1.0
+2026-02,2026-02-28,Desserts,Dine-In,Brownie With Ice Cream,1,396.88,2.0
+2026-02,2026-02-28,Garlic Bread,Dine-In,Garlic Bread With Cheese,1,325.52,2.0
+2026-02,2026-02-28,Garlic Bread,Pick-up,Garlic Bread With Cheese,1,162.76,1.0
+2026-02,2026-02-28,Mojitos,Dine-In,Blue Mojito,2,207.92,2.0
+2026-02,2026-02-28,Munchies,Dine-In,French Fries,3,399.04,4.0
+2026-02,2026-02-28,Munchies,Dine-In,Chicken Nuggets,1,136.5,1.0
+2026-02,2026-02-28,Munchies,Pick-up,French Fries,1,131.26,1.0
+2026-02,2026-02-28,Munchies,Pick-up,Cheesy Dip,1,31.5,1.0
+2026-02,2026-02-28,Non Veg Pizza,Pick-up,Mexicana Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-28,Non Veg Pizza,Pick-up,Cheese N Corn Chicken (7 Inch),2,514.52,2.0
+2026-02,2026-02-28,Non Veg Pizza,Pick-up,Schezwan Chicken (9 Inch),1,498.76,1.0
+2026-02,2026-02-28,Non Veg Pizza,Pick-up,Tandoori Chicken Pizza (9 Inch),1,498.76,1.0
+2026-02,2026-02-28,Non Veg Pizza,Dine-In,Fiery Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-28,Non Veg Pizza,Pick-up,Fiery Chicken Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-28,Non Veg Pizza,Dine-In,Hot Chicken Pizza (7 Inch),1,378.0,1.0
+2026-02,2026-02-28,Non Veg Pizza,Pick-up,Chicken Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-28,Non Veg Pizza,Dine-In,Cheese N Corn Chicken (7 Inch),1,257.26,1.0
+2026-02,2026-02-28,Non Veg Pizza,Pick-up,BBQ & Onion Pizza (7 Inch),1,257.26,1.0
+2026-02,2026-02-28,Shakes & Juices,Dine-In,Watermelon Juice,2,168.0,2.0
+2026-02,2026-02-28,Shakes & Juices,Dine-In,Mint Lime Juice,1,94.5,2.0
+2026-02,2026-02-28,Shakes & Juices,Dine-In,Fresh Lime Juice,1,84.0,2.0
+2026-02,2026-02-28,Shakes & Juices,Dine-In,Pineapple Juice,1,84.0,1.0
+2026-02,2026-02-28,Soft Drinks,Dine-In,Soft Drink,1,220.0,1.0
+2026-02,2026-02-28,Soft Drinks,Pick-up,Soft Drink,3,178.0,3.0
+2026-02,2026-02-28,Soft Drinks,Pick-up,Mineral Water,1,100.0,5.0
+2026-02,2026-02-28,Soft Drinks,Dine-In,Pepsi@40rs,2,80.0,2.0
+2026-02,2026-02-28,Soft Drinks,Pick-up,Pepsi 250ml Pet,2,60.0,3.0
+2026-02,2026-02-28,Veg Pizza,Pick-up,Supreme Veg Pizza (12 Inch),1,719.26,1.0
+2026-02,2026-02-28,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (9 Inch),1,498.76,1.0
+2026-02,2026-02-28,Veg Pizza,Pick-up,5 Cheese Pizza (9 Inch),1,467.26,1.0
+2026-02,2026-02-28,Veg Pizza,Pick-up,Paneer Tikka Butter Masala (7 Inch),1,313.96,1.0
+2026-02,2026-02-28,Veg Pizza,Dine-In,5 Cheese Pizza (7 Inch),1,246.76,1.0
+2026-02,2026-02-28,Veg Pizza,Pick-up,Mexican Veg Pizza (7 Inch),1,215.26,1.0
+2026-02,2026-02-28,Veg Pizza,Dine-In,Margherita Pizza (7 Inch),1,141.76,1.0
+2026-02,2026-02-28,Veg Pizza,Dine-In,Plain Cheese Pizza (7 Inch),1,141.76,1.0
 2026-01,2026-01-01,Burger,Dine-In,Regular Chicken Burger,3,551.28,5.0
 2026-01,2026-01-01,Burger,Dine-In,Burger Combo @ 169,2,532.3399999999999,3.0
 2026-01,2026-01-01,Combos,Dine-In,2 Medium Non-veg@759,2,1698.92,2.0
