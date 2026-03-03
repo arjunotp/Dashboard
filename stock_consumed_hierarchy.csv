@@ -4,11 +4,12 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,BAKERY & PREMIX,pizza premix,Pizza Premix,4939.2,2026-03,19444.6,25.4
 2026-03,BEVERAGES,mojito mint,Mojito Menta Cubano,552.0,2026-03,19444.6,2.84
 2026-03,BEVERAGES,passion fruit syrup,DVC PASSION FRUIT FLV SYRUP 750ML,460.0,2026-03,19444.6,2.37
+2026-03,CHEESE & DAIRY,butter,butter scotch ice cream 4 ltr,773.0,2026-03,19444.6,3.98
 2026-03,CHEESE & DAIRY,butter,Butter Scotch Sauce 750ml,257.4,2026-03,19444.6,1.32
 2026-03,CHEESE & DAIRY,fresh cream,Richs versatie cream,2632.0,2026-03,19444.6,13.54
+2026-03,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,1632.0,2026-03,19444.6,8.39
 2026-03,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,924.8,2026-03,19444.6,4.76
 2026-03,CHEESE & DAIRY,fresh cream,Strawberry-Ice cream,880.6,2026-03,19444.6,4.53
-2026-03,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,816.0,2026-03,19444.6,4.2
 2026-03,CHEESE & DAIRY,paneer,paneer tikka powder,1620.0,2026-03,19444.6,8.33
 2026-03,"FLOUR, GRAINS & DRY GOODS",corn meal,Corn Meal - MAKKA RAVA,110.0,2026-03,19444.6,0.57
 2026-03,"FLOUR, GRAINS & DRY GOODS",rice,staff rice,765.0,2026-03,19444.6,3.93
@@ -63,6 +64,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,SAUCES & SPREADS,tomato ketchup,tomato ketchup 1.2 bottle,618.78,2026-03,19444.6,3.18
 2026-03,STATIONERY & MISC,pen,HABIT JALAPENO SLICES 2.9 KG,556.0,2026-03,19444.6,2.86
 2026-03,STATIONERY & MISC,pen,Puramate Pasta-Penne Rigatte 500g,469.0,2026-03,19444.6,2.41
+2026-03,UNMAPPED,UNMAPPED,grocery,3023.07,2026-03,19444.6,15.55
 2026-03,UNMAPPED,UNMAPPED,black olive slice Habit,1296.56,2026-03,19444.6,6.67
 2026-03,UNMAPPED,UNMAPPED,Blue curacao mojito,947.1,2026-03,19444.6,4.87
 2026-03,UNMAPPED,UNMAPPED,Rose lichy crush mojito,606.38,2026-03,19444.6,3.12
