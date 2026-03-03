@@ -1,4 +1,504 @@
 Month_code,Order_Date,Category,Order_Type,Orders,Sales_Amount
+2026-02,2026-02-01,Burger,Dine-In,2,404.26
+2026-02,2026-02-01,Burger,Pick-up,1,220.5
+2026-02,2026-02-01,Combos,Dine-In,3,2043.3000000000002
+2026-02,2026-02-01,Combos,Pick-up,3,2401.36
+2026-02,2026-02-01,Desserts,Dine-In,2,319.2
+2026-02,2026-02-01,Garlic Bread,Pick-up,1,126.0
+2026-02,2026-02-01,Mojitos,Dine-In,2,207.92
+2026-02,2026-02-01,Munchies,Dine-In,4,724.54
+2026-02,2026-02-01,Munchies,Pick-up,1,99.76
+2026-02,2026-02-01,Non Veg Pizza,Dine-In,4,1757.74
+2026-02,2026-02-01,Non Veg Pizza,Pick-up,7,4648.420000000001
+2026-02,2026-02-01,Pasta,Dine-In,1,288.76
+2026-02,2026-02-01,Pasta,Pick-up,1,866.26
+2026-02,2026-02-01,Salad,Pick-up,2,365.4
+2026-02,2026-02-01,Shakes & Juices,Dine-In,4,408.0
+2026-02,2026-02-01,Soft Drinks,Dine-In,4,164.0
+2026-02,2026-02-01,Soft Drinks,Pick-up,7,410.0
+2026-02,2026-02-01,Veg Pizza,Dine-In,1,141.76
+2026-02,2026-02-01,Veg Pizza,Pick-up,3,1622.28
+2026-02,2026-02-02,Burger,Dine-In,1,177.44
+2026-02,2026-02-02,Combos,Dine-In,2,827.4200000000001
+2026-02,2026-02-02,Combos,Pick-up,4,1624.3600000000001
+2026-02,2026-02-02,Garlic Bread,Dine-In,1,173.26
+2026-02,2026-02-02,Mojitos,Dine-In,2,207.92
+2026-02,2026-02-02,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-02,Munchies,Dine-In,1,199.52
+2026-02,2026-02-02,Munchies,Pick-up,2,509.26
+2026-02,2026-02-02,Non Veg Pizza,Dine-In,6,1747.26
+2026-02,2026-02-02,Non Veg Pizza,Pick-up,7,2504.3199999999997
+2026-02,2026-02-02,Pasta,Pick-up,1,288.76
+2026-02,2026-02-02,Salad,Dine-In,1,198.44
+2026-02,2026-02-02,Shakes & Juices,Dine-In,3,210.0
+2026-02,2026-02-02,Shakes & Juices,Pick-up,2,356.0
+2026-02,2026-02-02,Soft Drinks,Dine-In,1,40.0
+2026-02,2026-02-02,Soft Drinks,Pick-up,3,100.0
+2026-02,2026-02-02,Sundaes,Dine-In,1,208.94
+2026-02,2026-02-02,Veg Pizza,Dine-In,2,627.92
+2026-02,2026-02-02,Veg Pizza,Pick-up,1,215.26
+2026-02,2026-02-03,Burger,Dine-In,1,187.94
+2026-02,2026-02-03,Burger,Pick-up,1,94.5
+2026-02,2026-02-03,Combos,Dine-In,3,1246.38
+2026-02,2026-02-03,Combos,Pick-up,4,1948.8200000000002
+2026-02,2026-02-03,Mojitos,Dine-In,2,207.92
+2026-02,2026-02-03,Munchies,Dine-In,2,315.02
+2026-02,2026-02-03,Munchies,Pick-up,3,362.28
+2026-02,2026-02-03,Non Veg Pizza,Dine-In,3,1086.78
+2026-02,2026-02-03,Non Veg Pizza,Pick-up,5,1537.24
+2026-02,2026-02-03,Pasta,Dine-In,1,257.26
+2026-02,2026-02-03,Salad,Pick-up,2,365.4
+2026-02,2026-02-03,Shakes & Juices,Dine-In,4,1029.0
+2026-02,2026-02-03,Shakes & Juices,Pick-up,2,267.0
+2026-02,2026-02-03,Soft Drinks,Dine-In,2,60.0
+2026-02,2026-02-03,Soft Drinks,Pick-up,9,340.0
+2026-02,2026-02-03,Veg Pizza,Dine-In,5,1550.8999999999999
+2026-02,2026-02-03,Veg Pizza,Pick-up,1,215.26
+2026-02,2026-02-04,Burger,Dine-In,3,465.14
+2026-02,2026-02-04,Combos,Dine-In,1,523.96
+2026-02,2026-02-04,Combos,Pick-up,1,681.46
+2026-02,2026-02-04,Desserts,Pick-up,1,241.5
+2026-02,2026-02-04,Garlic Bread,Pick-up,1,126.0
+2026-02,2026-02-04,Mojitos,Dine-In,1,103.96
+2026-02,2026-02-04,Munchies,Dine-In,1,99.76
+2026-02,2026-02-04,Munchies,Pick-up,2,299.26
+2026-02,2026-02-04,Non Veg Pizza,Dine-In,2,571.22
+2026-02,2026-02-04,Non Veg Pizza,Pick-up,6,2919.0600000000004
+2026-02,2026-02-04,Pasta,Dine-In,2,577.52
+2026-02,2026-02-04,Pasta,Pick-up,1,288.76
+2026-02,2026-02-04,Shakes & Juices,Dine-In,4,299.26
+2026-02,2026-02-04,Soft Drinks,Dine-In,1,20.0
+2026-02,2026-02-04,Soft Drinks,Pick-up,5,190.0
+2026-02,2026-02-04,Veg Pizza,Dine-In,1,498.76
+2026-02,2026-02-04,Veg Pizza,Pick-up,2,462.02
+2026-02,2026-02-05,Burger,Dine-In,4,1370.22
+2026-02,2026-02-05,Burger,Pick-up,2,298.2
+2026-02,2026-02-05,Combos,Dine-In,3,910.34
+2026-02,2026-02-05,Combos,Pick-up,4,2731.08
+2026-02,2026-02-05,Garlic Bread,Dine-In,1,162.76
+2026-02,2026-02-05,Garlic Bread,Pick-up,1,162.76
+2026-02,2026-02-05,Mojitos,Dine-In,5,623.76
+2026-02,2026-02-05,Munchies,Dine-In,2,294.02
+2026-02,2026-02-05,Munchies,Pick-up,3,687.76
+2026-02,2026-02-05,Non Veg Pizza,Dine-In,7,3060.8200000000006
+2026-02,2026-02-05,Non Veg Pizza,Pick-up,6,4827.960000000001
+2026-02,2026-02-05,Pasta,Dine-In,2,546.02
+2026-02,2026-02-05,Pasta,Pick-up,1,288.76
+2026-02,2026-02-05,Shakes & Juices,Dine-In,5,430.5
+2026-02,2026-02-05,Soft Drinks,Dine-In,2,60.0
+2026-02,2026-02-05,Soft Drinks,Pick-up,8,336.0
+2026-02,2026-02-05,Sundaes,Dine-In,1,204.76
+2026-02,2026-02-05,Veg Pizza,Dine-In,3,1311.48
+2026-02,2026-02-05,Veg Pizza,Pick-up,3,1389.1799999999998
+2026-02,2026-02-06,Burger,Dine-In,2,220.52
+2026-02,2026-02-06,Burger,Pick-up,1,110.26
+2026-02,2026-02-06,Combos,Dine-In,1,313.96
+2026-02,2026-02-06,Combos,Pick-up,1,198.44
+2026-02,2026-02-06,Garlic Bread,Dine-In,1,162.76
+2026-02,2026-02-06,Garlic Bread,Pick-up,2,325.52
+2026-02,2026-02-06,Mojitos,Dine-In,2,311.86
+2026-02,2026-02-06,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-06,Munchies,Dine-In,1,388.5
+2026-02,2026-02-06,Munchies,Pick-up,3,362.28
+2026-02,2026-02-06,Non Veg Pizza,Pick-up,5,2067.5
+2026-02,2026-02-06,Pasta,Dine-In,2,577.52
+2026-02,2026-02-06,Pasta,Pick-up,1,257.26
+2026-02,2026-02-06,Shakes & Juices,Dine-In,3,372.5
+2026-02,2026-02-06,Shakes & Juices,Pick-up,1,277.0
+2026-02,2026-02-06,Soft Drinks,Pick-up,3,150.0
+2026-02,2026-02-06,Veg Pizza,Dine-In,1,498.76
+2026-02,2026-02-06,Veg Pizza,Pick-up,4,2818.26
+2026-02,2026-02-07,Burger,Dine-In,3,475.64
+2026-02,2026-02-07,Burger,Pick-up,2,661.5
+2026-02,2026-02-07,Combos,Dine-In,3,1151.88
+2026-02,2026-02-07,Combos,Pick-up,8,4652.6
+2026-02,2026-02-07,Desserts,Dine-In,1,198.44
+2026-02,2026-02-07,Garlic Bread,Pick-up,3,677.26
+2026-02,2026-02-07,Mojitos,Dine-In,2,311.88
+2026-02,2026-02-07,Munchies,Dine-In,2,420.02
+2026-02,2026-02-07,Munchies,Pick-up,4,493.53999999999996
+2026-02,2026-02-07,Non Veg Pizza,Dine-In,5,2067.5
+2026-02,2026-02-07,Non Veg Pizza,Pick-up,6,3805.2800000000007
+2026-02,2026-02-07,Pasta,Dine-In,2,546.02
+2026-02,2026-02-07,Pasta,Pick-up,1,577.52
+2026-02,2026-02-07,Salad,Dine-In,2,396.88
+2026-02,2026-02-07,Shakes & Juices,Dine-In,1,89.0
+2026-02,2026-02-07,Shakes & Juices,Pick-up,1,178.5
+2026-02,2026-02-07,Soft Drinks,Dine-In,2,60.0
+2026-02,2026-02-07,Soft Drinks,Pick-up,3,71.5
+2026-02,2026-02-07,Veg Pizza,Dine-In,1,682.52
+2026-02,2026-02-07,Veg Pizza,Pick-up,3,645.78
+2026-02,2026-02-08,Burger,Dine-In,6,1194.88
+2026-02,2026-02-08,Combos,Dine-In,2,995.4200000000001
+2026-02,2026-02-08,Combos,Pick-up,2,1100.4
+2026-02,2026-02-08,Desserts,Dine-In,2,319.2
+2026-02,2026-02-08,Desserts,Pick-up,1,120.76
+2026-02,2026-02-08,Mojitos,Dine-In,2,415.84
+2026-02,2026-02-08,Munchies,Dine-In,5,708.78
+2026-02,2026-02-08,Munchies,Pick-up,2,493.52
+2026-02,2026-02-08,Non Veg Pizza,Dine-In,6,2897.0200000000004
+2026-02,2026-02-08,Non Veg Pizza,Pick-up,9,3487.1400000000003
+2026-02,2026-02-08,Pasta,Dine-In,1,288.76
+2026-02,2026-02-08,Pasta,Pick-up,4,2567.2799999999997
+2026-02,2026-02-08,Salad,Dine-In,3,500.86
+2026-02,2026-02-08,Shakes & Juices,Dine-In,5,554.0
+2026-02,2026-02-08,Soft Drinks,Dine-In,1,35.0
+2026-02,2026-02-08,Soft Drinks,Pick-up,2,96.0
+2026-02,2026-02-08,Sundaes,Dine-In,1,183.76
+2026-02,2026-02-08,Veg Pizza,Dine-In,2,903.02
+2026-02,2026-02-08,Veg Pizza,Pick-up,4,2250.2
+2026-02,2026-02-09,Burger,Pick-up,1,220.5
+2026-02,2026-02-09,Combos,Dine-In,2,827.4200000000001
+2026-02,2026-02-09,Combos,Pick-up,4,2589.34
+2026-02,2026-02-09,Garlic Bread,Pick-up,2,252.0
+2026-02,2026-02-09,Mojitos,Dine-In,1,207.92
+2026-02,2026-02-09,Munchies,Dine-In,2,294.02
+2026-02,2026-02-09,Munchies,Pick-up,3,393.78
+2026-02,2026-02-09,Non Veg Pizza,Dine-In,2,976.52
+2026-02,2026-02-09,Non Veg Pizza,Pick-up,10,4416.400000000001
+2026-02,2026-02-09,Pasta,Dine-In,2,546.02
+2026-02,2026-02-09,Pasta,Pick-up,2,546.02
+2026-02,2026-02-09,Shakes & Juices,Dine-In,4,366.0
+2026-02,2026-02-09,Shakes & Juices,Pick-up,1,336.0
+2026-02,2026-02-09,Soft Drinks,Dine-In,2,60.0
+2026-02,2026-02-09,Soft Drinks,Pick-up,3,100.0
+2026-02,2026-02-09,Veg Pizza,Dine-In,2,388.52
+2026-02,2026-02-09,Veg Pizza,Pick-up,3,1180.24
+2026-02,2026-02-10,Burger,Dine-In,2,287.7
+2026-02,2026-02-10,Burger,Pick-up,2,282.44
+2026-02,2026-02-10,Combos,Dine-In,1,513.46
+2026-02,2026-02-10,Combos,Pick-up,6,4842.64
+2026-02,2026-02-10,Desserts,Pick-up,1,198.44
+2026-02,2026-02-10,Garlic Bread,Pick-up,3,414.76
+2026-02,2026-02-10,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-10,Munchies,Dine-In,2,294.02
+2026-02,2026-02-10,Munchies,Pick-up,5,887.3
+2026-02,2026-02-10,Non Veg Pizza,Dine-In,5,1956.2
+2026-02,2026-02-10,Non Veg Pizza,Pick-up,8,4092.9800000000005
+2026-02,2026-02-10,Pasta,Pick-up,1,288.76
+2026-02,2026-02-10,Shakes & Juices,Dine-In,6,619.0
+2026-02,2026-02-10,Soft Drinks,Dine-In,4,250.0
+2026-02,2026-02-10,Soft Drinks,Pick-up,2,60.0
+2026-02,2026-02-10,Veg Pizza,Dine-In,2,812.72
+2026-02,2026-02-10,Veg Pizza,Pick-up,5,1811.3
+2026-02,2026-02-11,Burger,Dine-In,1,94.5
+2026-02,2026-02-11,Burger,Pick-up,1,110.26
+2026-02,2026-02-11,Combos,Dine-In,2,743.42
+2026-02,2026-02-11,Combos,Pick-up,4,2136.76
+2026-02,2026-02-11,Desserts,Dine-In,1,198.44
+2026-02,2026-02-11,Mojitos,Dine-In,1,103.96
+2026-02,2026-02-11,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-11,Munchies,Pick-up,1,131.26
+2026-02,2026-02-11,Non Veg Pizza,Dine-In,1,313.96
+2026-02,2026-02-11,Non Veg Pizza,Pick-up,6,2349.96
+2026-02,2026-02-11,Pasta,Pick-up,3,803.28
+2026-02,2026-02-11,Shakes & Juices,Dine-In,1,84.0
+2026-02,2026-02-11,Soft Drinks,Dine-In,1,40.0
+2026-02,2026-02-11,Soft Drinks,Pick-up,2,50.0
+2026-02,2026-02-12,Burger,Dine-In,1,709.8
+2026-02,2026-02-12,Combos,Dine-In,2,1151.8600000000001
+2026-02,2026-02-12,Garlic Bread,Dine-In,1,173.26
+2026-02,2026-02-12,Mojitos,Dine-In,1,103.96
+2026-02,2026-02-12,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-12,Munchies,Dine-In,2,299.26
+2026-02,2026-02-12,Munchies,Pick-up,1,162.76
+2026-02,2026-02-12,Non Veg Pizza,Dine-In,8,3162.6800000000003
+2026-02,2026-02-12,Non Veg Pizza,Pick-up,1,257.26
+2026-02,2026-02-12,Pasta,Dine-In,2,577.52
+2026-02,2026-02-12,Shakes & Juices,Dine-In,5,566.0
+2026-02,2026-02-12,Soft Drinks,Dine-In,6,220.0
+2026-02,2026-02-12,Soft Drinks,Pick-up,13,420.0
+2026-02,2026-02-12,Veg Pizza,Dine-In,2,430.52
+2026-02,2026-02-12,Veg Pizza,Pick-up,2,1118.28
+2026-02,2026-02-13,Burger,Pick-up,2,882.02
+2026-02,2026-02-13,Combos,Dine-In,2,995.4200000000001
+2026-02,2026-02-13,Combos,Pick-up,4,3460.84
+2026-02,2026-02-13,Desserts,Dine-In,1,215.26
+2026-02,2026-02-13,Garlic Bread,Dine-In,1,162.76
+2026-02,2026-02-13,Garlic Bread,Pick-up,2,498.76
+2026-02,2026-02-13,Mojitos,Dine-In,1,311.86
+2026-02,2026-02-13,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-13,Munchies,Dine-In,4,493.53999999999996
+2026-02,2026-02-13,Munchies,Pick-up,5,1008.04
+2026-02,2026-02-13,Non Veg Pizza,Dine-In,2,571.22
+2026-02,2026-02-13,Non Veg Pizza,Pick-up,4,2313.2
+2026-02,2026-02-13,Pasta,Dine-In,1,288.76
+2026-02,2026-02-13,Pasta,Pick-up,1,866.26
+2026-02,2026-02-13,Shakes & Juices,Dine-In,6,1285.52
+2026-02,2026-02-13,Soft Drinks,Dine-In,2,180.0
+2026-02,2026-02-13,Soft Drinks,Pick-up,12,550.0
+2026-02,2026-02-13,Veg Pizza,Dine-In,1,141.76
+2026-02,2026-02-13,Veg Pizza,Pick-up,2,529.22
+2026-02,2026-02-14,Burger,Dine-In,2,287.7
+2026-02,2026-02-14,Burger,Pick-up,2,441.02
+2026-02,2026-02-14,Combos,Dine-In,4,1549.8200000000002
+2026-02,2026-02-14,Combos,Pick-up,4,1833.3400000000001
+2026-02,2026-02-14,Desserts,Pick-up,1,198.44
+2026-02,2026-02-14,Garlic Bread,Pick-up,2,288.76
+2026-02,2026-02-14,Munchies,Dine-In,1,162.76
+2026-02,2026-02-14,Munchies,Pick-up,3,462.02
+2026-02,2026-02-14,Non Veg Pizza,Dine-In,5,2288.0
+2026-02,2026-02-14,Non Veg Pizza,Pick-up,15,6364.180000000001
+2026-02,2026-02-14,Pasta,Dine-In,1,288.76
+2026-02,2026-02-14,Pasta,Pick-up,1,577.5
+2026-02,2026-02-14,Salad,Dine-In,1,198.44
+2026-02,2026-02-14,Shakes & Juices,Dine-In,5,697.26
+2026-02,2026-02-14,Soft Drinks,Dine-In,3,80.0
+2026-02,2026-02-14,Soft Drinks,Pick-up,8,266.0
+2026-02,2026-02-14,Veg Pizza,Pick-up,3,1433.28
+2026-02,2026-02-15,Burger,Dine-In,4,723.44
+2026-02,2026-02-15,Burger,Pick-up,1,110.26
+2026-02,2026-02-15,Combos,Dine-In,1,313.96
+2026-02,2026-02-15,Combos,Pick-up,5,1895.26
+2026-02,2026-02-15,Desserts,Dine-In,1,198.44
+2026-02,2026-02-15,Garlic Bread,Dine-In,2,357.02
+2026-02,2026-02-15,Garlic Bread,Pick-up,1,194.26
+2026-02,2026-02-15,Mojitos,Dine-In,2,415.8
+2026-02,2026-02-15,Mojitos,Pick-up,1,207.9
+2026-02,2026-02-15,Munchies,Dine-In,3,551.28
+2026-02,2026-02-15,Munchies,Pick-up,4,1370.28
+2026-02,2026-02-15,Non Veg Pizza,Dine-In,8,3238.2800000000007
+2026-02,2026-02-15,Non Veg Pizza,Pick-up,4,4310.320000000001
+2026-02,2026-02-15,Pasta,Dine-In,1,288.76
+2026-02,2026-02-15,Pasta,Pick-up,2,577.52
+2026-02,2026-02-15,Salad,Dine-In,2,365.4
+2026-02,2026-02-15,Shakes & Juices,Dine-In,4,776.0
+2026-02,2026-02-15,Shakes & Juices,Pick-up,2,173.0
+2026-02,2026-02-15,Soft Drinks,Dine-In,3,120.0
+2026-02,2026-02-15,Soft Drinks,Pick-up,3,120.0
+2026-02,2026-02-15,Veg Pizza,Dine-In,4,1643.3
+2026-02,2026-02-15,Veg Pizza,Pick-up,4,2004.5
+2026-02,2026-02-16,Burger,Dine-In,4,784.3599999999999
+2026-02,2026-02-16,Burger,Pick-up,1,177.44
+2026-02,2026-02-16,Combos,Dine-In,2,1278.92
+2026-02,2026-02-16,Combos,Pick-up,3,2663.88
+2026-02,2026-02-16,Desserts,Pick-up,2,517.66
+2026-02,2026-02-16,Garlic Bread,Dine-In,1,162.76
+2026-02,2026-02-16,Garlic Bread,Pick-up,2,320.26
+2026-02,2026-02-16,Mojitos,Dine-In,3,415.82
+2026-02,2026-02-16,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-16,Munchies,Dine-In,1,136.5
+2026-02,2026-02-16,Munchies,Pick-up,7,1029.08
+2026-02,2026-02-16,Non Veg Pizza,Dine-In,5,2139.96
+2026-02,2026-02-16,Non Veg Pizza,Pick-up,7,3519.66
+2026-02,2026-02-16,Pasta,Pick-up,1,288.76
+2026-02,2026-02-16,Salad,Pick-up,2,396.88
+2026-02,2026-02-16,Shakes & Juices,Dine-In,4,435.76
+2026-02,2026-02-16,Shakes & Juices,Pick-up,1,84.0
+2026-02,2026-02-16,Soft Drinks,Dine-In,2,40.0
+2026-02,2026-02-16,Soft Drinks,Pick-up,5,290.0
+2026-02,2026-02-16,Veg Pizza,Dine-In,1,313.96
+2026-02,2026-02-16,Veg Pizza,Pick-up,3,1538.28
+2026-02,2026-02-17,Burger,Dine-In,1,187.94
+2026-02,2026-02-17,Burger,Pick-up,2,298.2
+2026-02,2026-02-17,Combos,Dine-In,1,796.96
+2026-02,2026-02-17,Combos,Pick-up,5,2177.72
+2026-02,2026-02-17,Desserts,Pick-up,2,319.2
+2026-02,2026-02-17,Munchies,Pick-up,3,530.28
+2026-02,2026-02-17,Non Veg Pizza,Dine-In,2,1050.02
+2026-02,2026-02-17,Non Veg Pizza,Pick-up,7,3506.0200000000004
+2026-02,2026-02-17,Shakes & Juices,Dine-In,2,188.26
+2026-02,2026-02-17,Soft Drinks,Dine-In,2,280.0
+2026-02,2026-02-17,Soft Drinks,Pick-up,5,180.0
+2026-02,2026-02-17,Sundaes,Pick-up,1,183.76
+2026-02,2026-02-17,Veg Pizza,Pick-up,2,714.02
+2026-02,2026-02-18,Burger,Dine-In,3,1174.96
+2026-02,2026-02-18,Burger,Pick-up,3,418.94
+2026-02,2026-02-18,Combos,Dine-In,2,869.4200000000001
+2026-02,2026-02-18,Combos,Pick-up,5,2493.8
+2026-02,2026-02-18,Desserts,Dine-In,1,198.44
+2026-02,2026-02-18,Desserts,Pick-up,1,396.9
+2026-02,2026-02-18,Garlic Bread,Dine-In,1,162.76
+2026-02,2026-02-18,Garlic Bread,Pick-up,1,162.76
+2026-02,2026-02-18,Munchies,Dine-In,1,294.02
+2026-02,2026-02-18,Munchies,Pick-up,6,882.06
+2026-02,2026-02-18,Non Veg Pizza,Dine-In,3,1258.98
+2026-02,2026-02-18,Non Veg Pizza,Pick-up,5,1666.4
+2026-02,2026-02-18,Pasta,Dine-In,2,514.52
+2026-02,2026-02-18,Salad,Pick-up,1,198.44
+2026-02,2026-02-18,Shakes & Juices,Dine-In,3,299.26
+2026-02,2026-02-18,Shakes & Juices,Pick-up,1,84.0
+2026-02,2026-02-18,Soft Drinks,Dine-In,4,359.0
+2026-02,2026-02-18,Soft Drinks,Pick-up,9,488.0
+2026-02,2026-02-18,Veg Pizza,Dine-In,1,215.26
+2026-02,2026-02-18,Veg Pizza,Pick-up,3,1023.78
+2026-02,2026-02-19,Burger,Dine-In,1,177.44
+2026-02,2026-02-19,Burger,Pick-up,1,110.26
+2026-02,2026-02-19,Combos,Dine-In,1,592.2
+2026-02,2026-02-19,Combos,Pick-up,1,471.46
+2026-02,2026-02-19,Desserts,Pick-up,1,120.76
+2026-02,2026-02-19,Garlic Bread,Dine-In,1,194.26
+2026-02,2026-02-19,Garlic Bread,Pick-up,1,126.0
+2026-02,2026-02-19,Mojitos,Dine-In,1,103.96
+2026-02,2026-02-19,Munchies,Pick-up,4,525.04
+2026-02,2026-02-19,Non Veg Pizza,Pick-up,3,1573.98
+2026-02,2026-02-19,Pasta,Pick-up,1,514.5
+2026-02,2026-02-19,Salad,Pick-up,1,198.44
+2026-02,2026-02-19,Shakes & Juices,Dine-In,1,168.0
+2026-02,2026-02-19,Shakes & Juices,Pick-up,1,168.0
+2026-02,2026-02-19,Soft Drinks,Dine-In,2,70.0
+2026-02,2026-02-19,Soft Drinks,Pick-up,2,70.0
+2026-02,2026-02-19,Veg Pizza,Dine-In,1,215.26
+2026-02,2026-02-19,Veg Pizza,Pick-up,6,2264.92
+2026-02,2026-02-20,Burger,Dine-In,3,751.78
+2026-02,2026-02-20,Combos,Dine-In,3,1078.3799999999999
+2026-02,2026-02-20,Combos,Pick-up,2,827.4200000000001
+2026-02,2026-02-20,Garlic Bread,Dine-In,2,336.02
+2026-02,2026-02-20,Garlic Bread,Pick-up,1,126.0
+2026-02,2026-02-20,Mojitos,Dine-In,2,207.92
+2026-02,2026-02-20,Munchies,Dine-In,4,535.54
+2026-02,2026-02-20,Munchies,Pick-up,5,887.28
+2026-02,2026-02-20,Non Veg Pizza,Dine-In,3,1512.04
+2026-02,2026-02-20,Non Veg Pizza,Pick-up,3,771.78
+2026-02,2026-02-20,Pasta,Dine-In,2,546.02
+2026-02,2026-02-20,Pasta,Pick-up,2,577.52
+2026-02,2026-02-20,Salad,Dine-In,1,187.94
+2026-02,2026-02-20,Shakes & Juices,Dine-In,6,687.26
+2026-02,2026-02-20,Soft Drinks,Dine-In,4,390.0
+2026-02,2026-02-20,Soft Drinks,Pick-up,5,180.0
+2026-02,2026-02-20,Veg Pizza,Dine-In,5,2365.7200000000003
+2026-02,2026-02-20,Veg Pizza,Pick-up,4,1316.74
+2026-02,2026-02-21,Burger,Dine-In,5,1502.5600000000002
+2026-02,2026-02-21,Burger,Pick-up,3,408.46
+2026-02,2026-02-21,Combos,Dine-In,4,2388.78
+2026-02,2026-02-21,Combos,Pick-up,3,1708.38
+2026-02,2026-02-21,Desserts,Dine-In,1,198.44
+2026-02,2026-02-21,Garlic Bread,Dine-In,2,336.02
+2026-02,2026-02-21,Garlic Bread,Pick-up,1,126.0
+2026-02,2026-02-21,Mojitos,Dine-In,4,415.84
+2026-02,2026-02-21,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-21,Munchies,Dine-In,4,561.8000000000001
+2026-02,2026-02-21,Munchies,Pick-up,2,467.28
+2026-02,2026-02-21,Non Veg Pizza,Dine-In,3,1323.02
+2026-02,2026-02-21,Non Veg Pizza,Pick-up,5,2514.8
+2026-02,2026-02-21,Pasta,Dine-In,2,577.52
+2026-02,2026-02-21,Salad,Pick-up,2,354.9
+2026-02,2026-02-21,Shakes & Juices,Dine-In,1,47.26
+2026-02,2026-02-21,Shakes & Juices,Pick-up,2,230.26
+2026-02,2026-02-21,Soft Drinks,Dine-In,9,850.0
+2026-02,2026-02-21,Soft Drinks,Pick-up,4,140.0
+2026-02,2026-02-21,Veg Pizza,Dine-In,3,929.28
+2026-02,2026-02-21,Veg Pizza,Pick-up,5,1422.8
+2026-02,2026-02-22,Burger,Dine-In,2,382.2
+2026-02,2026-02-22,Combos,Dine-In,3,1823.88
+2026-02,2026-02-22,Combos,Pick-up,3,1162.3799999999999
+2026-02,2026-02-22,Desserts,Dine-In,3,534.46
+2026-02,2026-02-22,Desserts,Pick-up,1,120.76
+2026-02,2026-02-22,Mojitos,Dine-In,2,311.86
+2026-02,2026-02-22,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-22,Munchies,Dine-In,3,714.04
+2026-02,2026-02-22,Munchies,Pick-up,3,519.78
+2026-02,2026-02-22,Non Veg Pizza,Dine-In,5,1553.0
+2026-02,2026-02-22,Non Veg Pizza,Pick-up,8,3798.9800000000005
+2026-02,2026-02-22,Pasta,Dine-In,1,257.26
+2026-02,2026-02-22,Pasta,Pick-up,1,288.76
+2026-02,2026-02-22,Salad,Dine-In,2,542.8399999999999
+2026-02,2026-02-22,Shakes & Juices,Dine-In,6,895.52
+2026-02,2026-02-22,Shakes & Juices,Pick-up,1,84.0
+2026-02,2026-02-22,Soft Drinks,Dine-In,5,339.0
+2026-02,2026-02-22,Soft Drinks,Pick-up,3,151.95999999999998
+2026-02,2026-02-22,Veg Pizza,Dine-In,4,1832.28
+2026-02,2026-02-22,Veg Pizza,Pick-up,5,1327.24
+2026-02,2026-02-23,Burger,Dine-In,1,375.9
+2026-02,2026-02-23,Burger,Pick-up,1,563.86
+2026-02,2026-02-23,Combos,Dine-In,1,313.96
+2026-02,2026-02-23,Combos,Pick-up,3,1077.3
+2026-02,2026-02-23,Desserts,Pick-up,1,120.76
+2026-02,2026-02-23,Garlic Bread,Dine-In,2,320.26
+2026-02,2026-02-23,Garlic Bread,Pick-up,2,252.0
+2026-02,2026-02-23,Mojitos,Dine-In,1,103.96
+2026-02,2026-02-23,Munchies,Pick-up,1,99.76
+2026-02,2026-02-23,Non Veg Pizza,Dine-In,1,614.26
+2026-02,2026-02-23,Non Veg Pizza,Pick-up,2,1071.02
+2026-02,2026-02-23,Pasta,Dine-In,1,288.76
+2026-02,2026-02-23,Shakes & Juices,Dine-In,1,42.0
+2026-02,2026-02-23,Shakes & Juices,Pick-up,1,84.0
+2026-02,2026-02-23,Soft Drinks,Dine-In,1,20.0
+2026-02,2026-02-23,Soft Drinks,Pick-up,2,60.0
+2026-02,2026-02-23,Veg Pizza,Dine-In,2,997.52
+2026-02,2026-02-23,Veg Pizza,Pick-up,4,1364.0
+2026-02,2026-02-24,Burger,Dine-In,3,626.8399999999999
+2026-02,2026-02-24,Burger,Pick-up,1,220.5
+2026-02,2026-02-24,Combos,Dine-In,1,198.44
+2026-02,2026-02-24,Combos,Pick-up,2,743.42
+2026-02,2026-02-24,Garlic Bread,Pick-up,1,162.76
+2026-02,2026-02-24,Mojitos,Pick-up,1,103.96
+2026-02,2026-02-24,Munchies,Dine-In,1,194.26
+2026-02,2026-02-24,Munchies,Pick-up,2,199.52
+2026-02,2026-02-24,Non Veg Pizza,Dine-In,3,1069.98
+2026-02,2026-02-24,Non Veg Pizza,Pick-up,5,1601.3
+2026-02,2026-02-24,Pasta,Dine-In,1,288.76
+2026-02,2026-02-24,Pasta,Pick-up,4,1029.04
+2026-02,2026-02-24,Salad,Pick-up,2,354.9
+2026-02,2026-02-24,Shakes & Juices,Dine-In,3,507.76
+2026-02,2026-02-24,Shakes & Juices,Pick-up,1,84.0
+2026-02,2026-02-24,Soft Drinks,Dine-In,2,139.0
+2026-02,2026-02-24,Soft Drinks,Pick-up,4,263.96
+2026-02,2026-02-24,Veg Pizza,Pick-up,4,1144.54
+2026-02,2026-02-25,Burger,Pick-up,3,408.46000000000004
+2026-02,2026-02-25,Combos,Pick-up,3,1813.38
+2026-02,2026-02-25,Mojitos,Dine-In,1,207.92
+2026-02,2026-02-25,Munchies,Dine-In,2,330.76
+2026-02,2026-02-25,Munchies,Pick-up,2,488.26
+2026-02,2026-02-25,Non Veg Pizza,Dine-In,1,498.76
+2026-02,2026-02-25,Non Veg Pizza,Pick-up,6,2922.2200000000003
+2026-02,2026-02-25,Shakes & Juices,Dine-In,1,252.0
+2026-02,2026-02-25,Soft Drinks,Pick-up,3,140.0
+2026-02,2026-02-25,Veg Pizza,Pick-up,2,1059.48
+2026-02,2026-02-26,Burger,Dine-In,2,465.15999999999997
+2026-02,2026-02-26,Burger,Pick-up,1,187.94
+2026-02,2026-02-26,Combos,Dine-In,2,1415.42
+2026-02,2026-02-26,Combos,Pick-up,1,313.96
+2026-02,2026-02-26,Desserts,Dine-In,1,198.44
+2026-02,2026-02-26,Garlic Bread,Pick-up,2,288.76
+2026-02,2026-02-26,Mojitos,Dine-In,2,207.92
+2026-02,2026-02-26,Munchies,Dine-In,2,294.02
+2026-02,2026-02-26,Munchies,Pick-up,1,199.5
+2026-02,2026-02-26,Non Veg Pizza,Dine-In,2,1160.28
+2026-02,2026-02-26,Non Veg Pizza,Pick-up,2,1218.02
+2026-02,2026-02-26,Pasta,Pick-up,1,288.76
+2026-02,2026-02-26,Salad,Pick-up,1,145.96
+2026-02,2026-02-26,Shakes & Juices,Dine-In,1,42.0
+2026-02,2026-02-26,Soft Drinks,Dine-In,1,20.0
+2026-02,2026-02-26,Soft Drinks,Pick-up,4,110.0
+2026-02,2026-02-26,Sundaes,Dine-In,1,183.76
+2026-02,2026-02-26,Veg Pizza,Pick-up,4,1443.8
+2026-02,2026-02-27,Burger,Dine-In,4,618.46
+2026-02,2026-02-27,Burger,Pick-up,1,94.5
+2026-02,2026-02-27,Combos,Dine-In,1,198.44
+2026-02,2026-02-27,Combos,Pick-up,2,795.92
+2026-02,2026-02-27,Desserts,Dine-In,1,120.76
+2026-02,2026-02-27,Desserts,Pick-up,1,396.9
+2026-02,2026-02-27,Garlic Bread,Dine-In,1,194.26
+2026-02,2026-02-27,Garlic Bread,Pick-up,4,540.76
+2026-02,2026-02-27,Mojitos,Pick-up,2,311.86
+2026-02,2026-02-27,Munchies,Pick-up,2,441.02
+2026-02,2026-02-27,Non Veg Pizza,Dine-In,1,313.96
+2026-02,2026-02-27,Non Veg Pizza,Pick-up,7,3353.76
+2026-02,2026-02-27,Pasta,Pick-up,1,257.26
+2026-02,2026-02-27,Salad,Pick-up,1,166.96
+2026-02,2026-02-27,Shakes & Juices,Dine-In,2,193.5
+2026-02,2026-02-27,Soft Drinks,Dine-In,1,40.0
+2026-02,2026-02-27,Soft Drinks,Pick-up,4,150.0
+2026-02,2026-02-27,Veg Pizza,Dine-In,1,467.26
+2026-02,2026-02-27,Veg Pizza,Pick-up,7,3411.5200000000004
+2026-02,2026-02-28,Burger,Dine-In,1,177.44
+2026-02,2026-02-28,Burger,Pick-up,3,475.64
+2026-02,2026-02-28,Combos,Dine-In,2,1194.92
+2026-02,2026-02-28,Combos,Pick-up,3,1372.38
+2026-02,2026-02-28,Desserts,Dine-In,1,396.88
+2026-02,2026-02-28,Garlic Bread,Dine-In,1,325.52
+2026-02,2026-02-28,Garlic Bread,Pick-up,1,162.76
+2026-02,2026-02-28,Mojitos,Dine-In,2,207.92
+2026-02,2026-02-28,Munchies,Dine-In,3,535.54
+2026-02,2026-02-28,Munchies,Pick-up,2,162.76
+2026-02,2026-02-28,Non Veg Pizza,Dine-In,3,1102.52
+2026-02,2026-02-28,Non Veg Pizza,Pick-up,8,3269.7800000000007
+2026-02,2026-02-28,Shakes & Juices,Dine-In,3,430.5
+2026-02,2026-02-28,Soft Drinks,Dine-In,3,300.0
+2026-02,2026-02-28,Soft Drinks,Pick-up,6,338.0
+2026-02,2026-02-28,Veg Pizza,Dine-In,2,530.28
+2026-02,2026-02-28,Veg Pizza,Pick-up,4,2214.5
 2026-01,2026-01-01,Burger,Dine-In,5,1083.62
 2026-01,2026-01-01,Combos,Dine-In,7,3719.1400000000003
 2026-01,2026-01-01,Combos,Pick-up,8,4926.68
