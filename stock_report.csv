@@ -9010,6 +9010,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Pizza Premix,Kg,19.6,4939.2,0.0,0.0,0.0,0.0,19.6,4939.2
 2026-03,Large Pizza Box,Nos,300.0,4455.0,0.0,0.0,0.0,0.0,300.0,4455.0
 2026-03,BBQ Mix Masala,Pkt,9.0,4185.0,0.0,0.0,0.0,0.0,9.0,4185.0
+2026-03,hungritos premium,Kg,11.3,1257.92,25.0,2783.0,0.0,0.0,36.3,4040.92
 2026-03,grocery,Nos,8.0,828.24,23.0,3023.07,0.0,0.0,31.0,3851.3100000000004
 2026-03,Gas-LPG-HPCL,Nos,2.0,3560.0,0.0,0.0,0.0,0.0,2.0,3560.0
 2026-03,KOT ROLLS,Nos,54.0,2916.0,0.0,0.0,0.0,0.0,54.0,2916.0
@@ -9032,7 +9033,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Pasta Container Black,Nos,154.0,1378.3,0.0,0.0,0.0,0.0,154.0,1378.3
 2026-03,Moktails Glass,Nos,163.0,1304.0,0.0,0.0,0.0,0.0,163.0,1304.0
 2026-03,black olive slice Habit,Tin,1.5,1296.56,0.0,0.0,0.0,0.0,1.5,1296.56
-2026-03,hungritos premium,Kg,11.3,1257.92,0.0,0.0,0.0,0.0,11.3,1257.92
 2026-03,slice cheese,Nos,153.0,1257.66,0.0,0.0,0.0,0.0,153.0,1257.66
 2026-03,Veeba Eggless Mayonise Chef 1KG,Pkt,8.0,1124.8,0.0,0.0,0.0,0.0,8.0,1124.8
 2026-03,Berry Fresh Chicku Pulp 2kg,Tin,4.0,1120.0,0.0,0.0,0.0,0.0,4.0,1120.0
@@ -9087,6 +9087,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Dew 750ml Pet,Nos,13.0,446.81,0.0,0.0,0.0,0.0,13.0,446.81
 2026-03,coffee mocha syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
 2026-03,salted cookies syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
+2026-03,sweet corn abad,Kg,0.0,0.0,5.0,425.0,0.0,0.0,5.0,425.0
 2026-03,Honey mustard dressing,Pkt,2.0,423.74,0.0,0.0,0.0,0.0,2.0,423.74
 2026-03,Piri Piri Marinade 1KG,Kg,0.9,400.5,0.0,0.0,0.0,0.0,0.9,400.5
 2026-03,red paprika habit,Tin,1.0,395.0,0.0,0.0,0.0,0.0,1.0,395.0
