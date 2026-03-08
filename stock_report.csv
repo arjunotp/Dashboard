@@ -9029,7 +9029,9 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Berry Fresh Tender Coconut Pulp 2kg,Tin,4.0,1480.0,0.0,0.0,0.0,0.0,4.0,1480.0
 2026-03,Salad Bowl 250ml,Nos,281.0,1475.25,0.0,0.0,0.0,0.0,281.0,1475.25
 2026-03,Salad Bowl 500ml,Nos,225.0,1473.75,0.0,0.0,0.0,0.0,225.0,1473.75
+2026-03,Mojito Menta Cubano,Nos,1.2,552.0,2.0,920.0,0.0,0.0,3.2,1472.0
 2026-03,veeba pizza pasta sauce,Pkt,8.0,1447.6,0.0,0.0,0.0,0.0,8.0,1447.6
+2026-03,DVC PASSION FRUIT FLV SYRUP 750ML,Nos,1.0,460.0,2.0,920.0,0.0,0.0,3.0,1380.0
 2026-03,Pasta Container Black,Nos,154.0,1378.3,0.0,0.0,0.0,0.0,154.0,1378.3
 2026-03,Moktails Glass,Nos,163.0,1304.0,0.0,0.0,0.0,0.0,163.0,1304.0
 2026-03,black olive slice Habit,Tin,1.5,1296.56,0.0,0.0,0.0,0.0,1.5,1296.56
@@ -9069,7 +9071,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,sneha chi nuggets,Pkt,2.3,595.12,0.0,0.0,0.0,0.0,2.3,595.12
 2026-03,Paneer,Kg,2.0,580.0,0.0,0.0,0.0,0.0,2.0,580.0
 2026-03,HABIT JALAPENO SLICES 2.9 KG,Tin,2.0,556.0,0.0,0.0,0.0,0.0,2.0,556.0
-2026-03,Mojito Menta Cubano,Nos,1.2,552.0,0.0,0.0,0.0,0.0,1.2,552.0
 2026-03,Pepsi 750ml Pet,Nos,16.0,549.92,0.0,0.0,0.0,0.0,16.0,549.92
 2026-03,baby corn,Tin,5.0,540.0,0.0,0.0,0.0,0.0,5.0,540.0
 2026-03,pepsi 1 ltr,Nos,12.0,532.08,0.0,0.0,0.0,0.0,12.0,532.08
@@ -9078,11 +9079,11 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Mayonise premium,Pkt,3.0,517.5,0.0,0.0,0.0,0.0,3.0,517.5
 2026-03,OREGANO SACHET 0.8GM,Nos,750.0,517.5,0.0,0.0,0.0,0.0,750.0,517.5
 2026-03,sky vanilla 4 ltr,Nos,1.5,516.0,0.0,0.0,0.0,0.0,1.5,516.0
+2026-03,Mini Burger Box,Nos,75.0,210.0,100.0,280.0,0.0,0.0,175.0,490.0
 2026-03,Honey,Kg,2.0,488.0,0.0,0.0,0.0,0.0,2.0,488.0
 2026-03,Zippy  B.Fast Sausage ,Kg,1.6,472.7,0.0,0.0,0.0,0.0,1.6,472.7
 2026-03,Puramate Pasta-Penne Rigatte 500g,Pkt,7.0,469.0,0.0,0.0,0.0,0.0,7.0,469.0
 2026-03,bbq mix,Kg,1.0,465.0,0.0,0.0,0.0,0.0,1.0,465.0
-2026-03,DVC PASSION FRUIT FLV SYRUP 750ML,Nos,1.0,460.0,0.0,0.0,0.0,0.0,1.0,460.0
 2026-03,ENGLISH vegetables,Nos,3.0,459.87,0.0,0.0,0.0,0.0,3.0,459.87
 2026-03,Dew 750ml Pet,Nos,13.0,446.81,0.0,0.0,0.0,0.0,13.0,446.81
 2026-03,coffee mocha syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
@@ -9111,7 +9112,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,sweet corn,Kg,2.0,252.0,0.0,0.0,0.0,0.0,2.0,252.0
 2026-03,Veg burger pattis,Pkt,1.0,225.0,0.0,0.0,0.0,0.0,1.0,225.0
 2026-03,mango crush taste craft,Nos,0.9,222.08,0.0,0.0,0.0,0.0,0.9,222.08
-2026-03,Mini Burger Box,Nos,75.0,210.0,0.0,0.0,0.0,0.0,75.0,210.0
 2026-03,horlicks,Pkt,20.0,192.0,0.0,0.0,0.0,0.0,20.0,192.0
 2026-03,Celotape-3/4inch-,Nos,8.0,184.0,0.0,0.0,0.0,0.0,8.0,184.0
 2026-03,milk fruits sugar balls,Nos,1.0,177.0,0.0,0.0,0.0,0.0,1.0,177.0
