@@ -9032,6 +9032,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Salad Bowl 500ml,Nos,225.0,1473.75,0.0,0.0,0.0,0.0,225.0,1473.75
 2026-03,Mojito Menta Cubano,Nos,1.2,552.0,2.0,920.0,0.0,0.0,3.2,1472.0
 2026-03,veeba pizza pasta sauce,Pkt,8.0,1447.6,0.0,0.0,0.0,0.0,8.0,1447.6
+2026-03,vegetables,Nos,5.0,277.0,21.0,1138.04,0.0,0.0,26.0,1415.04
 2026-03,DVC PASSION FRUIT FLV SYRUP 750ML,Nos,1.0,460.0,2.0,920.0,0.0,0.0,3.0,1380.0
 2026-03,Pasta Container Black,Nos,154.0,1378.3,0.0,0.0,0.0,0.0,154.0,1378.3
 2026-03,Moktails Glass,Nos,163.0,1304.0,0.0,0.0,0.0,0.0,163.0,1304.0
@@ -9039,7 +9040,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,slice cheese,Nos,153.0,1257.66,0.0,0.0,0.0,0.0,153.0,1257.66
 2026-03,miscellaneous item,Nos,0.0,0.0,6.0,1125.99,0.0,0.0,6.0,1125.99
 2026-03,Veeba Eggless Mayonise Chef 1KG,Pkt,8.0,1124.8,0.0,0.0,0.0,0.0,8.0,1124.8
-2026-03,vegetables,Nos,5.0,277.0,16.0,847.04,0.0,0.0,21.0,1124.04
 2026-03,Berry Fresh Chicku Pulp 2kg,Tin,4.0,1120.0,0.0,0.0,0.0,0.0,4.0,1120.0
 2026-03, dry yeast 500 gm,Pkt,6.5,1105.0,0.0,0.0,0.0,0.0,6.5,1105.0
 2026-03,Pepsi 250ml Pet,Nos,62.0,1085.0,0.0,0.0,0.0,0.0,62.0,1085.0
@@ -9106,6 +9106,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,bio covers,Kg,2.35,305.5,0.0,0.0,0.0,0.0,2.35,305.5
 2026-03,CHICKEN POPCORN,Pkt,1.3,292.5,0.0,0.0,0.0,0.0,1.3,292.5
 2026-03,SALAMI,Pkt,1.0,279.0,0.0,0.0,0.0,0.0,1.0,279.0
+2026-03,milk,Nos,3.0,75.0,8.0,200.0,0.0,0.0,11.0,275.0
 2026-03,chocolate chips,Nos,1.0,270.0,0.0,0.0,0.0,0.0,1.0,270.0
 2026-03,milk shake assorted,Nos,11.0,264.0,0.0,0.0,0.0,0.0,11.0,264.0
 2026-03,chicken kheema masala,Kg,0.4,260.0,0.0,0.0,0.0,0.0,0.4,260.0
@@ -9118,7 +9119,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Celotape-3/4inch-,Nos,8.0,184.0,0.0,0.0,0.0,0.0,8.0,184.0
 2026-03,milk fruits sugar balls,Nos,1.0,177.0,0.0,0.0,0.0,0.0,1.0,177.0
 2026-03,Schezwan sauce,Pkt,1.0,175.32,0.0,0.0,0.0,0.0,1.0,175.32
-2026-03,milk,Nos,3.0,75.0,4.0,100.0,0.0,0.0,7.0,175.0
 2026-03,Aromat Seasoning Powder,Pkt,1.0,172.0,0.0,0.0,0.0,0.0,1.0,172.0
 2026-03,Dip Bowl,Nos,80.0,160.0,0.0,0.0,0.0,0.0,80.0,160.0
 2026-03,Tissue Big,Pkt,8.0,160.0,0.0,0.0,0.0,0.0,8.0,160.0
