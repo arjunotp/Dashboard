@@ -9003,7 +9003,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,mexican mix,Kg,0.0,0.0,10.0,4350.0,12.5,5437.5,-2.5,-1087.5
 2026-02,paneer tikka powder,Kg,0.5,450.0,0.0,0.0,1.8,1620.0,-1.3,-1170.0
 2026-02,BBQ Mix Masala,Pkt,5.6,2604.0,0.0,0.0,9.0,4185.0,-3.4000000000000004,-1581.0
-2026-03,dynamic diced mozerella,Kg,20.1,8468.33,24.0,10111.44,0.0,0.0,44.1,18579.77
+2026-03,dynamic diced mozerella,Kg,20.1,8468.33,36.0,15167.16,0.0,0.0,56.1,23635.489999999998
 2026-03,Boneless Chicken,Kg,6.0,1800.0,27.9,8538.91,0.0,0.0,34.0,10338.91
 2026-03,Gas-LPG-HPCL,Nos,2.0,3560.0,3.0,5540.0,0.0,0.0,5.0,9100.0
 2026-03,grocery,Nos,8.0,828.24,42.0,5900.12,0.0,0.0,50.0,6728.36
@@ -9018,8 +9018,10 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,oil,Pkt,13.0,1696.5,10.0,1330.0,0.0,0.0,23.0,3026.5
 2026-03,KOT ROLLS,Nos,54.0,2916.0,0.0,0.0,0.0,0.0,54.0,2916.0
 2026-03,mushroom slice Food coast,Tin,30.0,2850.0,0.0,0.0,0.0,0.0,30.0,2850.0
+2026-03,Veeba Eggless Mayonise Chef 1KG,Pkt,8.0,1124.8,12.0,1687.2,0.0,0.0,20.0,2812.0
 2026-03,vegetables,Nos,5.0,277.0,40.0,2521.01,0.0,0.0,45.0,2798.01
 2026-03,Richs versatie cream,Pkt,14.0,2632.0,0.0,0.0,0.0,0.0,14.0,2632.0
+2026-03,slice cheese,Nos,153.0,1257.66,153.0,1305.09,0.0,0.0,306.0,2562.75
 2026-03,Tandoori mix Masala,Kg,6.0,2490.0,0.0,0.0,0.0,0.0,6.0,2490.0
 2026-03,prince maida 50kg,Kg,0.0,0.0,50.0,2240.0,0.0,0.0,50.0,2240.0
 2026-03,Brownie,Kg,5.0,1925.0,0.0,0.0,0.0,0.0,5.0,1925.0
@@ -9040,15 +9042,15 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Chicken burger pattis,Pkt,3.7,932.4,2.0,504.0,0.0,0.0,5.7,1436.4
 2026-03,DVC PASSION FRUIT FLV SYRUP 750ML,Nos,1.0,460.0,2.0,920.0,0.0,0.0,3.0,1380.0
 2026-03,Pasta Container Black,Nos,154.0,1378.3,0.0,0.0,0.0,0.0,154.0,1378.3
+2026-03,milky mist butter 500gm,Pkt,0.0,0.0,4.0,1348.0,0.0,0.0,4.0,1348.0
 2026-03,Moktails Glass,Nos,163.0,1304.0,0.0,0.0,0.0,0.0,163.0,1304.0
 2026-03,black olive slice Habit,Tin,1.5,1296.56,0.0,0.0,0.0,0.0,1.5,1296.56
-2026-03,slice cheese,Nos,153.0,1257.66,0.0,0.0,0.0,0.0,153.0,1257.66
 2026-03,milk shake assorted,Nos,11.0,264.0,36.0,905.04,0.0,0.0,47.0,1169.04
-2026-03,Veeba Eggless Mayonise Chef 1KG,Pkt,8.0,1124.8,0.0,0.0,0.0,0.0,8.0,1124.8
 2026-03,Berry Fresh Chicku Pulp 2kg,Tin,4.0,1120.0,0.0,0.0,0.0,0.0,4.0,1120.0
 2026-03, dry yeast 500 gm,Pkt,6.5,1105.0,0.0,0.0,0.0,0.0,6.5,1105.0
 2026-03,tandoori mayonise,Pkt,4.1,1066.0,0.0,0.0,0.0,0.0,4.1,1066.0
 2026-03,Processed cheese block,Kg,2.0,1039.5,0.0,0.0,0.0,0.0,2.0,1039.5
+2026-03,sneha chi burgar pattis,Pkt,0.0,0.0,4.0,1008.0,0.0,0.0,4.0,1008.0
 2026-03,Chicken Kheema  Masala,Kg,1.5,975.0,0.0,0.0,0.0,0.0,1.5,975.0
 2026-03,Blue curacao mojito,Nos,2.2,947.1,0.0,0.0,0.0,0.0,2.2,947.1
 2026-03,Veeba Gouda Flavoured Dressing,Pkt,5.0,946.9,0.0,0.0,0.0,0.0,5.0,946.9
