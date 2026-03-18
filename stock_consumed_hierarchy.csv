@@ -20,11 +20,11 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,BEVERAGES,slice mango,Slice Mango 250ml pet,498.6,2026-03,186955.25,0.27
 2026-03,BEVERAGES,slice mango,Slice Mango 200ml pet,159.03,2026-03,186955.25,0.09
 2026-03,BEVERAGES,tropicana guava,Tropicana Guava Delight 500ml,526.68,2026-03,186955.25,0.28
+2026-03,CHEESE & DAIRY,butter,milky mist butter 500gm,1972.5,2026-03,186955.25,1.06
 2026-03,CHEESE & DAIRY,butter,Butter,760.0,2026-03,186955.25,0.41
 2026-03,CHEESE & DAIRY,butter,butter scotch ice cream 4 ltr,773.0,2026-03,186955.25,0.41
-2026-03,CHEESE & DAIRY,butter,milky mist butter 500gm,624.5,2026-03,186955.25,0.33
 2026-03,CHEESE & DAIRY,butter,Butter Scotch Sauce 750ml,257.4,2026-03,186955.25,0.14
-2026-03,CHEESE & DAIRY,diced mozzarella,dynamic diced mozerella,18579.77,2026-03,186955.25,9.94
+2026-03,CHEESE & DAIRY,diced mozzarella,dynamic diced mozerella,23635.489999999998,2026-03,186955.25,12.64
 2026-03,CHEESE & DAIRY,fresh cream,Richs versatie cream,2632.0,2026-03,186955.25,1.41
 2026-03,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,1632.0,2026-03,186955.25,0.87
 2026-03,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,1468.8,2026-03,186955.25,0.79
@@ -36,7 +36,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,CHEESE & DAIRY,paneer,Paneer,580.0,2026-03,186955.25,0.31
 2026-03,CHEESE & DAIRY,paneer,paneer,580.0,2026-03,186955.25,0.31
 2026-03,CHEESE & DAIRY,processed cheese,Processed cheese block,1039.5,2026-03,186955.25,0.56
-2026-03,CHEESE & DAIRY,slice cheese,slice cheese,1257.66,2026-03,186955.25,0.67
+2026-03,CHEESE & DAIRY,slice cheese,slice cheese,2562.75,2026-03,186955.25,1.37
 2026-03,"FLOUR, GRAINS & DRY GOODS",corn meal,Corn Meal - MAKKA RAVA,110.0,2026-03,186955.25,0.06
 2026-03,"FLOUR, GRAINS & DRY GOODS",horlicks,horlicks,192.0,2026-03,186955.25,0.1
 2026-03,"FLOUR, GRAINS & DRY GOODS",maida,prince maida 50kg,2240.0,2026-03,186955.25,1.2
@@ -66,6 +66,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,MASALA & SEASONINGS,tandoori masala,Tandoori mix Masala,2490.0,2026-03,186955.25,1.33
 2026-03,MEAT & POULTRY,boneless chicken,Boneless Chicken,10338.91,2026-03,186955.25,5.53
 2026-03,MEAT & POULTRY,chicken burger pattis,Chicken burger pattis,1436.4,2026-03,186955.25,0.77
+2026-03,MEAT & POULTRY,chicken burger pattis,sneha chi burgar pattis,1008.0,2026-03,186955.25,0.54
 2026-03,MEAT & POULTRY,chicken burger pattis,Veg burger pattis,225.0,2026-03,186955.25,0.12
 2026-03,MEAT & POULTRY,chicken kheema,Chicken Kheema  Masala,975.0,2026-03,186955.25,0.52
 2026-03,MEAT & POULTRY,chicken kheema,chicken kheema masala,260.0,2026-03,186955.25,0.14
@@ -93,7 +94,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,PACKAGING MATERIALS,tissue,Tissue Big,160.0,2026-03,186955.25,0.09
 2026-03,PACKAGING MATERIALS,wooden spoon,wodden spoon,130.0,2026-03,186955.25,0.07
 2026-03,SAUCES & SPREADS,cheesy spread,cheesy spread dip,618.76,2026-03,186955.25,0.33
-2026-03,SAUCES & SPREADS,eggless mayonnaise,Veeba Eggless Mayonise Chef 1KG,1124.8,2026-03,186955.25,0.6
+2026-03,SAUCES & SPREADS,eggless mayonnaise,Veeba Eggless Mayonise Chef 1KG,2812.0,2026-03,186955.25,1.5
 2026-03,SAUCES & SPREADS,gouda flavoured dressing,Veeba Gouda Flavoured Dressing,946.9,2026-03,186955.25,0.51
 2026-03,SAUCES & SPREADS,honey mustard dressing,Honey mustard dressing,847.48,2026-03,186955.25,0.45
 2026-03,SAUCES & SPREADS,honey mustard dressing,Honey,488.0,2026-03,186955.25,0.26
