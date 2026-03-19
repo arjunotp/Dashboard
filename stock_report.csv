@@ -9033,6 +9033,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,paneer tikka powder,Kg,1.8,1620.0,0.0,0.0,0.0,0.0,1.8,1620.0
 2026-03,Pepsi 250ml Pet,Nos,62.0,1085.0,30.0,525.0,0.0,0.0,92.0,1610.0
 2026-03,Garlic Bread Box,Nos,210.0,1575.0,0.0,0.0,0.0,0.0,210.0,1575.0
+2026-03,7UP 750ml Pet,Nos,20.0,687.4,24.0,824.88,0.0,0.0,44.0,1512.28
 2026-03,Berry Fresh Tender Coconut Pulp 2kg,Tin,4.0,1480.0,0.0,0.0,0.0,0.0,4.0,1480.0
 2026-03,Salad Bowl 250ml,Nos,281.0,1475.25,0.0,0.0,0.0,0.0,281.0,1475.25
 2026-03,Salad Bowl 500ml,Nos,225.0,1473.75,0.0,0.0,0.0,0.0,225.0,1473.75
@@ -9046,6 +9047,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Moktails Glass,Nos,163.0,1304.0,0.0,0.0,0.0,0.0,163.0,1304.0
 2026-03,black olive slice Habit,Tin,1.5,1296.56,0.0,0.0,0.0,0.0,1.5,1296.56
 2026-03,milk shake assorted,Nos,11.0,264.0,36.0,905.04,0.0,0.0,47.0,1169.04
+2026-03,7up 250ml Pet,Nos,35.0,612.5,30.0,525.0,0.0,0.0,65.0,1137.5
 2026-03,Berry Fresh Chicku Pulp 2kg,Tin,4.0,1120.0,0.0,0.0,0.0,0.0,4.0,1120.0
 2026-03, dry yeast 500 gm,Pkt,6.5,1105.0,0.0,0.0,0.0,0.0,6.5,1105.0
 2026-03,tandoori mayonise,Pkt,4.1,1066.0,0.0,0.0,0.0,0.0,4.1,1066.0
@@ -9066,11 +9068,11 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Dew 250ml Pet,Nos,45.0,787.5,0.0,0.0,0.0,0.0,45.0,787.5
 2026-03,butter scotch ice cream 4 ltr,Nos,0.0,0.0,1.0,773.0,0.0,0.0,1.0,773.0
 2026-03,sirocco black olive,Tin,0.0,0.0,1.0,771.0,0.0,0.0,1.0,771.0
+2026-03,Lehar Soda,Nos,25.0,370.5,24.0,394.8,0.0,0.0,49.0,765.3
 2026-03,staff rice,Kg,15.0,765.0,0.0,0.0,0.0,0.0,15.0,765.0
 2026-03,Butter,Kg,2.0,760.0,0.0,0.0,0.0,0.0,2.0,760.0
 2026-03,7up 1 ltr,Nos,17.0,753.78,0.0,0.0,0.0,0.0,17.0,753.78
 2026-03,Veeba ThousandIsland Dressing 1KG,Pkt,2.0,366.0,2.0,366.0,0.0,0.0,4.0,732.0
-2026-03,7UP 750ml Pet,Nos,20.0,687.4,0.0,0.0,0.0,0.0,20.0,687.4
 2026-03,Tripod,Nos,500.0,675.0,0.0,0.0,0.0,0.0,500.0,675.0
 2026-03,Pizza sauce premix,Kg,2.0,650.0,0.0,0.0,0.0,0.0,2.0,650.0
 2026-03,makhni gravy,Pkt,3.0,630.0,0.0,0.0,0.0,0.0,3.0,630.0
@@ -9078,7 +9080,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,CHILLY FLAKES SACHET 0.8GM,Nos,1200.0,624.0,0.0,0.0,0.0,0.0,1200.0,624.0
 2026-03,cheesy spread dip,Pkt,2.0,618.76,0.0,0.0,0.0,0.0,2.0,618.76
 2026-03,tomato ketchup 1.2 bottle,Nos,6.0,618.78,0.0,0.0,0.0,0.0,6.0,618.78
-2026-03,7up 250ml Pet,Nos,35.0,612.5,0.0,0.0,0.0,0.0,35.0,612.5
 2026-03,Rose lichy crush mojito,Nos,1.75,606.38,0.0,0.0,0.0,0.0,1.75,606.38
 2026-03,staff chicken,Kg,0.0,0.0,4.0,600.0,0.0,0.0,4.0,600.0
 2026-03,sneha chi nuggets,Pkt,2.3,595.12,0.0,0.0,0.0,0.0,2.3,595.12
@@ -9106,7 +9107,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Piri Piri Marinade 1KG,Kg,0.9,400.5,0.0,0.0,0.0,0.0,0.9,400.5
 2026-03,cheese cake cassata syrup,Nos,0.9,387.45,0.0,0.0,0.0,0.0,0.9,387.45
 2026-03,potato wedges,Kg,2.2,383.46,0.0,0.0,0.0,0.0,2.2,383.46
-2026-03,Lehar Soda,Nos,25.0,370.5,0.0,0.0,0.0,0.0,25.0,370.5
 2026-03,Oregano Sprinkler 500g,Pkt,1.2,368.4,0.0,0.0,0.0,0.0,1.2,368.4
 2026-03,pizza sauce,Kg,3.0,360.0,0.0,0.0,0.0,0.0,3.0,360.0
 2026-03,Pineapple slice-Tajir Habit-850g,Nos,3.0,330.75,0.0,0.0,0.0,0.0,3.0,330.75
@@ -9115,6 +9115,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,bio covers,Kg,2.35,305.5,0.0,0.0,0.0,0.0,2.35,305.5
 2026-03,CHICKEN POPCORN,Pkt,1.3,292.5,0.0,0.0,0.0,0.0,1.3,292.5
 2026-03,SALAMI,Pkt,1.0,279.0,0.0,0.0,0.0,0.0,1.0,279.0
+2026-03,Aqua Fina Mineral Water 1Ltr,Nos,10.0,125.8,12.0,150.96,0.0,0.0,22.0,276.76
 2026-03,milk,Nos,3.0,75.0,8.0,200.0,0.0,0.0,11.0,275.0
 2026-03,chocolate chips,Nos,1.0,270.0,0.0,0.0,0.0,0.0,1.0,270.0
 2026-03,Puramate Pasta-Gomiti Rigate - macroni - 500g,Pkt,2.0,134.0,2.0,134.0,0.0,0.0,4.0,268.0
@@ -9135,7 +9136,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Slice Mango 200ml pet,Nos,9.0,159.03,0.0,0.0,0.0,0.0,9.0,159.03
 2026-03,Chettinad Mix,Kg,0.2,130.2,0.0,0.0,0.0,0.0,0.2,130.2
 2026-03,wodden spoon,Nos,200.0,130.0,0.0,0.0,0.0,0.0,200.0,130.0
-2026-03,Aqua Fina Mineral Water 1Ltr,Nos,10.0,125.8,0.0,0.0,0.0,0.0,10.0,125.8
 2026-03,dry basil,Pkt,0.8,112.0,0.0,0.0,0.0,0.0,0.8,112.0
 2026-03,Corn Meal - MAKKA RAVA,Pkt,2.0,110.0,0.0,0.0,0.0,0.0,2.0,110.0
 2026-03,bio glass,Pkt,1.0,80.0,0.0,0.0,0.0,0.0,1.0,80.0
