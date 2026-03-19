@@ -39,7 +39,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,CHEESE & DAIRY,slice cheese,slice cheese,2562.75,2026-03,208604.5,1.23
 2026-03,"FLOUR, GRAINS & DRY GOODS",corn meal,Corn Meal - MAKKA RAVA,110.0,2026-03,208604.5,0.05
 2026-03,"FLOUR, GRAINS & DRY GOODS",horlicks,horlicks,192.0,2026-03,208604.5,0.09
-2026-03,"FLOUR, GRAINS & DRY GOODS",maida,prince maida 50kg,2240.0,2026-03,208604.5,1.07
+2026-03,"FLOUR, GRAINS & DRY GOODS",maida,prince maida 50kg,4440.0,2026-03,208604.5,2.13
 2026-03,"FLOUR, GRAINS & DRY GOODS",rice,staff rice,765.0,2026-03,208604.5,0.37
 2026-03,FROZEN ITEMS,frozen sweet corn,sweet corn abad,425.0,2026-03,208604.5,0.2
 2026-03,FROZEN ITEMS,frozen sweet corn,sweet corn,252.0,2026-03,208604.5,0.12
@@ -77,7 +77,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,MEAT & POULTRY,lamb pepperoni,Lamp Pepperoni,1790.0,2026-03,208604.5,0.86
 2026-03,MEAT & POULTRY,staff chicken,staff chicken,600.0,2026-03,208604.5,0.29
 2026-03,OILS,olive oil,habit olive oil,922.5,2026-03,208604.5,0.44
-2026-03,OILS,palm oil,oil,3026.5,2026-03,208604.5,1.45
+2026-03,OILS,palm oil,oil,4426.5,2026-03,208604.5,2.12
 2026-03,PACKAGING MATERIALS,bio bag,bio glass,80.0,2026-03,208604.5,0.04
 2026-03,PACKAGING MATERIALS,burger box,Mini Burger Box,490.0,2026-03,208604.5,0.23
 2026-03,PACKAGING MATERIALS,french fries box,French Fries Box,802.5,2026-03,208604.5,0.38
