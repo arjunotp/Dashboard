@@ -9004,7 +9004,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,paneer tikka powder,Kg,0.5,450.0,0.0,0.0,1.8,1620.0,-1.3,-1170.0
 2026-02,BBQ Mix Masala,Pkt,5.6,2604.0,0.0,0.0,9.0,4185.0,-3.4000000000000004,-1581.0
 2026-03,dynamic diced mozerella,Kg,20.1,8468.33,36.0,15167.16,0.0,0.0,56.1,23635.489999999998
-2026-03,Boneless Chicken,Kg,6.0,1800.0,27.9,8538.91,0.0,0.0,34.0,10338.91
+2026-03,Boneless Chicken,Kg,6.0,1800.0,31.35,9642.91,0.0,0.0,37.0,11442.91
 2026-03,Gas-LPG-HPCL,Nos,2.0,3560.0,3.0,5540.0,0.0,0.0,5.0,9100.0
 2026-03,grocery,Nos,8.0,828.24,46.0,7450.12,0.0,0.0,54.0,8278.36
 2026-03,Regular Pizza Box,Nos,650.0,5525.0,0.0,0.0,0.0,0.0,650.0,5525.0
@@ -9107,6 +9107,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Piri Piri Marinade 1KG,Kg,0.9,400.5,0.0,0.0,0.0,0.0,0.9,400.5
 2026-03,cheese cake cassata syrup,Nos,0.9,387.45,0.0,0.0,0.0,0.0,0.9,387.45
 2026-03,potato wedges,Kg,2.2,383.46,0.0,0.0,0.0,0.0,2.2,383.46
+2026-03,milk,Nos,3.0,75.0,12.0,300.0,0.0,0.0,15.0,375.0
 2026-03,Oregano Sprinkler 500g,Pkt,1.2,368.4,0.0,0.0,0.0,0.0,1.2,368.4
 2026-03,pizza sauce,Kg,3.0,360.0,0.0,0.0,0.0,0.0,3.0,360.0
 2026-03,Pineapple slice-Tajir Habit-850g,Nos,3.0,330.75,0.0,0.0,0.0,0.0,3.0,330.75
@@ -9116,7 +9117,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,CHICKEN POPCORN,Pkt,1.3,292.5,0.0,0.0,0.0,0.0,1.3,292.5
 2026-03,SALAMI,Pkt,1.0,279.0,0.0,0.0,0.0,0.0,1.0,279.0
 2026-03,Aqua Fina Mineral Water 1Ltr,Nos,10.0,125.8,12.0,150.96,0.0,0.0,22.0,276.76
-2026-03,milk,Nos,3.0,75.0,8.0,200.0,0.0,0.0,11.0,275.0
 2026-03,chocolate chips,Nos,1.0,270.0,0.0,0.0,0.0,0.0,1.0,270.0
 2026-03,Puramate Pasta-Gomiti Rigate - macroni - 500g,Pkt,2.0,134.0,2.0,134.0,0.0,0.0,4.0,268.0
 2026-03,chicken kheema masala,Kg,0.4,260.0,0.0,0.0,0.0,0.0,0.4,260.0
@@ -9138,7 +9138,9 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,wodden spoon,Nos,200.0,130.0,0.0,0.0,0.0,0.0,200.0,130.0
 2026-03,dry basil,Pkt,0.8,112.0,0.0,0.0,0.0,0.0,0.8,112.0
 2026-03,Corn Meal - MAKKA RAVA,Pkt,2.0,110.0,0.0,0.0,0.0,0.0,2.0,110.0
+2026-03,burger buns,Nos,0.0,0.0,12.0,96.0,0.0,0.0,12.0,96.0
 2026-03,bio glass,Pkt,1.0,80.0,0.0,0.0,0.0,0.0,1.0,80.0
+2026-03,egg 8,Nos,0.0,0.0,10.0,80.0,0.0,0.0,10.0,80.0
 2026-03,egg 7,Nos,0.0,0.0,10.0,70.0,0.0,0.0,10.0,70.0
 2026-03,Dew can 300ml,Nos,2.0,68.58,0.0,0.0,0.0,0.0,2.0,68.58
 2026-03,Paper Straw,Pkt,1.5,60.0,0.0,0.0,0.0,0.0,1.5,60.0
