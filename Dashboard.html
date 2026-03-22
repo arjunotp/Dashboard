@@ -7,47 +7,516 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <style>
-        body { padding: 20px; animation: fadeInBody 1s ease-in; }
-        @keyframes fadeInBody { from { opacity: 0; } to { opacity: 1; } }
+        :root {
+            --bg: #f3f5fb;
+            --surface: #ffffff;
+            --surface-soft: #f8faff;
+            --ink: #1b2138;
+            --ink-muted: #65708a;
+            --line: #dfe6f3;
+            --blue: #2e7de8;
+            --blue-strong: #2468cc;
+            --shadow: 0 8px 26px rgba(60, 83, 136, 0.12);
+            --radius-xl: 22px;
+            --radius-lg: 16px;
+            --radius-md: 12px;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--ink);
+            font-family: "Manrope", sans-serif;
+            animation: fadeInBody 0.8s ease-in;
+        }
+
+        @keyframes fadeInBody {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .dashboard-shell {
+            min-height: 100vh;
+            background: linear-gradient(180deg, #f8faff 0%, #f3f5fb 32%, #f0f3fb 100%);
+        }
+
+        .top-nav-wrap {
+            border-bottom: 1px solid #e8edf8;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(6px);
+        }
+
+        .top-nav {
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 20px 22px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            font-weight: 800;
+            font-size: 2rem;
+            color: #222c48;
+            letter-spacing: -0.02em;
+            white-space: nowrap;
+        }
+
+        .top-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+
+        .top-link {
+            border: 0;
+            background: transparent;
+            padding: 9px 14px;
+            border-radius: 10px;
+            color: #28334f;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .top-link:hover,
+        .top-link.active {
+            background: #eaf1ff;
+            color: #1f5ec2;
+        }
+
+        .top-link:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        #logoutBtn {
+            border: 0;
+            padding: 10px 16px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 700;
+            background: linear-gradient(180deg, #3f8bf7, #2f73da);
+            box-shadow: 0 8px 18px rgba(60, 116, 211, 0.24);
+        }
+
+        #logoutBtn:hover {
+            background: linear-gradient(180deg, #347fe9, #2867ca);
+        }
+
+        .hero-wrap {
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 28px 22px 0;
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--radius-xl);
+            border: 1px solid #e3e9f6;
+            background:
+                radial-gradient(circle at 18% 18%, rgba(163, 196, 255, 0.22), rgba(163, 196, 255, 0) 44%),
+                radial-gradient(circle at 80% 62%, rgba(139, 185, 255, 0.25), rgba(139, 185, 255, 0) 45%),
+                linear-gradient(140deg, #f9fbff 0%, #edf3ff 44%, #e6eeff 100%);
+            min-height: 460px;
+            display: grid;
+            grid-template-columns: 1fr 1.15fr;
+            align-items: center;
+            gap: 22px;
+            padding: 48px 42px;
+            box-shadow: var(--shadow);
+        }
+
+        .hero-title {
+            margin: 0 0 18px;
+            font-size: clamp(2.3rem, 4vw, 4.3rem);
+            line-height: 1.05;
+            letter-spacing: -0.03em;
+            font-weight: 800;
+            color: #1d2440;
+        }
+
+        .hero-subtitle {
+            margin: 0 0 30px;
+            max-width: 520px;
+            color: #475473;
+            font-size: clamp(1rem, 1.8vw, 1.9rem);
+            line-height: 1.42;
+            font-weight: 500;
+        }
+
+        .hero-cta {
+            border: 0;
+            border-radius: 10px;
+            padding: 14px 22px;
+            color: #fff;
+            font-weight: 700;
+            background: linear-gradient(180deg, #4a93ff, #2d73de);
+            box-shadow: 0 12px 22px rgba(63, 116, 214, 0.28);
+        }
+
+        .hero-cta:hover {
+            background: linear-gradient(180deg, #3f87ef, #2667c5);
+        }
+
+        .hero-visual {
+            position: relative;
+            min-height: 340px;
+        }
+
+        .hero-visual .panel {
+            position: absolute;
+            border-radius: 18px;
+            background: #fff;
+            border: 1px solid #e7edf9;
+            box-shadow: 0 12px 26px rgba(60, 85, 140, 0.16);
+        }
+
+        .hero-visual .panel.main {
+            inset: 12px 58px 26px 0;
+            padding: 14px 16px;
+        }
+
+        .hero-visual .panel.small {
+            width: 186px;
+            height: 118px;
+            right: 0;
+            top: 84px;
+            padding: 14px;
+        }
+
+        .hero-visual .panel.pie {
+            width: 192px;
+            height: 150px;
+            right: 8px;
+            bottom: 0;
+            padding: 16px;
+        }
+
+        .visual-row {
+            height: 8px;
+            border-radius: 6px;
+            background: linear-gradient(90deg, #d2ddf8, #edf2ff);
+            margin-bottom: 14px;
+        }
+
+        .visual-chart {
+            height: 130px;
+            border-radius: 12px;
+            background:
+                linear-gradient(180deg, #f8fbff 0 88%, #eef3ff 88% 100%);
+            border: 1px solid #edf2fc;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .visual-chart::after {
+            content: "";
+            position: absolute;
+            left: 8%;
+            right: 8%;
+            top: 30%;
+            height: 2px;
+            background: linear-gradient(90deg, #99b7f4, #2f76de);
+            transform: rotate(-7deg);
+            box-shadow:
+                46px 18px 0 -1px #4f84e0,
+                112px -8px 0 -1px #77a2ee,
+                168px 12px 0 -1px #3f78dc,
+                236px -10px 0 -1px #6f9deb;
+        }
+
+        .mini-bars {
+            height: 70px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 7px;
+            align-items: end;
+        }
+
+        .mini-bars span {
+            border-radius: 4px 4px 1px 1px;
+            background: linear-gradient(180deg, #63c8b7, #4f86e5);
+        }
+
+        .mini-bars span:nth-child(1) { height: 38px; }
+        .mini-bars span:nth-child(2) { height: 50px; }
+        .mini-bars span:nth-child(3) { height: 28px; }
+        .mini-bars span:nth-child(4) { height: 56px; }
+        .mini-bars span:nth-child(5) { height: 40px; }
+        .mini-bars span:nth-child(6) { height: 60px; }
+
+        .pie-chart-illus {
+            width: 84px;
+            height: 84px;
+            border-radius: 50%;
+            margin: 0 auto;
+            background: conic-gradient(#5d94ee 0 62%, #8bc8ff 62% 81%, #d4e7ff 81% 100%);
+            box-shadow: inset 0 0 0 18px #f7fbff;
+        }
+
+        .pizza-icon {
+            position: absolute;
+            right: 8px;
+            bottom: -2px;
+            font-size: 2rem;
+            transform: rotate(-8deg);
+        }
+
+        .tiles-shell {
+            max-width: 1220px;
+            margin: -40px auto 0;
+            padding: 0 22px;
+            position: relative;
+            z-index: 5;
+        }
+
+        .tiles-card {
+            background: rgba(249, 252, 255, 0.96);
+            border: 1px solid #e3eaf7;
+            border-radius: var(--radius-xl);
+            padding: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        #tile-container {
+            margin: 0 !important;
+        }
+
+        .tile-grid-item {
+            padding: 9px;
+        }
 
         .tile {
             cursor: pointer;
-            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
-            border-radius: 15px;
-            padding: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: all 0.3s ease;
+            min-height: 106px;
+            border-radius: var(--radius-lg);
+            border: 1px solid #e6ecf8;
+            background: #fff;
+            box-shadow: 0 8px 16px rgba(83, 105, 157, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 20px 18px;
+            text-align: left;
+            transition: all 0.22s ease;
         }
+
         .tile:hover {
-            transform: scale(1.05);
-            background: linear-gradient(to bottom, #d1e7dd, #bcd0c7);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transform: translateY(-3px);
+            border-color: #d0ddf6;
+            box-shadow: 0 14px 26px rgba(78, 105, 167, 0.17);
         }
+
+        .tile.active {
+            border-color: #84aef5;
+            box-shadow: 0 14px 28px rgba(66, 119, 214, 0.22);
+            background: linear-gradient(180deg, #f7fbff, #edf4ff);
+        }
+
+        .tile-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            font-size: 1.2rem;
+            color: #2f74da;
+            background: linear-gradient(180deg, #e2eeff, #cfe0ff);
+            flex-shrink: 0;
+        }
+
+        .tile h4 {
+            margin: 0;
+            font-size: 1.1rem;
+            line-height: 1.2;
+            color: #1e2742;
+            font-weight: 700;
+        }
+
+        .tile small {
+            display: block;
+            margin-top: 4px;
+            color: #7b86a2;
+            font-size: 0.82rem;
+            font-weight: 600;
+        }
+
         .tile.restricted {
-            opacity: 0.55;
+            opacity: 0.58;
             cursor: not-allowed;
         }
+
         .tile.restricted:hover {
             transform: none;
-            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 16px rgba(83, 105, 157, 0.1);
+            border-color: #e6ecf8;
+            background: #fff;
+        }
+
+        .tabs-shell {
+            max-width: 1220px;
+            margin: 24px auto 0;
+            padding: 0 22px 24px;
+        }
+
+        .tab-section {
+            background: #f7f9ff;
+            border: 1px solid #e2e9f7;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow);
+            padding: 24px 18px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 4px 6px 16px;
+            border-bottom: 1px solid #e5ebf8;
+            margin-bottom: 20px;
+        }
+
+        .section-header h2 {
+            margin: 0;
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .section-header p {
+            margin: 6px 0 0;
+            color: #65708a;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .section-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            min-width: 290px;
+        }
+
+        .search-pill {
+            flex: 1;
+            background: #fff;
+            border: 1px solid #dce5f5;
+            border-radius: 12px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0 12px;
+            color: #7a86a3;
+            font-size: 0.95rem;
+        }
+
+        .search-pill i { font-size: 1rem; }
+
+        .mini-download {
+            border: 1px solid #92b6f0;
+            background: #eef5ff;
+            color: #1f5ec2;
+            border-radius: 10px;
+            padding: 9px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .nav-tabs {
+            border-bottom: 0;
+            gap: 8px;
+            overflow-x: auto;
+            flex-wrap: nowrap;
+            padding: 0 6px 14px;
+            margin-bottom: 10px;
+        }
+
+        .nav-tabs .nav-item {
+            white-space: nowrap;
+        }
+
+        .nav-tabs .nav-link {
+            border: 0;
+            border-radius: 10px;
+            color: #526281;
+            font-weight: 700;
+            font-size: 0.9rem;
+            background: #eef3ff;
+            padding: 9px 14px;
+        }
+
+        .nav-tabs .nav-link.active {
+            background: #2f78e1;
+            color: #fff;
+            box-shadow: 0 10px 18px rgba(45, 109, 203, 0.24);
         }
 
         .hidden { display: none !important; }
 
-        .nav-tabs { overflow-x: auto; flex-wrap: nowrap; }
-        .nav-tabs .nav-item { white-space: nowrap; }
+        .tab-content {
+            background: #fff;
+            border: 1px solid #e1e8f6;
+            border-radius: var(--radius-lg);
+            padding: 14px;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
+
+        .table-responsive {
+            border: 1px solid #e4ebf8;
+            border-radius: 12px;
+            background: #fff;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+        }
 
         table.dataTable {
-            width: 100% !important;
+            width: max-content !important;
+            min-width: 100% !important;
+        }
+
+        table.dataTable thead th {
+            background: #f3f7ff;
+            border-bottom: 1px solid #dce6fa !important;
+            color: #3a4768;
+            font-weight: 700;
+        }
+
+        table.dataTable tbody tr:nth-child(even) {
+            background: #fbfdff;
+        }
+
+        .download-btn,
+        .btn-outline-primary,
+        .btn-outline-secondary,
+        .btn-outline-success {
+            border-radius: 10px !important;
+            font-weight: 700 !important;
         }
 
         .analytics-filter-box {
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
+            border: 1px solid #dbe4f6;
+            border-radius: 10px;
             padding: 10px;
             max-height: 220px;
             overflow-y: auto;
@@ -56,29 +525,203 @@
 
         .analytics-filter-header {
             font-size: 0.9rem;
-            font-weight: 600;
+            font-weight: 700;
             margin-bottom: 8px;
+            color: #4a5879;
+        }
+
+        .footer-wrap {
+            border-top: 1px solid #e4ebf9;
+            background: #f7f9ff;
+            margin-top: 22px;
+        }
+
+        .footer-inner {
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 24px 22px 34px;
+            display: flex;
+            justify-content: space-between;
+            gap: 22px;
+            flex-wrap: wrap;
+            color: #6f7c98;
+            font-size: 1rem;
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            font-size: 2rem;
+            font-weight: 800;
+            color: #252f4a;
+            margin-bottom: 12px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 22px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #6b7792;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer-icons {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .footer-icons i {
+            font-size: 1.15rem;
+            color: #8592ad;
+        }
+
+        .last-refresh {
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 8px 22px 18px;
+            color: #7c88a5;
+            font-size: 0.85rem;
+            text-align: right;
+        }
+
+        @media (max-width: 991.98px) {
+            .hero {
+                grid-template-columns: 1fr;
+                min-height: auto;
+                padding: 30px 22px;
+            }
+
+            .hero-visual {
+                min-height: 280px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .top-nav {
+                padding: 14px 14px;
+                flex-wrap: wrap;
+            }
+
+            .brand {
+                font-size: 1.25rem;
+            }
+
+            .hero-wrap,
+            .tiles-shell,
+            .tabs-shell,
+            .footer-inner,
+            .last-refresh {
+                padding-left: 14px;
+                padding-right: 14px;
+            }
+
+            .section-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .section-actions {
+                min-width: 100%;
+                width: 100%;
+            }
         }
 
     </style>
 </head>
 <body>
+<div class="dashboard-shell">
+    <header class="top-nav-wrap">
+        <div class="top-nav">
+            <div class="brand">
+                <span>Pizza Pie Land</span>
+            </div>
+            <nav class="top-links" id="topNavLinks" aria-label="Primary"></nav>
+            <button id="logoutBtn" type="button">Logout <i class="bi bi-caret-down-fill ms-1" style="font-size:0.75em;"></i></button>
+        </div>
+    </header>
 
+    <section class="hero-wrap">
+        <div class="hero">
+            <div class="hero-copy">
+                <h1 class="hero-title">Pizza Pie Land Dashboard</h1>
+                <p class="hero-subtitle">Comprehensive analytics and reports for your pizza outlet business.</p>
+                <button class="hero-cta" id="heroSummaryBtn" type="button">View Final Summary <i class="bi bi-caret-down-fill ms-2" style="font-size:0.75em;"></i></button>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="panel main">
+                    <div class="visual-row" style="width: 44%;"></div>
+                    <div class="visual-row" style="width: 58%;"></div>
+                    <div class="visual-chart"></div>
+                </div>
+                <div class="panel small">
+                    <div class="visual-row" style="width: 56%;"></div>
+                    <div class="mini-bars">
+                        <span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="panel pie">
+                    <div class="visual-row" style="width: 50%;"></div>
+                    <div class="pie-chart-illus"></div>
+                    <div class="pizza-icon"><i class="bi bi-pie-chart-fill"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="tiles-shell">
+        <div class="tiles-card">
+            <div class="row" id="tile-container"></div>
+        </div>
+    </section>
 
-<div class="position-relative mb-4">
-    <h1 class="text-center mb-0">📊 Pizza Pie Land Dashboard</h1>
-    <button id="logoutBtn" class="btn btn-outline-danger btn-sm position-absolute top-50 end-0 translate-middle-y" type="button">Logout</button>
+    <main class="tabs-shell">
+        <section class="tab-section">
+            <div class="section-header">
+                <div>
+                    <h2 id="sectionHeading">Final Summary</h2>
+                    <p id="sectionSubHeading">POS Sales Performance and Inventory Overview</p>
+                </div>
+                <div class="section-actions">
+                    <div class="search-pill"><i class="bi bi-search"></i> Search</div>
+                    <button class="mini-download" id="sectionDownloadBtn" type="button">Download</button>
+                </div>
+            </div>
+            <ul class="nav nav-tabs" id="dataTabs" role="tablist"></ul>
+            <div class="tab-content" id="tab-content"></div>
+        </section>
+    </main>
+
+    <p class="last-refresh">
+        Last refreshed: <strong id="lastRefreshed">Loading...</strong>
+    </p>
+
+    <footer class="footer-wrap">
+        <div class="footer-inner">
+            <div>
+                <div class="footer-brand">
+                    <span>Pizza Pie Land</span>
+                </div>
+                <div class="footer-links">
+                    <a href="javascript:void(0)">Terms of Service</a>
+                    <a href="javascript:void(0)">Privacy Policy</a>
+                    <a href="javascript:void(0)">Support</a>
+                </div>
+            </div>
+            <div class="footer-icons" aria-label="Social links">
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+            </div>
+        </div>
+    </footer>
 </div>
-
-<div class="row text-center mb-5" id="tile-container"></div>
-<ul class="nav nav-tabs" id="dataTabs" role="tablist"></ul>
-<div class="tab-content mt-3" id="tab-content"></div>
-
-<hr class="mt-5">
-<p class="text-end text-muted">
-    Last refreshed: <strong id="lastRefreshed">Loading…</strong>
-</p>
 
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -257,16 +900,48 @@ const config = [
     }
 ];
 
+const groupVisualMeta = {
+    "Outlet KPIs": { icon: "bi bi-bar-chart-line-fill", subtitle: "" },
+    "Cashbook Summary": { icon: "bi bi-folder2-open", subtitle: "" },
+    "Bank Statements": { icon: "bi bi-wallet2", subtitle: "" },
+    "Amounts Reconciliation": { icon: "bi bi-arrow-left-right", subtitle: "" },
+    "Inventory Overview": { icon: "bi bi-clipboard2-data", subtitle: "" },
+    "Cheese Usage": { icon: "bi bi-box-seam", subtitle: "" },
+    "Swiggy Performance": { icon: "bi bi-check2-square", subtitle: "" },
+    "Analytics": { icon: "bi bi-shield-check", subtitle: "Auditors Section" },
+    "Auditors Section": { icon: "bi bi-shield-lock", subtitle: "Restricted" }
+};
+
+const topNavLabels = [
+    "Outlet KPIs",
+    "Cashbook Summary",
+    "Inventory Overview",
+    "Cheese Usage",
+    "Analytics"
+];
+
 document.addEventListener("DOMContentLoaded", () => {
     const tileContainer = document.getElementById("tile-container");
     const dataTabs = document.getElementById("dataTabs");
     const tabContent = document.getElementById("tab-content");
+    const topNavLinks = document.getElementById("topNavLinks");
+    const heroSummaryBtn = document.getElementById("heroSummaryBtn");
+    const sectionDownloadBtn = document.getElementById("sectionDownloadBtn");
     auditorGroupIndex = config.findIndex(group => group.label === AUDITOR_GROUP_LABEL);
 
     config.forEach((group, gIdx) => {
         const col = document.createElement("div");
-        col.className = "col-12 col-md-4 mb-3";
-        col.innerHTML = `<div class="tile" onclick="handleGroupClick(${gIdx})"><h4>${group.label}</h4></div>`;
+        const visualMeta = groupVisualMeta[group.label] || { icon: "bi bi-grid", subtitle: "" };
+        col.className = "col-12 col-md-6 col-xl-3 tile-grid-item";
+        col.dataset.group = gIdx;
+        col.innerHTML = `
+            <div class="tile" onclick="handleGroupClick(${gIdx})">
+                <div class="tile-icon"><i class="${visualMeta.icon}"></i></div>
+                <div>
+                    <h4>${group.label}</h4>
+                    ${visualMeta.subtitle ? `<small>${visualMeta.subtitle}</small>` : ""}
+                </div>
+            </div>`;
         if (isAuditor && gIdx !== auditorGroupIndex) {
             col.querySelector(".tile").classList.add("restricted");
         }
@@ -466,7 +1141,8 @@ document.addEventListener("DOMContentLoaded", () => {
                             columns,
                             pageLength: 50,
                             order: [[0, 'desc']],
-                            autoWidth: false
+                            autoWidth: false,
+                            scrollX: true
                         });
                     }
                 });
@@ -474,8 +1150,35 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    topNavLabels.forEach(label => {
+        const idx = config.findIndex(group => group.label === label);
+        if (idx < 0) return;
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "top-link";
+        btn.dataset.group = String(idx);
+        btn.textContent = label;
+        if (isAuditor && idx !== auditorGroupIndex) btn.disabled = true;
+        btn.addEventListener("click", () => handleGroupClick(idx));
+        topNavLinks?.appendChild(btn);
+    });
+
+    heroSummaryBtn?.addEventListener("click", () => {
+        const idx = config.findIndex(group => group.label === "Outlet KPIs");
+        if (idx >= 0) handleGroupClick(idx);
+    });
+
+    sectionDownloadBtn?.addEventListener("click", () => {
+        const visibleDownloadBtn = document.querySelector(
+            '.tab-pane.show.active .download-btn, .tab-pane.show.active [id$="DownloadGraphData"], .tab-pane.show.active [id$="Download"]'
+        );
+        if (visibleDownloadBtn) visibleDownloadBtn.click();
+    });
+
     if (isAuditor && auditorGroupIndex >= 0) {
         filterTabs(auditorGroupIndex);
+    } else {
+        filterTabs(0);
     }
 
     updateLastRefreshedFromAllCSVs();
@@ -510,6 +1213,29 @@ function filterTabs(groupIndex) {
         firstBtn.classList.add('active');
         document.querySelector(firstBtn.dataset.bsTarget).classList.add('show', 'active');
     }
+
+    // Group switching is handled manually, so trigger DataTables width recalculation.
+    setTimeout(() => {
+        Object.values(tableMap).forEach(t => t && t.columns.adjust());
+    }, 0);
+
+    const selectedGroup = config[groupIndex];
+    const sectionHeading = document.getElementById("sectionHeading");
+    const sectionSubHeading = document.getElementById("sectionSubHeading");
+    if (selectedGroup && sectionHeading) {
+        sectionHeading.textContent = selectedGroup.subtabs?.[0]?.label || selectedGroup.label;
+    }
+    if (selectedGroup && sectionSubHeading) {
+        sectionSubHeading.textContent = `${selectedGroup.label} insights and drill-ready tables`;
+    }
+
+    document.querySelectorAll("#tile-container .tile").forEach((tileEl, idx) => {
+        tileEl.classList.toggle("active", idx === groupIndex);
+    });
+
+    document.querySelectorAll("#topNavLinks .top-link").forEach(link => {
+        link.classList.toggle("active", Number(link.dataset.group) === groupIndex);
+    });
 }
 
 function renderDrilldownAnalyticsChart(tabId, sub) {
@@ -1316,7 +2042,8 @@ function renderSalarySummary(tabId, sub) {
                         ],
                         pageLength: 50,
                         order: [[0, "desc"], [1, "asc"]],
-                        autoWidth: false
+                        autoWidth: false,
+                        scrollX: true
                     });
                 }
             };
@@ -1360,6 +2087,12 @@ document.addEventListener("click", (e) => {
         e.preventDefault();
         e.stopPropagation();
         showAdminOnlyNotification();
+        return;
+    }
+
+    const sectionHeading = document.getElementById("sectionHeading");
+    if (sectionHeading) {
+        sectionHeading.textContent = navBtn.textContent?.trim() || "Summary";
     }
 });
 
@@ -1420,3 +2153,5 @@ async function updateLastRefreshedFromAllCSVs() {
 
 </body>
 </html>
+
+
