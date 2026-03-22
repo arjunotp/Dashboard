@@ -9004,9 +9004,9 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,paneer tikka powder,Kg,0.5,450.0,0.0,0.0,1.8,1620.0,-1.3,-1170.0
 2026-02,BBQ Mix Masala,Pkt,5.6,2604.0,0.0,0.0,9.0,4185.0,-3.4000000000000004,-1581.0
 2026-03,dynamic diced mozerella,Kg,20.1,8468.33,36.0,15167.16,0.0,0.0,56.1,23635.489999999998
-2026-03,Boneless Chicken,Kg,6.0,1800.0,35.45,10954.91,0.0,0.0,41.0,12754.91
+2026-03,Boneless Chicken,Kg,6.0,1800.0,38.35,11882.91,0.0,0.0,44.0,13682.91
+2026-03,grocery,Nos,8.0,828.24,69.0,10571.13,0.0,0.0,77.0,11399.369999999999
 2026-03,Gas-LPG-HPCL,Nos,2.0,3560.0,3.0,5540.0,0.0,0.0,5.0,9100.0
-2026-03,grocery,Nos,8.0,828.24,49.0,7989.13,0.0,0.0,57.0,8817.37
 2026-03,Regular Pizza Box,Nos,650.0,5525.0,0.0,0.0,0.0,0.0,650.0,5525.0
 2026-03,mexican mix,Kg,12.5,5437.5,0.0,0.0,0.0,0.0,12.5,5437.5
 2026-03,Medium Pizza Box,Nos,500.0,5000.0,0.0,0.0,0.0,0.0,500.0,5000.0
@@ -9016,7 +9016,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,oil,Pkt,13.0,1696.5,20.0,2730.0,0.0,0.0,33.0,4426.5
 2026-03,BBQ Mix Masala,Pkt,9.0,4185.0,0.0,0.0,0.0,0.0,9.0,4185.0
 2026-03,hungritos premium,Kg,11.3,1257.92,25.0,2783.0,0.0,0.0,36.3,4040.92
-2026-03,vegetables,Nos,5.0,277.0,49.0,3052.01,0.0,0.0,54.0,3329.01
+2026-03,vegetables,Nos,5.0,277.0,56.0,3486.01,0.0,0.0,61.0,3763.01
 2026-03,miscellaneous item,Nos,0.0,0.0,19.0,3099.99,0.0,0.0,19.0,3099.99
 2026-03,KOT ROLLS,Nos,54.0,2916.0,0.0,0.0,0.0,0.0,54.0,2916.0
 2026-03,mushroom slice Food coast,Tin,30.0,2850.0,0.0,0.0,0.0,0.0,30.0,2850.0
@@ -9047,8 +9047,10 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Moktails Glass,Nos,163.0,1304.0,0.0,0.0,0.0,0.0,163.0,1304.0
 2026-03,black olive slice Habit,Tin,1.5,1296.56,0.0,0.0,0.0,0.0,1.5,1296.56
 2026-03,milk shake assorted,Nos,11.0,264.0,36.0,905.04,0.0,0.0,47.0,1169.04
+2026-03,OREGANO SACHET 0.8GM,Nos,750.0,517.5,900.0,621.0,0.0,0.0,1650.0,1138.5
 2026-03,7up 250ml Pet,Nos,35.0,612.5,30.0,525.0,0.0,0.0,65.0,1137.5
 2026-03,Berry Fresh Chicku Pulp 2kg,Tin,4.0,1120.0,0.0,0.0,0.0,0.0,4.0,1120.0
+2026-03,HABIT JALAPENO SLICES 2.9 KG,Tin,2.0,556.0,2.0,556.0,0.0,0.0,4.0,1112.0
 2026-03, dry yeast 500 gm,Pkt,6.5,1105.0,0.0,0.0,0.0,0.0,6.5,1105.0
 2026-03,tandoori mayonise,Pkt,4.1,1066.0,0.0,0.0,0.0,0.0,4.1,1066.0
 2026-03,Processed cheese block,Kg,2.0,1039.5,0.0,0.0,0.0,0.0,2.0,1039.5
@@ -9058,6 +9060,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Veeba Gouda Flavoured Dressing,Pkt,5.0,946.9,0.0,0.0,0.0,0.0,5.0,946.9
 2026-03,habit olive oil,Nos,2.5,922.5,0.0,0.0,0.0,0.0,2.5,922.5
 2026-03,DVC Green Apple 750 ML,Nos,2.0,920.0,0.0,0.0,0.0,0.0,2.0,920.0
+2026-03,chill fill french fry,Pkt,0.0,0.0,3.0,900.0,0.0,0.0,3.0,900.0
 2026-03,Strawberry-Ice cream,Nos,1.4,880.6,0.0,0.0,0.0,0.0,1.4,880.6
 2026-03,Puramate Pasta-Penne Rigatte 500g,Pkt,7.0,469.0,6.0,402.0,0.0,0.0,13.0,871.0
 2026-03,sky vanilla 4 ltr,Nos,1.5,516.0,1.0,344.0,0.0,0.0,2.5,860.0
@@ -9068,6 +9071,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Dew 250ml Pet,Nos,45.0,787.5,0.0,0.0,0.0,0.0,45.0,787.5
 2026-03,butter scotch ice cream 4 ltr,Nos,0.0,0.0,1.0,773.0,0.0,0.0,1.0,773.0
 2026-03,sirocco black olive,Tin,0.0,0.0,1.0,771.0,0.0,0.0,1.0,771.0
+2026-03,Mini Burger Box,Nos,75.0,210.0,200.0,560.0,0.0,0.0,275.0,770.0
 2026-03,Lehar Soda,Nos,25.0,370.5,24.0,394.8,0.0,0.0,49.0,765.3
 2026-03,staff rice,Kg,15.0,765.0,0.0,0.0,0.0,0.0,15.0,765.0
 2026-03,Butter,Kg,2.0,760.0,0.0,0.0,0.0,0.0,2.0,760.0
@@ -9080,22 +9084,20 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,CHILLY FLAKES SACHET 0.8GM,Nos,1200.0,624.0,0.0,0.0,0.0,0.0,1200.0,624.0
 2026-03,cheesy spread dip,Pkt,2.0,618.76,0.0,0.0,0.0,0.0,2.0,618.76
 2026-03,tomato ketchup 1.2 bottle,Nos,6.0,618.78,0.0,0.0,0.0,0.0,6.0,618.78
+2026-03,Zippy Chicken Salami,Pkt,0.0,0.0,2.0,618.0,0.0,0.0,2.0,618.0
 2026-03,Rose lichy crush mojito,Nos,1.75,606.38,0.0,0.0,0.0,0.0,1.75,606.38
 2026-03,staff chicken,Kg,0.0,0.0,4.0,600.0,0.0,0.0,4.0,600.0
 2026-03,sneha chi nuggets,Pkt,2.3,595.12,0.0,0.0,0.0,0.0,2.3,595.12
 2026-03,Paneer,Kg,2.0,580.0,0.0,0.0,0.0,0.0,2.0,580.0
 2026-03,paneer,Kg,0.0,0.0,2.0,580.0,0.0,0.0,2.0,580.0
-2026-03,HABIT JALAPENO SLICES 2.9 KG,Tin,2.0,556.0,0.0,0.0,0.0,0.0,2.0,556.0
 2026-03,Pepsi 750ml Pet,Nos,16.0,549.92,0.0,0.0,0.0,0.0,16.0,549.92
 2026-03,baby corn,Tin,5.0,540.0,0.0,0.0,0.0,0.0,5.0,540.0
 2026-03,pepsi 1 ltr,Nos,12.0,532.08,0.0,0.0,0.0,0.0,12.0,532.08
 2026-03,Tropicana Guava Delight 500ml,Nos,21.0,526.68,0.0,0.0,0.0,0.0,21.0,526.68
 2026-03,DVC Watermelon Syrup 750 ml,Nos,1.0,519.2,0.0,0.0,0.0,0.0,1.0,519.2
 2026-03,Mayonise premium,Pkt,3.0,517.5,0.0,0.0,0.0,0.0,3.0,517.5
-2026-03,OREGANO SACHET 0.8GM,Nos,750.0,517.5,0.0,0.0,0.0,0.0,750.0,517.5
 2026-03,nuggets sneha,Pkt,0.0,0.0,2.0,514.3,0.0,0.0,2.0,514.3
 2026-03,Slice Mango 250ml pet,Nos,0.0,0.0,30.0,498.6,0.0,0.0,30.0,498.6
-2026-03,Mini Burger Box,Nos,75.0,210.0,100.0,280.0,0.0,0.0,175.0,490.0
 2026-03,Honey,Kg,2.0,488.0,0.0,0.0,0.0,0.0,2.0,488.0
 2026-03,milk,Nos,3.0,75.0,16.0,400.0,0.0,0.0,19.0,475.0
 2026-03,Zippy  B.Fast Sausage ,Kg,1.6,472.7,0.0,0.0,0.0,0.0,1.6,472.7
