@@ -31,7 +31,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,1468.8,2026-03,271007.15,0.54
 2026-03,CHEESE & DAIRY,fresh cream,Strawberry-Ice cream,880.6,2026-03,271007.15,0.32
 2026-03,CHEESE & DAIRY,milk,milk shake assorted,1169.04,2026-03,271007.15,0.43
-2026-03,CHEESE & DAIRY,milk,milk,375.0,2026-03,271007.15,0.14
+2026-03,CHEESE & DAIRY,milk,milk,475.0,2026-03,271007.15,0.18
 2026-03,CHEESE & DAIRY,milk,milk fruits sugar balls,177.0,2026-03,271007.15,0.07
 2026-03,CHEESE & DAIRY,paneer,paneer tikka powder,1620.0,2026-03,271007.15,0.6
 2026-03,CHEESE & DAIRY,paneer,Paneer,580.0,2026-03,271007.15,0.21
@@ -65,7 +65,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,MASALA & SEASONINGS,piri piri marinade,Piri Piri Marinade 1KG,400.5,2026-03,271007.15,0.15
 2026-03,MASALA & SEASONINGS,salt,salted cookies syrup taste craft,430.5,2026-03,271007.15,0.16
 2026-03,MASALA & SEASONINGS,tandoori masala,Tandoori mix Masala,2490.0,2026-03,271007.15,0.92
-2026-03,MEAT & POULTRY,boneless chicken,Boneless Chicken,11442.91,2026-03,271007.15,4.22
+2026-03,MEAT & POULTRY,boneless chicken,Boneless Chicken,12754.91,2026-03,271007.15,4.71
 2026-03,MEAT & POULTRY,chicken burger pattis,Chicken burger pattis,1436.4,2026-03,271007.15,0.53
 2026-03,MEAT & POULTRY,chicken burger pattis,sneha chi burgar pattis,1008.0,2026-03,271007.15,0.37
 2026-03,MEAT & POULTRY,chicken burger pattis,Veg burger pattis,225.0,2026-03,271007.15,0.08
@@ -131,7 +131,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,UNMAPPED,UNMAPPED,Puramate Pasta-Gomiti Rigate - macroni - 500g,268.0,2026-03,271007.15,0.1
 2026-03,UNMAPPED,UNMAPPED,mango crush taste craft,222.08,2026-03,271007.15,0.08
 2026-03,UNMAPPED,UNMAPPED,ice cube/80,160.0,2026-03,271007.15,0.06
-2026-03,UNMAPPED,UNMAPPED,egg 7,70.0,2026-03,271007.15,0.03
+2026-03,UNMAPPED,UNMAPPED,egg 7,140.0,2026-03,271007.15,0.05
 2026-03,UNMAPPED,UNMAPPED,egg 8,80.0,2026-03,271007.15,0.03
 2026-03,UNMAPPED,UNMAPPED,Green Peas,42.5,2026-03,271007.15,0.02
 2026-03,UTILITIES & EXPENSES,lpg gas,Gas-LPG-HPCL,9100.0,2026-03,271007.15,3.36
