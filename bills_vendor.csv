@@ -9,8 +9,10 @@ year_month,Date,Vendor_Name,Amount
 2026-03,2026-03-13,KTP Vegitables,460.0
 2026-03,2026-03-14,KTP Vegitables,212.0
 2026-03,2026-03-17,KTP Vegitables,531.0
+2026-03,2026-03-21,KTP Vegitables,434.0
 2026-03,2026-03-05,Koonathil Traders,2120.0
 2026-03,2026-03-13,Koonathil Traders,1702.0
+2026-03,2026-03-21,Koonathil Traders,2975.0
 2026-03,2026-03-01,Local Purchase,1056.0
 2026-03,2026-03-02,Local Purchase,3556.0
 2026-03,2026-03-06,Local Purchase,170.0
@@ -26,6 +28,7 @@ year_month,Date,Vendor_Name,Amount
 2026-03,2026-03-18,Local Purchase,276.0
 2026-03,2026-03-19,Local Purchase,859.0
 2026-03,2026-03-20,Local Purchase,170.0
+2026-03,2026-03-21,Local Purchase,2582.0
 2026-03,2026-03-08,Local Purchase-Gas AGency,3620.0
 2026-03,2026-03-09,RK Agencies,3570.0
 2026-03,2026-03-18,RK Agencies,3600.0
@@ -43,6 +46,7 @@ year_month,Date,Vendor_Name,Amount
 2026-03,2026-03-16,shabana chicken stall,609.0
 2026-03,2026-03-18,shabana chicken stall,1104.0
 2026-03,2026-03-20,shabana chicken stall,1312.0
+2026-03,2026-03-21,shabana chicken stall,928.0
 2026-02,2026-02-04,BERRY FRESH,1580.0
 2026-02,2026-02-23,BERRY FRESH,1300.0
 2026-02,2026-02-16,Dhanalaxmi traders,2700.0
