@@ -9004,7 +9004,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-02,paneer tikka powder,Kg,0.5,450.0,0.0,0.0,1.8,1620.0,-1.3,-1170.0
 2026-02,BBQ Mix Masala,Pkt,5.6,2604.0,0.0,0.0,9.0,4185.0,-3.4000000000000004,-1581.0
 2026-03,dynamic diced mozerella,Kg,20.1,8468.33,36.0,15167.16,0.0,0.0,56.1,23635.489999999998
-2026-03,Boneless Chicken,Kg,6.0,1800.0,38.35,11882.91,0.0,0.0,44.0,13682.91
+2026-03,Boneless Chicken,Kg,6.0,1800.0,43.3,13466.91,0.0,0.0,49.0,15266.91
 2026-03,grocery,Nos,8.0,828.24,69.0,10571.13,0.0,0.0,77.0,11399.369999999999
 2026-03,Gas-LPG-HPCL,Nos,2.0,3560.0,3.0,5540.0,0.0,0.0,5.0,9100.0
 2026-03,Regular Pizza Box,Nos,650.0,5525.0,0.0,0.0,0.0,0.0,650.0,5525.0
@@ -9015,8 +9015,8 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,prince maida 50kg,Kg,0.0,0.0,100.0,4440.0,0.0,0.0,100.0,4440.0
 2026-03,oil,Pkt,13.0,1696.5,20.0,2730.0,0.0,0.0,33.0,4426.5
 2026-03,BBQ Mix Masala,Pkt,9.0,4185.0,0.0,0.0,0.0,0.0,9.0,4185.0
+2026-03,vegetables,Nos,5.0,277.0,61.0,3904.01,0.0,0.0,66.0,4181.01
 2026-03,hungritos premium,Kg,11.3,1257.92,25.0,2783.0,0.0,0.0,36.3,4040.92
-2026-03,vegetables,Nos,5.0,277.0,56.0,3486.01,0.0,0.0,61.0,3763.01
 2026-03,miscellaneous item,Nos,0.0,0.0,19.0,3099.99,0.0,0.0,19.0,3099.99
 2026-03,KOT ROLLS,Nos,54.0,2916.0,0.0,0.0,0.0,0.0,54.0,2916.0
 2026-03,mushroom slice Food coast,Tin,30.0,2850.0,0.0,0.0,0.0,0.0,30.0,2850.0
@@ -9117,6 +9117,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,chilly garlic spread,Pkt,0.0,0.0,2.0,330.0,0.0,0.0,2.0,330.0
 2026-03,Bread Premix,Kg,1.3,327.6,0.0,0.0,0.0,0.0,1.3,327.6
 2026-03,bio covers,Kg,2.35,305.5,0.0,0.0,0.0,0.0,2.35,305.5
+2026-03,fruits and vegetables,Nos,0.0,0.0,4.0,300.0,0.0,0.0,4.0,300.0
 2026-03,CHICKEN POPCORN,Pkt,1.3,292.5,0.0,0.0,0.0,0.0,1.3,292.5
 2026-03,SALAMI,Pkt,1.0,279.0,0.0,0.0,0.0,0.0,1.0,279.0
 2026-03,Aqua Fina Mineral Water 1Ltr,Nos,10.0,125.8,12.0,150.96,0.0,0.0,22.0,276.76
