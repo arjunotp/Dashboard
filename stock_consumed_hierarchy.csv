@@ -25,7 +25,8 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,CHEESE & DAIRY,butter,Butter,760.0,2026-03,316049.5,0.24
 2026-03,CHEESE & DAIRY,butter,butter scotch ice cream 4 ltr,773.0,2026-03,316049.5,0.24
 2026-03,CHEESE & DAIRY,butter,Butter Scotch Sauce 750ml,257.4,2026-03,316049.5,0.08
-2026-03,CHEESE & DAIRY,diced mozzarella,dynamic diced mozerella,23635.489999999998,2026-03,316049.5,7.48
+2026-03,CHEESE & DAIRY,cheddar cheese,GO Orange Cheddar Cheese 2kg,1178.0,2026-03,316049.5,0.37
+2026-03,CHEESE & DAIRY,diced mozzarella,dynamic diced mozerella,34016.93,2026-03,316049.5,10.76
 2026-03,CHEESE & DAIRY,fresh cream,Richs versatie cream,2632.0,2026-03,316049.5,0.83
 2026-03,CHEESE & DAIRY,fresh cream,Chocolate Ice-cream 4ltr,1632.0,2026-03,316049.5,0.52
 2026-03,CHEESE & DAIRY,fresh cream,Vanilla Ice-cream 4ltr,1468.8,2026-03,316049.5,0.46
@@ -36,12 +37,13 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,CHEESE & DAIRY,paneer,paneer tikka powder,1620.0,2026-03,316049.5,0.51
 2026-03,CHEESE & DAIRY,paneer,Paneer,580.0,2026-03,316049.5,0.18
 2026-03,CHEESE & DAIRY,paneer,paneer,580.0,2026-03,316049.5,0.18
-2026-03,CHEESE & DAIRY,processed cheese,Processed cheese block,1039.5,2026-03,316049.5,0.33
+2026-03,CHEESE & DAIRY,processed cheese,Processed cheese block,2215.5,2026-03,316049.5,0.7
 2026-03,CHEESE & DAIRY,slice cheese,slice cheese,2562.75,2026-03,316049.5,0.81
 2026-03,"FLOUR, GRAINS & DRY GOODS",corn meal,Corn Meal - MAKKA RAVA,110.0,2026-03,316049.5,0.03
 2026-03,"FLOUR, GRAINS & DRY GOODS",horlicks,horlicks,192.0,2026-03,316049.5,0.06
 2026-03,"FLOUR, GRAINS & DRY GOODS",maida,prince maida 50kg,4440.0,2026-03,316049.5,1.4
 2026-03,"FLOUR, GRAINS & DRY GOODS",rice,staff rice,765.0,2026-03,316049.5,0.24
+2026-03,FROZEN ITEMS,french fries,french fry hungritos 2.5kg,1396.5,2026-03,316049.5,0.44
 2026-03,FROZEN ITEMS,french fries,chill fill french fry,900.0,2026-03,316049.5,0.28
 2026-03,FROZEN ITEMS,frozen sweet corn,sweet corn abad,425.0,2026-03,316049.5,0.13
 2026-03,FROZEN ITEMS,frozen sweet corn,sweet corn,252.0,2026-03,316049.5,0.08
@@ -55,7 +57,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,MASALA & SEASONINGS,aromat seasoning,Aromat Seasoning Powder,172.0,2026-03,316049.5,0.05
 2026-03,MASALA & SEASONINGS,bbq mix,BBQ Mix Masala,4185.0,2026-03,316049.5,1.32
 2026-03,MASALA & SEASONINGS,bbq mix,bbq mix,465.0,2026-03,316049.5,0.15
-2026-03,MASALA & SEASONINGS,chilly flakes,CHILLY FLAKES SACHET 0.8GM,624.0,2026-03,316049.5,0.2
+2026-03,MASALA & SEASONINGS,chilly flakes,CHILLY FLAKES SACHET 0.8GM,1144.0,2026-03,316049.5,0.36
 2026-03,MASALA & SEASONINGS,chilly flakes,chilly flake sachet,260.0,2026-03,316049.5,0.08
 2026-03,MASALA & SEASONINGS,dry basil,dry basil,112.0,2026-03,316049.5,0.04
 2026-03,MASALA & SEASONINGS,herb mix,Herb Mix Masla,1784.0,2026-03,316049.5,0.56
@@ -66,15 +68,16 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,MASALA & SEASONINGS,piri piri marinade,Piri Piri Marinade 1KG,400.5,2026-03,316049.5,0.13
 2026-03,MASALA & SEASONINGS,salt,salted cookies syrup taste craft,430.5,2026-03,316049.5,0.14
 2026-03,MASALA & SEASONINGS,tandoori masala,Tandoori mix Masala,2490.0,2026-03,316049.5,0.79
-2026-03,MEAT & POULTRY,boneless chicken,Boneless Chicken,15840.91,2026-03,316049.5,5.01
-2026-03,MEAT & POULTRY,chicken burger pattis,Chicken burger pattis,1436.4,2026-03,316049.5,0.45
+2026-03,MEAT & POULTRY,boneless chicken,Boneless Chicken,16905.91,2026-03,316049.5,5.35
+2026-03,MEAT & POULTRY,chicken burger pattis,Chicken burger pattis,1940.4,2026-03,316049.5,0.61
 2026-03,MEAT & POULTRY,chicken burger pattis,sneha chi burgar pattis,1008.0,2026-03,316049.5,0.32
-2026-03,MEAT & POULTRY,chicken burger pattis,Veg burger pattis,225.0,2026-03,316049.5,0.07
+2026-03,MEAT & POULTRY,chicken burger pattis,Veg burger pattis,675.0,2026-03,316049.5,0.21
 2026-03,MEAT & POULTRY,chicken kheema,Chicken Kheema  Masala,975.0,2026-03,316049.5,0.31
 2026-03,MEAT & POULTRY,chicken kheema,chicken kheema masala,260.0,2026-03,316049.5,0.08
-2026-03,MEAT & POULTRY,chicken nuggets,sneha chi nuggets,595.12,2026-03,316049.5,0.19
+2026-03,MEAT & POULTRY,chicken nuggets,sneha chi nuggets,1112.62,2026-03,316049.5,0.35
 2026-03,MEAT & POULTRY,chicken pepperoni,chicken pepperoni,1903.0,2026-03,316049.5,0.6
 2026-03,MEAT & POULTRY,chicken popcorn,CHICKEN POPCORN,292.5,2026-03,316049.5,0.09
+2026-03,MEAT & POULTRY,chicken popcorn,chicken popcorn,262.5,2026-03,316049.5,0.08
 2026-03,MEAT & POULTRY,chicken salami,Zippy Chicken Salami,618.0,2026-03,316049.5,0.2
 2026-03,MEAT & POULTRY,chicken salami,SALAMI,279.0,2026-03,316049.5,0.09
 2026-03,MEAT & POULTRY,lamb pepperoni,Lamp Pepperoni,1790.0,2026-03,316049.5,0.57
@@ -97,24 +100,24 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,PACKAGING MATERIALS,tissue,Tissue Big,160.0,2026-03,316049.5,0.05
 2026-03,PACKAGING MATERIALS,wooden spoon,wodden spoon,130.0,2026-03,316049.5,0.04
 2026-03,SAUCES & SPREADS,cheesy spread,cheesy spread dip,618.76,2026-03,316049.5,0.2
-2026-03,SAUCES & SPREADS,eggless mayonnaise,Veeba Eggless Mayonise Chef 1KG,2812.0,2026-03,316049.5,0.89
-2026-03,SAUCES & SPREADS,gouda flavoured dressing,Veeba Gouda Flavoured Dressing,946.9,2026-03,316049.5,0.3
-2026-03,SAUCES & SPREADS,honey mustard dressing,Honey mustard dressing,847.48,2026-03,316049.5,0.27
+2026-03,SAUCES & SPREADS,eggless mayonnaise,Veeba Eggless Mayonise Chef 1KG,3502.0,2026-03,316049.5,1.11
+2026-03,SAUCES & SPREADS,gouda flavoured dressing,Veeba Gouda Flavoured Dressing,2461.94,2026-03,316049.5,0.78
+2026-03,SAUCES & SPREADS,honey mustard dressing,Honey mustard dressing,1694.96,2026-03,316049.5,0.54
 2026-03,SAUCES & SPREADS,honey mustard dressing,Honey,488.0,2026-03,316049.5,0.15
-2026-03,SAUCES & SPREADS,ketchup sachet,Veeba Ketchup Sachet,1680.0,2026-03,316049.5,0.53
-2026-03,SAUCES & SPREADS,makhani gravy,makhni gravy,630.0,2026-03,316049.5,0.2
-2026-03,SAUCES & SPREADS,pasta sauce,veeba pizza pasta sauce,1447.6,2026-03,316049.5,0.46
+2026-03,SAUCES & SPREADS,ketchup sachet,Veeba Ketchup Sachet,2640.0,2026-03,316049.5,0.84
+2026-03,SAUCES & SPREADS,makhani gravy,makhni gravy,1050.0,2026-03,316049.5,0.33
+2026-03,SAUCES & SPREADS,pasta sauce,veeba pizza pasta sauce,3619.0,2026-03,316049.5,1.15
 2026-03,SAUCES & SPREADS,pizza sauce,Pizza sauce premix,650.0,2026-03,316049.5,0.21
 2026-03,SAUCES & SPREADS,pizza sauce,pizza sauce,360.0,2026-03,316049.5,0.11
-2026-03,SAUCES & SPREADS,schezwan sauce,Schezwan sauce,175.32,2026-03,316049.5,0.06
+2026-03,SAUCES & SPREADS,schezwan sauce,Schezwan sauce,525.96,2026-03,316049.5,0.17
 2026-03,SAUCES & SPREADS,tandoori mayonnaise,tandoori mayonise,1066.0,2026-03,316049.5,0.34
 2026-03,SAUCES & SPREADS,thousand island dressing,Veeba ThousandIsland Dressing 1KG,732.0,2026-03,316049.5,0.23
-2026-03,SAUCES & SPREADS,tomato ketchup,tomato ketchup 1.2 bottle,618.78,2026-03,316049.5,0.2
+2026-03,SAUCES & SPREADS,tomato ketchup,tomato ketchup 1.2 bottle,1031.3,2026-03,316049.5,0.33
 2026-03,STATIONERY & MISC,pen,HABIT JALAPENO SLICES 2.9 KG,1112.0,2026-03,316049.5,0.35
 2026-03,STATIONERY & MISC,pen,Puramate Pasta-Penne Rigatte 500g,871.0,2026-03,316049.5,0.28
 2026-03,STATIONERY & MISC,tape,Celotape-3/4inch-,184.0,2026-03,316049.5,0.06
 2026-03,UNMAPPED,UNMAPPED,grocery,12979.369999999999,2026-03,316049.5,4.11
-2026-03,UNMAPPED,UNMAPPED,vegetables,4181.01,2026-03,316049.5,1.32
+2026-03,UNMAPPED,UNMAPPED,vegetables,4404.99,2026-03,316049.5,1.39
 2026-03,UNMAPPED,UNMAPPED,hungritos premium,4040.92,2026-03,316049.5,1.28
 2026-03,UNMAPPED,UNMAPPED,miscellaneous item,3099.99,2026-03,316049.5,0.98
 2026-03,UNMAPPED,UNMAPPED,KOT ROLLS,2916.0,2026-03,316049.5,0.92
