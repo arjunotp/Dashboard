@@ -9027,23 +9027,24 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,slice cheese,Nos,153.0,1257.66,153.0,1305.09,0.0,0.0,306.0,2562.75
 2026-03,Tandoori mix Masala,Kg,6.0,2490.0,0.0,0.0,0.0,0.0,6.0,2490.0
 2026-03,Veeba Gouda Flavoured Dressing,Pkt,5.0,946.9,8.0,1515.04,0.0,0.0,13.0,2461.94
+2026-03,Chocolate Ice-cream 4ltr,Nos,1.0,816.0,2.0,1632.0,0.0,0.0,3.0,2448.0
 2026-03,Processed cheese block,Kg,2.0,1039.5,2.0,1176.0,0.0,0.0,4.0,2215.5
+2026-03,Vanilla Ice-cream 4ltr,Nos,1.7,924.8,2.0,1088.0,0.0,0.0,3.7,2012.8
 2026-03,Chicken burger pattis,Pkt,3.7,932.4,4.0,1008.0,0.0,0.0,7.7,1940.4
 2026-03,Brownie,Kg,5.0,1925.0,0.0,0.0,0.0,0.0,5.0,1925.0
 2026-03,chicken pepperoni,Kg,2.2,1903.0,0.0,0.0,0.0,0.0,2.2,1903.0
 2026-03,Lamp Pepperoni,Kg,2.0,1790.0,0.0,0.0,0.0,0.0,2.0,1790.0
 2026-03,Herb Mix Masla,Kg,4.0,1784.0,0.0,0.0,0.0,0.0,4.0,1784.0
 2026-03,Honey mustard dressing,Pkt,2.0,423.74,6.0,1271.22,0.0,0.0,8.0,1694.96
-2026-03,Chocolate Ice-cream 4ltr,Nos,1.0,816.0,1.0,816.0,0.0,0.0,2.0,1632.0
 2026-03,paneer tikka powder,Kg,1.8,1620.0,0.0,0.0,0.0,0.0,1.8,1620.0
 2026-03,Pepsi 250ml Pet,Nos,62.0,1085.0,30.0,525.0,0.0,0.0,92.0,1610.0
 2026-03,Garlic Bread Box,Nos,210.0,1575.0,0.0,0.0,0.0,0.0,210.0,1575.0
+2026-03,butter scotch ice cream 4 ltr,Nos,0.0,0.0,2.0,1546.0,0.0,0.0,2.0,1546.0
 2026-03,7UP 750ml Pet,Nos,20.0,687.4,24.0,824.88,0.0,0.0,44.0,1512.28
 2026-03,Berry Fresh Tender Coconut Pulp 2kg,Tin,4.0,1480.0,0.0,0.0,0.0,0.0,4.0,1480.0
 2026-03,Salad Bowl 250ml,Nos,281.0,1475.25,0.0,0.0,0.0,0.0,281.0,1475.25
 2026-03,Salad Bowl 500ml,Nos,225.0,1473.75,0.0,0.0,0.0,0.0,225.0,1473.75
 2026-03,Mojito Menta Cubano,Nos,1.2,552.0,2.0,920.0,0.0,0.0,3.2,1472.0
-2026-03,Vanilla Ice-cream 4ltr,Nos,1.7,924.8,1.0,544.0,0.0,0.0,2.7,1468.8
 2026-03,french fry hungritos 2.5kg,Kg,0.0,0.0,12.5,1396.5,0.0,0.0,13.0,1396.5
 2026-03,DVC PASSION FRUIT FLV SYRUP 750ML,Nos,1.0,460.0,2.0,920.0,0.0,0.0,3.0,1380.0
 2026-03,Pasta Container Black,Nos,154.0,1378.3,0.0,0.0,0.0,0.0,154.0,1378.3
@@ -9075,7 +9076,6 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,French Fries Box,Nos,150.0,802.5,0.0,0.0,0.0,0.0,150.0,802.5
 2026-03,red paprika habit,Tin,1.0,395.0,1.0,395.0,0.0,0.0,2.0,790.0
 2026-03,Dew 250ml Pet,Nos,45.0,787.5,0.0,0.0,0.0,0.0,45.0,787.5
-2026-03,butter scotch ice cream 4 ltr,Nos,0.0,0.0,1.0,773.0,0.0,0.0,1.0,773.0
 2026-03,sirocco black olive,Tin,0.0,0.0,1.0,771.0,0.0,0.0,1.0,771.0
 2026-03,Mini Burger Box,Nos,75.0,210.0,200.0,560.0,0.0,0.0,275.0,770.0
 2026-03,Lehar Soda,Nos,25.0,370.5,24.0,394.8,0.0,0.0,49.0,765.3
@@ -9113,6 +9113,7 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,sweet corn abad,Kg,0.0,0.0,5.0,425.0,0.0,0.0,5.0,425.0
 2026-03,burger buns,Nos,0.0,0.0,52.0,416.0,0.0,0.0,52.0,416.0
 2026-03,Piri Piri Marinade 1KG,Kg,0.9,400.5,0.0,0.0,0.0,0.0,0.9,400.5
+2026-03,butterscotch plain,Nos,0.0,0.0,1.0,400.0,0.0,0.0,1.0,400.0
 2026-03,cheese cake cassata syrup,Nos,0.9,387.45,0.0,0.0,0.0,0.0,0.9,387.45
 2026-03,potato wedges,Kg,2.2,383.46,0.0,0.0,0.0,0.0,2.2,383.46
 2026-03,Oregano Sprinkler 500g,Pkt,1.2,368.4,0.0,0.0,0.0,0.0,1.2,368.4
