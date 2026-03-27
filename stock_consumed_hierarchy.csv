@@ -70,7 +70,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,MASALA & SEASONINGS,piri piri marinade,Piri Piri Marinade 1KG,400.5,2026-03,338450.5,0.12
 2026-03,MASALA & SEASONINGS,salt,salted cookies syrup taste craft,430.5,2026-03,338450.5,0.13
 2026-03,MASALA & SEASONINGS,tandoori masala,Tandoori mix Masala,2490.0,2026-03,338450.5,0.74
-2026-03,MEAT & POULTRY,boneless chicken,Boneless Chicken,16905.91,2026-03,338450.5,5.0
+2026-03,MEAT & POULTRY,boneless chicken,Boneless Chicken,18059.92,2026-03,338450.5,5.34
 2026-03,MEAT & POULTRY,chicken burger pattis,Chicken burger pattis,1940.4,2026-03,338450.5,0.57
 2026-03,MEAT & POULTRY,chicken burger pattis,sneha chi burgar pattis,1008.0,2026-03,338450.5,0.3
 2026-03,MEAT & POULTRY,chicken burger pattis,Veg burger pattis,675.0,2026-03,338450.5,0.2
@@ -119,7 +119,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,STATIONERY & MISC,pen,Puramate Pasta-Penne Rigatte 500g,871.0,2026-03,338450.5,0.26
 2026-03,STATIONERY & MISC,tape,Celotape-3/4inch-,184.0,2026-03,338450.5,0.05
 2026-03,UNMAPPED,UNMAPPED,grocery,14603.369999999999,2026-03,338450.5,4.31
-2026-03,UNMAPPED,UNMAPPED,vegetables,4404.99,2026-03,338450.5,1.3
+2026-03,UNMAPPED,UNMAPPED,vegetables,4659.99,2026-03,338450.5,1.38
 2026-03,UNMAPPED,UNMAPPED,hungritos premium,4040.92,2026-03,338450.5,1.19
 2026-03,UNMAPPED,UNMAPPED,miscellaneous item,3099.99,2026-03,338450.5,0.92
 2026-03,UNMAPPED,UNMAPPED,KOT ROLLS,2916.0,2026-03,338450.5,0.86
@@ -142,7 +142,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,UNMAPPED,UNMAPPED,egg 7,140.0,2026-03,338450.5,0.04
 2026-03,UNMAPPED,UNMAPPED,egg 8,80.0,2026-03,338450.5,0.02
 2026-03,UNMAPPED,UNMAPPED,Green Peas,42.5,2026-03,338450.5,0.01
-2026-03,UTILITIES & EXPENSES,lpg gas,Gas-LPG-HPCL,9100.0,2026-03,338450.5,2.69
+2026-03,UTILITIES & EXPENSES,lpg gas,Gas-LPG-HPCL,11090.0,2026-03,338450.5,3.28
 2026-03,VEGETABLES,baby corn,baby corn,540.0,2026-03,338450.5,0.16
 2026-03,VEGETABLES,garlic,chilly garlic spread,330.0,2026-03,338450.5,0.1
 2026-03,VEGETABLES,mushroom,mushroom slice Food coast,2850.0,2026-03,338450.5,0.84
