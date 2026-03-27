@@ -249,6 +249,7 @@ Generator Petrol,GAS & FUEL,generator petrol,generator petrol,1.0
 HP GAS,GAS & FUEL,hp gas,hp gas,1.0
 HP GAS 2 cylinder,GAS & FUEL,hp gas,hp gas,0.92
 HP GAS 2Cylinder 18/11,GAS & FUEL,hp gas,hp gas,0.92
+HP gas deposit for 3,GAS & FUEL,hp gas,hp gas,0.92
 HP gas with transport,GAS & FUEL,hp gas,hp gas,0.92
 Petrol,GAS & FUEL,petrol,petrol,1.0
 Petrol 2 bikes,GAS & FUEL,petrol,petrol,0.92
@@ -708,6 +709,7 @@ auto fare cpy- otp-cpy,TRANSPORTATION & AUTO CHARGES,auto charge,auto charge,0.9
 auto fare generator palakkad,TRANSPORTATION & AUTO CHARGES,auto charge,auto charge,0.9
 chef bus charge ottappalam,TRANSPORTATION & AUTO CHARGES,chef bus fare,chef bus fare,0.6154
 dough machine transportation,TRANSPORTATION & AUTO CHARGES,transportation charge,transportation charge,0.9
+gas rikshaw charges,TRANSPORTATION & AUTO CHARGES,rikshaw fare,rikshaw fare,0.7097
 goods transport OTP and dough machine,TRANSPORTATION & AUTO CHARGES,goods transport,goods transport,0.92
 oil drum and transport,TRANSPORTATION & AUTO CHARGES,goods transport,goods transport,0.6486
 rikshaw fare  goods from OTP,TRANSPORTATION & AUTO CHARGES,rikshaw fare,rikshaw fare,0.92
