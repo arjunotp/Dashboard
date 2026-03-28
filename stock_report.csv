@@ -9091,7 +9091,9 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Veeba ThousandIsland Dressing 1KG,Pkt,2.0,366.0,2.0,366.0,0.0,0.0,4.0,732.0
 2026-03,Tripod,Nos,500.0,675.0,0.0,0.0,0.0,0.0,500.0,675.0
 2026-03,Veg burger pattis,Pkt,1.0,225.0,2.0,450.0,0.0,0.0,3.0,675.0
+2026-03,burger buns,Nos,0.0,0.0,80.0,654.0,0.0,0.0,80.0,654.0
 2026-03,Pizza sauce premix,Kg,2.0,650.0,0.0,0.0,0.0,0.0,2.0,650.0
+2026-03,caramel,Nos,0.0,0.0,2.0,650.0,0.0,0.0,2.0,650.0
 2026-03,milky mist butter 500gm,Nos,2.0,624.5,0.0,0.0,0.0,0.0,2.0,624.5
 2026-03,cheesy spread dip,Pkt,2.0,618.76,0.0,0.0,0.0,0.0,2.0,618.76
 2026-03,Zippy Chicken Salami,Pkt,0.0,0.0,2.0,618.0,0.0,0.0,2.0,618.0
@@ -9113,9 +9115,9 @@ month_code,Item_Name,UOM,Opening_Stock_Qty,Opening_Stock_Amt,Recieved_Stock_Qty,
 2026-03,Dew 750ml Pet,Nos,13.0,446.81,0.0,0.0,0.0,0.0,13.0,446.81
 2026-03,coffee mocha syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
 2026-03,salted cookies syrup taste craft,Nos,1.0,430.5,0.0,0.0,0.0,0.0,1.0,430.5
+2026-03,fruitss,Nos,0.0,0.0,3.0,429.99,0.0,0.0,3.0,429.99
 2026-03,Aqua Fina Mineral Water 1Ltr,Nos,10.0,125.8,24.0,301.92,0.0,0.0,34.0,427.72
 2026-03,sweet corn abad,Kg,0.0,0.0,5.0,425.0,0.0,0.0,5.0,425.0
-2026-03,burger buns,Nos,0.0,0.0,52.0,416.0,0.0,0.0,52.0,416.0
 2026-03,butterscotch plain,Nos,0.0,0.0,1.0,400.0,0.0,0.0,1.0,400.0
 2026-03,cheese cake cassata syrup,Nos,0.9,387.45,0.0,0.0,0.0,0.0,0.9,387.45
 2026-03,potato wedges,Kg,2.2,383.46,0.0,0.0,0.0,0.0,2.2,383.46
