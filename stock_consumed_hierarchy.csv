@@ -13,8 +13,8 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,BEVERAGES,dew,Dew 750ml Pet,446.81,2026-03,349516.1,0.13
 2026-03,BEVERAGES,dew,Dew can 300ml,68.58,2026-03,349516.1,0.02
 2026-03,BEVERAGES,lehar soda,Lehar Soda,1160.1,2026-03,349516.1,0.33
-2026-03,BEVERAGES,mojito mint,Mojito Menta Cubano,1472.0,2026-03,349516.1,0.42
-2026-03,BEVERAGES,passion fruit syrup,DVC PASSION FRUIT FLV SYRUP 750ML,1380.0,2026-03,349516.1,0.39
+2026-03,BEVERAGES,mojito mint,Mojito Menta Cubano,2392.0,2026-03,349516.1,0.68
+2026-03,BEVERAGES,passion fruit syrup,DVC PASSION FRUIT FLV SYRUP 750ML,1840.0,2026-03,349516.1,0.53
 2026-03,BEVERAGES,pepsi,Pepsi 250ml Pet,2135.0,2026-03,349516.1,0.61
 2026-03,BEVERAGES,pepsi,Pepsi 750ml Pet,1374.8,2026-03,349516.1,0.39
 2026-03,BEVERAGES,pepsi,pepsi 1 ltr,1197.18,2026-03,349516.1,0.34
@@ -50,11 +50,11 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,FROZEN ITEMS,frozen sweet corn,sweet corn abad,425.0,2026-03,349516.1,0.12
 2026-03,FROZEN ITEMS,frozen sweet corn,sweet corn,252.0,2026-03,349516.1,0.07
 2026-03,FROZEN ITEMS,potato wedges,potato wedges,383.46,2026-03,349516.1,0.11
-2026-03,FRUITS,apple,DVC Green Apple 750 ML,920.0,2026-03,349516.1,0.26
+2026-03,FRUITS,apple,DVC Green Apple 750 ML,1380.0,2026-03,349516.1,0.39
 2026-03,FRUITS,chicku pulp,Berry Fresh Chicku Pulp 2kg,1120.0,2026-03,349516.1,0.32
 2026-03,FRUITS,pineapple,Pineapple slice-Tajir Habit-850g,330.75,2026-03,349516.1,0.09
 2026-03,FRUITS,tender coconut pulp,Berry Fresh Tender Coconut Pulp 2kg,1480.0,2026-03,349516.1,0.42
-2026-03,FRUITS,watermelon,DVC Watermelon Syrup 750 ml,519.2,2026-03,349516.1,0.15
+2026-03,FRUITS,watermelon,DVC Watermelon Syrup 750 ml,979.2,2026-03,349516.1,0.28
 2026-03,KITCHEN EQUIPMENT & UTENSILS,tripod,Tripod,675.0,2026-03,349516.1,0.19
 2026-03,MASALA & SEASONINGS,aromat seasoning,Aromat Seasoning Powder,172.0,2026-03,349516.1,0.05
 2026-03,MASALA & SEASONINGS,bbq mix,BBQ Mix Masala,4185.0,2026-03,349516.1,1.2
@@ -67,7 +67,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,MASALA & SEASONINGS,mexican mix,mexican mix,5437.5,2026-03,349516.1,1.56
 2026-03,MASALA & SEASONINGS,oregano,OREGANO SACHET 0.8GM,1138.5,2026-03,349516.1,0.33
 2026-03,MASALA & SEASONINGS,oregano,Oregano Sprinkler 500g,368.4,2026-03,349516.1,0.11
-2026-03,MASALA & SEASONINGS,piri piri marinade,Piri Piri Marinade 1KG,400.5,2026-03,349516.1,0.11
+2026-03,MASALA & SEASONINGS,piri piri marinade,Piri Piri Marinade 1KG,1290.5,2026-03,349516.1,0.37
 2026-03,MASALA & SEASONINGS,salt,salted cookies syrup taste craft,430.5,2026-03,349516.1,0.12
 2026-03,MASALA & SEASONINGS,tandoori masala,Tandoori mix Masala,2490.0,2026-03,349516.1,0.71
 2026-03,MEAT & POULTRY,boneless chicken,Boneless Chicken,18059.92,2026-03,349516.1,5.17
@@ -86,6 +86,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,MEAT & POULTRY,staff chicken,staff chicken,600.0,2026-03,349516.1,0.17
 2026-03,OILS,olive oil,habit olive oil,922.5,2026-03,349516.1,0.26
 2026-03,OILS,palm oil,oil,5851.5,2026-03,349516.1,1.67
+2026-03,OILS,pomace olive oil,black olive,1542.0,2026-03,349516.1,0.44
 2026-03,PACKAGING MATERIALS,bio bag,bio glass,80.0,2026-03,349516.1,0.02
 2026-03,PACKAGING MATERIALS,burger box,Mini Burger Box,770.0,2026-03,349516.1,0.22
 2026-03,PACKAGING MATERIALS,french fries box,French Fries Box,802.5,2026-03,349516.1,0.23
@@ -145,7 +146,7 @@ Month_code,Category,Subcategory,Item_Name,consumed-stock_amount,YEAR_MONTH,Total
 2026-03,UTILITIES & EXPENSES,lpg gas,Gas-LPG-HPCL,11090.0,2026-03,349516.1,3.17
 2026-03,VEGETABLES,baby corn,baby corn,540.0,2026-03,349516.1,0.15
 2026-03,VEGETABLES,garlic,chilly garlic spread,330.0,2026-03,349516.1,0.09
-2026-03,VEGETABLES,mushroom,mushroom slice Food coast,2850.0,2026-03,349516.1,0.82
+2026-03,VEGETABLES,mushroom,mushroom slice Food coast,5130.0,2026-03,349516.1,1.47
 2026-02,BAKERY & PREMIX,bread premix,Bread Premix,1134.0,2026-02,385016.45,0.29
 2026-02,BAKERY & PREMIX,brownie,Brownie,1540.0,2026-02,385016.45,0.4
 2026-02,BAKERY & PREMIX,burger bun,burger buns,640.0,2026-02,385016.45,0.17
