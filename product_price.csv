@@ -1454,7 +1454,6 @@ Local Purchase,maida loose,Kg,48.0,2026-01-15
 Local Purchase,tomato,Kg,42.0,2026-01-15
 Koonathil Traders,Veeba Chilli Flakes Seasoning(8G),Nos,0.73,2026-01-16
 bistro frozen,Veeba Makhani Gravy 1KG,Pkt,210.0,2026-01-20
-Loocos Pizza CPY,Mexican Masala,Pkt,415.0,2026-01-31
 Loocos Pizza CPY,Baby Corn Whole-800GM-Tajir Habit,Tin,112.0,2026-01-31
 Loocos Pizza CPY,Veeba T. Ketchup 1.2KG,Nos,105.0,2026-01-31
 Loocos Pizza CPY,chilly flakes 500 gm,Pkt,195.0,2026-01-31
@@ -1487,30 +1486,8 @@ Essar Associates,milk coffee 180ml,Nos,25.7,2026-02-25
 Local Purchase,TOMATO 10KG,Kg,22.0,2026-02-25
 Local Purchase,garlic,Kg,200.0,2026-02-25
 Koonathil Traders,Sweet corn koonathil,Kg,130.0,2026-02-27
-Loocos Pizza CPY, dry yeast 500 gm,Pkt,170.0,2026-02-28
-Loocos Pizza CPY,Regular Pizza Box,Nos,8.5,2026-02-28
-Loocos Pizza CPY,Medium Pizza Box,Nos,10.0,2026-02-28
-Loocos Pizza CPY,Large Pizza Box,Nos,14.85,2026-02-28
-Loocos Pizza CPY,Garlic Bread Box,Nos,7.5,2026-02-28
-Loocos Pizza CPY,French Fries Box,Nos,5.35,2026-02-28
-Loocos Pizza CPY,Pizza Premix,Kg,252.0,2026-02-28
-Loocos Pizza CPY,Chicken Kheema  Masala,Kg,650.0,2026-02-28
-Loocos Pizza CPY,paneer tikka powder,Kg,900.0,2026-02-28
-Loocos Pizza CPY,Pizza sauce premix,Kg,325.0,2026-02-28
-Loocos Pizza CPY,Bread Premix,Kg,252.0,2026-02-28
-Loocos Pizza CPY,Herb Mix Masla,Kg,446.0,2026-02-28
-Loocos Pizza CPY,Tandoori mix Masala,Kg,415.0,2026-02-28
-Loocos Pizza CPY,BBQ Mix Masala,Pkt,465.0,2026-02-28
 Loocos Pizza CPY,mexican mix,Kg,435.0,2026-02-28
-Loocos Pizza CPY,chicken pepperoni,Kg,865.0,2026-02-28
-Loocos Pizza CPY,Lamp Pepperoni,Kg,895.0,2026-02-28
-Loocos Pizza CPY,Salad Bowl 500ml,Nos,6.55,2026-02-28
-Loocos Pizza CPY,Salad Bowl 250ml,Nos,5.25,2026-02-28
 Loocos Pizza CPY,Moktails Glass,Nos,8.0,2026-02-28
-Loocos Pizza CPY,Pasta Container Black,Nos,8.95,2026-02-28
-Loocos Pizza CPY,Brownie,Kg,385.0,2026-02-28
-Loocos Pizza CPY,tandoori mayonise,Pkt,260.0,2026-02-28
-Loocos Pizza CPY,Tripod,Nos,1.35,2026-02-28
 Loocos Pizza CPY,Mayonise premium,Pkt,172.5,2026-02-28
 Loocos Pizza CPY,cheesy spread dip,Pkt,309.38,2026-02-28
 Loocos Pizza CPY,Richs versatie cream,Pkt,188.0,2026-02-28
@@ -1520,7 +1497,6 @@ Loocos Pizza CPY,Corn Meal - MAKKA RAVA,Pkt,55.0,2026-02-28
 Loocos Pizza CPY,baby corn,Tin,108.0,2026-02-28
 Loocos Pizza CPY,Pineapple slice-Tajir Habit-850g,Nos,110.25,2026-02-28
 Loocos Pizza CPY,Honey,Kg,244.0,2026-02-28
-Loocos Pizza CPY,Dip Bowl,Nos,2.0,2026-02-28
 Loocos Pizza CPY,habit olive oil,Nos,369.0,2026-02-28
 Loocos Pizza CPY,salted cookies syrup taste craft,Nos,430.5,2026-02-28
 Loocos Pizza CPY,coffee mocha syrup taste craft,Nos,430.5,2026-02-28
@@ -1583,7 +1559,6 @@ Local Purchase,staff chicken,Kg,150.0,2026-03-15
 bistro frozen,sneha chi burgar pattis,Pkt,252.0,2026-03-17
 bistro frozen,slice cheese,Nos,8.53,2026-03-17
 bistro frozen,milky mist butter 500gm,Pkt,337.0,2026-03-17
-RK Agencies,prince maida 50kg,Kg,44.0,2026-03-18
 Essar Associates,7up 250ml Pet,Nos,17.5,2026-03-18
 Essar Associates,7UP 750ml Pet,Nos,34.37,2026-03-18
 Local Purchase,egg 8,Nos,8.0,2026-03-18
@@ -1614,7 +1589,6 @@ Local Purchase,Chocolate Ice-cream 4ltr,Nos,816.0,2026-03-24
 Local Purchase,butter scotch ice cream 4 ltr,Nos,773.0,2026-03-24
 Local Purchase,butterscotch plain,Nos,400.0,2026-03-24
 RK Agencies,maida prince,Kg,44.17,2026-03-24
-RK Agencies,oil,Pkt,142.5,2026-03-24
 Essar Associates,Pepsi 250ml Pet,Nos,17.5,2026-03-25
 Essar Associates,pepsi 1 ltr,Nos,44.34,2026-03-25
 Essar Associates,Lehar Soda,Nos,16.45,2026-03-25
@@ -1636,10 +1610,36 @@ Local Purchase,egg 7,Nos,7.0,2026-03-30
 Local Purchase,sky vanilla 4 ltr,Nos,344.0,2026-03-30
 Local Purchase,Vanilla Ice-cream 4ltr,Nos,544.0,2026-03-30
 Local Purchase,sky chocolate ice cream,Nos,516.0,2026-03-30
-Local Purchase,grocery,Nos,158.75,2026-03-30
 Local Purchase,burger buns,Nos,8.5,2026-03-30
-shabana chicken stall,Boneless Chicken,Kg,260.0,2026-03-31
 Local Purchase,Paneer,Kg,290.0,2026-03-31
 Local Purchase,butter,Kg,380.0,2026-03-31
-KTP Vegitables,vegetables,Nos,47.25,2026-03-31
 Local Purchase-Gas AGency,Gas-LPG-HPCL,Nos,2130.0,2026-04-01
+RK Agencies,prince maida 50kg,Kg,44.0,2026-04-01
+Local Purchase,grocery,Nos,167.57,2026-04-01
+shabana chicken stall,Boneless Chicken,Kg,249.76,2026-04-01
+KTP Vegitables,vegetables,Nos,47.25,2026-04-01
+RK Agencies,oil,Pkt,143.5,2026-04-01
+Loocos CPY,Regular Pizza Box,Nos,8.5,2026-03-31
+Loocos CPY,Medium Pizza Box,Nos,10.0,2026-03-31
+Loocos CPY,Large Pizza Box,Nos,14.85,2026-03-31
+Loocos CPY,Garlic Bread Box,Nos,7.5,2026-03-31
+Loocos CPY,French Fries Box,Nos,5.35,2026-03-31
+Loocos CPY,Chicken Kheema  Masala,Kg,650.0,2026-03-31
+Loocos CPY,paneer tikka powder,Kg,900.0,2026-03-31
+Loocos CPY,Pizza Premix,Kg,252.0,2026-03-31
+Loocos CPY,Tripod,Nos,1.35,2026-03-31
+Loocos CPY,Pizza sauce premix,Kg,325.0,2026-03-31
+Loocos CPY,Bread Premix,Kg,252.0,2026-03-31
+Loocos CPY,tandoori mayonise,Pkt,260.0,2026-03-31
+Loocos CPY,Dip Bowl,Nos,2.0,2026-03-31
+Loocos CPY,Salad Bowl 500ml,Nos,6.55,2026-03-31
+Loocos CPY,Salad Bowl 250ml,Nos,5.25,2026-03-31
+Loocos CPY,Pasta Container Black,Nos,8.95,2026-03-31
+Loocos CPY,Lamp Pepperoni,Kg,895.0,2026-03-31
+Loocos CPY,chicken pepperoni,Kg,865.0,2026-03-31
+Loocos CPY,Brownie,Kg,385.0,2026-03-31
+Loocos CPY,BBQ Mix Masala,Pkt,465.0,2026-03-31
+Loocos CPY,Mexican Masala,Pkt,415.0,2026-03-31
+Loocos CPY,Tandoori mix Masala,Kg,415.0,2026-03-31
+Loocos CPY,Herb Mix Masla,Kg,446.0,2026-03-31
+Loocos CPY, dry yeast 500 gm,Pkt,170.0,2026-03-31
