@@ -1,7 +1,7 @@
 Month_code,Category,Subcategory,Item_Name,expense_amount,YEAR_MONTH,Total Sales[POS Sales less GST + Swiggy to Loocos],expense_amount%
-2026-04,FOOD RAW MATERIAL PURCHASE,boneless chicken,Boneless chicken,512,2026-04,8730.5,5.86
-2026-04,FOOD RAW MATERIAL PURCHASE,vegetables,vegetables,378,2026-04,8730.5,4.33
-2026-04,GAS & FUEL,petrol,Petrol,200,2026-04,8730.5,2.29
+2026-04,FOOD RAW MATERIAL PURCHASE,boneless chicken,Boneless chicken,512,2026-04,34172.45,1.5
+2026-04,FOOD RAW MATERIAL PURCHASE,vegetables,vegetables,378,2026-04,34172.45,1.11
+2026-04,GAS & FUEL,petrol,Petrol,200,2026-04,34172.45,0.59
 2026-03,CLEANING & WASTE,waste pickup,waste pick up,50,2026-03,442053.64999999997,0.01
 2026-03,FOOD RAW MATERIAL PURCHASE,boneless chicken,Boneless chicken,12813,2026-03,442053.64999999997,2.9
 2026-03,FOOD RAW MATERIAL PURCHASE,boneless chicken,boneless chicken,1596,2026-03,442053.64999999997,0.36
