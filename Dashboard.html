@@ -254,6 +254,7 @@
         }
 
         .tile {
+            width: 100%;
             cursor: pointer;
             min-height: 106px;
             border-radius: var(--radius-lg);
@@ -265,6 +266,8 @@
             gap: 14px;
             padding: 20px 18px;
             text-align: left;
+            font: inherit;
+            appearance: none;
             transition: all 0.22s ease;
         }
 
@@ -309,7 +312,7 @@
         }
 
         .tile.restricted {
-            opacity: 0.58;
+            opacity: 0.68;
             cursor: not-allowed;
         }
 
@@ -318,6 +321,35 @@
             box-shadow: 0 8px 16px rgba(83, 105, 157, 0.1);
             border-color: #e6ecf8;
             background: #fff;
+        }
+
+        .tile-access-note {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 8px;
+            color: #8a5a00;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .tile-access-note i {
+            font-size: 0.86rem;
+        }
+
+        .access-guidance {
+            margin: 0 0 14px;
+            padding: 12px 14px;
+            border-radius: 14px;
+            border: 1px solid #f2d9a4;
+            background: #fff8e8;
+            color: #6f4d08;
+            font-size: 0.92rem;
+            font-weight: 600;
+        }
+
+        .access-guidance.hidden {
+            display: none;
         }
 
         .tabs-shell {
@@ -477,6 +509,44 @@
             font-weight: 700;
             margin-bottom: 8px;
             color: #4a5879;
+        }
+
+        .filter-panel {
+            border: 1px solid #dfe6f5;
+            border-radius: 14px;
+            background: #f9fbff;
+        }
+
+        .filter-panel-content {
+            padding: 14px;
+        }
+
+        .filter-panel-toggle {
+            display: none;
+            list-style: none;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            width: 100%;
+            padding: 14px;
+            cursor: pointer;
+            font-size: 0.92rem;
+            font-weight: 800;
+            color: #243656;
+        }
+
+        .filter-panel-toggle::-webkit-details-marker {
+            display: none;
+        }
+
+        .filter-panel-toggle i {
+            font-size: 0.95rem;
+            color: #5e7298;
+            transition: transform 0.2s ease;
+        }
+
+        .filter-panel[open] .filter-panel-toggle i {
+            transform: rotate(180deg);
         }
 
         .summary-trend-card {
@@ -711,6 +781,12 @@
             }
 
             .nav-tabs {
+                position: sticky;
+                top: 10px;
+                z-index: 12;
+                background: rgba(247, 249, 255, 0.96);
+                backdrop-filter: blur(10px);
+                border-radius: 12px;
                 padding: 0 0 10px;
                 margin-bottom: 8px;
             }
@@ -722,6 +798,22 @@
 
             .tab-content {
                 padding: 8px;
+            }
+
+            .filter-panel {
+                overflow: hidden;
+            }
+
+            .filter-panel-toggle {
+                display: flex;
+            }
+
+            .filter-panel-content {
+                padding-top: 0;
+            }
+
+            .filter-panel:not([open]) .filter-panel-content {
+                display: none;
             }
 
             .dataTables_wrapper .dataTables_length,
@@ -795,6 +887,9 @@
 
     <section class="tiles-shell">
         <div class="tiles-card">
+            <div id="accessGuidance" class="access-guidance hidden" role="status" aria-live="polite">
+                <i class="bi bi-lock-fill me-1"></i> Some sections are admin only. Locked areas are disabled for your account.
+            </div>
             <div class="row" id="tile-container"></div>
         </div>
     </section>
@@ -853,8 +948,24 @@
 <script>
 
 const API_BASE_URL = "https://script.google.com/macros/s/AKfycbwS6q-UYA5ZeSiL3M8Rr7oI1nlivZcKKMXaMr-3VfwZ66t78iIRJgbz-cTJ2NqdqOzmYA/exec";
-const apiKey = sessionStorage.getItem("apiKey");
-const currentRole = (sessionStorage.getItem("userType") || "admin").toLowerCase();
+const AUTH_STORAGE_KEYS = {
+    apiKey: "dashboard_apiKey",
+    role: "dashboard_userType",
+    remember: "dashboard_remember"
+};
+
+const rememberedApiKey = localStorage.getItem(AUTH_STORAGE_KEYS.apiKey);
+const rememberedRole = localStorage.getItem(AUTH_STORAGE_KEYS.role);
+
+if (!sessionStorage.getItem("apiKey") && rememberedApiKey) {
+    sessionStorage.setItem("apiKey", rememberedApiKey);
+    if (rememberedRole) {
+        sessionStorage.setItem("userType", rememberedRole);
+    }
+}
+
+const apiKey = sessionStorage.getItem("apiKey") || rememberedApiKey;
+const currentRole = (sessionStorage.getItem("userType") || rememberedRole || "admin").toLowerCase();
 const isAuthed = Boolean(apiKey);
 const isAuditor = currentRole === "auditor" || currentRole === "viewer";
 
@@ -865,6 +976,9 @@ if (!isAuthed) {
 function clearAuthState() {
     sessionStorage.removeItem("apiKey");
     sessionStorage.removeItem("userType");
+    localStorage.removeItem(AUTH_STORAGE_KEYS.apiKey);
+    localStorage.removeItem(AUTH_STORAGE_KEYS.role);
+    localStorage.removeItem(AUTH_STORAGE_KEYS.remember);
     localStorage.removeItem("dashboard_authed");
     localStorage.removeItem("dashboard_role");
     sessionStorage.removeItem("dashboard_authed");
@@ -901,10 +1015,6 @@ function isNumericColumn(rows, field) {
 
     if (!populatedValues.length) return false;
     return populatedValues.every(value => parseNumericValue(value) !== null);
-}
-
-function showAdminOnlyNotification() {
-    window.alert("This section is accessible only to the admin.");
 }
 
 function escapeHtml(value) {
@@ -1052,23 +1162,30 @@ document.addEventListener("DOMContentLoaded", () => {
     const heroSummaryBtn = document.getElementById("heroSummaryBtn");
     const heroResetZoomBtn = document.getElementById("heroResetZoomBtn");
     const sectionDownloadBtn = document.getElementById("sectionDownloadBtn");
+    const accessGuidance = document.getElementById("accessGuidance");
     auditorGroupIndex = config.findIndex(group => group.label === AUDITOR_GROUP_LABEL);
+
+    if (isAuditor && accessGuidance) {
+        accessGuidance.classList.remove("hidden");
+    }
 
     config.forEach((group, gIdx) => {
         const col = document.createElement("div");
         const visualMeta = groupVisualMeta[group.label] || { icon: "bi bi-grid", subtitle: "" };
+        const restricted = isAuditor && gIdx !== auditorGroupIndex;
         col.className = "col-12 col-md-6 col-xl-3 tile-grid-item";
         col.dataset.group = gIdx;
         col.innerHTML = `
-            <div class="tile" onclick="handleGroupClick(${gIdx})">
+            <button class="tile${restricted ? " restricted" : ""}" type="button" ${restricted ? 'disabled aria-disabled="true"' : ""}>
                 <div class="tile-icon"><i class="${visualMeta.icon}"></i></div>
                 <div>
                     <h4>${group.label}</h4>
                     ${visualMeta.subtitle ? `<small>${visualMeta.subtitle}</small>` : ""}
+                    ${restricted ? '<div class="tile-access-note"><i class="bi bi-lock-fill"></i><span>Admin only</span></div>' : ""}
                 </div>
-            </div>`;
-        if (isAuditor && gIdx !== auditorGroupIndex) {
-            col.querySelector(".tile").classList.add("restricted");
+            </button>`;
+        if (!restricted) {
+            col.querySelector(".tile").addEventListener("click", () => handleGroupClick(gIdx));
         }
         tileContainer.appendChild(col);
 
@@ -1098,23 +1215,39 @@ document.addEventListener("DOMContentLoaded", () => {
                         </p>
                         <div class="row g-3 mb-3">
                             <div class="col-12 col-lg-8">
-                                <div class="analytics-filter-header">Drilldown Path</div>
-                                <div id="${tabId}Breadcrumb" class="small text-muted mb-2">Category</div>
-                                <div class="d-flex gap-2 mb-2">
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}Back" type="button" disabled>Back</button>
-                                    <button class="btn btn-outline-primary btn-sm" id="${tabId}DrillDown" type="button">Drill Down</button>
-                                </div>
-                                <input id="${tabId}DrillSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search current level series">
-                                <select id="${tabId}DrillSeriesList" class="form-select form-select-sm" size="6"></select>
+                                <details class="filter-panel" open>
+                                    <summary class="filter-panel-toggle">
+                                        <span>Drilldown Controls</span>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </summary>
+                                    <div class="filter-panel-content">
+                                        <div class="analytics-filter-header">Drilldown Path</div>
+                                        <div id="${tabId}Breadcrumb" class="small text-muted mb-2">Category</div>
+                                        <div class="d-flex gap-2 mb-2">
+                                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}Back" type="button" disabled>Back</button>
+                                            <button class="btn btn-outline-primary btn-sm" id="${tabId}DrillDown" type="button">Drill Down</button>
+                                        </div>
+                                        <input id="${tabId}DrillSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search current level series">
+                                        <select id="${tabId}DrillSeriesList" class="form-select form-select-sm" size="6"></select>
+                                    </div>
+                                </details>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="analytics-filter-header">Year-Month</div>
-                                <input id="${tabId}MonthSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search year-month">
-                                <div class="d-flex gap-2 mb-2">
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthSelectAll" type="button">Select all</button>
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthClear" type="button">Clear</button>
-                                </div>
-                                <div id="${tabId}MonthFilterBox" class="analytics-filter-box"></div>
+                                <details class="filter-panel" open>
+                                    <summary class="filter-panel-toggle">
+                                        <span>Month Filter</span>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </summary>
+                                    <div class="filter-panel-content">
+                                        <div class="analytics-filter-header">Year-Month</div>
+                                        <input id="${tabId}MonthSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search year-month">
+                                        <div class="d-flex gap-2 mb-2">
+                                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthSelectAll" type="button">Select all</button>
+                                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthClear" type="button">Clear</button>
+                                        </div>
+                                        <div id="${tabId}MonthFilterBox" class="analytics-filter-box"></div>
+                                    </div>
+                                </details>
                             </div>
                         </div>
                         <div style="height: 420px;">
@@ -1135,28 +1268,52 @@ document.addEventListener("DOMContentLoaded", () => {
                         <p class="text-muted small mb-3">${sub.chartSubtitle || ""}</p>
                         <div class="row g-3">
                             <div class="col-12 col-lg-4">
-                                <div class="analytics-filter-header">Month</div>
-                                <input id="${tabId}MonthSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search month">
-                                <div class="d-flex gap-2 mb-2">
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthSelectAll" type="button">Select all</button>
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthClear" type="button">Clear</button>
-                                </div>
-                                <div id="${tabId}MonthFilterBox" class="analytics-filter-box"></div>
+                                <details class="filter-panel" open>
+                                    <summary class="filter-panel-toggle">
+                                        <span>Month Filter</span>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </summary>
+                                    <div class="filter-panel-content">
+                                        <div class="analytics-filter-header">Month</div>
+                                        <input id="${tabId}MonthSearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search month">
+                                        <div class="d-flex gap-2 mb-2">
+                                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthSelectAll" type="button">Select all</button>
+                                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}MonthClear" type="button">Clear</button>
+                                        </div>
+                                        <div id="${tabId}MonthFilterBox" class="analytics-filter-box"></div>
+                                    </div>
+                                </details>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="analytics-filter-header">Order Date</div>
-                                <select id="${tabId}DateSelect" class="form-select form-select-sm">
-                                    <option value="ALL">All Dates</option>
-                                </select>
+                                <details class="filter-panel" open>
+                                    <summary class="filter-panel-toggle">
+                                        <span>Date Filter</span>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </summary>
+                                    <div class="filter-panel-content">
+                                        <div class="analytics-filter-header">Order Date</div>
+                                        <select id="${tabId}DateSelect" class="form-select form-select-sm">
+                                            <option value="ALL">All Dates</option>
+                                        </select>
+                                    </div>
+                                </details>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="analytics-filter-header">Category</div>
-                                <input id="${tabId}CategorySearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search category">
-                                <div class="d-flex gap-2 mb-2">
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}CategorySelectAll" type="button">Select all</button>
-                                    <button class="btn btn-outline-secondary btn-sm" id="${tabId}CategoryClear" type="button">Clear</button>
-                                </div>
-                                <div id="${tabId}CategoryFilterBox" class="analytics-filter-box"></div>
+                                <details class="filter-panel" open>
+                                    <summary class="filter-panel-toggle">
+                                        <span>Category Filter</span>
+                                        <i class="bi bi-chevron-down"></i>
+                                    </summary>
+                                    <div class="filter-panel-content">
+                                        <div class="analytics-filter-header">Category</div>
+                                        <input id="${tabId}CategorySearch" class="form-control form-control-sm mb-2" type="text" placeholder="Search category">
+                                        <div class="d-flex gap-2 mb-2">
+                                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}CategorySelectAll" type="button">Select all</button>
+                                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}CategoryClear" type="button">Clear</button>
+                                        </div>
+                                        <div id="${tabId}CategoryFilterBox" class="analytics-filter-box"></div>
+                                    </div>
+                                </details>
                             </div>
                         </div>
                     </div>
@@ -1319,18 +1476,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function handleGroupClick(groupIndex) {
-    if (isAuditor && groupIndex !== auditorGroupIndex) {
-        showAdminOnlyNotification();
-        return;
-    }
+    if (isAuditor && groupIndex !== auditorGroupIndex) return;
     filterTabs(groupIndex);
 }
 
 function filterTabs(groupIndex) {
-    if (isAuditor && groupIndex !== auditorGroupIndex) {
-        showAdminOnlyNotification();
-        return;
-    }
+    if (isAuditor && groupIndex !== auditorGroupIndex) return;
 
     document.querySelectorAll('#dataTabs li').forEach(li => li.classList.add('hidden'));
     let firstBtn = null;
@@ -2489,5 +2640,4 @@ async function updateLastRefreshedFromAllCSVs() {
 
 </body>
 </html>
-
 
