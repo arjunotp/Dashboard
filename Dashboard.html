@@ -871,7 +871,7 @@
                     <div>
                         <p class="hero-eyebrow">Outlet KPIs</p>
                         <h1 class="hero-title">Pizza Pie Land Trend Monitor</h1>
-                        <p class="hero-subtitle">Interactive Final Summary line chart using YEAR_MONTH on the X-axis. Drag to zoom, use the mouse wheel or pinch to inspect periods, and reset anytime.</p>
+                        <p class="hero-subtitle">Interactive Final Summary line chart showing the latest 12 months on the YEAR_MONTH axis. Drag to zoom, use the mouse wheel or pinch to inspect periods, and reset anytime.</p>
                     </div>
                     <div class="hero-actions">
                         <button class="hero-ghost" id="heroResetZoomBtn" type="button">Reset Zoom</button>
@@ -1592,9 +1592,10 @@ function buildFinalSummaryTrendChart(canvas, chartKey, rows, fields, numericFiel
     const xField = fields.find(field => field === "YEAR_MONTH") || fields[0];
     if (!xField) return;
 
-    const labels = sortYearMonthValues(
+    const allLabels = sortYearMonthValues(
         [...new Set(rows.map(row => normalizeYearMonthLabel(row[xField])).filter(Boolean))]
     );
+    const labels = allLabels.slice(-12);
     if (!labels.length) return;
 
     const seriesFields = fields.filter(field => field !== xField && numericFields.has(field));
