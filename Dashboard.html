@@ -2434,7 +2434,18 @@ function renderSalaryMonthlyCalculation(tabId, sub) {
 
             const refresh = () => {
                 const selectedMonth = monthSelect.value || availableMonths[availableMonths.length - 1] || "";
-                const filteredRows = rows.filter(row => normalizeYearMonthLabel(row[monthField]) === selectedMonth);
+                const filteredRows = rows
+                    .filter(row => normalizeYearMonthLabel(row[monthField]) === selectedMonth)
+                    .sort((a, b) => {
+                        const aIsTotal = String(a.Employee || "").trim().toLowerCase() === "total";
+                        const bIsTotal = String(b.Employee || "").trim().toLowerCase() === "total";
+                        if (aIsTotal && !bIsTotal) return 1;
+                        if (!aIsTotal && bIsTotal) return -1;
+
+                        const aGross = parseNumericValue(a["Gross Salary"]) || 0;
+                        const bGross = parseNumericValue(b["Gross Salary"]) || 0;
+                        return bGross - aGross;
+                    });
 
                 if (tableMap[tabId]) {
                     tableMap[tabId].clear();
