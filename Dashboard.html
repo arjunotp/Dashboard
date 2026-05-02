@@ -511,6 +511,47 @@
             color: #4a5879;
         }
 
+        .salary-month-card,
+        .salary-table-card {
+            border: 1px solid #dfe6f5;
+            border-radius: 18px;
+            background: #fff;
+            box-shadow: 0 10px 24px rgba(73, 100, 156, 0.08);
+        }
+
+        .salary-month-card {
+            padding: 18px 18px 16px;
+            margin-bottom: 16px;
+        }
+
+        .salary-month-title {
+            margin: 0 0 14px;
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: #1e2742;
+        }
+
+        .salary-month-label {
+            display: block;
+            margin-bottom: 8px;
+            color: #5d6c88;
+            font-size: 0.94rem;
+            font-weight: 700;
+        }
+
+        .salary-month-select {
+            max-width: 320px;
+        }
+
+        .salary-table-card {
+            padding: 14px;
+        }
+
+        .salary-total-row td {
+            font-weight: 800 !important;
+            background: #fbfcff;
+        }
+
         .filter-panel {
             border: 1px solid #dfe6f5;
             border-radius: 14px;
@@ -1035,8 +1076,7 @@ const config = [
         label: "Cashbook Summary",
         subtabs: [
             { label: "Sales", csv: "sales_summary.csv" },
-            { label: "Expenses", csv: "expense_summary.csv" },
-            { label: "Salary", csv: "salary_summary.csv", view: "salarySummary" }
+            { label: "Expenses", csv: "expense_summary.csv" }
         ]
     },
     {
@@ -1073,6 +1113,12 @@ const config = [
         subtabs: [
             { label: "Consumption Summary", csv: "cns_summary.csv" },
             { label: "Detailed Consumption", csv: "cns_detail.csv" }
+        ]
+    },
+    {
+        label: "Timesheet and Salary",
+        subtabs: [
+            { label: "Salary", csv: "salary-calculation-all-months.csv", view: "salaryMonthlyCalculation" }
         ]
     },
     {
@@ -1141,6 +1187,7 @@ const groupVisualMeta = {
     "Amounts Reconciliation": { icon: "bi bi-arrow-left-right", subtitle: "" },
     "Inventory Overview": { icon: "bi bi-clipboard2-data", subtitle: "" },
     "Cheese Usage": { icon: "bi bi-box-seam", subtitle: "" },
+    "Timesheet and Salary": { icon: "bi bi-calendar2-week", subtitle: "" },
     "Swiggy Performance": { icon: "bi bi-check2-square", subtitle: "" },
     "Analytics": { icon: "bi bi-shield-check", subtitle: "Auditors Section" },
     "Auditors Section": { icon: "bi bi-shield-lock", subtitle: "Restricted" }
@@ -1193,7 +1240,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const tabId = `g${gIdx}_s${sIdx}`;
             const isDrilldownAnalyticsTab = sub.view === "drilldownAnalytics";
             const isOrderAnalyticsTab = sub.view === "orderAnalytics";
-            const isSalarySummaryTab = sub.view === "salarySummary";
+            const isSalaryMonthlyCalculationTab = sub.view === "salaryMonthlyCalculation";
             const isFinalSummaryTab = sub.csv === "final_summary.csv";
 
             const li = document.createElement("li");
@@ -1347,26 +1394,17 @@ document.addEventListener("DOMContentLoaded", () => {
                         </div>
                     </div>
                 </div>`
-                : isSalarySummaryTab
+                : isSalaryMonthlyCalculationTab
                 ? `
-                <div class="card shadow-sm border-0 mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title mb-3">${sub.label}</h5>
-                        <div class="row g-3 align-items-end">
-                            <div class="col-12 col-md-4">
-                                <label class="form-label mb-1" for="${tabId}SettlementDay">Settlement Date (Day)</label>
-                                <select id="${tabId}SettlementDay" class="form-select form-select-sm"></select>
-                            </div>
-                            <div class="col-12 col-md-8 d-flex gap-2">
-                                <button class="btn btn-outline-primary btn-sm" id="${tabId}Apply" type="button">Apply</button>
-                                <button class="btn btn-outline-secondary btn-sm" id="${tabId}Reset" type="button">Reset to 13</button>
-                                <button class="btn btn-outline-success btn-sm" id="${tabId}Download" type="button">Download</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="salary-month-card">
+                    <h5 class="salary-month-title">Monthly Salary Calculation</h5>
+                    <label class="salary-month-label" for="${tabId}MonthSelect">Salary Month</label>
+                    <select id="${tabId}MonthSelect" class="form-select salary-month-select"></select>
                 </div>
-                <div class="table-responsive">
-                    <table id="${tabId}Table" class="display table table-striped table-bordered"></table>
+                <div class="salary-table-card">
+                    <div class="table-responsive">
+                        <table id="${tabId}Table" class="display table table-striped table-bordered"></table>
+                    </div>
                 </div>`
                 : `
                 <div class="d-flex justify-content-end mb-2">
@@ -1383,8 +1421,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 renderDrilldownAnalyticsChart(tabId, sub);
             } else if (isOrderAnalyticsTab) {
                 renderOrderAnalytics(tabId, sub);
-            } else if (isSalarySummaryTab) {
-                renderSalarySummary(tabId, sub);
+            } else if (isSalaryMonthlyCalculationTab) {
+                renderSalaryMonthlyCalculation(tabId, sub);
             } else {
                 fetchProtectedCsv(sub.csv)
                     .then(csvText => parseCsvText(csvText))
@@ -2340,6 +2378,99 @@ function renderOrReplaceChart(targetMap, key, canvasId, config) {
     targetMap[key] = new Chart(canvas, config);
 }
 
+function formatSalaryMonthLabel(value) {
+    const match = String(value || "").trim().match(/^(\d{4})-(\d{1,2})$/);
+    if (!match) return String(value || "").trim();
+
+    const year = Number(match[1]);
+    const monthIndex = Number(match[2]) - 1;
+    const date = new Date(Date.UTC(year, monthIndex, 1));
+    const monthName = date.toLocaleString("en-US", { month: "long", timeZone: "UTC" });
+    return `${monthName}, ${year}`;
+}
+
+function renderSalaryMonthlyCalculation(tabId, sub) {
+    fetchProtectedCsv(sub.csv)
+        .then(csvText => parseCsvText(csvText))
+        .then(res => {
+            const rows = res.data || [];
+            const fields = res.meta?.fields || [];
+            const monthField = fields.find(field => field === "Salary Month") || "Salary Month";
+            const monthSelect = document.getElementById(`${tabId}MonthSelect`);
+            if (!monthSelect || !fields.length) return;
+
+            const availableMonths = sortYearMonthValues(
+                [...new Set(rows.map(row => normalizeYearMonthLabel(row[monthField])).filter(Boolean))]
+            );
+
+            monthSelect.innerHTML = availableMonths
+                .slice()
+                .reverse()
+                .map(month => `<option value="${escapeHtml(month)}">${escapeHtml(formatSalaryMonthLabel(month))}</option>`)
+                .join("");
+
+            const numericFields = new Set(fields.filter(field => isNumericColumn(rows, field)));
+
+            const columns = fields.map(field => {
+                if (!numericFields.has(field)) {
+                    return { title: field, data: row => row[field] ?? "" };
+                }
+
+                return {
+                    title: field,
+                    data: row => row[field],
+                    render: (data, type) => {
+                        const numericValue = parseNumericValue(data);
+                        if (numericValue === null) return data ?? "";
+                        if (type === "sort" || type === "type") return numericValue;
+
+                        const hasFraction = Math.abs(numericValue % 1) > Number.EPSILON;
+                        return hasFraction
+                            ? numericValue.toFixed(2)
+                            : String(Math.trunc(numericValue));
+                    }
+                };
+            });
+
+            const refresh = () => {
+                const selectedMonth = monthSelect.value || availableMonths[availableMonths.length - 1] || "";
+                const filteredRows = rows.filter(row => normalizeYearMonthLabel(row[monthField]) === selectedMonth);
+
+                if (tableMap[tabId]) {
+                    tableMap[tabId].clear();
+                    tableMap[tabId].rows.add(filteredRows);
+                    tableMap[tabId].draw();
+                } else {
+                    tableMap[tabId] = $("#" + tabId + "Table").DataTable({
+                        data: filteredRows,
+                        columns,
+                        paging: false,
+                        searching: false,
+                        info: false,
+                        ordering: false,
+                        autoWidth: false,
+                        scrollX: true,
+                        createdRow: (row, data) => {
+                            if (String(data.Employee || "").trim().toLowerCase() === "total") {
+                                row.classList.add("salary-total-row");
+                            }
+                        }
+                    });
+                }
+            };
+
+            if (availableMonths.length) {
+                monthSelect.value = availableMonths[availableMonths.length - 1];
+            }
+
+            monthSelect.addEventListener("change", refresh);
+            refresh();
+        })
+        .catch(err => {
+            console.error(`Failed to load ${sub.csv}:`, err);
+        });
+}
+
 function updateOrderAnalyticsCharts(tabId) {
     const state = analyticsStateMap[tabId];
     if (!state) return;
@@ -2435,147 +2566,6 @@ function updateOrderAnalyticsCharts(tabId) {
     );
 }
 
-function renderSalarySummary(tabId, sub) {
-    fetchProtectedCsv(sub.csv)
-        .then(csvText => parseCsvText(csvText))
-        .then(res => {
-            const rows = (res.data || []).map(row => ({
-                Date: row.Date || "",
-                Name: String(row.Name || "").trim(),
-                Amount: parseNumericValue(row.Amount) || 0
-            }));
-
-            const validRows = rows.filter(row => row.Date && row.Name);
-            const settlementDaySelect = document.getElementById(`${tabId}SettlementDay`);
-            const applyBtn = document.getElementById(`${tabId}Apply`);
-            const resetBtn = document.getElementById(`${tabId}Reset`);
-            const downloadBtn = document.getElementById(`${tabId}Download`);
-
-            if (settlementDaySelect) {
-                settlementDaySelect.innerHTML = Array.from({ length: 31 }, (_, idx) => {
-                    const day = idx + 1;
-                    return `<option value="${day}">${day}</option>`;
-                }).join("");
-                settlementDaySelect.value = "13";
-            }
-
-            const getLastDayOfMonth = (year, month1to12) =>
-                new Date(Date.UTC(year, month1to12, 0)).getUTCDate();
-
-            const parseIsoDate = (value) => {
-                const [yy, mm, dd] = String(value || "").split("-").map(Number);
-                if (!yy || !mm || !dd) return null;
-                return { year: yy, month: mm, day: dd };
-            };
-
-            const getPayrollMonthLabel = (isoDate, settlementDay) => {
-                const dateParts = parseIsoDate(isoDate);
-                if (!dateParts) return "";
-
-                const { year, month, day } = dateParts;
-                const sameMonthEndDay = Math.min(settlementDay, getLastDayOfMonth(year, month));
-                let cycleEndYear = year;
-                let cycleEndMonth = month;
-
-                if (day > sameMonthEndDay) {
-                    cycleEndMonth += 1;
-                    if (cycleEndMonth === 13) {
-                        cycleEndMonth = 1;
-                        cycleEndYear += 1;
-                    }
-                }
-
-                let labelYear = cycleEndYear;
-                let labelMonth = cycleEndMonth - 1;
-                if (labelMonth === 0) {
-                    labelMonth = 12;
-                    labelYear -= 1;
-                }
-
-                return `${labelYear}-${String(labelMonth).padStart(2, "0")}`;
-            };
-
-            const refresh = () => {
-                const settlementDay = Number(settlementDaySelect?.value || 13);
-
-                const groupedMap = new Map();
-                validRows.forEach(row => {
-                    const payrollMonth = getPayrollMonthLabel(row.Date, settlementDay);
-                    const key = `${payrollMonth}||${row.Name}`;
-                    groupedMap.set(key, (groupedMap.get(key) || 0) + row.Amount);
-                });
-
-                const groupedRows = [...groupedMap.entries()]
-                    .map(([key, amount]) => {
-                        const [yearMonth, name] = key.split("||");
-                        return { YEAR_MONTH: yearMonth, Name: name, Amount: amount };
-                    })
-                    .filter(row => row.YEAR_MONTH)
-                    .sort((a, b) => {
-                        if (a.YEAR_MONTH === b.YEAR_MONTH) return a.Name.localeCompare(b.Name);
-                        return b.YEAR_MONTH.localeCompare(a.YEAR_MONTH);
-                    });
-
-                if (tableMap[tabId]) {
-                    tableMap[tabId].clear();
-                    tableMap[tabId].rows.add(groupedRows);
-                    tableMap[tabId].draw();
-                } else {
-                    tableMap[tabId] = $("#" + tabId + "Table").DataTable({
-                        data: groupedRows,
-                        columns: [
-                            { title: "YEAR_MONTH", data: "YEAR_MONTH" },
-                            { title: "Name", data: "Name" },
-                            {
-                                title: "Amount",
-                                data: "Amount",
-                                render: (data, type) => {
-                                    const numericValue = parseNumericValue(data) || 0;
-                                    if (type === "sort" || type === "type") return numericValue;
-                                    return Number(numericValue).toLocaleString(undefined, {
-                                        minimumFractionDigits: 2,
-                                        maximumFractionDigits: 2
-                                    });
-                                }
-                            }
-                        ],
-                        pageLength: 50,
-                        order: [[0, "desc"], [1, "asc"]],
-                        autoWidth: false,
-                        scrollX: true
-                    });
-                }
-            };
-
-            applyBtn?.addEventListener("click", refresh);
-            resetBtn?.addEventListener("click", () => {
-                if (settlementDaySelect) settlementDaySelect.value = "13";
-                refresh();
-            });
-            downloadBtn?.addEventListener("click", () => {
-                const table = tableMap[tabId];
-                if (!table) return;
-                const rowsToExport = table.rows({ search: "applied" }).data().toArray();
-                const csv = Papa.unparse(rowsToExport);
-                const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-                const url = URL.createObjectURL(blob);
-                const a = document.createElement("a");
-                a.href = url;
-                const selectedDay = settlementDaySelect?.value || "13";
-                a.download = `salary_summary_settlement_day_${selectedDay}.csv`;
-                document.body.appendChild(a);
-                a.click();
-                a.remove();
-                URL.revokeObjectURL(url);
-            });
-
-            refresh();
-        })
-        .catch(err => {
-            console.error(`Failed to load ${sub.csv}:`, err);
-        });
-}
-
 document.addEventListener("shown.bs.tab", () => {
     Object.values(tableMap).forEach(t => t && t.columns.adjust());
 });
@@ -2584,12 +2574,7 @@ document.addEventListener("click", (e) => {
     const navBtn = e.target.closest("#dataTabs .nav-link");
     if (!navBtn) return;
     const group = Number(navBtn.closest("li")?.dataset.group);
-    if (isAuditor && group !== auditorGroupIndex) {
-        e.preventDefault();
-        e.stopPropagation();
-        showAdminOnlyNotification();
-        return;
-    }
+    if (isAuditor && group !== auditorGroupIndex) return;
 
     const sectionHeading = document.getElementById("sectionHeading");
     if (sectionHeading) {
