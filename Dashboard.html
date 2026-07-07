@@ -912,10 +912,9 @@
                     <div>
                         <p class="hero-eyebrow">Outlet KPIs</p>
                         <h1 class="hero-title">Pizza Pie Land Trend Monitor</h1>
-                        <p class="hero-subtitle">Interactive Final Summary line chart showing the latest 12 months on the YEAR_MONTH axis. Drag to zoom, use the mouse wheel or pinch to inspect periods, and reset anytime.</p>
+                        <p class="hero-subtitle">Final Summary line chart showing the latest 12 months on the YEAR_MONTH axis.</p>
                     </div>
                     <div class="hero-actions">
-                        <button class="hero-ghost" id="heroResetZoomBtn" type="button">Reset Zoom</button>
                         <button class="hero-cta" id="heroSummaryBtn" type="button">View Final Summary <i class="bi bi-caret-down-fill ms-2" style="font-size:0.75em;"></i></button>
                     </div>
                 </div>
@@ -1216,7 +1215,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const tabContent = document.getElementById("tab-content");
     const topNavLinks = document.getElementById("topNavLinks");
     const heroSummaryBtn = document.getElementById("heroSummaryBtn");
-    const heroResetZoomBtn = document.getElementById("heroResetZoomBtn");
     const sectionDownloadBtn = document.getElementById("sectionDownloadBtn");
     const accessGuidance = document.getElementById("accessGuidance");
     auditorGroupIndex = config.findIndex(group => group.label === AUDITOR_GROUP_LABEL);
@@ -1312,7 +1310,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="d-flex justify-content-end mt-2">
                             <button class="btn btn-outline-success btn-sm me-2" id="${tabId}DownloadGraphData" type="button">Download Graph Data</button>
                             <button class="btn btn-outline-primary btn-sm me-2" id="${tabId}MetricToggle" type="button">Show Amount</button>
-                            <button class="btn btn-outline-secondary btn-sm" id="${tabId}ResetZoom" type="button">Reset Zoom</button>
                         </div>
                     </div>
                 </div>`
@@ -1500,10 +1497,6 @@ document.addEventListener("DOMContentLoaded", () => {
     heroSummaryBtn?.addEventListener("click", () => {
         const idx = config.findIndex(group => group.label === "Outlet KPIs");
         if (idx >= 0) handleGroupClick(idx);
-    });
-
-    heroResetZoomBtn?.addEventListener("click", () => {
-        chartMap.heroSummaryTrendChart?.resetZoom();
     });
 
     sectionDownloadBtn?.addEventListener("click", () => {
@@ -1733,18 +1726,18 @@ function buildFinalSummaryTrendChart(canvas, chartKey, rows, fields, numericFiel
                 },
                 zoom: {
                     pan: {
-                        enabled: true,
+                        enabled: false,
                         mode: "x"
                     },
                     zoom: {
                         wheel: {
-                            enabled: true
+                            enabled: false
                         },
                         pinch: {
-                            enabled: true
+                            enabled: false
                         },
                         drag: {
-                            enabled: true,
+                            enabled: false,
                             backgroundColor: "rgba(47, 125, 246, 0.10)",
                             borderColor: "rgba(47, 125, 246, 0.35)",
                             borderWidth: 1
@@ -1859,7 +1852,6 @@ function wireDrilldownEvents(tabId) {
     const monthBox = document.getElementById(`${tabId}MonthFilterBox`);
     const monthSelectAll = document.getElementById(`${tabId}MonthSelectAll`);
     const monthClear = document.getElementById(`${tabId}MonthClear`);
-    const resetZoom = document.getElementById(`${tabId}ResetZoom`);
     const metricToggle = document.getElementById(`${tabId}MetricToggle`);
     const downloadGraphData = document.getElementById(`${tabId}DownloadGraphData`);
     const backBtn = document.getElementById(`${tabId}Back`);
@@ -1897,10 +1889,6 @@ function wireDrilldownEvents(tabId) {
         buildAnalyticsMonthFilter(tabId, state.allMonths);
         filterCheckboxList(monthBox, monthSearch.value);
         updateDrilldownChart(tabId);
-    });
-
-    resetZoom?.addEventListener("click", () => {
-        if (chartMap[tabId]) chartMap[tabId].resetZoom();
     });
 
     metricToggle?.addEventListener("click", () => {
@@ -2119,11 +2107,11 @@ function updateDrilldownChart(tabId) {
                     }
                 },
                 zoom: {
-                    pan: { enabled: true, mode: "x" },
+                    pan: { enabled: false, mode: "x" },
                     zoom: {
-                        wheel: { enabled: true },
-                        pinch: { enabled: true },
-                        drag: { enabled: true },
+                        wheel: { enabled: false },
+                        pinch: { enabled: false },
+                        drag: { enabled: false },
                         mode: "x"
                     },
                     limits: { x: { minRange: 2 } }
