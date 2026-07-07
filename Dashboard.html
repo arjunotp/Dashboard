@@ -1131,6 +1131,13 @@ const config = [
         ]
     },
     {
+        label: "Promotions",
+        subtabs: [
+            { label: "Promotions detail", csv: "wins_execution_summary.csv" },
+            { label: "Promotion summary", csv: "wins_rule_summary.csv" }
+        ]
+    },
+    {
         label: "Analytics",
         subtabs: [
             {
@@ -1189,6 +1196,7 @@ const groupVisualMeta = {
     "Cheese Usage": { icon: "bi bi-box-seam", subtitle: "" },
     "Timesheet and Salary": { icon: "bi bi-calendar2-week", subtitle: "" },
     "Swiggy Performance": { icon: "bi bi-check2-square", subtitle: "" },
+    "Promotions": { icon: "bi bi-megaphone", subtitle: "" },
     "Analytics": { icon: "bi bi-shield-check", subtitle: "Auditors Section" },
     "Auditors Section": { icon: "bi bi-shield-lock", subtitle: "Restricted" }
 };
@@ -1198,6 +1206,7 @@ const topNavLabels = [
     "Cashbook Summary",
     "Inventory Overview",
     "Cheese Usage",
+    "Promotions",
     "Analytics"
 ];
 
