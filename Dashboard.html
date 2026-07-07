@@ -1035,7 +1035,17 @@ const tableMap = {};
 const chartMap = {};
 const analyticsStateMap = {};
 const AUDITOR_GROUP_LABEL = "Auditors Section";
+const AUDITOR_ALLOWED_GROUP_LABELS = new Set([
+    AUDITOR_GROUP_LABEL,
+    "Timesheet and Salary"
+]);
 let auditorGroupIndex = -1;
+
+function canAuditorAccessGroup(groupIndex) {
+    if (!isAuditor) return true;
+    const group = config[groupIndex];
+    return Boolean(group && AUDITOR_ALLOWED_GROUP_LABELS.has(group.label));
+}
 
 function parseNumericValue(value) {
     if (value === null || value === undefined) return null;
@@ -1226,7 +1236,7 @@ document.addEventListener("DOMContentLoaded", () => {
     config.forEach((group, gIdx) => {
         const col = document.createElement("div");
         const visualMeta = groupVisualMeta[group.label] || { icon: "bi bi-grid", subtitle: "" };
-        const restricted = isAuditor && gIdx !== auditorGroupIndex;
+        const restricted = !canAuditorAccessGroup(gIdx);
         col.className = "col-12 col-md-6 col-xl-3 tile-grid-item";
         col.dataset.group = gIdx;
         col.innerHTML = `
@@ -1253,7 +1263,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const li = document.createElement("li");
             li.className = "nav-item hidden";
             li.dataset.group = gIdx;
-            li.innerHTML = `<button class="nav-link" data-bs-toggle="tab" data-bs-target="#${tabId}" ${isAuditor && gIdx !== auditorGroupIndex ? "disabled" : ""}>${sub.label}</button>`;
+            li.innerHTML = `<button class="nav-link" data-bs-toggle="tab" data-bs-target="#${tabId}" ${!canAuditorAccessGroup(gIdx) ? "disabled" : ""}>${sub.label}</button>`;
             dataTabs.appendChild(li);
 
             const pane = document.createElement("div");
@@ -1489,7 +1499,7 @@ document.addEventListener("DOMContentLoaded", () => {
         btn.className = "top-link";
         btn.dataset.group = String(idx);
         btn.textContent = label;
-        if (isAuditor && idx !== auditorGroupIndex) btn.disabled = true;
+        if (!canAuditorAccessGroup(idx)) btn.disabled = true;
         btn.addEventListener("click", () => handleGroupClick(idx));
         topNavLinks?.appendChild(btn);
     });
@@ -1516,12 +1526,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function handleGroupClick(groupIndex) {
-    if (isAuditor && groupIndex !== auditorGroupIndex) return;
+    if (!canAuditorAccessGroup(groupIndex)) return;
     filterTabs(groupIndex);
 }
 
 function filterTabs(groupIndex) {
-    if (isAuditor && groupIndex !== auditorGroupIndex) return;
+    if (!canAuditorAccessGroup(groupIndex)) return;
 
     document.querySelectorAll('#dataTabs li').forEach(li => li.classList.add('hidden'));
     let firstBtn = null;
@@ -2582,7 +2592,7 @@ document.addEventListener("click", (e) => {
     const navBtn = e.target.closest("#dataTabs .nav-link");
     if (!navBtn) return;
     const group = Number(navBtn.closest("li")?.dataset.group);
-    if (isAuditor && group !== auditorGroupIndex) return;
+    if (!canAuditorAccessGroup(group)) return;
 
     const sectionHeading = document.getElementById("sectionHeading");
     if (sectionHeading) {
